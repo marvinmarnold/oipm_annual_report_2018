@@ -103,6 +103,7 @@ source("primary_sources/data.nola.gov/police_districts.R")
 
 # Data coming from non-public sources
 if (RECLEAN_DATA) {
+  
   # Officers
   source("clean/clean_officers.R")
   

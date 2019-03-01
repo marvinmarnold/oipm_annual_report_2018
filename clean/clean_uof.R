@@ -5,7 +5,7 @@ check.vars(c("uof.csv.dirty"))
 
 # Read data
 uof.all.dirty <- read.csv(uof.csv.dirty, stringsAsFactors = FALSE)
-
+head(uof.all.dirty)
 # Use the PIB number to determine the year
 uof.all.dirty <- uof.all.dirty %>% mutate(
   year.of.record = as.integer(substr(FIT.Number, 4, 7))

@@ -1,7 +1,7 @@
 check.vars(c("year", "uof.all"))
 title <- "UOF & FTN by year"
 
-# Analyze years 2016 - 2017
+# Analyze years 2016 - 2018
 first.year <- 2011
 years <- first.year:year
 
@@ -9,8 +9,8 @@ iapro.access.starts.year <- 2016
 
 # UOF by year
 ## Previous values taken from annual reports, 2011 - 2016
-ftn.previous <- c(302, 306, 421, 409, 724, 589, NA)
-uof.previous <- c(NA, NA, 725, 706, 1071, 1563, NA)
+ftn.previous <- c(302, 306, 421, 409, 724, 589, NA, NA)
+uof.previous <- c(NA, NA, 725, 706, 1071, 1563, NA, NA)
 
 ########################################################################################################
 ########################################################################################################

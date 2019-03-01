@@ -18,10 +18,15 @@ allegations.all <- allegations.all %>% mutate(
     Allegation.short == "VERBAL INTIMIDATION" ~ "Verbal intimidation",
     TRUE ~ "Other"
   )
+) %>% mutate (
+  Month.occurred = case_when(
+    Month.occurred == "NULL" ~ 1.0,
+    TRUE ~ as.double(Month.occurred)
+  )
 ) %>% mutate(
   Allegation.primary.key = vdigest(Allegation.primary.key),
   year.of.record = as.integer(str_match(PIB.Control.Number, "(\\d\\d\\d\\d)-")[,2]),
-  year.plus.month = (year.of.record - 2016) * 12 + Month.occurred,
+  year.plus.month = ((year.of.record - 2016) * 12) + Month.occurred,
   officer.age.bucket = sapply(as.integer(Officer.age.at.time.of.UOF), age.bucket.function),
   citizen.age.bucket = sapply(as.integer(Citizen.age), age.bucket.function),
   officer.exp.bucket = sapply(as.integer(Officer.years.exp.at.time.of.UOF), exp.bucket.function),
@@ -67,3 +72,4 @@ detach("package:stringr", unload=TRUE)
 
 colnames(allegations.all)
 write.csv(allegations.all, "data_public/clean/allegations_all_clean.csv")
+

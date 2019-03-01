@@ -31,6 +31,27 @@ source("analysis/force/uof_by_victim_sex_race.R")
 source("analysis/force/uof_by_officer_sex_race.R")
 source("analysis/force/uof_by_injury.R")
 # source("analysis/force/uof_against_blacks_comparison.R")
+
+# Allegations
+source("analysis/complaints/complaints_allegations_by_year.R")
+source("analysis/complaints/allegations_by_type.R")
+source("analysis/complaints/top_allegations.R")
+source("analysis/complaints/complaints_by_outcome.R")
+source("analysis/complaints/complaints_allegation_sex_race_disposition.R")
+source("analysis/complaints/complaints_by_disposition_officer_race.R")
+source("analysis/complaints/allegations_by_source.R")
+source("analysis/complaints/complaints_by_rank_disposition.R")
+source("analysis/complaints/complaints_anonymous.R")
+source("analysis/complaints/allegations_fourth_amendment.R")
+source("analysis/complaints/allegations_retaliation.R")
+source("analysis/complaints/allegations_mediation.R")
+#source("analysis/caselist.R")
+
+# Actions taken
+source("analysis/complaints/actions_taken_by_action.R")
+source("analysis/complaints/discipline_by_allegation.R")
+source("analysis/complaints/discipline_by_public_sex.R")
+source("analysis/complaints/discipline_by_race.R")
 ```
 
 Introduction {data-orientation=rows}
@@ -45,6 +66,7 @@ Row
 ### Navigating the Report
 This website is an interactive version of the statistical analysis from OIPM's 2017 annual report Annual Report. Analysis is divided into these sections:
 
+1. [Complaints & Discipline](#complaints)
 3. [Use of Force](#use-of-force)
 
 
@@ -87,6 +109,223 @@ on three main activities: complaint and disciplinary system monitoring and revie
 force monitoring and review; and subject-specific analyses or audits. The IPM’s
 recommendations to improve NOPD’s accountability systems originate from these activities.
 
+Complaints
+=====================================
+
+Row {data-height=400}
+-------------------------------------
+
+### **__COMPLAINTS AND DISCIPLINE__**
+
+**[Download the full Complaints and Discipline Report](http://nolaipm.gov/wp-content/uploads/2018/06/FINAL_2017-Complaints-and-Discipline-6-29-18-2.pdf)**
+
+**NOT MOBILE FRIENDLY** *For the best experience, view this website on a desktop computer using full-screen.*
+
+### Police Districts
+```{r fig.width = 6, fig.height = 4}
+p.police.districts
+```
+
+
+<!-- Row
+-------------------------------------
+### Complaints vs allegation
+When one or more individuals complain about an officer, a single tracking number is created. Each of these unique tracking numbers is considered a single complaint. Each complaint can contain one or more allegations of misconduct. 
+Furthermore, its possible that each complaint/allegation is intiated by either a supervisor or anybody who is not their supervisor (including other officers). Complaints/allegations initiated by a superior are called "Rank Initiated" while all other complaints are "Citizen Initiated".
+When a complaint/case contains more than one finding, select disposition in this order:
+1. Sustained
+2. Withdrawn / mediated
+3. DI-2
+4. Pending
+5. Not sustained
+6. Unfounded
+7. Exonerated
+8. NFIM
+9. Illegitimate outcome -->
+
+Row {data-height=350}
+-------------------------------------
+### Complaints by year
+```{r, fig.width = 6, fig.height = 6}
+p.complaints.by.year
+```
+
+### Allegations by year
+```{r, fig.width = 6, fig.height = 6}
+p.allegations.by.year
+```
+
+
+Row
+-------------------------------------
+### Title {.no-title}
+
+
+Row
+-------------------------------------
+### **ALLEGATION ANALYSIS**
+
+
+Row
+-------------------------------------
+### Most common allegations (regardless of outcome)
+```{r, fig.width = 4, fig.height = 5}
+p.top.alleg
+```
+
+### Allegation Types
+
+Row
+-------------------------------------
+### **DISPOSITION ANALYSIS**
+
+
+Row {data-height=550}
+-------------------------------------
+### Individual allegations by outcome
+```{r, fig.width = 12, fig.height = 8}
+p.allegation.by.type.disposition
+```
+
+Row {data-height=300}
+-------------------------------------
+### All complaints by outcome
+```{r, fig.width = 5, fig.height = 4}
+p.complaint.by.outcome
+```
+
+### title {.no-title}
+
+Row {data-height=420}
+-------------------------------------
+### Citizen complaints by outcome
+```{r, fig.width = 5, fig.height = 4}
+p.citizen.complaint.by.outcome
+```
+
+### Rank complaints by outcome
+```{r, fig.width = 5, fig.height = 4}
+p.rank.complaint.by.outcome
+```
+
+### Most common sustained allegations
+```{r, fig.width = 5, fig.height = 4}
+p.top.sustained.alleg
+```
+
+
+Row {data-height=450}
+-------------------------------------
+### Who Complains?
+
+
+### Allegations by source
+```{r, fig.width = 4, fig.height = 7}
+p.alleg.by.source
+```
+
+### Rank v public complaints
+```{r, fig.width = 4, fig.height = 7}
+p.complaints.by.rank.disposition
+```
+
+
+Row
+-------------------------------------
+### Outcomes by Officer Race 
+Based on the figure “Impact of Officer Race on Disposition of Complaints”, OIPM found no significant difference in disciplinary outcomes based on officers’ race. Approximately 29% of complaints against African American officers are sustained and 30% for white officers. Future analysis of officer demographics and discipline will consider gender, years of services, and sworn versus civilian employees.
+
+Row 
+-------------------------------------
+### How officer race impacts disposition
+```{r, fig.width = 6, fig.height = 7}
+p.complaint.disposition.by.officer.race
+```
+
+Row
+-------------------------------------
+### **HIGH RISK ALLEGATIONS**
+**Stops, Frisks, Searches and Profiling - Fourth Amendment Protections against Search and Seizure**
+
+When reviewing all complaints filed, OIPM identified 45 complaints containing allegations that appeared to be related to complainants’ Fourth Amendment rights. These complaints were about improper searches, stops without reasonable suspicion, discrimination, and bias based policing.
+
+A brief description of the policies that were violated is below. For more information, you may reference [NOPD's official poilcies](https://www.nola.gov/getattachment/NOPD/Policies/NOPD-Policy-Manual-(1).pdf/). 
+
+
+- ***Chapter 1.2.4: Search and Seizure***: The federal and state Constitutions both provide every person with the right to be free from unreasonable searches and seizures. This Chapter requires that New Orleans Police Department officers abide by these legal protections when dealing with search and seizure issues, as well as searches of persons in custody.
+- ***Chapter 1.3.1.1: Hancuffing and Restraint Devices***: This Chapter governs handcuffing and otherwise restraining suspects during detentions and arrests to provide adequately for the safety and security of the suspect being detained or in custody, the transporting officer, and the public.
+- ***Policy 440: Contacts, Detentions and Photographing Detainees***: The purpose of this policy is to establish guidelines for conducting field interviews (FI) and the taking and retention of photographs of persons detained in the field but not arrested.
+- ***Policy 402: Discriminatory Policing, Racial Bias-Based Profiling, LGBT Community***
+
+The dispositions of these investigations are detailed as follows:
+
+Row {data-height=600}
+-------------------------------------
+### Fourth amendment violations
+```{r, fig.width = 4, fig.height = 6}
+p.fourth.viol
+```
+
+### Fourth amendment violations by outcome
+```{r, fig.width = 8, fig.height = 6}
+p.fourth.viol.outcomes
+```
+
+Row {data-height=450}
+-------------------------------------
+### Anonymous Complaints
+Complainants occasionally wish to remain anonymous. It is difficult to determine their reasons, but one of the impetuses for setting up an anonymous complaint process was to address civilian concerns about retaliation when filing complaints. In 2017, two (2) out of 83 contacts received by the OIPM involved anonymous complainants. NOPD recorded ten (10) PIB case numbers associated with anonymous complainants.
+
+### Anonymous complaints
+```{r, fig.width = 6, fig.height = 5}
+p.anon.allegs
+```
+
+
+
+Row 
+-------------------------------------
+### **DISCIPLINE**
+The following graphs detail disciplinary outcome by the race and sex of the complainant and then by the race and sex of the officer. This data does not indicate disproportionate outcomes for officers based on their race or sex, but it does indicate that the NOPD is not collecting race or sex information about its complainants in a large number of complaint records. 
+
+Row {data-height=470}
+-------------------------------------
+### Discipline by Allegation
+```{r, fig.width = 12, fig.height = 7}
+p.discipline.by.allegation
+```
+
+
+Row {data-height =470}
+-------------------------------------
+### Discipline by Complainant Sex
+```{r, fig.width = 4, fig.height = 5}
+p.discipline.by.sex
+```
+
+### Discipline by Complainant Race
+```{r, fig.width = 4, fig.height = 5}
+p.discipline.by.race
+```
+
+Row
+-------------------------------------
+### Discipline by Officer Sex
+```{r, fig.width = 4, fig.height = 5}
+p.discipline.by.officer.sex
+```
+
+### Discipline by Officer Race
+```{r, fig.width = 4, fig.height = 5}
+p.discipline.by.officer.race
+```
+
+Row {data-height=400}
+-------------------------------------
+### Actions taken
+```{r, fig.width = 4, fig.height = 8}
+p.actions.taken
+```
 
 Use of Force {data-orientation=rows}
 ===================================== 
@@ -374,7 +613,3 @@ p.female.uof.by.type
 p.male.uof.by.type
 ```
 
-Row 
--------------------------------------
-### title {.no-title}
-**[Download the Full Stastical Review of NOPD's Use of Force Report](http://nolaipm.gov/wp-content/uploads/2018/07/Final_OIPM-UOF-Stats-2017.pdf)**

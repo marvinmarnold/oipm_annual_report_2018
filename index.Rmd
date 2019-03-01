@@ -274,7 +274,6 @@ p.fourth.viol.outcomes
 Row {data-height=450}
 -------------------------------------
 ### Anonymous Complaints
-Complainants occasionally wish to remain anonymous. It is difficult to determine their reasons, but one of the impetuses for setting up an anonymous complaint process was to address civilian concerns about retaliation when filing complaints. In 2017, two (2) out of 83 contacts received by the OIPM involved anonymous complainants. NOPD recorded ten (10) PIB case numbers associated with anonymous complainants.
 
 ### Anonymous complaints
 ```{r, fig.width = 6, fig.height = 5}
@@ -286,7 +285,6 @@ p.anon.allegs
 Row 
 -------------------------------------
 ### **DISCIPLINE**
-The following graphs detail disciplinary outcome by the race and sex of the complainant and then by the race and sex of the officer. This data does not indicate disproportionate outcomes for officers based on their race or sex, but it does indicate that the NOPD is not collecting race or sex information about its complainants in a large number of complaint records. 
 
 Row {data-height=470}
 -------------------------------------

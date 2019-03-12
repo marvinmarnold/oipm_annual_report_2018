@@ -64,7 +64,7 @@ Row
 
 
 ### Navigating the Report
-This website is an interactive version of the statistical analysis from OIPM's 2017 annual report Annual Report. Analysis is divided into these sections:
+This website is an interactive version of the statistical analysis from OIPM's 2018 annual report Annual Report. Analysis is divided into these sections:
 
 1. [Complaints & Discipline](#complaints)
 3. [Use of Force](#use-of-force)
@@ -117,9 +117,6 @@ Row {data-height=400}
 
 ### **__COMPLAINTS AND DISCIPLINE__**
 
-**[Download the full Complaints and Discipline Report](http://nolaipm.gov/wp-content/uploads/2018/06/FINAL_2017-Complaints-and-Discipline-6-29-18-2.pdf)**
-
-**NOT MOBILE FRIENDLY** *For the best experience, view this website on a desktop computer using full-screen.*
 
 ### Police Districts
 ```{r fig.width = 6, fig.height = 4}
@@ -373,7 +370,7 @@ p.force.by.year
 ```
 
 
-### FTN & UOF in 2017 by Month
+### FTN & UOF in 2018 by Month
 ```{r, fig.width = 10, fig.height = 9}
 p.force.by.month
 ```

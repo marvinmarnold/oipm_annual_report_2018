@@ -6,11 +6,14 @@ num.reported.complaints.2016 <- 850
 num.reported.allegations.2016 <- 1821
 num.reported.complaints.2017 <- 734
 num.reported.allegations.2017 <- 1505
+num.reported.complaints.for.year <- NA
+num.reported.allegations.for.year <- NA
+
 ########################################################################################################
 ########################################################################################################
 # Get 2017 counts
-num.complaints.2017 <- complaints.for.year %>% nrow
-num.allegations.2017 <- allegations.for.year %>% nrow
+num.complaints.for.year <- complaints.for.year %>% nrow
+num.allegations.for.year <- allegations.for.year %>% nrow
 
 allegations.2016 <- allegations.all %>% filter(grepl("^2016", PIB.Control.Number))
 complaints.2016 <- allegations.2016 %>% select(PIB.Control.Number, Incident.type) %>% distinct
@@ -18,26 +21,38 @@ complaints.2016 <- allegations.2016 %>% select(PIB.Control.Number, Incident.type
 num.calculated.complaints.2016 <- complaints.2016 %>% nrow
 num.calculated.allegations.2016 <- allegations.2016 %>% nrow
 
+allegations.2017 <- allegations.all %>% filter(grepl("^2017", PIB.Control.Number))
+complaints.2017 <- allegations.2017 %>% select(PIB.Control.Number, Incident.type) %>% distinct
+
+num.calculated.complaints.2017 <- complaints.2017 %>% nrow
+num.calculated.allegations.2017 <- allegations.2017 %>% nrow
+
 # Percent of complaints / allegations initiated by citizens
 pct.citizen.complaints.2016 <- complaints.2016 %>% filter(Incident.type == "Public Initiated") %>% nrow / 
   num.calculated.complaints.2016 * 100
 
-pct.citizen.complaints.2017 <-complaints.for.year %>% filter(Incident.type == "Public Initiated") %>% nrow / 
-  num.complaints.2017 * 100
+pct.citizen.complaints.2017 <- complaints.2017 %>% filter(Incident.type == "Public Initiated") %>% nrow / 
+  num.calculated.complaints.2017 * 100
+
+pct.citizen.complaints.for.year <-complaints.for.year %>% filter(Incident.type == "Public Initiated") %>% nrow / 
+  num.complaints.for.year * 100
   
 pct.citizen.allegations.2016 <- allegations.2016 %>% filter(Incident.type == "Public Initiated") %>% nrow / 
   num.calculated.allegations.2016 * 100
 
-pct.citizen.allegations.2017 <-allegations.for.year %>% filter(Incident.type == "Public Initiated") %>% nrow / 
-  num.allegations.2017 * 100
+pct.citizen.allegations.2017 <- allegations.2017 %>% filter(Incident.type == "Public Initiated") %>% nrow / 
+  num.calculated.allegations.2017 * 100
+
+pct.citizen.allegations.for.year <-allegations.for.year %>% filter(Incident.type == "Public Initiated") %>% nrow / 
+  num.allegations.for.year * 100
   
 # Construct vectors
-complaints.calculated <- c(num.calculated.complaints.2016, num.complaints.2017)
-allegations.calculated <- c(num.calculated.allegations.2016, num.allegations.2017)
-complaints.nopd <- c(num.reported.complaints.2016, num.reported.complaints.2017)
-allegations.nopd <- c(num.reported.allegations.2016, num.reported.allegations.2017)
-pct.citizen.complaints <- c(pct.citizen.complaints.2016, pct.citizen.complaints.2017)
-pct.citizen.allegations <- c(pct.citizen.allegations.2016, pct.citizen.allegations.2017)
+complaints.calculated <- c(num.calculated.complaints.2016, num.calculated.complaints.2017, num.complaints.for.year)
+allegations.calculated <- c(num.calculated.allegations.2016, num.calculated.allegations.2017, num.allegations.for.year)
+complaints.nopd <- c(num.reported.complaints.2016, num.reported.complaints.2017, num.reported.complaints.for.year)
+allegations.nopd <- c(num.reported.allegations.2016, num.reported.allegations.2017, num.reported.allegations.for.year)
+pct.citizen.complaints <- c(pct.citizen.complaints.2016, pct.citizen.complaints.2017, pct.citizen.complaints.for.year)
+pct.citizen.allegations <- c(pct.citizen.allegations.2016, pct.citizen.allegations.2017, pct.citizen.allegations.for.year)
 
 # Add all data to summary table
 annual.summary <- data.frame(
@@ -47,7 +62,7 @@ annual.summary <- data.frame(
   allegations.nopd = allegations.nopd,
   pct.citizen.complaints = pct.citizen.complaints,
   pct.citizen.allegations = pct.citizen.allegations,
-  years = c(2016, 2017))
+  years = c(2016, 2017, year))
 
 # Plot allegations
 p.allegations.by.year <- plot_ly(annual.summary, x = ~years, 

@@ -343,16 +343,7 @@ Row {data-height=550}
 -------------------------------------
 ### **STATISTICAL REVIEW OF NOPD'S USE OF FORCE**
 
-The analysis section of the UOF report is split into three sections:
-
-1. Analysis of details pertaining to the NOPD overall.
-2. Analysis of details pertaining to groupings of NOPD officers.
-3. Analysis of details pertaining to the individuals subjected to NOPD actions.
-
-**[Download the Full Stastical Review of NOPD's Use of Force Report](http://nolaipm.gov/wp-content/uploads/2018/07/Final_OIPM-UOF-Stats-2017.pdf)**
-
-**NOT MOBILE FRIENDLY**
-*For the best experience, view this website on a desktop computer using full-screen.*
+- Marvin: All graphs here look good, except for "NOPD’s Determination of Unauthorized Force" and "Force by Officer Age and Experience"
 
 ### Police districts
 ```{r fig.width = 6, fig.height = 6}

@@ -1,0 +1,39 @@
+import React from "react"
+
+import LoadingPlot from "./loading-plot"
+
+import uofByYear from "../../data/uof-by-year.json";
+
+class UofByYearPlot extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+			uofByYear: {}
+		}
+  }
+
+  componentDidMount() {
+		const newState = {
+      data: uofByYear.data,
+      layout: uofByYear.layout,
+			config: uofByYear.config
+    }
+
+		console.log("Setting new state")
+		console.log(newState)
+    this.setState(newState)
+
+  }
+
+  render() {
+    return (
+			<LoadingPlot
+					data={this.state.data}
+					layout={this.state.layout}
+					config={this.state.config}
+			/>
+    )
+  }
+}
+
+export default UofByYearPlot

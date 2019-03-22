@@ -1,0 +1,612 @@
+---
+title: "2018 Annual Report"
+output: 
+  flexdashboard::flex_dashboard:
+    vertical_layout: scroll
+    logo: img/logo.png
+    favicon: img/fav.png
+    orientation: rows
+    self_contained: true
+    navbar:
+      - { title: "OIPM Home", href: "http://nolaipm.gov", align: right }
+---
+
+```{r setup, echo = FALSE, cache = FALSE, include = FALSE}
+library(flexdashboard)
+source("annual_report_2018.R")
+
+# Force
+source("analysis/force/force_by_year.R")
+source("analysis/force/force_by_month.R")
+source("analysis/force/uof_by_type.R")
+source("analysis/force/uof_by_reason.R")
+source("analysis/force/uof_by_level_and_year.R")
+source("analysis/force/uof_pies_each_type.R")
+source("analysis/force/uof_by_effectiveness.R")
+source("analysis/force/uof_by_district_level.R")
+source("analysis/force/uof_by_disposition.R")
+source("analysis/force/uof_by_officer_age_exp.R")
+source("analysis/force/force_per_officer.R")
+source("analysis/force/uof_by_victim_sex_race.R")
+source("analysis/force/uof_by_officer_sex_race.R")
+source("analysis/force/uof_by_injury.R")
+# source("analysis/force/uof_against_blacks_comparison.R")
+
+# Allegations
+source("analysis/complaints/complaints_allegations_by_year.R")
+source("analysis/complaints/allegations_by_type.R")
+source("analysis/complaints/top_allegations.R")
+source("analysis/complaints/complaints_by_outcome.R")
+source("analysis/complaints/complaints_allegation_sex_race_disposition.R")
+source("analysis/complaints/complaints_by_disposition_officer_race.R")
+source("analysis/complaints/allegations_by_source.R")
+source("analysis/complaints/complaints_by_rank_disposition.R")
+source("analysis/complaints/complaints_anonymous.R")
+source("analysis/complaints/allegations_fourth_amendment.R")
+source("analysis/complaints/allegations_retaliation.R")
+source("analysis/complaints/allegations_mediation.R")
+#source("analysis/caselist.R")
+
+# Actions taken
+source("analysis/complaints/actions_taken_by_action.R")
+source("analysis/complaints/discipline_by_allegation.R")
+source("analysis/complaints/discipline_by_public_sex.R")
+source("analysis/complaints/discipline_by_race.R")
+```
+
+Introduction {data-orientation=rows}
+===================================== 
+
+Row
+-------------------------------------
+### no title {.no-title}
+![](img/ipmlogo.png)
+
+
+### Navigating the Report
+This website is an interactive version of the statistical analysis from OIPM's 2018 annual report Annual Report. Analysis is divided into these sections:
+
+1. [Complaints & Discipline](#complaints)
+3. [Use of Force](#use-of-force)
+
+
+Row
+-------------------------------------
+
+### Independent Police Monitor Mission and Responsibilities
+The Office of the Independent Police Monitor (OIPM) is an independent, civilian police
+oversight agency created by the voters in a 2008 charter referendum and opened its doors for
+the first time in August of 2009. Its mission is to improve police service to the community,
+civilian trust in the NOPD, and officer safety and working conditions. The OIPM has six
+broad responsibilities:
+
+1. To ensure that all complaints regarding police misconduct are classified and
+investigated or mediated at the appropriate level and that those investigations are
+fairly, timely and thoroughly handled; to ensure that discipline is fair, timely,
+appropriate and upheld upon appellate scrutiny. To make information about this
+review process available to the public.
+2. To monitor NOPD investigations into use of force to identify violations of civil
+rights, concerns of officer tactics and safety, risks to life, liberty and property, and
+adherence to law and policy.
+3. To review and analyze aggregate data from complaints, investigations,
+community concerns and public policy in crafting recommendations aimed toward
+improving the quality of services by the NOPD.
+4. To reach out to inform the community about the OIPM, to listen and respond to
+broader community concerns, and prepare the community for engagement in
+NOPD policy and practice.
+5. To mend police/community relationships by fostering effective
+police/community partnerships.
+6. To collect police commendations, review and monitor police training and
+supervision issues and support a healthy and safe working environment for NOPD
+employees.
+
+The OIPM is responsible for monitoring the New Orleans Police Department and only the
+New Orleans Police Department. Although OIPM works with other criminal justice system
+actors, it is not responsible for oversight of any other agency. However, OIPM is mindful of
+the impact of these other criminal justice actors upon the operations of NOPD and will
+attempt to analyze that impact in future reports. OIPM accomplishes its mission by focusing
+on three main activities: complaint and disciplinary system monitoring and review; use of
+force monitoring and review; and subject-specific analyses or audits. The IPM’s
+recommendations to improve NOPD’s accountability systems originate from these activities.
+
+Complaints
+=====================================
+
+Row {data-height=400}
+-------------------------------------
+
+### **__COMPLAINTS AND DISCIPLINE__**
+
+
+### Police Districts
+```{r fig.width = 6, fig.height = 4}
+p.police.districts
+```
+
+
+<!-- Row
+-------------------------------------
+### Complaints vs allegation
+When one or more individuals complain about an officer, a single tracking number is created. Each of these unique tracking numbers is considered a single complaint. Each complaint can contain one or more allegations of misconduct. 
+Furthermore, its possible that each complaint/allegation is intiated by either a supervisor or anybody who is not their supervisor (including other officers). Complaints/allegations initiated by a superior are called "Rank Initiated" while all other complaints are "Citizen Initiated".
+When a complaint/case contains more than one finding, select disposition in this order:
+1. Sustained
+2. Withdrawn / mediated
+3. DI-2
+4. Pending
+5. Not sustained
+6. Unfounded
+7. Exonerated
+8. NFIM
+9. Illegitimate outcome -->
+
+Row {data-height=350}
+-------------------------------------
+### Complaints by year
+```{r, fig.width = 6, fig.height = 6}
+p.complaints.by.year
+```
+
+### Allegations by year
+```{r, fig.width = 6, fig.height = 6}
+p.allegations.by.year
+```
+
+
+Row
+-------------------------------------
+### Title {.no-title}
+
+- Marvin: This looks correct.
+
+
+Row
+-------------------------------------
+### Most common allegations (regardless of outcome)
+```{r, fig.width = 4, fig.height = 5}
+p.top.alleg
+```
+
+### Allegation Types
+- Marvin: This looks correct.
+
+
+Row
+-------------------------------------
+### **DISPOSITION ANALYSIS**
+
+- Marvin: This looks correct. But I'll probably try to combine similar categories so its easier to digest.
+
+Row {data-height=550}
+-------------------------------------
+### Individual allegations by outcome
+```{r, fig.width = 12, fig.height = 8}
+p.allegation.by.type.disposition
+```
+
+Row {data-height=300}
+-------------------------------------
+### All complaints by outcome
+```{r, fig.width = 5, fig.height = 4}
+p.complaint.by.outcome
+```
+
+### title {.no-title}
+
+- Marvin: All complaints by outcome, Citizen complaints by outcome, Rank complaints by outcome, Most common sustained allegations -- these all look correct.
+
+
+Row {data-height=420}
+-------------------------------------
+### Citizen complaints by outcome
+```{r, fig.width = 5, fig.height = 4}
+p.citizen.complaint.by.outcome
+```
+
+### Rank complaints by outcome
+```{r, fig.width = 5, fig.height = 4}
+p.rank.complaint.by.outcome
+```
+
+### Most common sustained allegations
+```{r, fig.width = 5, fig.height = 4}
+p.top.sustained.alleg
+```
+
+
+Row {data-height=450}
+-------------------------------------
+### Who Complains?
+
+- Marvin: Allegations by source looks wrong. 
+- Marvin: Rank v public complaints looks correct.
+
+### Allegations by source
+```{r, fig.width = 4, fig.height = 7}
+p.alleg.by.source
+```
+
+### Rank v public complaints
+```{r, fig.width = 4, fig.height = 7}
+p.complaints.by.rank.disposition
+```
+
+
+Row
+-------------------------------------
+### Outcomes by Officer Race 
+
+- Marvin: This looks wrong.
+
+Row 
+-------------------------------------
+### How officer race impacts disposition
+```{r, fig.width = 6, fig.height = 7}
+p.complaint.disposition.by.officer.race
+```
+
+Row
+-------------------------------------
+### **HIGH RISK ALLEGATIONS**
+**Stops, Frisks, Searches and Profiling - Fourth Amendment Protections against Search and Seizure**
+
+- Marvin: This looks correct.
+
+Row {data-height=600}
+-------------------------------------
+### Fourth amendment violations
+```{r, fig.width = 4, fig.height = 6}
+p.fourth.viol
+```
+
+### Fourth amendment violations by outcome
+```{r, fig.width = 8, fig.height = 6}
+p.fourth.viol.outcomes
+```
+
+Row {data-height=450}
+-------------------------------------
+### Anonymous Complaints
+
+- Marvin: This looks correct.
+
+### Anonymous complaints
+```{r, fig.width = 6, fig.height = 5}
+p.anon.allegs
+```
+
+
+
+Row 
+-------------------------------------
+### **DISCIPLINE**
+
+- Marvin: This looks correct but similar categories will get combined.
+
+Row {data-height=470}
+-------------------------------------
+### Discipline by Allegation
+```{r, fig.width = 12, fig.height = 7}
+p.discipline.by.allegation
+```
+
+Row 
+-------------------------------------
+### **DISCIPLINE by sex and race**
+
+- Marvin: All four of these graphs below look incorrect.
+
+Row {data-height =470}
+-------------------------------------
+### Discipline by Complainant Sex
+```{r, fig.width = 4, fig.height = 5}
+p.discipline.by.sex
+```
+
+### Discipline by Complainant Race
+```{r, fig.width = 4, fig.height = 5}
+p.discipline.by.race
+```
+
+Row
+-------------------------------------
+### Discipline by Officer Sex
+```{r, fig.width = 4, fig.height = 5}
+p.discipline.by.officer.sex
+```
+
+### Discipline by Officer Race
+```{r, fig.width = 4, fig.height = 5}
+p.discipline.by.officer.race
+```
+
+Row 
+-------------------------------------
+### **Actions taken**
+
+- Marvin: This looks correct.
+
+Row {data-height=400}
+-------------------------------------
+### Actions taken
+```{r, fig.width = 4, fig.height = 8}
+p.actions.taken
+```
+
+Use of Force {data-orientation=rows}
+===================================== 
+
+Row {data-height=550}
+-------------------------------------
+### **STATISTICAL REVIEW OF NOPD'S USE OF FORCE**
+
+- Marvin: All graphs here look good, except for "NOPD’s Determination of Unauthorized Force" and "Force by Officer Age and Experience"
+
+### Police districts
+```{r fig.width = 6, fig.height = 6}
+p.police.districts
+```
+
+Row 
+-------------------------------------
+### FTN vs UOF
+FTN stands for “force tracking number”. It is the designation given to track the entirety
+of an interaction between NOPD and one or more individuals wherein force was used.
+
+A single FTN corresponds to one or more UOF. If Officer A and Officer B both use their
+hands against Individual C, the result would be one FTN, corresponding to two UOFs
+(one for each officer). The same pattern would apply if there were multiple types of
+force used or multiple individuals that force was used on.
+
+This report will always clearly label whether FTN or UOF is being used for a particular
+analysis but the onus is on the reader to remain vigilant of the distinction.
+
+
+Row {data-height=390}
+-------------------------------------
+### Use of Force by Year
+```{r force.by.year, fig.width = 10, fig.height = 9}
+p.force.by.year
+```
+
+
+### FTN & UOF in 2018 by Month
+```{r, fig.width = 10, fig.height = 9}
+p.force.by.month
+```
+
+ 
+Row {data-height=300}
+-------------------------------------
+### Analysis
+
+
+Row {data-height=650}
+-------------------------------------
+### Level 1
+```{r, fig.height = 6}
+p.lvl.by.year[[1]]
+```
+
+### Level 2
+```{r, fig.height = 6}
+p.lvl.by.year[[2]]
+```
+
+### Level 3
+```{r, fig.height = 6}
+p.lvl.by.year[[3]]
+```
+
+### Level 4
+```{r, fig.height = 6}
+p.lvl.by.year[[4]]
+```
+
+Row {data-height=370}
+-------------------------------------
+### Analysis
+
+Row
+-------------------------------------
+### Force by Level and Type of Force 
+```{r, fig.width = 10, fig.height = 7}
+p.uof.by.type
+```
+
+### Force by Level and District
+```{r, fig.width = 10, fig.height = 7}
+p.uof.by.district.type
+```
+
+Row {data-height=230}
+-------------------------------------
+### Analysis
+
+Row
+-------------------------------------
+### Force by Type and Effectiveness 
+```{r, fig.width = 10, fig.height = 6}
+p.uof.by.effectiveness
+```
+
+### NOPD's Determination of Unauthorized Force
+```{r, fig.width = 10, fig.height = 4}
+p.uof.by.disposition
+```
+
+
+Row {data-height=340}
+-------------------------------------
+### Analysis
+
+Row
+-------------------------------------
+### Level 1
+```{r, fig.height = 3}
+uof.pies.each.type[[1]]
+```
+
+### Level 2
+```{r, fig.height = 3}
+uof.pies.each.type[[2]]
+```
+
+### Level 3
+```{r, fig.height = 3}
+uof.pies.each.type[[3]]
+```
+
+### Level 4
+```{r, fig.height = 3}
+uof.pies.each.type[[4]]
+```
+
+Row {data-height=220}
+-------------------------------------
+### Analysis
+
+Row
+-------------------------------------
+### Reason for Force
+```{r, fig.height = 3}
+p.uof.by.reason
+```
+
+### Reason for Exhibiting Firearms
+```{r, fig.height = 3}
+p.firearm.by.reason
+```
+
+### What Preceded Force
+```{r, fig.height = 3}
+p.uof.by.service.type
+```
+
+Row {data-height=275}
+-------------------------------------
+### Analysis
+
+Row
+-------------------------------------
+### Average Force per Officer
+```{r, fig.height = 3}
+p.force.per.officer
+```
+
+### Percentage of Force by Officers Using Most Force
+```{r, fig.height = 3}
+p.force.per.bucket
+```
+
+Row 
+-------------------------------------
+### Analysis
+
+
+Row {data-width=1200}
+-------------------------------------
+### Force by Officer Age and Experience 
+
+```{r, fig.width = 13, fig.height = 5}
+p.uof.by.officer.age.exp
+```
+
+
+Row {data-height=225}
+-------------------------------------
+### Analysis
+**Use of Force by Officer Age and Experience**
+
+Row
+-------------------------------------
+### Officer Injuries During UOF
+```{r, fig.width = 5, fig.height = 4}
+p.uof.by.officer.injury
+```
+
+### Individual Injuries During UOF
+```{r, fig.width = 5, fig.height = 4}
+p.uof.by.victim.injury
+```
+
+Row
+-------------------------------------
+### Analysis
+
+Row
+-------------------------------------
+### UOF by Individual Gender and Race
+```{r, fig.width = 5, fig.height = 4}
+p.uof.by.victim.sex.race
+```
+
+### UOF by Female Individual Race
+```{r, fig.width = 5, fig.height = 4}
+p.uof.by.female.victim.race
+```
+
+### UOF by Male Individual Race
+```{r, fig.width = 5, fig.height = 4}
+p.uof.by.male.victim.race
+```
+
+Row {data-height=100}
+-------------------------------------
+### Analysis
+
+Row
+-------------------------------------
+### Female Individual UOF by Type and Race
+```{r, fig.width = 5, fig.height = 5}
+p.female.victim.uof.by.type
+```
+
+### Male Individual UOF by Type and Race
+```{r, fig.width = 5, fig.height = 5}
+p.male.victim.uof.by.type
+```
+
+Row {data-height=80}
+-------------------------------------
+### Analysis 
+
+Row
+-------------------------------------
+### Analysis of UOF by Officer Gender and Race
+
+Row {data-height=500}
+-------------------------------------
+### UOF by Officer Gender and Race
+```{r, fig.width = 5, fig.height = 4}
+p.uof.by.officer.sex.race
+```
+
+### UOF by Female Officer Race
+```{r, fig.width = 5, fig.height = 4}
+p.uof.by.female.officer.race
+```
+
+### UOF by Male Officer Race
+```{r, fig.width = 5, fig.height = 4}
+p.uof.by.male.officer.race
+```
+
+
+Row {data-height=200}
+-------------------------------------
+### Analysis
+
+
+Row
+-------------------------------------
+### Female Officer UOF by Type and Race
+```{r, fig.width = 5, fig.height = 5}
+p.female.uof.by.type
+```
+
+### Male officer UOF by Type and Race
+```{r, fig.width = 5, fig.height = 5}
+p.male.uof.by.type
+```
+

@@ -43,12 +43,12 @@ export default class TopNav extends React.Component {
     return (
 			<div>
         <Navbar color="dark" light expand="md" dark>
-          <NavbarBrand href="/"><NavImage /></NavbarBrand>
+          <NavbarBrand href={this.withPrefix("/")}><NavImage /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
 							<NavItem>
-                <NavLink href={this.withPrefix("/force")}>Use of Forc</NavLink>
+                <NavLink href={this.withPrefix("/force")}>Use of Force</NavLink>
               </NavItem>
 							<NavItem>
                 <NavLink href={this.withPrefix("/complaints-misconduct")}>Complaints &amp; Misconduct</NavLink>

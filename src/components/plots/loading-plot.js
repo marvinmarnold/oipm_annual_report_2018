@@ -30,9 +30,14 @@ class LoadingPlot extends React.Component {
 		return responsiveLayout
 	}
 
+	renderLoading() {
+		return (
+			<h1>Loading plot!</h1>
+		)
+	}
   render() {
     if (!this.props.data) {
-			return <h1>Loading plot</h1>
+			return this.renderLoading()
 		} else {
 			return (
 				<Plot

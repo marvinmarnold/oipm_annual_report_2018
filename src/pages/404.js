@@ -1,13 +1,21 @@
 import React from "react"
+import { Link } from "gatsby"
+import { Container, Row, Col, Nav, NavItem, NavLink } from 'reactstrap';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const NotFoundPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <SEO title="Page Not Found: 2018 OIPM Annual Report " />
+		<Container className="text-center">
+			<Row>
+				<Col>
+					<h1 className="mt-5">PAGE NOT FOUND</h1>
+					<h5 className="mt-3">Try going back to the <Link to="/">homepage</Link>.</h5>
+				</Col>
+			</Row>
+		</Container>
   </Layout>
 )
 

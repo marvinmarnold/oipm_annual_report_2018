@@ -12,6 +12,8 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
 
+import NavImage from "../components/nav-image"
+
 export default class TopNav extends React.Component {
   constructor(props) {
     super(props);
@@ -31,15 +33,15 @@ export default class TopNav extends React.Component {
     return (
 			<div>
         <Navbar color="dark" light expand="md" dark>
-          <NavbarBrand href="/">{this.props.siteTitle}</NavbarBrand>
+          <NavbarBrand href="/"><NavImage /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
 							<NavItem>
-                <NavLink href="/force/">Use of Force</NavLink>
+                <NavLink href="/force">Use of Force</NavLink>
               </NavItem>
 							<NavItem>
-                <NavLink href="/complaints-misconduct/">Complaints &amp; Misconduct</NavLink>
+                <NavLink href="/complaints-misconduct">Complaints &amp; Misconduct</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://nolaipm.gov">OIPM Home</NavLink>

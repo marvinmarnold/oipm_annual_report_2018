@@ -4,7 +4,6 @@ import { Container, Row, Col, Nav, NavItem, NavLink } from 'reactstrap';
 // Components
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import UofByYearPlot from '../components/plots/uof-by-year-plot'
 
 const IndexPage = () => (
   <Layout>

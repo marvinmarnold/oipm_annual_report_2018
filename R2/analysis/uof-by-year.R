@@ -1,4 +1,4 @@
-check.vars(c("current.year", "uof.all"))
+check.vars(c("CURRENT.YEAR", "uof.all"))
 title <- "UOF by year"
 
 # Analyze years 2016 - 2018
@@ -22,8 +22,8 @@ nopd.uof.2013 <- 725
 nopd.uof.2014 <- 706
 nopd.uof.2015 <- 1071
 # Add the computed value so that the line graph won't have a gap
-nopd.uof.2016 <- count.uof.by.year$num[1]
-nopd.uof <- c(nopd.uof.2013, nopd.uof.2014, nopd.uof.2015, nopd.uof.2016)
+uof.2016 <- count.uof.by.year$num[1]
+nopd.uof <- c(nopd.uof.2013, nopd.uof.2014, nopd.uof.2015, uof.2016)
 
 p.uof.by.year <- plot_ly(count.uof.by.year, x = ~year, 
                            # Start with FTN according to NOPD

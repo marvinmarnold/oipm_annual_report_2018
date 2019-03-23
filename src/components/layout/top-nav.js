@@ -13,7 +13,7 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
 
-import NavImage from "../components/nav-image"
+import NavImage from "./nav-image"
 
 export default class TopNav extends React.Component {
   constructor(props) {

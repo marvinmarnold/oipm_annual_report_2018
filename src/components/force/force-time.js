@@ -2,7 +2,8 @@ import React from "react"
 import { Row, Col } from 'reactstrap'
 import { Link } from "gatsby"
 
-import UofByYearPlot from '../plots/uof-by-year-plot'
+import UofByYearPlot from './uof-by-year-plot'
+import FtnByYearPlot from './ftn-by-year-plot'
 
 class ForceTime extends React.Component {
 	constructor() {
@@ -43,7 +44,7 @@ class ForceTime extends React.Component {
 						</ul>
 					</Col>
 					<Col className="col-8">
-						<UofByYearPlot />
+						<FtnByYearPlot />
 					</Col>
 				</Row>
 			</div>

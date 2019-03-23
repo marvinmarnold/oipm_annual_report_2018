@@ -2,9 +2,9 @@ import React from "react"
 import { Container, Row, Col, Nav, NavItem, NavLink } from 'reactstrap';
 
 // Components
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import UofByYearPlot from '../components/plots/uof-by-year-plot'
+import Layout from "../components/layout/layout"
+import SEO from "../components/layout/seo"
+import UofByYearPlot from '../components/force/uof-by-year-plot'
 import ForceIntroduction from '../components/force/force-introduction'
 import ForceTime from '../components/force/force-time'
 

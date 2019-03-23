@@ -1,22 +1,21 @@
 import React from "react"
 
-import LoadingPlot from "./loading-plot"
+import LoadingPlot from "../loading-plot"
 
-import uofByYear from "../../data/uof-by-year.json";
+import ftnByYear from "../../data/ftn-by-year.json";
 
-class UofByYearPlot extends React.Component {
+class FtnByYearPlot extends React.Component {
   constructor() {
     super()
     this.state = {
-			uofByYear: {}
 		}
   }
 
   componentDidMount() {
 		const newState = {
-      data: uofByYear.data,
-      layout: uofByYear.layout,
-			config: uofByYear.config
+      data: ftnByYear.data,
+      layout: ftnByYear.layout,
+			config: ftnByYear.config
     }
 
     this.setState(newState)
@@ -33,4 +32,4 @@ class UofByYearPlot extends React.Component {
   }
 }
 
-export default UofByYearPlot
+export default FtnByYearPlot

@@ -48,3 +48,4 @@ if (RECLEAN_DATA) {
 ########################################## PERFORM ANALYSIS ############################################
 
 source("analysis/uof-by-year.R")
+source("analysis/ftn-by-year.R")

@@ -2,8 +2,8 @@ import React from "react"
 import { Container, Row, Col, Nav, NavItem, NavLink } from 'reactstrap';
 
 // Components
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/layout/layout"
+import SEO from "../components/layout/seo"
 
 class IndexPage extends React.Component {
 	normalizePath(path) {

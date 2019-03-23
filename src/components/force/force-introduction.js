@@ -4,7 +4,7 @@ import { Row, Col } from 'reactstrap'
 const ForceIntroduction = () => (
 	<div>
 		<Row>
-			<h2 id="force-introduction">Introduction &amp; terms</h2>
+			<Col><h2 id="force-introduction">Introduction &amp; terms</h2></Col>
 		</Row>
 		<Row>
 			<Col>

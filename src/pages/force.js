@@ -8,33 +8,35 @@ import UofByYearPlot from '../components/force/uof-by-year-plot'
 import ForceIntroduction from '../components/force/force-introduction'
 import ForceTime from '../components/force/force-time'
 
+import './force.css'
+
 const Force = () => (
   <Layout>
     <SEO title="Use of Force - 2018 OIPM Annual Report" />
 
 		<Container fluid>
 			<Row>
-				<Col>
-					<h1 className="my-5 text-center">Use of Force Analysis</h1>
-				</Col>
-			</Row>
-
-			<Row>
-				<Col className="col-3">
-					<Nav vertical>
+				<Col className="col-2 bg-secondary">
+					<Nav className="mt-5" vertical>
 						<NavItem>
-	            <NavLink href="#force-introduction">Introduction &amp; terms</NavLink>
+	            <NavLink href="#force-introduction" className="text-white">Introduction &amp; terms</NavLink>
 	          </NavItem>
 						<NavItem>
-	            <NavLink href="#force-time">Force over time</NavLink>
+	            <NavLink href="#force-time" className="text-white">Force over time</NavLink>
 	          </NavItem>
 	          <NavItem>
-	            <NavLink href="#force-type-level">Force by type and level</NavLink>
+	            <NavLink href="#force-type-level" className="text-white">Force by type and level</NavLink>
 	          </NavItem>
 	        </Nav>
 				</Col>
 
-				<Col className="col-9">
+				<Col className="col-10">
+					<Row>
+						<Col>
+							<h1 className="my-5 text-center">Use of Force Analysis</h1>
+						</Col>
+					</Row>
+
 					<ForceIntroduction />
 					<ForceTime />
 				</Col>

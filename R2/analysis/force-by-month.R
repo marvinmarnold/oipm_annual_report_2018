@@ -36,8 +36,8 @@ p.force.by.month <- plot_ly(force.by.month, x = ~month, y = ~ftn.by.month, name 
                  categoryarray = months,
                  title = paste("Month in", CURRENT.YEAR), 
                  showgrid = F), 
-    yaxis = list(title = 'Force', showgrid = T),
-    yaxis2 = list(side = 'right', overlaying = "y", title = "Avg force per incident", range = c(0, 10)))
+    yaxis = list(title = 'Num incidents', showgrid = T),
+    yaxis2 = list(side = 'right', overlaying = "y", title = "Force per incident", range = c(0, 10)))
 
 p.force.by.month
 gen.plotly.json(p.force.by.month, "force-by-month")

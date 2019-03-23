@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Plot from 'react-plotly.js'
 
+import { MoonLoader } from 'react-spinners';
+
 class LoadingPlot extends React.Component {
 
   constructor() {
@@ -32,7 +34,9 @@ class LoadingPlot extends React.Component {
 
 	renderLoading() {
 		return (
-			<h1>Loading plot!</h1>
+			<div className="d-flex justify-content-center">
+				<MoonLoader loading={true} size={6} sizeUnit={"rem"} />
+			</div>
 		)
 	}
   render() {
@@ -48,7 +52,7 @@ class LoadingPlot extends React.Component {
 				    onUpdate={(figure) => this.setState(figure)}
 				/>
 			)
-  		}
+  	}
   }
 }
 

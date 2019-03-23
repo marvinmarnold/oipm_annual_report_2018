@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "135e72a2a9e5": ["function () ", "plotlyVisDat"]
+    "135e50112c77": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "135e72a2a9e5",
+  "cur_data": "135e50112c77",
   "attrs": {
-    "135e72a2a9e5": {
+    "135e50112c77": {
       "x": {},
       "y": {},
       "mode": "lines+markers",
@@ -19,7 +19,7 @@
       "spans": [1, 20],
       "type": "scatter"
     },
-    "135e72a2a9e5.1": {
+    "135e50112c77.1": {
       "x": {},
       "y": {},
       "mode": "lines+markers",
@@ -35,7 +35,7 @@
       "type": "scatter",
       "inherit": true
     },
-    "135e72a2a9e5.2": {
+    "135e50112c77.2": {
       "x": {},
       "y": {},
       "mode": "lines+markers",
@@ -44,7 +44,7 @@
         "width": 2,
         "dash": "dashdot"
       },
-      "name": "UOF per FTN",
+      "name": "Force per incident (UOF/FTN)",
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -73,13 +73,13 @@
     "yaxis": {
       "domain": [0, 1],
       "automargin": true,
-      "title": "Force",
+      "title": "Num incidents",
       "showgrid": true
     },
     "yaxis2": {
       "side": "right",
       "overlaying": "y",
-      "title": "Avg force per incident",
+      "title": "Force per incident",
       "range": [0, 10]
     },
     "showlegend": true
@@ -153,7 +153,7 @@
         "width": 2,
         "dash": "dashdot"
       },
-      "name": "UOF per FTN",
+      "name": "Force per incident (UOF/FTN)",
       "type": "scatter",
       "yaxis": "y2",
       "marker": {

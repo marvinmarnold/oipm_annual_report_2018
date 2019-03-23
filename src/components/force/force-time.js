@@ -13,7 +13,7 @@ class ForceTime extends React.Component {
 
 	renderUofByYear() {
 		return (
-			<div id="uof-year">
+			<div id="uof-year" className="my-3">
 				<Row>
 					<Col><h4>Amount of force used by year (UOF)</h4></Col>
 				</Row>
@@ -34,7 +34,7 @@ class ForceTime extends React.Component {
 
 	renderFtnByYear() {
 		return (
-			<div id="ftn-year">
+			<div id="ftn-year" className="my-3">
 				<Row>
 					<Col><h4>Incidents involving force by year (FTN)</h4></Col>
 				</Row>
@@ -54,7 +54,7 @@ class ForceTime extends React.Component {
 
 	renderForceByMonth() {
 		return (
-			<div id="force-month">
+			<div id="force-month" className="my-3">
 				<Row>
 					<Col><h4>Force by month</h4></Col>
 				</Row>
@@ -80,9 +80,9 @@ class ForceTime extends React.Component {
 				<Row>
 						<Col><h2 id="force-time">Force over time</h2></Col>
 				</Row>
-
-				{this.renderUofByYear()}
+				
 				{this.renderFtnByYear()}
+				{this.renderUofByYear()}
 				{this.renderForceByMonth()}
 			</div>
 		)

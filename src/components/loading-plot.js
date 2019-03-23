@@ -39,6 +39,7 @@ class LoadingPlot extends React.Component {
 			</div>
 		)
 	}
+
   render() {
     if (!this.props.data) {
 			return this.renderLoading()

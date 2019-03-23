@@ -17,7 +17,8 @@ const Force = () => (
 		<Container fluid>
 			<Row>
 				<Col className="col-2 bg-secondary">
-					<Nav className="mt-5" vertical>
+					<h4 className="mt-5">Jump to...</h4>
+					<Nav className="mt-4" vertical>
 						<NavItem>
 	            <NavLink href="#force-introduction" className="text-white">Introduction &amp; terms</NavLink>
 	          </NavItem>

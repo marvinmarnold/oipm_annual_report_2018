@@ -25,7 +25,7 @@ p.force.by.month <- plot_ly(force.by.month, x = ~month, y = ~ftn.by.month, name 
             mode = 'lines+markers',
             line = list(color = 'rgb(205, 12, 24)', width = 2, dash = 'solid')) %>%
   
-  add_trace(y = ~uof.per.ftn, name = "UOF per FTN", yaxis = 'y2',
+  add_trace(y = ~uof.per.ftn, name = "Force per incident (UOF/FTN)", yaxis = 'y2',
             mode = 'lines+markers',
             line = list(color = 'rgb(25, 12, 24)', width = 2, dash = 'dashdot')) %>%
   

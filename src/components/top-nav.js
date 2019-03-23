@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "gatsby"
 import {
   Collapse,
   Navbar,
@@ -29,6 +30,15 @@ export default class TopNav extends React.Component {
       collapsed: !this.state.collapsed
     });
   }
+
+	normalizePath(path) {
+	  return path.replace(/\/+/g, `/`)
+	}
+
+	withPrefix(path) {
+	  return this.normalizePath(`${__PATH_PREFIX__}/${path}`)
+	}
+
   render() {
     return (
 			<div>
@@ -38,10 +48,10 @@ export default class TopNav extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
 							<NavItem>
-                <NavLink href="/force">Use of Force</NavLink>
+                <NavLink href={this.withPrefix("/force")}>Use of Forc</NavLink>
               </NavItem>
 							<NavItem>
-                <NavLink href="/complaints-misconduct">Complaints &amp; Misconduct</NavLink>
+                <NavLink href={this.withPrefix("/complaints-misconduct")}>Complaints &amp; Misconduct</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://nolaipm.gov">OIPM Home</NavLink>

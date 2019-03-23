@@ -19,10 +19,7 @@ class UofByYearPlot extends React.Component {
 			config: uofByYear.config
     }
 
-		console.log("Setting new state")
-		console.log(newState)
     this.setState(newState)
-
   }
 
   render() {

@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 
 import UofByYearPlot from './uof-by-year-plot'
 import FtnByYearPlot from './ftn-by-year-plot'
+import ForceByMonthPlot from './force-by-month-plot'
 
 class ForceTime extends React.Component {
 	constructor() {
@@ -59,10 +60,14 @@ class ForceTime extends React.Component {
 				</Row>
 				<Row>
 					<Col className="my-4">
-						<p>Analysis goes here</p>
+						<ul>
+							<li>Figure 2 clarifies the relationship between FTN and UOF. On average, there has been a marginal decrease in UOF per FTN per month from 2017 to 2018.</li>
+
+							<li>While both UOF and FTN peaked in August of 2017, only the spike in UOF in August remained consistent in 2018. April, May, June, and August were months when the UOF was substantially higher than the median of 82. The average of UOF/FTN was approximately 2.5 in 2018, compared with roughly 2.7 in 2017.</li>
+						</ul>
 					</Col>
 					<Col className="col-8">
-						<UofByYearPlot />
+						<ForceByMonthPlot />
 					</Col>
 				</Row>
 			</div>

@@ -49,3 +49,4 @@ if (RECLEAN_DATA) {
 
 source("analysis/uof-by-year.R")
 source("analysis/ftn-by-year.R")
+source("analysis/force-by-month.R")

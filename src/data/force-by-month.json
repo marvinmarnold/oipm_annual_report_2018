@@ -1,0 +1,187 @@
+{
+  "visdat": {
+    "135e72a2a9e5": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "135e72a2a9e5",
+  "attrs": {
+    "135e72a2a9e5": {
+      "x": {},
+      "y": {},
+      "mode": "lines+markers",
+      "line": {
+        "color": "rgb(22, 96, 167)",
+        "width": 2,
+        "dash": "solid"
+      },
+      "name": "Force Incident (FTN)",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "scatter"
+    },
+    "135e72a2a9e5.1": {
+      "x": {},
+      "y": {},
+      "mode": "lines+markers",
+      "line": {
+        "color": "rgb(205, 12, 24)",
+        "width": 2,
+        "dash": "solid"
+      },
+      "name": "Force Amount (UOF)",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "scatter",
+      "inherit": true
+    },
+    "135e72a2a9e5.2": {
+      "x": {},
+      "y": {},
+      "mode": "lines+markers",
+      "line": {
+        "color": "rgb(25, 12, 24)",
+        "width": 2,
+        "dash": "dashdot"
+      },
+      "name": "UOF per FTN",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "scatter",
+      "yaxis": "y2",
+      "inherit": true
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 150,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "hovermode": "compare",
+    "xaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "categoryorder": "array",
+      "categoryarray": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "title": "Month in 2018",
+      "showgrid": false,
+      "type": "category"
+    },
+    "yaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": "Force",
+      "showgrid": true
+    },
+    "yaxis2": {
+      "side": "right",
+      "overlaying": "y",
+      "title": "Avg force per incident",
+      "range": [0, 10]
+    },
+    "showlegend": true
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "x": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "y": [161, 160, 134, 138, 132, 134, 137, 143, 137, 136, 122, 177],
+      "mode": "lines+markers",
+      "line": {
+        "color": "rgb(22, 96, 167)",
+        "width": 2,
+        "dash": "solid"
+      },
+      "name": "Force Incident (FTN)",
+      "type": "scatter",
+      "marker": {
+        "color": "rgba(31,119,180,1)",
+        "line": {
+          "color": "rgba(31,119,180,1)"
+        }
+      },
+      "error_y": {
+        "color": "rgba(31,119,180,1)"
+      },
+      "error_x": {
+        "color": "rgba(31,119,180,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "y": [65, 102, 76, 121, 119, 70, 122, 128, 79, 75, 85, 66],
+      "mode": "lines+markers",
+      "line": {
+        "color": "rgb(205, 12, 24)",
+        "width": 2,
+        "dash": "solid"
+      },
+      "name": "Force Amount (UOF)",
+      "type": "scatter",
+      "marker": {
+        "color": "rgba(255,127,14,1)",
+        "line": {
+          "color": "rgba(255,127,14,1)"
+        }
+      },
+      "error_y": {
+        "color": "rgba(255,127,14,1)"
+      },
+      "error_x": {
+        "color": "rgba(255,127,14,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "y": [0.403726708074534, 0.6375, 0.567164179104478, 0.876811594202899, 0.901515151515151, 0.522388059701492, 0.89051094890511, 0.895104895104895, 0.576642335766423, 0.551470588235294, 0.69672131147541, 0.372881355932203],
+      "mode": "lines+markers",
+      "line": {
+        "color": "rgb(25, 12, 24)",
+        "width": 2,
+        "dash": "dashdot"
+      },
+      "name": "UOF per FTN",
+      "type": "scatter",
+      "yaxis": "y2",
+      "marker": {
+        "color": "rgba(44,160,44,1)",
+        "line": {
+          "color": "rgba(44,160,44,1)"
+        }
+      },
+      "error_y": {
+        "color": "rgba(44,160,44,1)"
+      },
+      "error_x": {
+        "color": "rgba(44,160,44,1)"
+      },
+      "xaxis": "x",
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

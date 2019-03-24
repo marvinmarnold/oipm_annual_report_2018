@@ -25,8 +25,9 @@ class IndexPage extends React.Component {
 				<Container>
 					<Row className="text-center">
 						<Col className="mt-4">
-							<h1 className="my-2">2018 Annual Report</h1>
-							<h2 className="my-3">New Orleans Office of the Independent Police Monitor (OIPM)</h2>
+							<h1 className="mt-5">2018 Annual Report</h1>
+							<h2 className="my-3"> Office of the Independent Police Monitor</h2>
+							<h4 className="my-3">New Orleans OIPM</h4>
 						</Col>
 					</Row>
 
@@ -38,6 +39,12 @@ class IndexPage extends React.Component {
 			          <NavLink href={this.withPrefix("/force")}>Use of Force</NavLink>
 								<NavLink href={this.withPrefix("/complaints-misconduct")}>Complaints &amp; Misconduct</NavLink>
 			        </Nav>
+
+							<p>Marvin's todo list</p>
+							<ul>
+								<li>Add 2015 data</li>
+								<li>Responsive plots</li>
+							</ul>
 						</Col>
 						<Col>
 							<h4>Picture or chart here</h4>

@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "135e71d174a4": ["function () ", "plotlyVisDat"]
+    "135e31bdefa9": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "135e71d174a4",
+  "cur_data": "135e31bdefa9",
   "attrs": {
-    "135e71d174a4": {
+    "135e31bdefa9": {
       "x": {},
       "y": {},
       "name": {},
@@ -34,7 +34,7 @@
     "yaxis": {
       "domain": [0, 1],
       "automargin": true,
-      "title": "Number UOF"
+      "title": "Amount of force (UOF)"
     },
     "barmode": "stack",
     "hovermode": "compare",

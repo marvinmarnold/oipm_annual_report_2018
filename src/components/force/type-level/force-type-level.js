@@ -7,6 +7,7 @@ import UofL2Plot from './uof-l2-plot.js'
 import UofL3Plot from './uof-l3-plot.js'
 import UofL4Plot from './uof-l4-plot.js'
 import UofByLevelTypePlot from './uof-by-level-type-plot.js'
+import UofByLevelDistrictPlot from './uof-by-level-district-plot.js'
 
 class ForceTypeLevel extends React.Component {
 	constructor() {
@@ -68,7 +69,7 @@ class ForceTypeLevel extends React.Component {
 
 	renderUofByLevelType() {
 		return (
-			<div id="uof-year" className="my-3">
+			<div className="my-3">
 				<Row>
 					<Col>
 						<h4>Force (UOF) by level and type overview</h4>
@@ -90,6 +91,30 @@ class ForceTypeLevel extends React.Component {
 		)
 	}
 
+	renderUofByLevelDistrict() {
+		return (
+			<div className="my-3">
+				<Row>
+					<Col>
+						<h4>Force (UOF) by level and district</h4>
+
+					</Col>
+				</Row>
+				<Row>
+					<Col className="col-5">
+						<ul>
+							<li>The districts with the highest UOF are the 3rd, 8th, 7th, and Special Operations, respectively. These districts are the top four for a second year in a row.</li>
+							<li>The 7th district has the highest level 4 UOF and the 8th district has the highest level 3 UOF.</li>
+						</ul>
+					</Col>
+					<Col className="col-7">
+						<UofByLevelDistrictPlot />
+					</Col>
+				</Row>
+			</div>
+		)
+	}
+
 	render() {
 		return (
 			<div>
@@ -99,6 +124,8 @@ class ForceTypeLevel extends React.Component {
 
 				{this.renderUofByLevelType()}
 				{this.renderByLevel()}
+				{this.renderUofByLevelDistrict()}
+
 			</div>
 		)
 	}

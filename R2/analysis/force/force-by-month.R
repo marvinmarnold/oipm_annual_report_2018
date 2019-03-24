@@ -4,7 +4,7 @@ title <- "Force by month"
 ########################################################################################################
 ########################################################################################################
 uof.for.year <- uof.all %>% filter(year.of.record == CURRENT.YEAR)
-ftn.for.year <- uof.all %>% distinct(FIT.Number, .keep_all = TRUE)
+ftn.for.year <- uof.for.year %>% distinct(FIT.Number, .keep_all = TRUE)
 
 months <- c("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 uof.by.month <- uof.for.year %>% group_by(Month.occurred) %>% summarize(num.uof = n())

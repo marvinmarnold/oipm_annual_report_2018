@@ -1,3 +1,22 @@
+# OIPM 2018 Annual Report
+This project contains:
+
+- ***SQL scripts:*** Assumes access to raw NOPD data, not generally available to the public.
+The output of these scripts can be found in `R2/data`.
+- ***R scripts:*** Transform data in `R2/data` into Plotly compatible JSON.
+- ***Gatby based React website:*** Consumes JSON and displays on public website.
+
+
+## Website
+
+- Develop locally: `gatsby develop`
+- Deploy: `npm run deploy`
+
+## R analysis
+
+```
+Rscript R2/annual-report-2018.R
+```
 
 ### Initial setup recreation
 

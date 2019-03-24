@@ -1,0 +1,160 @@
+{
+  "visdat": {
+    "135e2506948": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "135e2506948",
+  "attrs": {
+    "135e2506948": {
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "x": {},
+      "y": {},
+      "type": "bar",
+      "name": {},
+      "color": {},
+      "inherit": true
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 150,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "barmode": "stack",
+    "hovermode": "compare",
+    "xaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": "District",
+      "showgrid": false,
+      "type": "category",
+      "categoryorder": "array",
+      "categoryarray": ["", "1st District", "2nd District", "3rd District", "4th District", "5th District", "6th District", "7th District", "8th District", "Other", "Special Operations", "Special or Criminal Investigations"]
+    },
+    "yaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": "Amount of force (UOF)",
+      "showgrid": true
+    },
+    "showlegend": true
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "x": ["1st District", "2nd District", "3rd District", "4th District", "5th District", "6th District", "7th District", "8th District", "Other", "Special Operations", "Special or Criminal Investigations"],
+      "y": [65, 50, 157, 59, 109, 64, 131, 106, 4, 137, 21],
+      "type": "bar",
+      "name": "L1",
+      "marker": {
+        "color": "rgba(252,141,98,1)",
+        "line": {
+          "color": "rgba(252,141,98,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(252,141,98,1)"
+      },
+      "error_y": {
+        "color": "rgba(252,141,98,1)"
+      },
+      "error_x": {
+        "color": "rgba(252,141,98,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["1st District", "2nd District", "3rd District", "4th District", "5th District", "6th District", "7th District", "8th District", "Other", "Special Operations"],
+      "y": [33, 18, 18, 16, 15, 15, 15, 41, 2, 9],
+      "type": "bar",
+      "name": "L2",
+      "marker": {
+        "color": "rgba(141,160,203,1)",
+        "line": {
+          "color": "rgba(141,160,203,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "error_y": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "error_x": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["1st District", "3rd District", "4th District", "5th District", "6th District", "8th District", "Other", "Special or Criminal Investigations"],
+      "y": [1, 2, 1, 1, 1, 6, 1, 1],
+      "type": "bar",
+      "name": "L3",
+      "marker": {
+        "color": "rgba(231,138,195,1)",
+        "line": {
+          "color": "rgba(231,138,195,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "error_y": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "error_x": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["2nd District", "3rd District", "5th District", "7th District"],
+      "y": [1, 1, 1, 6],
+      "type": "bar",
+      "name": "L4",
+      "marker": {
+        "color": "rgba(166,216,84,1)",
+        "line": {
+          "color": "rgba(166,216,84,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(166,216,84,1)"
+      },
+      "error_y": {
+        "color": "rgba(166,216,84,1)"
+      },
+      "error_x": {
+        "color": "rgba(166,216,84,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

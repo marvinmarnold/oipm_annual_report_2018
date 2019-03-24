@@ -18,17 +18,18 @@ class LoadingPlot extends React.Component {
 	}
 
 	genResponsiveLayout(layout) {
+		if (this.props.layoutOverride) return this.props.layoutOverride
+
 		let responsiveLayout = layout
 		// let responsiveLayout = {}
 		// responsiveLayout.height = null
 		// responsiveLayout.width = null
-		delete responsiveLayout.margin
+		// delete responsiveLayout.margin
 
 		responsiveLayout.legend = {
 			x: 0,
 			y: this.props.yoffset || -0.35
 		}
-		console.log(responsiveLayout)
 		return responsiveLayout
 	}
 

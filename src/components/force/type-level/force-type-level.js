@@ -6,6 +6,7 @@ import UofL1Plot from './uof-l1-plot.js'
 import UofL2Plot from './uof-l2-plot.js'
 import UofL3Plot from './uof-l3-plot.js'
 import UofL4Plot from './uof-l4-plot.js'
+import UofByLevelTypePlot from './uof-by-level-type-plot.js'
 
 class ForceTypeLevel extends React.Component {
 	constructor() {
@@ -17,7 +18,7 @@ class ForceTypeLevel extends React.Component {
 			<div className="my-3">
 				<Row>
 					<Col>
-						<h4>Amount of force (UOF) by level</h4>
+						<h4>Amount of force (UOF) by level breakdown</h4>
 						<strong>Level 1</strong>
 						<ul>
 							<li>Level 1 force decreased for the third year in a row.</li>
@@ -65,6 +66,30 @@ class ForceTypeLevel extends React.Component {
 		)
 	}
 
+	renderUofByLevelType() {
+		return (
+			<div id="uof-year" className="my-3">
+				<Row>
+					<Col>
+						<h4>Force (UOF) by level and type overview</h4>
+
+					</Col>
+				</Row>
+				<Row>
+					<Col className="col-5">
+						<p>
+							Use of force is overwhelmingly level 1, followed by level 2.
+							Exhibiting firearms accounts for slightly more UOF than all other types combined, similar to 2017 statistics.
+						</p>
+					</Col>
+					<Col className="col-7">
+						<UofByLevelTypePlot />
+					</Col>
+				</Row>
+			</div>
+		)
+	}
+
 	render() {
 		return (
 			<div>
@@ -72,6 +97,7 @@ class ForceTypeLevel extends React.Component {
 						<Col><h2 id="force-type-level">Force by type and level</h2></Col>
 				</Row>
 
+				{this.renderUofByLevelType()}
 				{this.renderByLevel()}
 			</div>
 		)

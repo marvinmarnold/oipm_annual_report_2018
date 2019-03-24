@@ -1,0 +1,163 @@
+{
+  "visdat": {
+    "135e2ccddb8a": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "135e2ccddb8a",
+  "attrs": {
+    "135e2ccddb8a": {
+      "x": {},
+      "y": {},
+      "name": {},
+      "color": {},
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "bar"
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 40,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "xaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "categoryorder": "array",
+      "categoryarray": ["L1", "L2", "L3", "L4"],
+      "title": "Level L3 force",
+      "showgrid": false,
+      "dtick": 1,
+      "tick0": 2016
+    },
+    "yaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": "Amount of force (UOF)"
+    },
+    "legend": {
+      "x": 0,
+      "y": -0.5
+    },
+    "barmode": "stack",
+    "hovermode": "compare",
+    "showlegend": true
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "x": [2018],
+      "y": [2],
+      "name": "Baton/PR-24 (Strike)",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(247,144,101,1)",
+        "line": {
+          "color": "rgba(247,144,101,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(247,144,101,1)"
+      },
+      "error_y": {
+        "color": "rgba(247,144,101,1)"
+      },
+      "error_x": {
+        "color": "rgba(247,144,101,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [2017],
+      "y": [1],
+      "name": "Canine (Contact)",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(197,153,160,1)",
+        "line": {
+          "color": "rgba(197,153,160,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(197,153,160,1)"
+      },
+      "error_y": {
+        "color": "rgba(197,153,160,1)"
+      },
+      "error_x": {
+        "color": "rgba(197,153,160,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [2016, 2017, 2018],
+      "y": [3, 6, 10],
+      "name": "Head Strike (No Wep)",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(205,181,144,1)",
+        "line": {
+          "color": "rgba(205,181,144,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(205,181,144,1)"
+      },
+      "error_y": {
+        "color": "rgba(205,181,144,1)"
+      },
+      "error_x": {
+        "color": "rgba(205,181,144,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [2018],
+      "y": [2],
+      "name": "Other",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(237,202,125,1)",
+        "line": {
+          "color": "rgba(237,202,125,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(237,202,125,1)"
+      },
+      "error_y": {
+        "color": "rgba(237,202,125,1)"
+      },
+      "error_x": {
+        "color": "rgba(237,202,125,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

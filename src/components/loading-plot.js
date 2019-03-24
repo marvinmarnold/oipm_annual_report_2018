@@ -26,7 +26,7 @@ class LoadingPlot extends React.Component {
 
 		responsiveLayout.legend = {
 			x: 0,
-			y:-0.35
+			y: this.props.yoffset || -0.35
 		}
 		console.log(responsiveLayout)
 		return responsiveLayout

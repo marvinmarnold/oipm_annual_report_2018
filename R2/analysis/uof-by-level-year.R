@@ -30,5 +30,8 @@ p.lvl.by.year <- lapply(lvls, function (lvl) {
 })
 p.lvl.by.year[[4]]
 
-gen.plotly.json(p.force.by.month, "uof-by-level-year")
+gen.plotly.json(p.lvl.by.year[[1]], "uof-by-level-year-1")
+gen.plotly.json(p.lvl.by.year[[2]], "uof-by-level-year-2")
+gen.plotly.json(p.lvl.by.year[[3]], "uof-by-level-year-3")
+gen.plotly.json(p.lvl.by.year[[4]], "uof-by-level-year-4")
 

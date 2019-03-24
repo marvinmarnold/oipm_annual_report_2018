@@ -1,0 +1,235 @@
+{
+  "visdat": {
+    "135e78f956d8": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "135e78f956d8",
+  "attrs": {
+    "135e78f956d8": {
+      "x": {},
+      "y": {},
+      "name": {},
+      "color": {},
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "bar"
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 40,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "xaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "categoryorder": "array",
+      "categoryarray": ["L1", "L2", "L3", "L4"],
+      "title": "Level L4 force",
+      "showgrid": false,
+      "dtick": 1,
+      "tick0": 2016
+    },
+    "yaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": "Amount of force (UOF)"
+    },
+    "legend": {
+      "x": 0,
+      "y": -0.5
+    },
+    "barmode": "stack",
+    "hovermode": "compare",
+    "showlegend": true
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "x": [2016],
+      "y": [9],
+      "name": "Canine (Bite)",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(229,147,127,1)",
+        "line": {
+          "color": "rgba(229,147,127,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(229,147,127,1)"
+      },
+      "error_y": {
+        "color": "rgba(229,147,127,1)"
+      },
+      "error_x": {
+        "color": "rgba(229,147,127,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [2016, 2017],
+      "y": [6, 7],
+      "name": "Firearm Discharged",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(194,150,199,1)",
+        "line": {
+          "color": "rgba(194,150,199,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(194,150,199,1)"
+      },
+      "error_y": {
+        "color": "rgba(194,150,199,1)"
+      },
+      "error_x": {
+        "color": "rgba(194,150,199,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [2016, 2017, 2018],
+      "y": [2, 1, 6],
+      "name": "Head strike while Hancuffed",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(182,204,108,1)",
+        "line": {
+          "color": "rgba(182,204,108,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(182,204,108,1)"
+      },
+      "error_y": {
+        "color": "rgba(182,204,108,1)"
+      },
+      "error_x": {
+        "color": "rgba(182,204,108,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [2016, 2017, 2018],
+      "y": [3, 8, 2],
+      "name": "L4-Taser",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(253,215,61,1)",
+        "line": {
+          "color": "rgba(253,215,61,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(253,215,61,1)"
+      },
+      "error_y": {
+        "color": "rgba(253,215,61,1)"
+      },
+      "error_x": {
+        "color": "rgba(253,215,61,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [2018],
+      "y": [1],
+      "name": "NonTrad Impact Weapon",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(246,208,97,1)",
+        "line": {
+          "color": "rgba(246,208,97,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(246,208,97,1)"
+      },
+      "error_y": {
+        "color": "rgba(246,208,97,1)"
+      },
+      "error_x": {
+        "color": "rgba(246,208,97,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [2016],
+      "y": [1],
+      "name": "Other",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(237,202,125,1)",
+        "line": {
+          "color": "rgba(237,202,125,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(237,202,125,1)"
+      },
+      "error_y": {
+        "color": "rgba(237,202,125,1)"
+      },
+      "error_x": {
+        "color": "rgba(237,202,125,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [2016],
+      "y": [1],
+      "name": "Rifle (Discharged)",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(227,195,149,1)",
+        "line": {
+          "color": "rgba(227,195,149,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(227,195,149,1)"
+      },
+      "error_y": {
+        "color": "rgba(227,195,149,1)"
+      },
+      "error_x": {
+        "color": "rgba(227,195,149,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

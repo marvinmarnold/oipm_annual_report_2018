@@ -1,0 +1,235 @@
+{
+  "visdat": {
+    "135e581bc39a": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "135e581bc39a",
+  "attrs": {
+    "135e581bc39a": {
+      "x": {},
+      "y": {},
+      "name": {},
+      "color": {},
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "bar"
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 40,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "xaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "categoryorder": "array",
+      "categoryarray": ["L1", "L2", "L3", "L4"],
+      "title": "Level L1 force",
+      "showgrid": false,
+      "dtick": 1,
+      "tick0": 2016
+    },
+    "yaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": "Amount of force (UOF)"
+    },
+    "legend": {
+      "x": 0,
+      "y": -0.5
+    },
+    "barmode": "stack",
+    "hovermode": "compare",
+    "showlegend": true
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "x": [2018],
+      "y": [2],
+      "name": "Baton (non-strike)",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(211,164,122,1)",
+        "line": {
+          "color": "rgba(211,164,122,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(211,164,122,1)"
+      },
+      "error_y": {
+        "color": "rgba(211,164,122,1)"
+      },
+      "error_x": {
+        "color": "rgba(211,164,122,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [2016],
+      "y": [29],
+      "name": "Canine (No Bite)",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(156,159,194,1)",
+        "line": {
+          "color": "rgba(156,159,194,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(156,159,194,1)"
+      },
+      "error_y": {
+        "color": "rgba(156,159,194,1)"
+      },
+      "error_x": {
+        "color": "rgba(156,159,194,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [2016, 2017, 2018],
+      "y": [781, 749, 509],
+      "name": "Firearm Exhibited",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(220,142,196,1)",
+        "line": {
+          "color": "rgba(220,142,196,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(220,142,196,1)"
+      },
+      "error_y": {
+        "color": "rgba(220,142,196,1)"
+      },
+      "error_x": {
+        "color": "rgba(220,142,196,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [2016, 2017, 2018],
+      "y": [374, 288, 268],
+      "name": "Hands / Escort tech",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(223,155,177,1)",
+        "line": {
+          "color": "rgba(223,155,177,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(223,155,177,1)"
+      },
+      "error_y": {
+        "color": "rgba(223,155,177,1)"
+      },
+      "error_x": {
+        "color": "rgba(223,155,177,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [2016, 2017, 2018],
+      "y": [17, 6, 7],
+      "name": "L1-Other",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(179,216,80,1)",
+        "line": {
+          "color": "rgba(179,216,80,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(179,216,80,1)"
+      },
+      "error_y": {
+        "color": "rgba(179,216,80,1)"
+      },
+      "error_x": {
+        "color": "rgba(179,216,80,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [2018],
+      "y": [97],
+      "name": "Takedown (no injury)",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(212,190,160,1)",
+        "line": {
+          "color": "rgba(212,190,160,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(212,190,160,1)"
+      },
+      "error_y": {
+        "color": "rgba(212,190,160,1)"
+      },
+      "error_x": {
+        "color": "rgba(212,190,160,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [2016, 2017, 2018],
+      "y": [118, 126, 20],
+      "name": "Taser Exhibited",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(179,179,179,1)",
+        "line": {
+          "color": "rgba(179,179,179,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(179,179,179,1)"
+      },
+      "error_y": {
+        "color": "rgba(179,179,179,1)"
+      },
+      "error_x": {
+        "color": "rgba(179,179,179,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

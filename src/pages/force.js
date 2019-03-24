@@ -4,9 +4,9 @@ import { Container, Row, Col, Nav, NavItem, NavLink } from 'reactstrap';
 // Components
 import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
-import UofByYearPlot from '../components/force/uof-by-year-plot'
 import ForceIntroduction from '../components/force/force-introduction'
-import ForceTime from '../components/force/force-time'
+import ForceTime from '../components/force/time/force-time'
+import ForceTypeLevel from '../components/force/type-level/force-type-level'
 
 import './force.css'
 
@@ -40,6 +40,7 @@ const Force = () => (
 
 					<ForceIntroduction />
 					<ForceTime />
+					<ForceTypeLevel />
 				</Col>
 			</Row>
 

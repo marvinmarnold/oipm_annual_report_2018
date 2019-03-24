@@ -9,6 +9,7 @@ rm(list = ls())
 #setwd("/home/pili/code/oipm/annual-report-2018/")
 
 # The current year to analyze
+IAPRO.FIRST.YEAR <- 2016
 CURRENT.YEAR <- 2018
 PLOTLY.OUTPUT.PATH <- "../src/data/"
 

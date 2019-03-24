@@ -1,10 +1,10 @@
 import React from "react"
 
-import LoadingPlot from "../loading-plot"
+import LoadingPlot from "../../loading-plot"
 
-import uofByYear from "../../data/uof-by-year.json";
+import forceByMonth from "../../../data/force-by-month.json";
 
-class UofByYearPlot extends React.Component {
+class ForceByMonthPlot extends React.Component {
   constructor() {
     super()
     this.state = {
@@ -13,9 +13,9 @@ class UofByYearPlot extends React.Component {
 
   componentDidMount() {
 		const newState = {
-      data: uofByYear.data,
-      layout: uofByYear.layout,
-			config: uofByYear.config
+      data: forceByMonth.data,
+      layout: forceByMonth.layout,
+			config: forceByMonth.config
     }
 
     this.setState(newState)
@@ -32,4 +32,4 @@ class UofByYearPlot extends React.Component {
   }
 }
 
-export default UofByYearPlot
+export default ForceByMonthPlot

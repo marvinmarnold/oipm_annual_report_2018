@@ -3,6 +3,7 @@ import { Row, Col } from 'reactstrap'
 import { Link } from "gatsby"
 
 import UofByEffectivenessPlot from './uof-by-effectiveness-plot'
+import UofByDispositionPlot from './uof-by-disposition-plot'
 
 class ForceOutcomeSection extends React.Component {
 	constructor() {
@@ -36,6 +37,29 @@ class ForceOutcomeSection extends React.Component {
 		)
 	}
 
+	renderUofByDisposition() {
+		return (
+			<div className="my-3">
+				<Row>
+					<Col>
+						<h4>Force (UOF) by disposition</h4>
+
+					</Col>
+				</Row>
+				<Row>
+					<Col className="col-5">
+						<ul>
+							<li>NOPD added new categories. May want to verify the cases of "No force used"</li>
+						</ul>
+					</Col>
+					<Col className="col-7">
+						<UofByDispositionPlot />
+					</Col>
+				</Row>
+			</div>
+		)
+	}
+
 	render() {
 		return (
 			<div>
@@ -44,6 +68,7 @@ class ForceOutcomeSection extends React.Component {
 				</Row>
 
 				{this.renderUofByEffectiveness()}
+				{this.renderUofByDisposition()}
 			</div>
 		)
 	}

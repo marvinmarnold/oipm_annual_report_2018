@@ -43,7 +43,8 @@ gen.plotly.json <- function(p, name) {
 if (RECLEAN_DATA) {
   source("raw/sanitizers/sanitizer.R")
 } else {
-  uof.all <- read.csv(UOF.CSV.SANITIZED)
+  uof.all <- read.csv(UOF.CSV.SANITIZED, stringsAsFactors = FALSE)
+  uof.for.year <- uof.all %>% filter(year.of.record == CURRENT.YEAR)
 }
 ########################################################################################################
 ########################################## PERFORM ANALYSIS ############################################

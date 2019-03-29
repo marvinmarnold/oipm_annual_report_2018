@@ -1,10 +1,10 @@
 import React from "react"
 import { Row, Col } from 'reactstrap'
 
-const ForceIntroduction = () => (
+const ForceIntroductionSection = () => (
 	<div>
 		<Row>
-			<Col><h2 id="force-introduction">Introduction &amp; terms</h2></Col>
+			<Col><h2 id="force-introduction-section">Introduction &amp; terms</h2></Col>
 		</Row>
 		<Row>
 			<Col>
@@ -21,4 +21,4 @@ const ForceIntroduction = () => (
 	</div>
 )
 
-export default ForceIntroduction
+export default ForceIntroductionSection

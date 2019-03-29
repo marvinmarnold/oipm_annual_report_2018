@@ -9,7 +9,7 @@ import UofL4Plot from './uof-l4-plot.js'
 import UofByLevelTypePlot from './uof-by-level-type-plot.js'
 import UofByLevelDistrictPlot from './uof-by-level-district-plot.js'
 
-class ForceTypeLevel extends React.Component {
+class ForceTypeLevelSection extends React.Component {
 	constructor() {
 		super()
 	}
@@ -119,7 +119,7 @@ class ForceTypeLevel extends React.Component {
 		return (
 			<div>
 				<Row>
-						<Col><h2 id="force-type-level">Force by type and level</h2></Col>
+						<Col><h2 id="force-type-level-section">Force by type and level</h2></Col>
 				</Row>
 
 				{this.renderUofByLevelType()}
@@ -131,4 +131,4 @@ class ForceTypeLevel extends React.Component {
 	}
 }
 
-export default ForceTypeLevel
+export default ForceTypeLevelSection

@@ -6,7 +6,7 @@ import UofByYearPlot from './uof-by-year-plot'
 import FtnByYearPlot from './ftn-by-year-plot'
 import ForceByMonthPlot from './force-by-month-plot'
 
-class ForceTime extends React.Component {
+class ForceTimeSection extends React.Component {
 	constructor() {
 		super()
 	}
@@ -78,9 +78,9 @@ class ForceTime extends React.Component {
 		return (
 			<div>
 				<Row>
-						<Col><h2 id="force-time">Force over time</h2></Col>
+						<Col><h2 id="force-time-section">Force over time</h2></Col>
 				</Row>
-				
+
 				{this.renderFtnByYear()}
 				{this.renderUofByYear()}
 				{this.renderForceByMonth()}
@@ -89,4 +89,4 @@ class ForceTime extends React.Component {
 	}
 }
 
-export default ForceTime
+export default ForceTimeSection

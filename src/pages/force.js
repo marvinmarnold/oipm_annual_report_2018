@@ -4,9 +4,10 @@ import { Container, Row, Col, Nav, NavItem, NavLink } from 'reactstrap';
 // Components
 import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
-import ForceIntroduction from '../components/force/force-introduction'
-import ForceTime from '../components/force/time/force-time'
-import ForceTypeLevel from '../components/force/type-level/force-type-level'
+import ForceIntroductionSection from '../components/force/force-introduction-section'
+import ForceTimeSection from '../components/force/time/force-time-section'
+import ForceTypeLevelSection from '../components/force/type-level/force-type-level-section'
+import ForceOutcomeSection from '../components/force/outcome/force-outcome-section'
 
 import './force.css'
 
@@ -20,13 +21,16 @@ const Force = () => (
 					<h4 className="mt-5">Jump to...</h4>
 					<Nav className="mt-4" vertical>
 						<NavItem>
-	            <NavLink href="#force-introduction" className="text-white">Introduction &amp; terms</NavLink>
+	            <NavLink href="#force-introduction-section" className="text-white">Introduction &amp; terms</NavLink>
 	          </NavItem>
 						<NavItem>
-	            <NavLink href="#force-time" className="text-white">Force over time</NavLink>
+	            <NavLink href="#force-time-section" className="text-white">Force over time</NavLink>
 	          </NavItem>
-	          <NavItem>
-	            <NavLink href="#force-type-level" className="text-white">Force by type and level</NavLink>
+						<NavItem>
+	            <NavLink href="#force-type-level-section" className="text-white">Force by type and level</NavLink>
+	          </NavItem>
+						<NavItem>
+	            <NavLink href="#force-outcome-section" className="text-white">Force by outcome</NavLink>
 	          </NavItem>
 	        </Nav>
 				</Col>
@@ -38,9 +42,10 @@ const Force = () => (
 						</Col>
 					</Row>
 
-					<ForceIntroduction />
-					<ForceTime />
-					<ForceTypeLevel />
+					<ForceIntroductionSection />
+					<ForceTimeSection />
+					<ForceTypeLevelSection />
+					<ForceOutcomeSection />
 				</Col>
 			</Row>
 

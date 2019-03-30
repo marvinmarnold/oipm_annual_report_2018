@@ -15,4 +15,4 @@ p.uof.by.service.type <- plot_ly(count.by.service.type,  type = 'pie', name = ti
                                  textinfo = 'label+value+percent',
                                  insidetextfont = list(color = '#FFFFFF'))
 p.uof.by.service.type
-
+gen.plotly.json(p.uof.by.service.type, "uof-by-preceding")

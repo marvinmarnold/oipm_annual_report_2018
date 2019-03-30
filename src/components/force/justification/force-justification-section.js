@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 
 import UofByReasonPlot from './uof-by-reason-plot.js'
 import FirearmUofByReasonPlot from './firearm-uof-reason-plot.js'
+import UofByPrecedingPlot from './uof-by-preceding-plot.js'
 
 class ForceJustificationSection extends React.Component {
 	constructor() {
@@ -49,6 +50,25 @@ class ForceJustificationSection extends React.Component {
 		)
 	}
 
+	renderUofByPreceding() {
+		return (
+			<div>
+				<Row>
+					<Col>
+						<h4>Before the use of force</h4>
+						<ul>
+							<li>More than 75% of instances that preceded force were call for service or arresting.</li>
+							<li>While traffic stops were the third most common event to precede force in 2017, it was the fifth most common in 2018 with just 4.42%.</li>
+						</ul>
+					</Col>
+					<Col>
+						<UofByPrecedingPlot />
+					</Col>
+				</Row>
+			</div>
+		)
+	}
+
 	render() {
 		return (
 			<div>
@@ -58,7 +78,8 @@ class ForceJustificationSection extends React.Component {
 
 				{this.renderUofByReason()}
 				{this.renderFirearmUofByReason()}
-
+				{this.renderUofByPreceding()}
+				
 			</div>
 		)
 	}

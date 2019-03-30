@@ -8,6 +8,7 @@ import ForceIntroductionSection from '../components/force/force-introduction-sec
 import ForceTimeSection from '../components/force/time/force-time-section'
 import ForceTypeLevelSection from '../components/force/type-level/force-type-level-section'
 import ForceOutcomeSection from '../components/force/outcome/force-outcome-section'
+import ForceJustificationSection from '../components/force/justification/force-justification-section'
 
 import './force.css'
 
@@ -32,6 +33,9 @@ const Force = () => (
 						<NavItem>
 	            <NavLink href="#force-outcome-section" className="text-white">Force by outcome</NavLink>
 	          </NavItem>
+						<NavItem>
+	            <NavLink href="#force-justification-section" className="text-white">Justification for force</NavLink>
+	          </NavItem>
 	        </Nav>
 				</Col>
 
@@ -46,6 +50,7 @@ const Force = () => (
 					<ForceTimeSection />
 					<ForceTypeLevelSection />
 					<ForceOutcomeSection />
+					<ForceJustificationSection />
 				</Col>
 			</Row>
 

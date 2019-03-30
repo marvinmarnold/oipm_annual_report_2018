@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "41a7493cdd46": ["function () ", "plotlyVisDat"]
+    "527f3975fda3": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "41a7493cdd46",
+  "cur_data": "527f3975fda3",
   "attrs": {
-    "41a7493cdd46": {
+    "527f3975fda3": {
       "x": {},
       "y": {},
       "mode": "lines+markers",
@@ -19,7 +19,7 @@
       "spans": [1, 20],
       "type": "scatter"
     },
-    "41a7493cdd46.1": {
+    "527f3975fda3.1": {
       "x": [2013, 2014, 2015, 2016],
       "y": [725, 706, 1071, 1592],
       "mode": "lines+markers",

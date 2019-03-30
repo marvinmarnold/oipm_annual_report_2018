@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "41a7513fc695": ["function () ", "plotlyVisDat"]
+    "527fff7798f": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "41a7513fc695",
+  "cur_data": "527fff7798f",
   "attrs": {
-    "41a7513fc695": {
+    "527fff7798f": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -32,7 +32,7 @@
       "showgrid": false,
       "type": "category",
       "categoryorder": "array",
-      "categoryarray": ["", "1st District", "2nd District", "3rd District", "4th District", "5th District", "6th District", "7th District", "8th District", "Other", "Special Operations", "Special or Criminal Investigations"]
+      "categoryarray": ["1st District", "2nd District", "3rd District", "4th District", "5th District", "6th District", "7th District", "8th District", "Other", "Special Operations", "Special or Criminal Investigations"]
     },
     "yaxis": {
       "domain": [0, 1],
@@ -54,6 +54,30 @@
       "type": "bar",
       "name": "L1",
       "marker": {
+        "color": "rgba(102,194,165,1)",
+        "line": {
+          "color": "rgba(102,194,165,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "error_y": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "error_x": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["1st District", "2nd District", "3rd District", "4th District", "5th District", "6th District", "7th District", "8th District", "Other", "Special Operations"],
+      "y": [33, 18, 18, 16, 15, 15, 15, 41, 2, 9],
+      "type": "bar",
+      "name": "L2",
+      "marker": {
         "color": "rgba(252,141,98,1)",
         "line": {
           "color": "rgba(252,141,98,1)"
@@ -73,10 +97,10 @@
       "frame": null
     },
     {
-      "x": ["1st District", "2nd District", "3rd District", "4th District", "5th District", "6th District", "7th District", "8th District", "Other", "Special Operations"],
-      "y": [33, 18, 18, 16, 15, 15, 15, 41, 2, 9],
+      "x": ["1st District", "3rd District", "4th District", "5th District", "6th District", "8th District", "Other", "Special or Criminal Investigations"],
+      "y": [1, 2, 1, 1, 1, 6, 1, 1],
       "type": "bar",
-      "name": "L2",
+      "name": "L3",
       "marker": {
         "color": "rgba(141,160,203,1)",
         "line": {
@@ -97,10 +121,10 @@
       "frame": null
     },
     {
-      "x": ["1st District", "3rd District", "4th District", "5th District", "6th District", "8th District", "Other", "Special or Criminal Investigations"],
-      "y": [1, 2, 1, 1, 1, 6, 1, 1],
+      "x": ["2nd District", "3rd District", "5th District", "7th District"],
+      "y": [1, 1, 1, 6],
       "type": "bar",
-      "name": "L3",
+      "name": "L4",
       "marker": {
         "color": "rgba(231,138,195,1)",
         "line": {
@@ -115,30 +139,6 @@
       },
       "error_x": {
         "color": "rgba(231,138,195,1)"
-      },
-      "xaxis": "x",
-      "yaxis": "y",
-      "frame": null
-    },
-    {
-      "x": ["2nd District", "3rd District", "5th District", "7th District"],
-      "y": [1, 1, 1, 6],
-      "type": "bar",
-      "name": "L4",
-      "marker": {
-        "color": "rgba(166,216,84,1)",
-        "line": {
-          "color": "rgba(166,216,84,1)"
-        }
-      },
-      "textfont": {
-        "color": "rgba(166,216,84,1)"
-      },
-      "error_y": {
-        "color": "rgba(166,216,84,1)"
-      },
-      "error_x": {
-        "color": "rgba(166,216,84,1)"
       },
       "xaxis": "x",
       "yaxis": "y",

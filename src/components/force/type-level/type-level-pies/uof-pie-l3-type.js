@@ -1,10 +1,10 @@
 import React from "react"
 
-import LoadingPlot from "../../loading-plot"
+import LoadingPlot from "../../../loading-plot"
 
-import rPlotlyExport from "../../../data/uof-by-level-year-3.json";
+import rPlotlyExport from "../../../../data/uof-pie-l3-type.json";
 
-class UofL3Plot extends React.Component {
+class UofPieL3Type extends React.Component {
   constructor() {
     super()
     this.state = {
@@ -33,4 +33,4 @@ class UofL3Plot extends React.Component {
   }
 }
 
-export default UofL3Plot
+export default UofPieL3Type

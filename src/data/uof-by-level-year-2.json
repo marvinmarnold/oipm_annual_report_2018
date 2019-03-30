@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "41a73167a436": ["function () ", "plotlyVisDat"]
+    "527f3aa2b5d7": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "41a73167a436",
+  "cur_data": "527f3aa2b5d7",
   "attrs": {
-    "41a73167a436": {
+    "527f3aa2b5d7": {
       "x": {},
       "y": {},
       "name": {},
@@ -57,19 +57,19 @@
       "name": "Baton Miss",
       "type": "bar",
       "marker": {
-        "color": "rgba(167,180,143,1)",
+        "color": "rgba(102,194,165,1)",
         "line": {
-          "color": "rgba(167,180,143,1)"
+          "color": "rgba(102,194,165,1)"
         }
       },
       "textfont": {
-        "color": "rgba(167,180,143,1)"
+        "color": "rgba(102,194,165,1)"
       },
       "error_y": {
-        "color": "rgba(167,180,143,1)"
+        "color": "rgba(102,194,165,1)"
       },
       "error_x": {
-        "color": "rgba(167,180,143,1)"
+        "color": "rgba(102,194,165,1)"
       },
       "xaxis": "x",
       "yaxis": "y",
@@ -81,19 +81,19 @@
       "name": "Canine (No Bite)",
       "type": "bar",
       "marker": {
-        "color": "rgba(156,159,194,1)",
+        "color": "rgba(252,141,98,1)",
         "line": {
-          "color": "rgba(156,159,194,1)"
+          "color": "rgba(252,141,98,1)"
         }
       },
       "textfont": {
-        "color": "rgba(156,159,194,1)"
+        "color": "rgba(252,141,98,1)"
       },
       "error_y": {
-        "color": "rgba(156,159,194,1)"
+        "color": "rgba(252,141,98,1)"
       },
       "error_x": {
-        "color": "rgba(156,159,194,1)"
+        "color": "rgba(252,141,98,1)"
       },
       "xaxis": "x",
       "yaxis": "y",
@@ -105,19 +105,19 @@
       "name": "Defense Tech / Take-down",
       "type": "bar",
       "marker": {
-        "color": "rgba(165,156,201,1)",
+        "color": "rgba(141,160,203,1)",
         "line": {
-          "color": "rgba(165,156,201,1)"
+          "color": "rgba(141,160,203,1)"
         }
       },
       "textfont": {
-        "color": "rgba(165,156,201,1)"
+        "color": "rgba(141,160,203,1)"
       },
       "error_y": {
-        "color": "rgba(165,156,201,1)"
+        "color": "rgba(141,160,203,1)"
       },
       "error_x": {
-        "color": "rgba(165,156,201,1)"
+        "color": "rgba(141,160,203,1)"
       },
       "xaxis": "x",
       "yaxis": "y",
@@ -129,19 +129,19 @@
       "name": "L2-Other",
       "type": "bar",
       "marker": {
-        "color": "rgba(209,217,69,1)",
+        "color": "rgba(231,138,195,1)",
         "line": {
-          "color": "rgba(209,217,69,1)"
+          "color": "rgba(231,138,195,1)"
         }
       },
       "textfont": {
-        "color": "rgba(209,217,69,1)"
+        "color": "rgba(231,138,195,1)"
       },
       "error_y": {
-        "color": "rgba(209,217,69,1)"
+        "color": "rgba(231,138,195,1)"
       },
       "error_x": {
-        "color": "rgba(209,217,69,1)"
+        "color": "rgba(231,138,195,1)"
       },
       "xaxis": "x",
       "yaxis": "y",
@@ -153,19 +153,19 @@
       "name": "L2-Taser",
       "type": "bar",
       "marker": {
-        "color": "rgba(236,217,57,1)",
+        "color": "rgba(166,216,84,1)",
         "line": {
-          "color": "rgba(236,217,57,1)"
+          "color": "rgba(166,216,84,1)"
         }
       },
       "textfont": {
-        "color": "rgba(236,217,57,1)"
+        "color": "rgba(166,216,84,1)"
       },
       "error_y": {
-        "color": "rgba(236,217,57,1)"
+        "color": "rgba(166,216,84,1)"
       },
       "error_x": {
-        "color": "rgba(236,217,57,1)"
+        "color": "rgba(166,216,84,1)"
       },
       "xaxis": "x",
       "yaxis": "y",
@@ -177,19 +177,19 @@
       "name": "Takedown (w/injury)",
       "type": "bar",
       "marker": {
-        "color": "rgba(196,184,169,1)",
+        "color": "rgba(255,217,47,1)",
         "line": {
-          "color": "rgba(196,184,169,1)"
+          "color": "rgba(255,217,47,1)"
         }
       },
       "textfont": {
-        "color": "rgba(196,184,169,1)"
+        "color": "rgba(255,217,47,1)"
       },
       "error_y": {
-        "color": "rgba(196,184,169,1)"
+        "color": "rgba(255,217,47,1)"
       },
       "error_x": {
-        "color": "rgba(196,184,169,1)"
+        "color": "rgba(255,217,47,1)"
       },
       "xaxis": "x",
       "yaxis": "y",

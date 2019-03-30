@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "41a79c3891b": ["function () ", "plotlyVisDat"]
+    "527f7ebfe13": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "41a79c3891b",
+  "cur_data": "527f7ebfe13",
   "attrs": {
-    "41a79c3891b": {
+    "527f7ebfe13": {
       "x": {},
       "y": {},
       "name": {},
@@ -57,19 +57,19 @@
       "name": "Baton/PR-24 (Strike)",
       "type": "bar",
       "marker": {
-        "color": "rgba(247,144,101,1)",
+        "color": "rgba(102,194,165,1)",
         "line": {
-          "color": "rgba(247,144,101,1)"
+          "color": "rgba(102,194,165,1)"
         }
       },
       "textfont": {
-        "color": "rgba(247,144,101,1)"
+        "color": "rgba(102,194,165,1)"
       },
       "error_y": {
-        "color": "rgba(247,144,101,1)"
+        "color": "rgba(102,194,165,1)"
       },
       "error_x": {
-        "color": "rgba(247,144,101,1)"
+        "color": "rgba(102,194,165,1)"
       },
       "xaxis": "x",
       "yaxis": "y",
@@ -81,19 +81,19 @@
       "name": "Canine (Contact)",
       "type": "bar",
       "marker": {
-        "color": "rgba(197,153,160,1)",
+        "color": "rgba(252,141,98,1)",
         "line": {
-          "color": "rgba(197,153,160,1)"
+          "color": "rgba(252,141,98,1)"
         }
       },
       "textfont": {
-        "color": "rgba(197,153,160,1)"
+        "color": "rgba(252,141,98,1)"
       },
       "error_y": {
-        "color": "rgba(197,153,160,1)"
+        "color": "rgba(252,141,98,1)"
       },
       "error_x": {
-        "color": "rgba(197,153,160,1)"
+        "color": "rgba(252,141,98,1)"
       },
       "xaxis": "x",
       "yaxis": "y",
@@ -105,19 +105,19 @@
       "name": "Head Strike (No Wep)",
       "type": "bar",
       "marker": {
-        "color": "rgba(205,181,144,1)",
+        "color": "rgba(141,160,203,1)",
         "line": {
-          "color": "rgba(205,181,144,1)"
+          "color": "rgba(141,160,203,1)"
         }
       },
       "textfont": {
-        "color": "rgba(205,181,144,1)"
+        "color": "rgba(141,160,203,1)"
       },
       "error_y": {
-        "color": "rgba(205,181,144,1)"
+        "color": "rgba(141,160,203,1)"
       },
       "error_x": {
-        "color": "rgba(205,181,144,1)"
+        "color": "rgba(141,160,203,1)"
       },
       "xaxis": "x",
       "yaxis": "y",
@@ -129,19 +129,19 @@
       "name": "Other",
       "type": "bar",
       "marker": {
-        "color": "rgba(237,202,125,1)",
+        "color": "rgba(231,138,195,1)",
         "line": {
-          "color": "rgba(237,202,125,1)"
+          "color": "rgba(231,138,195,1)"
         }
       },
       "textfont": {
-        "color": "rgba(237,202,125,1)"
+        "color": "rgba(231,138,195,1)"
       },
       "error_y": {
-        "color": "rgba(237,202,125,1)"
+        "color": "rgba(231,138,195,1)"
       },
       "error_x": {
-        "color": "rgba(237,202,125,1)"
+        "color": "rgba(231,138,195,1)"
       },
       "xaxis": "x",
       "yaxis": "y",

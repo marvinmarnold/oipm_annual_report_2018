@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "41a757c1d717": ["function () ", "plotlyVisDat"]
+    "527f3882cbfa": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "41a757c1d717",
+  "cur_data": "527f3882cbfa",
   "attrs": {
-    "41a757c1d717": {
+    "527f3882cbfa": {
       "x": {},
       "y": {},
       "name": {},
@@ -57,19 +57,19 @@
       "name": "Canine (Bite)",
       "type": "bar",
       "marker": {
-        "color": "rgba(229,147,127,1)",
+        "color": "rgba(102,194,165,1)",
         "line": {
-          "color": "rgba(229,147,127,1)"
+          "color": "rgba(102,194,165,1)"
         }
       },
       "textfont": {
-        "color": "rgba(229,147,127,1)"
+        "color": "rgba(102,194,165,1)"
       },
       "error_y": {
-        "color": "rgba(229,147,127,1)"
+        "color": "rgba(102,194,165,1)"
       },
       "error_x": {
-        "color": "rgba(229,147,127,1)"
+        "color": "rgba(102,194,165,1)"
       },
       "xaxis": "x",
       "yaxis": "y",
@@ -81,19 +81,19 @@
       "name": "Firearm Discharged",
       "type": "bar",
       "marker": {
-        "color": "rgba(194,150,199,1)",
+        "color": "rgba(252,141,98,1)",
         "line": {
-          "color": "rgba(194,150,199,1)"
+          "color": "rgba(252,141,98,1)"
         }
       },
       "textfont": {
-        "color": "rgba(194,150,199,1)"
+        "color": "rgba(252,141,98,1)"
       },
       "error_y": {
-        "color": "rgba(194,150,199,1)"
+        "color": "rgba(252,141,98,1)"
       },
       "error_x": {
-        "color": "rgba(194,150,199,1)"
+        "color": "rgba(252,141,98,1)"
       },
       "xaxis": "x",
       "yaxis": "y",
@@ -105,19 +105,19 @@
       "name": "Head strike while Hancuffed",
       "type": "bar",
       "marker": {
-        "color": "rgba(182,204,108,1)",
+        "color": "rgba(141,160,203,1)",
         "line": {
-          "color": "rgba(182,204,108,1)"
+          "color": "rgba(141,160,203,1)"
         }
       },
       "textfont": {
-        "color": "rgba(182,204,108,1)"
+        "color": "rgba(141,160,203,1)"
       },
       "error_y": {
-        "color": "rgba(182,204,108,1)"
+        "color": "rgba(141,160,203,1)"
       },
       "error_x": {
-        "color": "rgba(182,204,108,1)"
+        "color": "rgba(141,160,203,1)"
       },
       "xaxis": "x",
       "yaxis": "y",
@@ -129,19 +129,19 @@
       "name": "L4-Taser",
       "type": "bar",
       "marker": {
-        "color": "rgba(253,215,61,1)",
+        "color": "rgba(231,138,195,1)",
         "line": {
-          "color": "rgba(253,215,61,1)"
+          "color": "rgba(231,138,195,1)"
         }
       },
       "textfont": {
-        "color": "rgba(253,215,61,1)"
+        "color": "rgba(231,138,195,1)"
       },
       "error_y": {
-        "color": "rgba(253,215,61,1)"
+        "color": "rgba(231,138,195,1)"
       },
       "error_x": {
-        "color": "rgba(253,215,61,1)"
+        "color": "rgba(231,138,195,1)"
       },
       "xaxis": "x",
       "yaxis": "y",
@@ -153,19 +153,19 @@
       "name": "NonTrad Impact Weapon",
       "type": "bar",
       "marker": {
-        "color": "rgba(246,208,97,1)",
+        "color": "rgba(166,216,84,1)",
         "line": {
-          "color": "rgba(246,208,97,1)"
+          "color": "rgba(166,216,84,1)"
         }
       },
       "textfont": {
-        "color": "rgba(246,208,97,1)"
+        "color": "rgba(166,216,84,1)"
       },
       "error_y": {
-        "color": "rgba(246,208,97,1)"
+        "color": "rgba(166,216,84,1)"
       },
       "error_x": {
-        "color": "rgba(246,208,97,1)"
+        "color": "rgba(166,216,84,1)"
       },
       "xaxis": "x",
       "yaxis": "y",
@@ -177,19 +177,19 @@
       "name": "Other",
       "type": "bar",
       "marker": {
-        "color": "rgba(237,202,125,1)",
+        "color": "rgba(255,217,47,1)",
         "line": {
-          "color": "rgba(237,202,125,1)"
+          "color": "rgba(255,217,47,1)"
         }
       },
       "textfont": {
-        "color": "rgba(237,202,125,1)"
+        "color": "rgba(255,217,47,1)"
       },
       "error_y": {
-        "color": "rgba(237,202,125,1)"
+        "color": "rgba(255,217,47,1)"
       },
       "error_x": {
-        "color": "rgba(237,202,125,1)"
+        "color": "rgba(255,217,47,1)"
       },
       "xaxis": "x",
       "yaxis": "y",
@@ -201,19 +201,19 @@
       "name": "Rifle (Discharged)",
       "type": "bar",
       "marker": {
-        "color": "rgba(227,195,149,1)",
+        "color": "rgba(229,196,148,1)",
         "line": {
-          "color": "rgba(227,195,149,1)"
+          "color": "rgba(229,196,148,1)"
         }
       },
       "textfont": {
-        "color": "rgba(227,195,149,1)"
+        "color": "rgba(229,196,148,1)"
       },
       "error_y": {
-        "color": "rgba(227,195,149,1)"
+        "color": "rgba(229,196,148,1)"
       },
       "error_x": {
-        "color": "rgba(227,195,149,1)"
+        "color": "rgba(229,196,148,1)"
       },
       "xaxis": "x",
       "yaxis": "y",

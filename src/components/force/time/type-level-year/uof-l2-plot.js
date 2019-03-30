@@ -1,8 +1,8 @@
 import React from "react"
 
-import LoadingPlot from "../../loading-plot"
+import LoadingPlot from "../../../loading-plot"
 
-import rPlotlyExport from "../../../data/uof-by-level-year-2.json";
+import rPlotlyExport from "../../../../data/uof-by-level-year-2.json";
 
 class UofL2Plot extends React.Component {
   constructor() {

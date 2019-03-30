@@ -18,6 +18,10 @@ PLOTLY.OUTPUT.PATH <- "../src/data/"
 RECLEAN_DATA <- FALSE
 
 ############################################ DATA ######################################################
+######### Officers
+ADP.CSV.DIRTY <- "raw/data/adp-from-nopd.csv"
+ADP.CSV.SANITIZED <- "data/adp-sanitized.csv"
+
 ######### Use of Force
 UOF.CSV.DIRTY <- "raw/data/uof-from-nopd.csv"
 UOF.CSV.SANITIZED <- "data/uof-sanitized.csv"
@@ -43,6 +47,7 @@ gen.plotly.json <- function(p, name) {
 if (RECLEAN_DATA) {
   source("raw/sanitizers/sanitizer.R")
 } else {
+  adp.for.year <- read.csv(ADP.CSV.SANITIZED, stringsAsFactors = FALSE)
   uof.all <- read.csv(UOF.CSV.SANITIZED, stringsAsFactors = FALSE)
   uof.for.year <- uof.all %>% filter(year.of.record == CURRENT.YEAR)
 }

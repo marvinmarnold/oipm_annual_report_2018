@@ -3,6 +3,7 @@ import { Row, Col } from 'reactstrap'
 import { Link } from "gatsby"
 
 import UofByReasonPlot from './uof-by-reason-plot.js'
+import FirearmUofByReasonPlot from './firearm-uof-reason-plot.js'
 
 class ForceJustificationSection extends React.Component {
 	constructor() {
@@ -28,6 +29,26 @@ class ForceJustificationSection extends React.Component {
 		)
 	}
 
+	renderFirearmUofByReason() {
+		return (
+			<div>
+				<Row>
+					<Col>
+						<h4>Reason firearm exhibited</h4>
+						<ul>
+							<li>Ironically, weapon exhibited was not the most common reason for exhibiting a firearm; it only represented 12.6% of total reasons.</li>
+							<li>The top three reasons for exhibiting firearms are flight from an officer, tactical deployments, and resisting lawful arrest.</li>
+							<li>Other represented 10.4% of reason for exhibiting a firearm, down from 30% in 2017.</li>
+						</ul>
+					</Col>
+					<Col>
+						<FirearmUofByReasonPlot />
+					</Col>
+				</Row>
+			</div>
+		)
+	}
+
 	render() {
 		return (
 			<div>
@@ -36,6 +57,7 @@ class ForceJustificationSection extends React.Component {
 				</Row>
 
 				{this.renderUofByReason()}
+				{this.renderFirearmUofByReason()}
 
 			</div>
 		)

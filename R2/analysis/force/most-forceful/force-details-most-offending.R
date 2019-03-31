@@ -18,12 +18,32 @@ ftn.count.per.officer <- ftn.count.per.officer %>% mutate(
   rank.bucket = sapply(rank, bucket.rank)
 ) %>% arrange(rank)
 
+get.top.uof.details <- function(ranks) {
+  top.details <- data.frame()
+  colnames(top.details) <- c(
+    "Num officers", "Type", "Num missing", "Pct of total", 
+    "Num male", "Min age", "Max age", "Min exp", "Max exp",
+    "Num white", "Num black", "Num hispanic", "Num native", "Num asian", "Num unknown",
+    "Divisions", "Units"
+  )
+
+  lapply(ranks, function(rank) {
+    top.uof <- uof.count.per.officer %>% filter(rank.bucket <= rank)
+  })
+
+  return(top.details)
+}
+
+ranks <- c(5, 10, 20, 100)
+
+get.top.uof.details(ranks)
+
 
 ## TOP 5
 inspect.rank <- 5
 
 top.5.uof <- uof.count.per.officer %>% filter(rank.bucket <= inspect.rank)
-top.5.officers.uof <- merge(top.5.uof, all.officers.oipm, by.x = "Officer.primary.key", by.y = "Officer.number")
+top.5.officers.uof <- merge(top.5.uof, officers.all, by.x = "Officer.primary.key", by.y = "Officer.number")
 
 # Number missing
 top.5.uof.num.missing <- inspect.rank - nrow(top.5.officers.uof)
@@ -60,7 +80,7 @@ top.5.officers.uof.unit <- top.5.officers.uof %>% select(Officer.sub.division.A)
 #### FTN
 
 top.5.ftn <- ftn.count.per.officer %>% filter(rank.bucket <= inspect.rank)
-top.5.officers.ftn <- merge(top.5.ftn, all.officers.oipm, by.x = "Officer.primary.key", by.y = "Officer.number")
+top.5.officers.ftn <- merge(top.5.ftn, officers.all, by.x = "Officer.primary.key", by.y = "Officer.number")
 
 # Number missing
 top.5.ftn.num.missing <- inspect.rank - nrow(top.5.officers.ftn)

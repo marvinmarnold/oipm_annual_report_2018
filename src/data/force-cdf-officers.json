@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "527f60f0fd67": ["function () ", "plotlyVisDat"]
+    "527f59a11af": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "527f60f0fd67",
+  "cur_data": "527f59a11af",
   "attrs": {
-    "527f60f0fd67": {
+    "527f59a11af": {
       "x": {},
       "y": {},
       "name": "Top X officers contribution to FTN",
@@ -13,7 +13,7 @@
       "spans": [1, 20],
       "type": "bar"
     },
-    "527f60f0fd67.1": {
+    "527f59a11af.1": {
       "x": {},
       "y": {},
       "name": "Top X officers contribution to UOF",

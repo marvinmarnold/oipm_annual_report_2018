@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "527f401d494c": ["function () ", "plotlyVisDat"]
+    "527f2c749ac1": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "527f401d494c",
+  "cur_data": "527f2c749ac1",
   "attrs": {
-    "527f401d494c": {
+    "527f2c749ac1": {
       "labels": {},
       "values": {},
       "textposition": "inside",

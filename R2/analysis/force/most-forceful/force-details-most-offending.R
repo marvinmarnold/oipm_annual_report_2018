@@ -1,4 +1,23 @@
+check.vars(c("uof.for.year"))
+
 # Breakout information about officers using most force
+
+uof.per.officer <- uof.for.year %>% group_by(Officer.primary.key)
+uof.count.per.officer <- uof.per.officer %>% summarise(count = n())
+uof.count.per.officer <- uof.count.per.officer %>% mutate(
+  rank = rank(-count, ties.method ="first"),
+  rank.bucket = sapply(rank, bucket.rank)
+) %>% arrange(rank)
+
+# FTN Analysis
+# This is a little fudged. Not using the count of FTN, instead using the count of unique <FTN, Officer>
+ftn.per.officer <- uof.for.year %>% select(FIT.Number, Officer.primary.key) %>% distinct %>% group_by(Officer.primary.key)
+ftn.count.per.officer <- ftn.per.officer %>% summarise(count = n())
+ftn.count.per.officer <- ftn.count.per.officer %>% mutate(
+  rank = rank(-count, ties.method ="first"),
+  rank.bucket = sapply(rank, bucket.rank)
+) %>% arrange(rank)
+
 
 ## TOP 5
 inspect.rank <- 5

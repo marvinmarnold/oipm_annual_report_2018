@@ -3,6 +3,7 @@
 
 # Reset environment
 rm(list = ls())
+print(paste("Working directory set to:", getwd()))
 
 ########################################################################################################
 ######################################## GLOBAL VARIABLES ##############################################
@@ -22,6 +23,9 @@ RECLEAN_DATA <- FALSE
 ADP.CSV.DIRTY <- "raw/data/adp-from-nopd.csv"
 ADP.CSV.SANITIZED <- "data/adp-sanitized.csv"
 
+OFFICERS.CSV.DIRTY <- "raw/data/officers-from-nopd.csv"
+OFFICERS.CSV.SANITIZED <- "data/officers-sanitized.csv"
+
 ######### Use of Force
 UOF.CSV.DIRTY <- "raw/data/uof-from-nopd.csv"
 UOF.CSV.SANITIZED <- "data/uof-sanitized.csv"
@@ -38,22 +42,20 @@ library(plotly)
 # Local helpers
 source("lib/utils.R")
 
-# Helper function to write Plotly JSON
-gen.plotly.json <- function(p, name) {
-  p.json <- plotly::plotly_json(config(p, collaborate = FALSE), FALSE)  
-  write(p.json, paste0(PLOTLY.OUTPUT.PATH, name, ".json"))
-}
-
 ########################################################################################################
 ############################################# LOAD DATA ################################################
 
 if (RECLEAN_DATA) {
-  source("raw/sanitizers/sanitizer.R")
+  print("Running sanitizers")
+  load.subdirectory("raw/sanitizers")
+  
 } else {
   adp.for.year <- read.csv(ADP.CSV.SANITIZED, stringsAsFactors = FALSE)
+  officers.all <- read.csv(OFFICERS.CSV.SANITIZED, stringsAsFactors = FALSE)
   uof.all <- read.csv(UOF.CSV.SANITIZED, stringsAsFactors = FALSE)
-  uof.for.year <- uof.all %>% filter(year.of.record == CURRENT.YEAR)
 }
+
+uof.for.year <- uof.all %>% filter(year.of.record == CURRENT.YEAR)
 
 # Mediation data doesn't need to be sanitized
 mediation.survey.all <- read.csv(MEDIATION.CSV.DIRTY, sep = ";")
@@ -61,6 +63,5 @@ mediation.survey.all <- read.csv(MEDIATION.CSV.DIRTY, sep = ";")
 ########################################################################################################
 ########################################## PERFORM ANALYSIS ############################################
 
-source("analysis/force/force-analysis.R")
-source("analysis/mediation/survey-analysis.R")
-
+print("Going to run all analysis")
+load.subdirectory("analysis")

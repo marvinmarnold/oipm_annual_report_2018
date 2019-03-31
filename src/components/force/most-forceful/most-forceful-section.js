@@ -34,7 +34,7 @@ class MostForcefulSection extends React.Component {
 			<div>
 				<Row>
 					<Col>
-						<h4>Average force per officer</h4>
+						<h4>Percentage of force by number of officers</h4>
 						<ul>
 							<li>How to read the graph: The vertical axis is percentage and horizontal axis is number of officers. The graph is cumulative, meaning that the top 10 officers includes the top 5 officers. </li>
 							<li>The top 10 officers are responsible for 11.31 of all FTN in 2018, up slightly from 10.38% in 2017.</li>

@@ -26,6 +26,9 @@ ADP.CSV.SANITIZED <- "data/adp-sanitized.csv"
 UOF.CSV.DIRTY <- "raw/data/uof-from-nopd.csv"
 UOF.CSV.SANITIZED <- "data/uof-sanitized.csv"
 
+######### Mediation
+MEDIATION.CSV.DIRTY <- "raw/data/mediation.csv"
+
 ########################################################################################################
 ######################################## LOAD DEPENDENCIES #############################################
 # Load libraries
@@ -51,8 +54,13 @@ if (RECLEAN_DATA) {
   uof.all <- read.csv(UOF.CSV.SANITIZED, stringsAsFactors = FALSE)
   uof.for.year <- uof.all %>% filter(year.of.record == CURRENT.YEAR)
 }
+
+# Mediation data doesn't need to be sanitized
+mediation.survey.all <- read.csv(MEDIATION.CSV.DIRTY, sep = ";")
+
 ########################################################################################################
 ########################################## PERFORM ANALYSIS ############################################
 
 source("analysis/force/force-analysis.R")
+source("analysis/mediation/survey-analysis.R")
 

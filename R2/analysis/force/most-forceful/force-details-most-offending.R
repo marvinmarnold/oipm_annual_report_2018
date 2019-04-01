@@ -1,4 +1,5 @@
 check.vars(c("uof.for.year"))
+library(jsonlite)
 
 # Breakout information about officers using most force
 
@@ -18,13 +19,19 @@ ftn.count.per.officer <- ftn.count.per.officer %>% mutate(
   rank.bucket = sapply(rank, bucket.rank)
 ) %>% arrange(rank)
 
-get.top.uof.details <- function(ranks) {
+get.top.force.details <- function(ranks, force.count.per.officer, force.type) {
 
-  add.row <- function(current.rank) {
-    top.uof <- uof.count.per.officer %>% filter(rank.bucket <= current.rank)
+  add.row <- function(current.rank, force.count.per.officer, force.type) {
+    top.uof <- force.count.per.officer %>% filter(rank.bucket <= current.rank)
     top.officers.uof <- merge(top.uof, officers.all, by.x = "Officer.primary.key", by.y = "Officer.number")
     top.uof.num.missing <- current.rank - nrow(top.officers.uof)
-    top.uof.pct <- force.count.per.bucket %>% filter(rank.buckets == current.rank) %>% select(uof.pct.per.bucket)
+    top.uof.pct <- force.count.per.bucket %>% filter(rank.buckets == current.rank)
+    
+    if (force.type == "uof") {
+      top.uof.pct <- top.uof.pct%>% select(uof.pct.per.bucket)
+    } else {
+      top.uof.pct <- top.uof.pct%>% select(ftn.pct.per.bucket)
+    }
     
     # Count males
     top.uof.num.male <- top.officers.uof %>% filter(Officer.sex == 'M') %>% nrow
@@ -52,7 +59,7 @@ get.top.uof.details <- function(ranks) {
     # top.5.officers.uof.unit <- top.5.officers.uof %>% select(Officer.sub.division.A) %>% group_by(Officer.sub.division.A) %>% summarise(count = n())
     
     new.details <- c(
-      current.rank, "uof", top.uof.num.missing, top.uof.pct,
+      current.rank, force.type, top.uof.num.missing, top.uof.pct,
       top.uof.num.male, top.uof.min.age, top.uof.max.age, top.uof.min.exp, top.uof.max.exp,
       top.uof.num.white, top.uof.num.black, topuof.num.hispanic, top.uof.num.native, top.uof.num.asian, top.uof.num.race
     )
@@ -60,21 +67,34 @@ get.top.uof.details <- function(ranks) {
     return(new.details)
   }
   
-  all.details <- sapply(ranks, add.row)
+  all.details <- sapply(ranks, function(rank) { return (add.row(rank, force.count.per.officer, force.type)) })
 
   return(all.details)
 }
 ranks <- c(5, 10, 20)
 
-top.details <- data.frame(t(get.top.uof.details(ranks)))
+### UOF
+top.uof.details <- data.frame(t(get.top.force.details(ranks, uof.count.per.officer, "uof")))
 
-colnames(top.details) <- c(
- "Num officers", "Type", "Num missing", "Pct of total", 
- "Num male", "Min age", "Max age", "Min exp", "Max exp",
- "Num white", "Num black", "Num hispanic", "Num native", "Num asian", "Num unknown"#,
-# "Divisions", "Units"
+colnames(top.uof.details) <- c(
+  "Num officers", "Type", "Num missing", "Pct of total", 
+  "Num male", "Min age", "Max age", "Min exp", "Max exp",
+  "Num white", "Num black", "Num hispanic", "Num native", "Num asian", "Num unknown"#,
+  # "Divisions", "Units"
 )
-top.details
-library(jsonlite)
-top.details.json <- toJSON(top.details, dataframe="rows", auto_unbox = TRUE)
-write_json(top.details.json, paste0(PLOTLY.OUTPUT.PATH, "uof-details-most.json"), simplifyVector = TRU)
+top.uof.details
+top.uof.details.json <- toJSON(top.uof.details, dataframe="rows", auto_unbox = TRUE)
+write(top.uof.details.json, paste0(PLOTLY.OUTPUT.PATH, "uof-details-most.json"))
+
+### FTN
+top.ftn.details <- data.frame(t(get.top.force.details(ranks, ftn.count.per.officer, "ftn")))
+
+colnames(top.ftn.details) <- c(
+  "Num officers", "Type", "Num missing", "Pct of total", 
+  "Num male", "Min age", "Max age", "Min exp", "Max exp",
+  "Num white", "Num black", "Num hispanic", "Num native", "Num asian", "Num unknown"#,
+  # "Divisions", "Units"
+)
+top.ftn.details
+top.ftn.details.json <- toJSON(top.ftn.details, dataframe="rows", auto_unbox = TRUE)
+write(top.ftn.details.json, paste0(PLOTLY.OUTPUT.PATH, "ftn-details-most.json"))

@@ -2,8 +2,9 @@ import React from "react"
 import { Row, Col } from 'reactstrap'
 import { Link } from "gatsby"
 
-import ForcePerOfficerPlot from './force-per-officer-plot.js'
-import ForceCdfOfficersPlot from './force-cdf-officers-plot.js'
+import ForcePerOfficerPlot from './force-per-officer-plot'
+import ForceCdfOfficersPlot from './force-cdf-officers-plot'
+import MostForcefulDetails from './most-forceful-details'
 
 class MostForcefulSection extends React.Component {
 	constructor() {
@@ -59,7 +60,7 @@ class MostForcefulSection extends React.Component {
 
 				{this.renderForcePerOfficer()}
 				{this.renderForceCdfOfficers()}
-
+				<MostForcefulDetails />
 			</div>
 		)
 	}

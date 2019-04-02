@@ -5,6 +5,8 @@ import { Link } from "gatsby"
 import UofByPublicSexRacePlot from './uof-by-public-sex-race-plot'
 import UofByPublicFemaleRacePlot from './uof-by-public-female-race-plot'
 import UofByPublicMaleRacePlot from './uof-by-public-male-race-plot'
+import UofByPublicFemaleTypeRacePlot from './uof-by-public-female-type-race-plot'
+import UofByPublicMaleTypeRacePlot from './uof-by-public-male-type-race-plot'
 
 class PublicDemographicsSection extends React.Component {
 	constructor() {
@@ -24,6 +26,14 @@ class PublicDemographicsSection extends React.Component {
 							<li>While white males made up all L4-taser UOF, while Black males experienced nearly all other UOF at the highest rates.</li>
 							<li>Therefore, UOF by type and race is alarmingly similar to 2017, however firearm exhibition has decreased significantly overall.</li>
 						</ul>
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<UofByPublicFemaleTypeRacePlot />
+					</Col>
+					<Col>
+						<UofByPublicMaleTypeRacePlot />
 					</Col>
 				</Row>
 			</div>

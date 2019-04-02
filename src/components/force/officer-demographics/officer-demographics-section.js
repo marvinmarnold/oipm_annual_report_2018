@@ -6,6 +6,8 @@ import UofByOfficerAgeExpPlot from './uof-by-officer-age-exp-plot'
 import UofByOfficerSexRacePlot from './uof-by-officer-sex-race-plot'
 import UofByOfficerFemaleRacePlot from './uof-by-officer-female-race-plot'
 import UofByOfficerMaleRacePlot from './uof-by-officer-male-race-plot'
+import UofByOfficerFemaleTypeRacePlot from './uof-by-officer-female-type-race-plot'
+import UofByOfficerMaleTypeRacePlot from './uof-by-officer-male-type-race-plot'
 
 class OfficerDemographicsSection extends React.Component {
 	constructor() {
@@ -69,6 +71,31 @@ class OfficerDemographicsSection extends React.Component {
 		)
 	}
 
+	renderUofByTypeSexRace() {
+		return (
+			<div>
+				<Row>
+					<Col>
+						<h4>Type of force by officer sex and gender</h4>
+
+						<ul>
+							<li>Both female and male officers were most likely to have their firearm exhibited or hands/escort tech. Usage appears proportional to female officer race, but not male.</li>
+							<li>Since 2017, firearm exhibited and hands/escort tech are most popular UOF. However, taser exhibition has decreased significantly to just 17 UOF total in 2018.</li>
+						</ul>
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<UofByOfficerFemaleTypeRacePlot />
+					</Col>
+					<Col>
+						<UofByOfficerMaleTypeRacePlot />
+					</Col>
+				</Row>
+			</div>
+		)
+	}
+
 	render() {
 		return (
 			<div>
@@ -78,6 +105,7 @@ class OfficerDemographicsSection extends React.Component {
 
 				{this.renderUofByOfficerAgeExp()}
 				{this.renderUofBySexRace()}
+				{this.renderUofByTypeSexRace()}
 			</div>
 		)
 	}

@@ -10,6 +10,7 @@ import ForceTypeLevelSection from '../components/force/type-level/force-type-lev
 import ForceOutcomeSection from '../components/force/outcome/force-outcome-section'
 import ForceJustificationSection from '../components/force/justification/force-justification-section'
 import MostForcefulSection from '../components/force/most-forceful/most-forceful-section'
+import OfficerDemographicsSection from '../components/force/officer-demographics/officer-demographics-section'
 
 import './force.css'
 
@@ -40,6 +41,9 @@ const Force = () => (
 						<NavItem>
 	            <NavLink href="#most-forceful-section" className="text-white">Most forceful officers</NavLink>
 	          </NavItem>
+						<NavItem>
+	            <NavLink href="#force-officer-demographics-section" className="text-white">By officer demographics</NavLink>
+	          </NavItem>
 	        </Nav>
 				</Col>
 
@@ -56,6 +60,7 @@ const Force = () => (
 					<ForceOutcomeSection />
 					<ForceJustificationSection />
 					<MostForcefulSection />
+					<OfficerDemographicsSection />
 				</Col>
 			</Row>
 

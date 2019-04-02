@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "5ec22515fb32": ["function () ", "plotlyVisDat"]
+    "5ec26910e55c": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "5ec22515fb32",
+  "cur_data": "5ec26910e55c",
   "attrs": {
-    "5ec22515fb32": {
+    "5ec26910e55c": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],

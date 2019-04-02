@@ -7,6 +7,8 @@ import UofByPublicFemaleRacePlot from './uof-by-public-female-race-plot'
 import UofByPublicMaleRacePlot from './uof-by-public-male-race-plot'
 import UofByPublicFemaleTypeRacePlot from './uof-by-public-female-type-race-plot'
 import UofByPublicMaleTypeRacePlot from './uof-by-public-male-type-race-plot'
+import BlackDisparitiesByMonthPlot from './black-disparities-by-month-plot'
+import BlackDisparitiesByDistrictPlot from './black-disparities-by-district-plot'
 
 class PublicDemographicsSection extends React.Component {
 	constructor() {
@@ -40,7 +42,6 @@ class PublicDemographicsSection extends React.Component {
 		)
 	}
 
-
 	renderUofBySexRace() {
 		return (
 			<div className="my-3">
@@ -73,6 +74,29 @@ class PublicDemographicsSection extends React.Component {
 		)
 	}
 
+	renderBlackDisparities() {
+		return (
+			<div className="my-3">
+				<Row>
+					<Col>
+						<h4>Disparities in the policing of black people</h4>
+
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<h6>Race disparities by month</h6>
+						<BlackDisparitiesByMonthPlot />
+					</Col>
+					<Col>
+						<h6>Race disparities by district</h6>
+						<BlackDisparitiesByDistrictPlot />
+					</Col>
+				</Row>
+			</div>
+		)
+	}
+
 	render() {
 		return (
 			<div>
@@ -82,6 +106,7 @@ class PublicDemographicsSection extends React.Component {
 
 				{this.renderUofBySexRace()}
 				{this.renderUofByTypeSexRace()}
+				{this.renderBlackDisparities()}
 			</div>
 		)
 	}

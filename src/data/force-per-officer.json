@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "5ec256b4ca14": ["function () ", "plotlyVisDat"]
+    "5ec22d63d20d": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "5ec256b4ca14",
+  "cur_data": "5ec22d63d20d",
   "attrs": {
-    "5ec256b4ca14": {
+    "5ec22d63d20d": {
       "x": {},
       "y": {},
       "name": "NOPD average",
@@ -13,7 +13,7 @@
       "spans": [1, 20],
       "type": "bar"
     },
-    "5ec256b4ca14.1": {
+    "5ec22d63d20d.1": {
       "x": {},
       "y": {},
       "name": "Average for officers who used force at least once in 2018",

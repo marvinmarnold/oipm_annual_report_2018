@@ -1,0 +1,179 @@
+{
+  "visdat": {
+    "5ec271a9c271": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "5ec271a9c271",
+  "attrs": {
+    "5ec271a9c271": {
+      "x": {},
+      "y": {},
+      "mode": "lines+markers",
+      "line": {
+        "color": "rgb(22, 96, 167)",
+        "width": 2,
+        "dash": "solid"
+      },
+      "name": "Force",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "scatter"
+    },
+    "5ec271a9c271.1": {
+      "x": {},
+      "y": {},
+      "mode": "lines+markers",
+      "line": {
+        "color": "rgb(0, 255, 24)",
+        "width": 2,
+        "dash": "solid"
+      },
+      "name": "Stops & Searches",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "scatter",
+      "inherit": true
+    },
+    "5ec271a9c271.2": {
+      "x": 0,
+      "y": 61,
+      "mode": "lines",
+      "line": {
+        "color": "rgb(229, 221, 59)",
+        "width": 2,
+        "dash": "solid"
+      },
+      "name": "Black population of NO",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "scatter",
+      "xend": 13,
+      "yend": 61,
+      "inherit": true
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 40,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "title": "Force, Bookings, & Stops of black people by month in 2018",
+    "xaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": "Month",
+      "dtick": 1
+    },
+    "yaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": "Percent against black people"
+    },
+    "hovermode": "closest",
+    "showlegend": true
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "y": [69.2307692307692, 93.1372549019608, 86.8421052631579, 90.0826446280992, 84.8739495798319, 87.1428571428571, 81.9672131147541, 79.6875, 78.4810126582278, 96, 81.1764705882353, 80.3030303030303],
+      "mode": "lines+markers",
+      "line": {
+        "color": "rgb(22, 96, 167)",
+        "width": 2,
+        "dash": "solid"
+      },
+      "name": "Force",
+      "type": "scatter",
+      "marker": {
+        "color": "rgba(31,119,180,1)",
+        "line": {
+          "color": "rgba(31,119,180,1)"
+        }
+      },
+      "error_y": {
+        "color": "rgba(31,119,180,1)"
+      },
+      "error_x": {
+        "color": "rgba(31,119,180,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "y": [74.3680485338726, 72.6884019241048, 71.7450027012426, 73.1863029599536, 72.0779220779221, 72.962420693021, 73.7789203084833, 75.0770811921891, 75.4997437211686, 73.6815156169995, 72.8959276018099, 73.25],
+      "mode": "lines+markers",
+      "line": {
+        "color": "rgb(0, 255, 24)",
+        "width": 2,
+        "dash": "solid"
+      },
+      "name": "Stops & Searches",
+      "type": "scatter",
+      "marker": {
+        "color": "rgba(255,127,14,1)",
+        "line": {
+          "color": "rgba(255,127,14,1)"
+        }
+      },
+      "error_y": {
+        "color": "rgba(255,127,14,1)"
+      },
+      "error_x": {
+        "color": "rgba(255,127,14,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [0, 13],
+      "y": [61, 61],
+      "mode": "lines",
+      "line": {
+        "color": "rgb(229, 221, 59)",
+        "width": 2,
+        "dash": "solid"
+      },
+      "name": "Black population of NO",
+      "type": "scatter",
+      "marker": {
+        "color": "rgba(44,160,44,1)",
+        "line": {
+          "color": "rgba(44,160,44,1)"
+        }
+      },
+      "error_y": {
+        "color": "rgba(44,160,44,1)"
+      },
+      "error_x": {
+        "color": "rgba(44,160,44,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

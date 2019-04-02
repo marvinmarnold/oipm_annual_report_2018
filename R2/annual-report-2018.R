@@ -30,6 +30,10 @@ OFFICERS.CSV.SANITIZED <- "data/officers-sanitized.csv"
 UOF.CSV.DIRTY <- "raw/data/uof-from-nopd.csv"
 UOF.CSV.SANITIZED <- "data/uof-sanitized.csv"
 
+######### Use of Force
+STOPS.CSV.DIRTY <- "raw/data/stops.csv"
+STOPS.CSV.SANITIZED <- "data/stops-sanitized.csv"
+
 ######### Mediation
 MEDIATION.CSV.DIRTY <- "raw/data/mediation.csv"
 
@@ -38,6 +42,7 @@ MEDIATION.CSV.DIRTY <- "raw/data/mediation.csv"
 # Load libraries
 library(dplyr)
 library(plotly)
+library(tidyr)
 
 # Local helpers
 source("lib/utils.R")
@@ -53,6 +58,7 @@ if (RECLEAN_DATA) {
   adp.for.year <- read.csv(ADP.CSV.SANITIZED, stringsAsFactors = FALSE)
   officers.all <- read.csv(OFFICERS.CSV.SANITIZED, stringsAsFactors = FALSE)
   uof.all <- read.csv(UOF.CSV.SANITIZED, stringsAsFactors = FALSE)
+  stops.for.year <- read.csv(STOPS.CSV.SANITIZED, stringsAsFactors = FALSE)
 }
 
 uof.for.year <- uof.all %>% filter(year.of.record == CURRENT.YEAR)

@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "5ec243a85e99": ["function () ", "plotlyVisDat"]
+    "5ec23768a8bc": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "5ec243a85e99",
+  "cur_data": "5ec23768a8bc",
   "attrs": {
-    "5ec243a85e99": {
+    "5ec23768a8bc": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -15,7 +15,7 @@
       "color": ["00 - 5 yr exp", "06 - 10 yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "Unknown experience", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "Unknown experience"],
       "inherit": true
     },
-    "5ec243a85e99.1": {
+    "5ec23768a8bc.1": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -54,7 +54,7 @@
     "yaxis": {
       "domain": [0, 1],
       "automargin": true,
-      "title": "Number UOF",
+      "title": "Amount of force (UOF)",
       "showgrid": true
     },
     "yaxis2": {

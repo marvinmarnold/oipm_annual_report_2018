@@ -11,6 +11,7 @@ import ForceOutcomeSection from '../components/force/outcome/force-outcome-secti
 import ForceJustificationSection from '../components/force/justification/force-justification-section'
 import MostForcefulSection from '../components/force/most-forceful/most-forceful-section'
 import OfficerDemographicsSection from '../components/force/officer-demographics/officer-demographics-section'
+import PublicDemographicsSection from '../components/force/public-demographics/public-demographics-section'
 
 import './force.css'
 
@@ -44,6 +45,9 @@ const Force = () => (
 						<NavItem>
 	            <NavLink href="#force-officer-demographics-section" className="text-white">By officer demographics</NavLink>
 	          </NavItem>
+						<NavItem>
+	            <NavLink href="#force-public-demographics-section" className="text-white">By individual demographics</NavLink>
+	          </NavItem>
 	        </Nav>
 				</Col>
 
@@ -61,6 +65,7 @@ const Force = () => (
 					<ForceJustificationSection />
 					<MostForcefulSection />
 					<OfficerDemographicsSection />
+					<PublicDemographicsSection />
 				</Col>
 			</Row>
 

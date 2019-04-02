@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "5ec26e04e041": ["function () ", "plotlyVisDat"]
+    "5ec2596e13e7": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "5ec26e04e041",
+  "cur_data": "5ec2596e13e7",
   "attrs": {
-    "5ec26e04e041": {
+    "5ec2596e13e7": {
       "labels": {},
       "values": {},
       "textposition": "inside",
@@ -12,7 +12,6 @@
       "insidetextfont": {
         "color": "#FFFFFF"
       },
-      "name": "L3 total =  14",
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -27,7 +26,6 @@
       "r": 10
     },
     "hovermode": "compare",
-    "title": "L3 total =  14",
     "showlegend": false
   },
   "source": "A",
@@ -37,14 +35,13 @@
   },
   "data": [
     {
-      "labels": ["Baton/PR-24 (Strike)", "Head Strike (No Wep)", "Other"],
-      "values": [2, 10, 2],
-      "textposition": ["inside", "inside", "inside"],
+      "labels": ["Black / African American", "Hispanic", "Unknown race", "White"],
+      "values": [121, 1, 3, 27],
+      "textposition": ["inside", "inside", "inside", "inside"],
       "textinfo": "label+value+percent",
       "insidetextfont": {
         "color": "#FFFFFF"
       },
-      "name": "L3 total =  14",
       "type": "pie",
       "marker": {
         "color": "rgba(31,119,180,1)",

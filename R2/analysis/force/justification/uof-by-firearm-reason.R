@@ -26,7 +26,7 @@ simplified.uof.by.reason <- uof.for.year %>% mutate(
     TRUE ~ Reason.for.force
   )
 )
-uof
+
 firearm.by.reason <- simplified.uof.by.reason %>% 
                       filter(Force.type == "Firearm Exhibited") %>% 
                       group_by(simple.reason)

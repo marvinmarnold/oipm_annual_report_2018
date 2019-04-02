@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "5ec21810dd60": ["function () ", "plotlyVisDat"]
+    "5ec241eb2472": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "5ec21810dd60",
+  "cur_data": "5ec241eb2472",
   "attrs": {
-    "5ec21810dd60": {
+    "5ec241eb2472": {
       "x": {},
       "y": {},
       "name": {},
@@ -25,23 +25,22 @@
     "xaxis": {
       "domain": [0, 1],
       "automargin": true,
-      "categoryorder": "array",
-      "categoryarray": ["L1", "L2", "L3", "L4"],
-      "title": "Level L3 force",
       "showgrid": false,
-      "dtick": 1,
-      "tick0": 2016
+      "title": "Sex",
+      "type": "category",
+      "categoryorder": "array",
+      "categoryarray": ["F", "M", "Unknown sex"]
     },
     "yaxis": {
       "domain": [0, 1],
       "automargin": true,
       "title": "Amount of force (UOF)"
     },
+    "barmode": "stack",
     "legend": {
       "x": 0,
       "y": -0.5
     },
-    "barmode": "stack",
     "hovermode": "compare",
     "showlegend": true
   },
@@ -52,9 +51,9 @@
   },
   "data": [
     {
-      "x": [2018],
-      "y": [2],
-      "name": "Baton/PR-24 (Strike)",
+      "x": ["F", "M", "Unknown sex"],
+      "y": [121, 809, 5],
+      "name": "Black / African American",
       "type": "bar",
       "marker": {
         "color": "rgba(102,194,165,1)",
@@ -76,9 +75,9 @@
       "frame": null
     },
     {
-      "x": [2017],
-      "y": [1],
-      "name": "Canine (Contact)",
+      "x": ["F", "M"],
+      "y": [1, 20],
+      "name": "Hispanic",
       "type": "bar",
       "marker": {
         "color": "rgba(252,141,98,1)",
@@ -100,9 +99,9 @@
       "frame": null
     },
     {
-      "x": [2016, 2017, 2018],
-      "y": [3, 6, 10],
-      "name": "Head Strike (No Wep)",
+      "x": ["F", "M", "Unknown sex"],
+      "y": [3, 11, 6],
+      "name": "Unknown race",
       "type": "bar",
       "marker": {
         "color": "rgba(141,160,203,1)",
@@ -124,9 +123,9 @@
       "frame": null
     },
     {
-      "x": [2018],
-      "y": [2],
-      "name": "Other",
+      "x": ["F", "M"],
+      "y": [27, 105],
+      "name": "White",
       "type": "bar",
       "marker": {
         "color": "rgba(231,138,195,1)",

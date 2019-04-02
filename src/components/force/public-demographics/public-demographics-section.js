@@ -47,7 +47,7 @@ class PublicDemographicsSection extends React.Component {
 			<div className="my-3">
 				<Row>
 					<Col>
-						<h4>Force (UOF) by officer age and years of experience</h4>
+						<h4>Force (UOF) by sex and race of community member</h4>
 
 					</Col>
 				</Row>

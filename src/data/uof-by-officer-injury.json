@@ -1,0 +1,67 @@
+{
+  "visdat": {
+    "5ec248c3cfe4": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "5ec248c3cfe4",
+  "attrs": {
+    "5ec248c3cfe4": {
+      "labels": {},
+      "values": {},
+      "textposition": "inside",
+      "textinfo": "label+value+percent",
+      "insidetextfont": {
+        "color": "#FFFFFF"
+      },
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "pie"
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 40,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "hovermode": "compare",
+    "showlegend": false
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "labels": ["No", "Yes"],
+      "values": [942, 166],
+      "textposition": ["inside", "inside"],
+      "textinfo": "label+value+percent",
+      "insidetextfont": {
+        "color": "#FFFFFF"
+      },
+      "type": "pie",
+      "marker": {
+        "color": "rgba(31,119,180,1)",
+        "line": {
+          "color": "rgba(31,119,180,1)"
+        }
+      },
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

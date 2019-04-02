@@ -4,6 +4,8 @@ import { Link } from "gatsby"
 
 import UofByEffectivenessPlot from './uof-by-effectiveness-plot'
 import UofByDispositionPlot from './uof-by-disposition-plot'
+import UofByOfficerInjuryPlot from './uof-by-officer-injury-plot'
+import UofByPublicInjuryPlot from './uof-by-public-injury-plot'
 
 class ForceOutcomeSection extends React.Component {
 	constructor() {
@@ -31,6 +33,54 @@ class ForceOutcomeSection extends React.Component {
 					</Col>
 					<Col className="col-7">
 						<UofByEffectivenessPlot />
+					</Col>
+				</Row>
+			</div>
+		)
+	}
+
+	renderUofByOfficerInjury() {
+		return (
+			<div className="my-3">
+				<Row>
+					<Col>
+						<h4>Officer injuries</h4>
+
+					</Col>
+				</Row>
+				<Row>
+					<Col className="col-5">
+						<ul>
+							<li>Officers were only injured by UOF 15% of the time.</li>
+							<li>Officer injures increased by 1.5% since 2017.</li>
+						</ul>
+					</Col>
+					<Col className="col-7">
+						<UofByOfficerInjuryPlot />
+					</Col>
+				</Row>
+			</div>
+		)
+	}
+
+	renderUofByPublicInjury() {
+		return (
+			<div className="my-3">
+				<Row>
+					<Col>
+						<h4>Members of public injuries</h4>
+
+					</Col>
+				</Row>
+				<Row>
+					<Col className="col-5">
+						<ul>
+							<li>Non-officers were injured by UOF 18.7% of the time.</li>
+							<li>Individual injures were down 3.6% from 2017. </li>
+						</ul>
+					</Col>
+					<Col className="col-7">
+						<UofByPublicInjuryPlot />
 					</Col>
 				</Row>
 			</div>
@@ -69,6 +119,8 @@ class ForceOutcomeSection extends React.Component {
 
 				{this.renderUofByEffectiveness()}
 				{this.renderUofByDisposition()}
+				{this.renderUofByOfficerInjury()}
+				{this.renderUofByPublicInjury()}
 			</div>
 		)
 	}

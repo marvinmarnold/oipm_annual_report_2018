@@ -5,6 +5,7 @@ import { Container, Row, Col, Nav, NavItem, NavLink } from 'reactstrap';
 import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
 import ComplaintsIntroductionSection from '../components/complaints/complaints-introduction-section'
+import ComplaintsTimeSection from '../components/complaints/time/complaints-time-section'
 
 const ComplaintsPage = () => (
   <Layout>
@@ -18,6 +19,9 @@ const ComplaintsPage = () => (
 						<NavItem>
 	            <NavLink href="#complaints-introduction-section" className="text-white">Introduction &amp; terms</NavLink>
 	          </NavItem>
+						<NavItem>
+	            <NavLink href="#complaints-time-section" className="text-white">Complaints over time</NavLink>
+	          </NavItem>
 	        </Nav>
 				</Col>
 
@@ -29,6 +33,7 @@ const ComplaintsPage = () => (
 					</Row>
 
 					<ComplaintsIntroductionSection />
+					<ComplaintsTimeSection />
 
 				</Col>
 			</Row>

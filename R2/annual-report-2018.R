@@ -4,6 +4,7 @@
 # Reset environment
 rm(list = ls())
 print(paste("Working directory set to:", getwd()))
+readRenviron(".Renviron")
 
 ########################################################################################################
 ######################################## GLOBAL VARIABLES ##############################################
@@ -37,12 +38,18 @@ STOPS.CSV.SANITIZED <- "data/stops-sanitized.csv"
 ######### Mediation
 MEDIATION.CSV.DIRTY <- "raw/data/mediation.csv"
 
+######### Maps
+LOUISIANA.JSON <- "data/louisiana.json"
+
 ########################################################################################################
 ######################################## LOAD DEPENDENCIES #############################################
 # Load libraries
 library(dplyr)
 library(plotly)
 library(tidyr)
+library(geojsonio)
+library(maptools)
+library(leaflet)
 
 # Local helpers
 source("lib/utils.R")

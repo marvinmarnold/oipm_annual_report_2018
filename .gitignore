@@ -161,3 +161,5 @@ vignettes/*.pdf
 
 # Custom
 raw/
+*.Renviron
+output/

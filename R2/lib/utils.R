@@ -24,6 +24,8 @@ load.subdirectory <- function(subdir) {
   })
 }
 
+trim <- function (x) gsub("^\\s+|\\s+$", "", x)
+
 ################################################################################
 ################################################################################
 ## Demographics
@@ -140,3 +142,4 @@ gen.plotly.json <- function(p, name) {
 }
 
 months.abbr <- c("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+

@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "69a0426f6dbb": ["function () ", "plotlyVisDat"]
+    "3384bb1f72c": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "69a0426f6dbb",
+  "cur_data": "3384bb1f72c",
   "attrs": {
-    "69a0426f6dbb": {
+    "3384bb1f72c": {
       "x": {},
       "y": {},
       "name": "% black pop. by district",
@@ -13,7 +13,7 @@
       "spans": [1, 20],
       "type": "bar"
     },
-    "69a0426f6dbb.1": {
+    "3384bb1f72c.1": {
       "x": {},
       "y": {},
       "name": "% stops are of black ppl by district",
@@ -23,7 +23,7 @@
       "type": "bar",
       "inherit": true
     },
-    "69a0426f6dbb.2": {
+    "3384bb1f72c.2": {
       "x": {},
       "y": {},
       "name": "% force against black ppl by district",

@@ -31,7 +31,11 @@ OFFICERS.CSV.SANITIZED <- "data/officers-sanitized.csv"
 UOF.CSV.DIRTY <- "raw/data/uof-from-nopd.csv"
 UOF.CSV.SANITIZED <- "data/uof-sanitized.csv"
 
-######### Use of Force
+######### Allegations
+ALLEGATIONS.CSV.DIRTY <- "raw/data/allegations-from-nopd.csv"
+ALLEGATIONS.CSV.SANITIZED <- "data/allegations-sanitized.csv"
+
+######### Stops
 STOPS.CSV.DIRTY <- "raw/data/stops.csv"
 STOPS.CSV.SANITIZED <- "data/stops-sanitized.csv"
 
@@ -47,9 +51,9 @@ LOUISIANA.JSON <- "data/louisiana.json"
 library(dplyr)
 library(plotly)
 library(tidyr)
-library(geojsonio)
-library(maptools)
-library(leaflet)
+#library(geojsonio)
+#library(maptools)
+#library(leaflet)
 
 # Local helpers
 source("lib/utils.R")
@@ -66,6 +70,7 @@ if (RECLEAN_DATA) {
   officers.all <- read.csv(OFFICERS.CSV.SANITIZED, stringsAsFactors = FALSE)
   uof.all <- read.csv(UOF.CSV.SANITIZED, stringsAsFactors = FALSE)
   stops.for.year <- read.csv(STOPS.CSV.SANITIZED, stringsAsFactors = FALSE)
+  allegations.all <- read.csv(ALLEGATIONS.CSV.SANITIZED, stringsAsFactors = FALSE)
 }
 
 uof.for.year <- uof.all %>% filter(year.of.record == CURRENT.YEAR)

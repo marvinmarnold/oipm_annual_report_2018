@@ -45,6 +45,7 @@ class IndexPage extends React.Component {
 								<li>Add 2015 data</li>
 								<li>Responsive plots</li>
 								<li>Officers w/ most force divisions and departments</li>
+								<li>Officers by zip map</li>
 							</ul>
 						</Col>
 						<Col>

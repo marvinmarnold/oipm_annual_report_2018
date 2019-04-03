@@ -5,6 +5,7 @@ import { Container, Row, Col, Nav, NavItem, NavLink } from 'reactstrap';
 import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
 import OfficersIntroductionSection from '../components/officers/officers-introduction-section'
+import OfficersDemographicsSection from '../components/officers/demographics/officers-demographics-section'
 
 const OfficersPage = () => (
   <Layout>
@@ -18,6 +19,9 @@ const OfficersPage = () => (
 						<NavItem>
 	            <NavLink href="#officers-introduction-section" className="text-white">Introduction &amp; terms</NavLink>
 	          </NavItem>
+						<NavItem>
+	            <NavLink href="#officers-demographics-section" className="text-white">Officer demographics</NavLink>
+	          </NavItem>
 	        </Nav>
 				</Col>
 
@@ -29,6 +33,7 @@ const OfficersPage = () => (
 					</Row>
 
 					<OfficersIntroductionSection />
+					<OfficersDemographicsSection />
 
 				</Col>
 			</Row>

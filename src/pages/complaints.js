@@ -8,7 +8,7 @@ import ComplaintsIntroductionSection from '../components/complaints/complaints-i
 
 const ComplaintsPage = () => (
   <Layout>
-    <SEO title="Use of Force - 2018 OIPM Annual Report" />
+    <SEO title="Complaints - 2018 OIPM Annual Report" />
 
 		<Container fluid>
 			<Row>

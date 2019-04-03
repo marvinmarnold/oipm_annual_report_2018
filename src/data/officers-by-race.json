@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "69a05329366a": ["function () ", "plotlyVisDat"]
+    "69a05c479ea6": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "69a05329366a",
+  "cur_data": "69a05c479ea6",
   "attrs": {
-    "69a05329366a": {
+    "69a05c479ea6": {
       "labels": {},
       "values": {},
       "textposition": "inside",
@@ -12,7 +12,6 @@
       "insidetextfont": {
         "color": "#FFFFFF"
       },
-      "name": "L4 total =  9",
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -27,8 +26,11 @@
       "r": 10
     },
     "hovermode": "compare",
-    "title": "L4 total =  9",
-    "showlegend": false
+    "showlegend": true,
+    "legend": {
+      "x": 0,
+      "y": -0.5
+    }
   },
   "source": "A",
   "config": {
@@ -37,14 +39,13 @@
   },
   "data": [
     {
-      "labels": ["Head strike while Hancuffed", "L4-Taser", "NonTrad Impact Weapon"],
-      "values": [6, 2, 1],
-      "textposition": ["inside", "inside", "inside"],
+      "labels": ["Asian / Pacific Islander", "Black / African American", "Hispanic / Latinx", "Native / Indigenous", "Unknown race", "White"],
+      "values": [14, 683, 55, 3, 45, 524],
+      "textposition": ["inside", "inside", "inside", "inside", "inside", "inside"],
       "textinfo": "label+value+percent",
       "insidetextfont": {
         "color": "#FFFFFF"
       },
-      "name": "L4 total =  9",
       "type": "pie",
       "marker": {
         "color": "rgba(31,119,180,1)",

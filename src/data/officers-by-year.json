@@ -1,22 +1,17 @@
 {
   "visdat": {
-    "69a05329366a": ["function () ", "plotlyVisDat"]
+    "69a06f94c181": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "69a05329366a",
+  "cur_data": "69a06f94c181",
   "attrs": {
-    "69a05329366a": {
-      "labels": {},
-      "values": {},
-      "textposition": "inside",
-      "textinfo": "label+value+percent",
-      "insidetextfont": {
-        "color": "#FFFFFF"
-      },
-      "name": "L4 total =  9",
+    "69a06f94c181": {
+      "x": [2016, 2017, 2018],
+      "y": [1239, 1275, 1324],
+      "name": "Number active officers",
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
-      "type": "pie"
+      "type": "bar"
     }
   },
   "layout": {
@@ -26,8 +21,18 @@
       "t": 25,
       "r": 10
     },
-    "hovermode": "compare",
-    "title": "L4 total =  9",
+    "xaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "dtick": 1,
+      "title": []
+    },
+    "yaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": []
+    },
+    "hovermode": "closest",
     "showlegend": false
   },
   "source": "A",
@@ -37,21 +42,24 @@
   },
   "data": [
     {
-      "labels": ["Head strike while Hancuffed", "L4-Taser", "NonTrad Impact Weapon"],
-      "values": [6, 2, 1],
-      "textposition": ["inside", "inside", "inside"],
-      "textinfo": "label+value+percent",
-      "insidetextfont": {
-        "color": "#FFFFFF"
-      },
-      "name": "L4 total =  9",
-      "type": "pie",
+      "x": [2016, 2017, 2018],
+      "y": [1239, 1275, 1324],
+      "name": "Number active officers",
+      "type": "bar",
       "marker": {
         "color": "rgba(31,119,180,1)",
         "line": {
           "color": "rgba(31,119,180,1)"
         }
       },
+      "error_y": {
+        "color": "rgba(31,119,180,1)"
+      },
+      "error_x": {
+        "color": "rgba(31,119,180,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
       "frame": null
     }
   ],

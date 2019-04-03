@@ -13,8 +13,6 @@ import MostForcefulSection from '../components/force/most-forceful/most-forceful
 import OfficerDemographicsSection from '../components/force/officer-demographics/officer-demographics-section'
 import PublicDemographicsSection from '../components/force/public-demographics/public-demographics-section'
 
-import './force.css'
-
 const Force = () => (
   <Layout>
     <SEO title="Use of Force - 2018 OIPM Annual Report" />

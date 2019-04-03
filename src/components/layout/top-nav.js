@@ -48,6 +48,9 @@ export default class TopNav extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
 							<NavItem>
+                <NavLink href={this.withPrefix("/officers")}>Officer Info</NavLink>
+              </NavItem>
+							<NavItem>
                 <NavLink href={this.withPrefix("/force")}>Use of Force</NavLink>
               </NavItem>
 							<NavItem>

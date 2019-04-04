@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "33846de9d904": ["function () ", "plotlyVisDat"]
+    "33844daabe51": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "33846de9d904",
+  "cur_data": "33844daabe51",
   "attrs": {
-    "33846de9d904": {
+    "33844daabe51": {
       "labels": {},
       "values": {},
       "marker": {
@@ -39,7 +39,7 @@
   "data": [
     {
       "labels": ["DI-2", "Exonerated", "Illegitimate outcome", "Mediation", "NFIM", "Not Sustained", "Pending", "Sustained", "Unfounded"],
-      "values": [23, 38, 177, 24, 68, 40, 72, 127, 111],
+      "values": [30, 40, 9, 27, 72, 61, 106, 199, 136],
       "marker": {
         "color": "rgba(31,119,180,1)",
         "colors": ["red", "black", "yellow", "cyan", "orange", "green", "magenta", "pink", "blue"],

@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "338448b47371": ["function () ", "plotlyVisDat"]
+    "33847ff9bf99": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "338448b47371",
+  "cur_data": "33847ff9bf99",
   "attrs": {
-    "338448b47371": {
+    "33847ff9bf99": {
       "labels": {},
       "values": {},
       "textposition": "inside",
@@ -12,6 +12,7 @@
       "insidetextfont": {
         "color": "#FFFFFF"
       },
+      "name": "Top sustained",
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -25,8 +26,8 @@
       "t": 25,
       "r": 10
     },
-    "hovermode": "compare",
-    "showlegend": false
+    "hovermode": "closest",
+    "showlegend": true
   },
   "source": "A",
   "config": {
@@ -35,13 +36,14 @@
   },
   "data": [
     {
-      "labels": ["Black / African American", "Hispanic", "Unknown race", "White"],
-      "values": [809, 20, 11, 105],
-      "textposition": ["inside", "inside", "inside", "inside"],
+      "labels": ["Adherence to law", "Courtesy", "Instructions from authoritative source", "Neglect of duty", "Other", "Professionalism", "Unauthorized force", "Verbal intimidation"],
+      "values": [19, 4, 21, 262, 44, 40, 3, 1],
+      "textposition": ["inside", "inside", "inside", "inside", "inside", "inside", "inside", "inside"],
       "textinfo": "label+value+percent",
       "insidetextfont": {
         "color": "#FFFFFF"
       },
+      "name": "Top sustained",
       "type": "pie",
       "marker": {
         "color": "rgba(31,119,180,1)",

@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "33842b71c5fc": ["function () ", "plotlyVisDat"]
+    "338447971f52": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "33842b71c5fc",
+  "cur_data": "338447971f52",
   "attrs": {
-    "33842b71c5fc": {
+    "338447971f52": {
       "x": {},
       "y": {},
       "name": {},
@@ -17,29 +17,24 @@
   },
   "layout": {
     "margin": {
-      "b": 40,
+      "b": 100,
       "l": 60,
       "t": 25,
-      "r": 10
+      "r": 100
     },
     "xaxis": {
       "domain": [0, 1],
       "automargin": true,
-      "categoryorder": "array",
-      "categoryarray": ["L1", "L2", "L3", "L4"],
-      "title": "Level L2 force",
+      "title": "Type of complaint",
       "showgrid": false,
-      "dtick": 1,
-      "tick0": 2016
+      "type": "category",
+      "categoryorder": "array",
+      "categoryarray": ["Public Initiated", "Rank Initiated"]
     },
     "yaxis": {
       "domain": [0, 1],
       "automargin": true,
-      "title": "Amount of force (UOF)"
-    },
-    "legend": {
-      "x": 0,
-      "y": -0.5
+      "title": "Number complaints"
     },
     "barmode": "stack",
     "hovermode": "compare",
@@ -52,9 +47,9 @@
   },
   "data": [
     {
-      "x": [2016, 2017],
-      "y": [3, 2],
-      "name": "Baton Miss",
+      "x": ["Public Initiated", "Rank Initiated"],
+      "y": [3, 27],
+      "name": "DI-2",
       "type": "bar",
       "marker": {
         "color": "rgba(102,194,165,1)",
@@ -76,9 +71,9 @@
       "frame": null
     },
     {
-      "x": [2016, 2017, 2018],
-      "y": [9, 21, 16],
-      "name": "Canine (No Bite)",
+      "x": ["Public Initiated", "Rank Initiated"],
+      "y": [360, 91],
+      "name": "Not sustained",
       "type": "bar",
       "marker": {
         "color": "rgba(252,141,98,1)",
@@ -100,9 +95,9 @@
       "frame": null
     },
     {
-      "x": [2016, 2017, 2018],
-      "y": [176, 296, 82],
-      "name": "Defense Tech / Take-down",
+      "x": ["Public Initiated", "Rank Initiated"],
+      "y": [62, 137],
+      "name": "Sustained",
       "type": "bar",
       "marker": {
         "color": "rgba(141,160,203,1)",
@@ -118,78 +113,6 @@
       },
       "error_x": {
         "color": "rgba(141,160,203,1)"
-      },
-      "xaxis": "x",
-      "yaxis": "y",
-      "frame": null
-    },
-    {
-      "x": [2016, 2017],
-      "y": [8, 1],
-      "name": "L2-Other",
-      "type": "bar",
-      "marker": {
-        "color": "rgba(231,138,195,1)",
-        "line": {
-          "color": "rgba(231,138,195,1)"
-        }
-      },
-      "textfont": {
-        "color": "rgba(231,138,195,1)"
-      },
-      "error_y": {
-        "color": "rgba(231,138,195,1)"
-      },
-      "error_x": {
-        "color": "rgba(231,138,195,1)"
-      },
-      "xaxis": "x",
-      "yaxis": "y",
-      "frame": null
-    },
-    {
-      "x": [2016, 2017, 2018],
-      "y": [52, 62, 56],
-      "name": "L2-Taser",
-      "type": "bar",
-      "marker": {
-        "color": "rgba(166,216,84,1)",
-        "line": {
-          "color": "rgba(166,216,84,1)"
-        }
-      },
-      "textfont": {
-        "color": "rgba(166,216,84,1)"
-      },
-      "error_y": {
-        "color": "rgba(166,216,84,1)"
-      },
-      "error_x": {
-        "color": "rgba(166,216,84,1)"
-      },
-      "xaxis": "x",
-      "yaxis": "y",
-      "frame": null
-    },
-    {
-      "x": [2018],
-      "y": [28],
-      "name": "Takedown (w/injury)",
-      "type": "bar",
-      "marker": {
-        "color": "rgba(255,217,47,1)",
-        "line": {
-          "color": "rgba(255,217,47,1)"
-        }
-      },
-      "textfont": {
-        "color": "rgba(255,217,47,1)"
-      },
-      "error_y": {
-        "color": "rgba(255,217,47,1)"
-      },
-      "error_x": {
-        "color": "rgba(255,217,47,1)"
       },
       "xaxis": "x",
       "yaxis": "y",

@@ -19,6 +19,8 @@ PLOTLY.OUTPUT.PATH <- "../src/data/"
 # If the only data available is coming from a public repository, this should probably be set to false.
 RECLEAN_DATA <- FALSE
 
+CSV_SEP <- ";"
+
 ############################################ DATA ######################################################
 ######### Officers
 ADP.CSV.DIRTY <- "raw/data/adp-from-nopd.csv"
@@ -70,10 +72,10 @@ if (RECLEAN_DATA) {
   
 } else {
   adp.for.year <- read.csv(ADP.CSV.SANITIZED, stringsAsFactors = FALSE)
-  officers.all <- read.csv(OFFICERS.CSV.SANITIZED, stringsAsFactors = FALSE)
-  uof.all <- read.csv(UOF.CSV.SANITIZED, stringsAsFactors = FALSE)
+  officers.all <- read.csv(OFFICERS.CSV.SANITIZED, stringsAsFactors = FALSE, sep = CSV_SEP)
+  uof.all <- read.csv(UOF.CSV.SANITIZED, stringsAsFactors = FALSE, sep = CSV_SEP)
   stops.for.year <- read.csv(STOPS.CSV.SANITIZED, stringsAsFactors = FALSE)
-  allegations.all <- read.csv(ALLEGATIONS.CSV.SANITIZED, stringsAsFactors = FALSE)
+  allegations.all <- read.csv(ALLEGATIONS.CSV.SANITIZED, stringsAsFactors = FALSE, sep = CSV_SEP)
   
   actions.taken.all <- read.csv(ACTIONS.TAKEN.CSV.SANITIZED, stringsAsFactors = FALSE)
 }
@@ -86,7 +88,7 @@ allegations.for.year <- allegations.all %>% filter(year.of.record == CURRENT.YEA
 source("lib/post-processing/complaint-dispositions.R")
 
 # Mediation data doesn't need to be sanitized
-mediation.survey.all <- read.csv(MEDIATION.CSV.DIRTY, sep = ";")
+mediation.survey.all <- read.csv(MEDIATION.CSV.DIRTY)
 
 ########################################################################################################
 ########################################## PERFORM ANALYSIS ############################################

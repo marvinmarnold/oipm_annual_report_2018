@@ -24,4 +24,4 @@ p.allegations.by.finding <- plot_ly(allegation.count.by.finding) %>%
          yaxis = list(title = "Number of allegations", showgrid = T))
 
 p.allegations.by.finding
-gen.plotly.json(p.allegations.by.disp, "allegations-by-finding")
+gen.plotly.json(p.allegations.by.finding, "allegations-by-finding")

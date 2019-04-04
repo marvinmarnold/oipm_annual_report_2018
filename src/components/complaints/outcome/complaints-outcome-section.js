@@ -6,6 +6,7 @@ import AllegationsByFindingPlot from './allegations-by-finding-plot'
 import ComplaintsByDispositionPlot from './complaints-by-disposition-plot'
 import ComplaintsByPublicDispositionPlot from './complaints-by-public-disposition-plot'
 import ComplaintsByRankDispositionPlot from './complaints-by-rank-disposition-plot'
+import AllegationsSustainedMostCommonPlot from './allegations-sustained-most-common-plot'
 
 class ComplaintsTimeSection extends React.Component {
 	constructor() {
@@ -56,8 +57,8 @@ class ComplaintsTimeSection extends React.Component {
 						</Col>
 					</Col>
 				</Row>
-				<Row>
 
+				<Row>
 					<Col>
 						<h4>All complaints by outcome</h4>
 						<ComplaintsByDispositionPlot />
@@ -70,10 +71,15 @@ class ComplaintsTimeSection extends React.Component {
 						<h4>Public complaints by outcome</h4>
 						<ComplaintsByPublicDispositionPlot />
 					</Col>
+					<Col>
+						<h4>Most sustained allegations</h4>
+						<AllegationsSustainedMostCommonPlot />
+					</Col>
 				</Row>
 			</div>
 		)
 	}
+
 
 	render() {
 		return (

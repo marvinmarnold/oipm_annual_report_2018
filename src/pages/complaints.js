@@ -7,6 +7,7 @@ import SEO from "../components/layout/seo"
 import ComplaintsIntroductionSection from '../components/complaints/complaints-introduction-section'
 import ComplaintsTimeSection from '../components/complaints/time/complaints-time-section'
 import ComplaintsOutcomeSection from '../components/complaints/outcome/complaints-outcome-section'
+import ComplaintsSourceSection from '../components/complaints/source/complaints-source-section'
 
 const ComplaintsPage = () => (
   <Layout>
@@ -26,6 +27,9 @@ const ComplaintsPage = () => (
 						<NavItem>
 	            <NavLink href="#complaints-outcome-section" className="text-white">Outcome of complaints</NavLink>
 	          </NavItem>
+						<NavItem>
+	            <NavLink href="#complaints-source-section" className="text-white">Who complains</NavLink>
+	          </NavItem>
 	        </Nav>
 				</Col>
 
@@ -39,6 +43,7 @@ const ComplaintsPage = () => (
 					<ComplaintsIntroductionSection />
 					<ComplaintsTimeSection />
 					<ComplaintsOutcomeSection />
+					<ComplaintsSourceSection />
 				</Col>
 			</Row>
 

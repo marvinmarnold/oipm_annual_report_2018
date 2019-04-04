@@ -1,0 +1,257 @@
+{
+  "visdat": {
+    "338477556cf3": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "338477556cf3",
+  "attrs": {
+    "338477556cf3": {
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "x": {},
+      "y": {},
+      "type": "bar",
+      "name": {},
+      "color": {},
+      "inherit": true
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 150,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "barmode": "stack",
+    "hovermode": "compare",
+    "xaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": "Allegation Finding",
+      "dtick": 1,
+      "showgrid": false,
+      "type": "category",
+      "categoryorder": "array",
+      "categoryarray": ["DI-2", "Exonerated", "Illegitimate outcome", "Mediation", "NFIM", "Not Sustained", "Pending", "Retired", "Settlement", "Sustained", "Unfounded"]
+    },
+    "yaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": "Number of allegations",
+      "showgrid": true
+    },
+    "showlegend": true
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "x": ["Exonerated", "NFIM", "Not Sustained", "Pending", "Retired", "Sustained", "Unfounded"],
+      "y": [2, 4, 2, 36, 3, 16, 19],
+      "type": "bar",
+      "name": "Adherence to law",
+      "marker": {
+        "color": "rgba(102,194,165,1)",
+        "line": {
+          "color": "rgba(102,194,165,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "error_y": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "error_x": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["DI-2", "Exonerated", "Illegitimate outcome", "Mediation", "Not Sustained", "Pending", "Sustained", "Unfounded"],
+      "y": [1, 1, 1, 2, 3, 1, 4, 5],
+      "type": "bar",
+      "name": "Courtesy",
+      "marker": {
+        "color": "rgba(252,141,98,1)",
+        "line": {
+          "color": "rgba(252,141,98,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(252,141,98,1)"
+      },
+      "error_y": {
+        "color": "rgba(252,141,98,1)"
+      },
+      "error_x": {
+        "color": "rgba(252,141,98,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["DI-2", "Exonerated", "Pending", "Sustained", "Unfounded"],
+      "y": [4, 2, 8, 17, 8],
+      "type": "bar",
+      "name": "Instructions from authoritative source",
+      "marker": {
+        "color": "rgba(141,160,203,1)",
+        "line": {
+          "color": "rgba(141,160,203,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "error_y": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "error_x": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["DI-2", "Exonerated", "Illegitimate outcome", "Mediation", "NFIM", "Not Sustained", "Pending", "Settlement", "Sustained", "Unfounded"],
+      "y": [37, 78, 6, 6, 20, 49, 80, 3, 255, 151],
+      "type": "bar",
+      "name": "Neglect of duty",
+      "marker": {
+        "color": "rgba(231,138,195,1)",
+        "line": {
+          "color": "rgba(231,138,195,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "error_y": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "error_x": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Exonerated", "Illegitimate outcome", "NFIM", "Not Sustained", "Pending", "Settlement", "Sustained", "Unfounded"],
+      "y": [6, 8, 34, 9, 21, 2, 42, 28],
+      "type": "bar",
+      "name": "Other",
+      "marker": {
+        "color": "rgba(166,216,84,1)",
+        "line": {
+          "color": "rgba(166,216,84,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(166,216,84,1)"
+      },
+      "error_y": {
+        "color": "rgba(166,216,84,1)"
+      },
+      "error_x": {
+        "color": "rgba(166,216,84,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["DI-2", "Exonerated", "Illegitimate outcome", "Mediation", "NFIM", "Not Sustained", "Pending", "Retired", "Settlement", "Sustained", "Unfounded"],
+      "y": [4, 33, 1, 30, 31, 41, 46, 1, 1, 35, 89],
+      "type": "bar",
+      "name": "Professionalism",
+      "marker": {
+        "color": "rgba(255,217,47,1)",
+        "line": {
+          "color": "rgba(255,217,47,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(255,217,47,1)"
+      },
+      "error_y": {
+        "color": "rgba(255,217,47,1)"
+      },
+      "error_x": {
+        "color": "rgba(255,217,47,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Exonerated", "NFIM", "Not Sustained", "Pending", "Sustained", "Unfounded"],
+      "y": [3, 1, 3, 4, 2, 5],
+      "type": "bar",
+      "name": "Unauthorized force",
+      "marker": {
+        "color": "rgba(229,196,148,1)",
+        "line": {
+          "color": "rgba(229,196,148,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(229,196,148,1)"
+      },
+      "error_y": {
+        "color": "rgba(229,196,148,1)"
+      },
+      "error_x": {
+        "color": "rgba(229,196,148,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Mediation", "Not Sustained", "Pending", "Sustained", "Unfounded"],
+      "y": [1, 2, 2, 1, 4],
+      "type": "bar",
+      "name": "Verbal intimidation",
+      "marker": {
+        "color": "rgba(179,179,179,1)",
+        "line": {
+          "color": "rgba(179,179,179,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(179,179,179,1)"
+      },
+      "error_y": {
+        "color": "rgba(179,179,179,1)"
+      },
+      "error_x": {
+        "color": "rgba(179,179,179,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

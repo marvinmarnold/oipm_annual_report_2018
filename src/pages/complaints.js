@@ -6,6 +6,7 @@ import Layout from "../components/layout/layout"
 import SEO from "../components/layout/seo"
 import ComplaintsIntroductionSection from '../components/complaints/complaints-introduction-section'
 import ComplaintsTimeSection from '../components/complaints/time/complaints-time-section'
+import ComplaintsOutcomeSection from '../components/complaints/outcome/complaints-outcome-section'
 
 const ComplaintsPage = () => (
   <Layout>
@@ -22,6 +23,9 @@ const ComplaintsPage = () => (
 						<NavItem>
 	            <NavLink href="#complaints-time-section" className="text-white">Complaints over time</NavLink>
 	          </NavItem>
+						<NavItem>
+	            <NavLink href="#complaints-outcome-section" className="text-white">Outcome of complaints</NavLink>
+	          </NavItem>
 	        </Nav>
 				</Col>
 
@@ -34,7 +38,7 @@ const ComplaintsPage = () => (
 
 					<ComplaintsIntroductionSection />
 					<ComplaintsTimeSection />
-
+					<ComplaintsOutcomeSection />
 				</Col>
 			</Row>
 

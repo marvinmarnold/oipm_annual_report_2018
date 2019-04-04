@@ -1,9 +1,9 @@
-check.vars(c("actions.taken.csv.dirty"))
+check.vars(c("ACTIONS.TAKEN.CSV.DIRTY"))
 
 ########################################################################################################
 ########################################################################################################
 
-actions.taken.all <- read.csv(actions.taken.csv.dirty, stringsAsFactors = FALSE)
+actions.taken.all <- read.csv(ACTIONS.TAKEN.CSV.DIRTY, stringsAsFactors = FALSE)
 actions.taken.all <- actions.taken.all %>% mutate(
   Allegation.short = substring(trim(Allegation), 16, 999),
   Allegation.simple = case_when(
@@ -25,6 +25,5 @@ actions.taken.all <- actions.taken.all %>% mutate(
   Allegation.primary.key
 )
 
-colnames(actions.taken.all)
-write.csv(actions.taken.all, file = "data_public/clean/actions_taken_clean.csv")
+write.csv(actions.taken.all, file = ACTIONS.TAKEN.CSV.SANITIZED)
 

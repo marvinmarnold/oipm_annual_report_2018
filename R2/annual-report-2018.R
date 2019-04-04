@@ -35,6 +35,9 @@ UOF.CSV.SANITIZED <- "data/uof-sanitized.csv"
 ALLEGATIONS.CSV.DIRTY <- "raw/data/allegations-from-nopd.csv"
 ALLEGATIONS.CSV.SANITIZED <- "data/allegations-sanitized.csv"
 
+ACTIONS.TAKEN.CSV.DIRTY <- "raw/data/discipline-from-nopd.csv"
+ACTIONS.TAKEN.CSV.SANITIZED <- "data/discipline-sanitized.csv"
+
 ######### Stops
 STOPS.CSV.DIRTY <- "raw/data/stops.csv"
 STOPS.CSV.SANITIZED <- "data/stops-sanitized.csv"
@@ -71,9 +74,11 @@ if (RECLEAN_DATA) {
   uof.all <- read.csv(UOF.CSV.SANITIZED, stringsAsFactors = FALSE)
   stops.for.year <- read.csv(STOPS.CSV.SANITIZED, stringsAsFactors = FALSE)
   allegations.all <- read.csv(ALLEGATIONS.CSV.SANITIZED, stringsAsFactors = FALSE)
+  actions.taken.all <- read.csv(ACTIONS.TAKEN.CSV.SANITIZED, stringsAsFactors = FALSE)
 }
 
 uof.for.year <- uof.all %>% filter(year.of.record == CURRENT.YEAR)
+allegations.for.year <- allegations.all %>% filter(year.of.record == CURRENT.YEAR)
 
 # Mediation data doesn't need to be sanitized
 mediation.survey.all <- read.csv(MEDIATION.CSV.DIRTY, sep = ";")

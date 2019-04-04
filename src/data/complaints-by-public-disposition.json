@@ -1,0 +1,71 @@
+{
+  "visdat": {
+    "338412c54a60": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "338412c54a60",
+  "attrs": {
+    "338412c54a60": {
+      "labels": {},
+      "values": {},
+      "marker": {
+        "colors": {}
+      },
+      "textposition": "middle center",
+      "textinfo": "label+value+percent",
+      "insidetextfont": {
+        "color": "#FFFFFF"
+      },
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "pie"
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 40,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "hovermode": "compare",
+    "showlegend": false
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "labels": ["DI-2", "Exonerated", "Illegitimate outcome", "Mediation", "NFIM", "Not Sustained", "Pending", "Sustained", "Unfounded"],
+      "values": [2, 28, 99, 23, 66, 31, 43, 36, 97],
+      "marker": {
+        "color": "rgba(31,119,180,1)",
+        "colors": ["red", "black", "yellow", "cyan", "orange", "green", "magenta", "pink", "blue"],
+        "line": {
+          "color": "rgba(31,119,180,1)"
+        }
+      },
+      "textposition": ["middle center", "middle center", "middle center", "middle center", "middle center", "middle center", "middle center", "middle center", "middle center"],
+      "textinfo": "label+value+percent",
+      "insidetextfont": {
+        "color": "#FFFFFF"
+      },
+      "type": "pie",
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

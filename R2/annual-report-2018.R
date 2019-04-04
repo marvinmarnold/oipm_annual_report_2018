@@ -59,7 +59,7 @@ library(tidyr)
 #library(leaflet)
 
 # Local helpers
-source("lib/utils.R")
+source("lib/helpers/utils.R")
 
 ########################################################################################################
 ############################################# LOAD DATA ################################################
@@ -74,11 +74,16 @@ if (RECLEAN_DATA) {
   uof.all <- read.csv(UOF.CSV.SANITIZED, stringsAsFactors = FALSE)
   stops.for.year <- read.csv(STOPS.CSV.SANITIZED, stringsAsFactors = FALSE)
   allegations.all <- read.csv(ALLEGATIONS.CSV.SANITIZED, stringsAsFactors = FALSE)
+  
   actions.taken.all <- read.csv(ACTIONS.TAKEN.CSV.SANITIZED, stringsAsFactors = FALSE)
 }
 
 uof.for.year <- uof.all %>% filter(year.of.record == CURRENT.YEAR)
 allegations.for.year <- allegations.all %>% filter(year.of.record == CURRENT.YEAR)
+
+# Complaint dispositions are not straightforward to calculate
+# The findings of all related allegations must be combined in an ordered way
+source("lib/post-processing/complaint-dispositions.R")
 
 # Mediation data doesn't need to be sanitized
 mediation.survey.all <- read.csv(MEDIATION.CSV.DIRTY, sep = ";")

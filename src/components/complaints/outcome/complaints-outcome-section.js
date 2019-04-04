@@ -7,6 +7,7 @@ import ComplaintsByDispositionPlot from './complaints-by-disposition-plot'
 import ComplaintsByPublicDispositionPlot from './complaints-by-public-disposition-plot'
 import ComplaintsByRankDispositionPlot from './complaints-by-rank-disposition-plot'
 import AllegationsSustainedMostCommonPlot from './allegations-sustained-most-common-plot'
+import ComplaintsByOfficerRaceDispositionPlot from './complaints-by-officer-race-disposition-plot'
 
 class ComplaintsTimeSection extends React.Component {
 	constructor() {
@@ -19,7 +20,6 @@ class ComplaintsTimeSection extends React.Component {
 				<Row>
 					<Col>
 						<h4>NOPDs allegation findings</h4>
-
 
 					</Col>
 				</Row>
@@ -80,6 +80,21 @@ class ComplaintsTimeSection extends React.Component {
 		)
 	}
 
+	renderComplaintsByOfficerRaceDisposition() {
+		return (
+			<Row>
+				<Col>
+					<h4>Complaint outcomes by officer race</h4>
+					<p>
+						TODO
+					</p>
+					<Col>
+						<ComplaintsByOfficerRaceDispositionPlot />
+					</Col>
+				</Col>
+			</Row>
+		)
+	}
 
 	render() {
 		return (
@@ -90,6 +105,7 @@ class ComplaintsTimeSection extends React.Component {
 
 				{this.renderAllegationsByFinding()}
 				{this.renderComplaintsByDisposition()}
+				{this.renderComplaintsByOfficerRaceDisposition()}
 			</div>
 		)
 	}

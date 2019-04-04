@@ -1,23 +1,24 @@
 {
   "visdat": {
-    "16653ec3667": ["function () ", "plotlyVisDat"]
+    "1665eb441e3": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "16653ec3667",
+  "cur_data": "1665eb441e3",
   "attrs": {
-    "16653ec3667": {
-      "x": {},
-      "y": {},
-      "name": {},
-      "color": {},
+    "1665eb441e3": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
-      "type": "bar"
+      "x": {},
+      "y": {},
+      "type": "bar",
+      "name": {},
+      "color": {},
+      "inherit": true
     }
   },
   "layout": {
     "margin": {
-      "b": 150,
+      "b": 100,
       "l": 60,
       "t": 25,
       "r": 10
@@ -25,19 +26,19 @@
     "xaxis": {
       "domain": [0, 1],
       "automargin": true,
-      "showgrid": false,
-      "title": "Force.type",
-      "type": "category",
       "categoryorder": "array",
-      "categoryarray": ["Baton (non-strike)", "Baton/PR-24 (Strike)", "Canine (No Bite)", "Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "Head strike while Hancuffed", "L1-Other", "L2-Taser", "L4-Taser", "NonTrad Impact Weapon", "Other", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"]
+      "categoryarray": ["Sustained", "DI-2", "NFIM", "Unfounded", "Exonerated", "Illegitimate outcome", "Pending", "Not Sustained", "Mediation"],
+      "title": "Complaint disposition",
+      "showgrid": true,
+      "type": "category"
     },
     "yaxis": {
       "domain": [0, 1],
       "automargin": true,
-      "title": "Number UOF"
+      "title": "Num complaints resulting in disposition"
     },
     "barmode": "stack",
-    "hovermode": "compare",
+    "hovermode": "closest",
     "showlegend": true
   },
   "source": "A",
@@ -47,10 +48,10 @@
   },
   "data": [
     {
-      "x": ["Baton (non-strike)", "Baton/PR-24 (Strike)", "Canine (No Bite)", "Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "Head strike while Hancuffed", "L1-Other", "L2-Taser", "NonTrad Impact Weapon", "Other", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"],
-      "y": [1, 1, 14, 55, 397, 164, 8, 6, 7, 47, 1, 2, 67, 21, 18],
-      "name": "Black / African American",
+      "x": ["DI-2", "Exonerated", "Not Sustained", "Sustained", "Unfounded"],
+      "y": [1, 3, 1, 4, 1],
       "type": "bar",
+      "name": "Asian / Pacific Islander",
       "marker": {
         "color": "rgba(102,194,165,1)",
         "line": {
@@ -71,10 +72,10 @@
       "frame": null
     },
     {
-      "x": ["Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)"],
-      "y": [1, 11, 7, 1],
-      "name": "Hispanic",
+      "x": ["DI-2", "Exonerated", "Illegitimate outcome", "Mediation", "NFIM", "Not Sustained", "Pending", "Sustained", "Unfounded"],
+      "y": [22, 40, 7, 23, 18, 52, 81, 121, 97],
       "type": "bar",
+      "name": "Black / African American",
       "marker": {
         "color": "rgba(252,141,98,1)",
         "line": {
@@ -95,10 +96,10 @@
       "frame": null
     },
     {
-      "x": ["Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "L2-Taser"],
-      "y": [2, 3, 4, 2],
-      "name": "Unknown race",
+      "x": ["Exonerated", "Mediation", "NFIM", "Not Sustained", "Pending", "Sustained", "Unfounded"],
+      "y": [6, 2, 2, 3, 10, 13, 15],
       "type": "bar",
+      "name": "Hispanic",
       "marker": {
         "color": "rgba(141,160,203,1)",
         "line": {
@@ -119,10 +120,10 @@
       "frame": null
     },
     {
-      "x": ["Baton (non-strike)", "Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "L2-Taser", "L4-Taser", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"],
-      "y": [1, 17, 34, 29, 1, 6, 2, 10, 3, 2],
-      "name": "White",
+      "x": ["Exonerated"],
+      "y": [1],
       "type": "bar",
+      "name": "Native American",
       "marker": {
         "color": "rgba(231,138,195,1)",
         "line": {
@@ -137,6 +138,54 @@
       },
       "error_x": {
         "color": "rgba(231,138,195,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Exonerated", "Illegitimate outcome", "NFIM", "Not Sustained", "Pending", "Sustained", "Unfounded"],
+      "y": [2, 2, 48, 2, 9, 5, 7],
+      "type": "bar",
+      "name": "Unknown race",
+      "marker": {
+        "color": "rgba(166,216,84,1)",
+        "line": {
+          "color": "rgba(166,216,84,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(166,216,84,1)"
+      },
+      "error_y": {
+        "color": "rgba(166,216,84,1)"
+      },
+      "error_x": {
+        "color": "rgba(166,216,84,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["DI-2", "Exonerated", "Illegitimate outcome", "Mediation", "NFIM", "Not Sustained", "Pending", "Sustained", "Unfounded"],
+      "y": [10, 33, 3, 9, 11, 31, 39, 90, 92],
+      "type": "bar",
+      "name": "White",
+      "marker": {
+        "color": "rgba(255,217,47,1)",
+        "line": {
+          "color": "rgba(255,217,47,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(255,217,47,1)"
+      },
+      "error_y": {
+        "color": "rgba(255,217,47,1)"
+      },
+      "error_x": {
+        "color": "rgba(255,217,47,1)"
       },
       "xaxis": "x",
       "yaxis": "y",

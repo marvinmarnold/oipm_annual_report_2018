@@ -3,6 +3,7 @@
 
 # Reset environment
 rm(list = ls())
+setwd("/home/pili/code/oipm/annual-report-2018/R2")
 print(paste("Working directory set to:", getwd()))
 readRenviron(".Renviron")
 
@@ -18,6 +19,9 @@ PLOTLY.OUTPUT.PATH <- "../src/data/"
 # If source data is available, set to true.
 # If the only data available is coming from a public repository, this should probably be set to false.
 RECLEAN_DATA <- FALSE
+
+# Will force all the graphs to recompute
+REGEN_ANALYSIS <- FALSE
 
 CSV_SEP <- ";"
 
@@ -93,5 +97,7 @@ mediation.survey.all <- read.csv(MEDIATION.CSV.DIRTY)
 ########################################################################################################
 ########################################## PERFORM ANALYSIS ############################################
 
-print("Going to run all analysis")
-load.subdirectory("analysis")
+if (REGEN_ANALYSIS) {
+  print("Going to run all analysis")
+  load.subdirectory("analysis")
+}

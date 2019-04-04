@@ -16,13 +16,12 @@ xform <- list(categoryorder = "array",
 p.complaint.disposition.by.officer.race <- plot_ly(count.by.disposition.race) %>% 
   
   add_trace(x = ~Disposition.OIPM.by.officer, y = ~num.dispositions, type = 'bar',  
-             name = ~Officer.Race, color = ~Officer.Race) %>%
-
+            name = ~Officer.Race, color = ~Officer.Race) %>%
+  
   layout(xaxis = xform, 
          yaxis = list(title = 'Num complaints resulting in disposition'), 
          barmode = 'stack',
          margin = list(b = 100))
-  
-p.complaint.disposition.by.officer.race
 
-allegations.all %>% select(Officer.Race, PIB.Control.Number) %>% distinct(Officer.Race, .keep_all = TRUE)
+p.complaint.disposition.by.officer.race
+gen.plotly.json(p.complaint.disposition.by.officer.race, "complaints-by-officer-race-disposition")

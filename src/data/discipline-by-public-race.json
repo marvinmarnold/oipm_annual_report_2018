@@ -1,0 +1,183 @@
+{
+  "visdat": {
+    "16628cb5e33": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "16628cb5e33",
+  "attrs": {
+    "16628cb5e33": {
+      "x": {},
+      "y": {},
+      "name": {},
+      "color": {},
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "bar"
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 100,
+      "l": 60,
+      "t": 25,
+      "r": 100
+    },
+    "xaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": "Type of allegation",
+      "showgrid": false,
+      "type": "category",
+      "categoryorder": "array",
+      "categoryarray": ["Demoted", "DI-2", "Dismissed", "Illegitimate outcome", "Letter of Reprimand", "Mediation", "None", "Oral Reprimand", "Pending Investigation", "Resigned before disposition", "Suspension", "Unknown action taken"]
+    },
+    "yaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": "Number allegations"
+    },
+    "barmode": "stack",
+    "hovermode": "compare",
+    "title": "Discipline by Complainant's Race",
+    "showlegend": true
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "x": ["DI-2", "Dismissed", "Illegitimate outcome", "Letter of Reprimand", "Mediation", "None", "Oral Reprimand", "Pending Investigation", "Resigned before disposition", "Suspension", "Unknown action taken"],
+      "y": [3, 2, 16, 68, 21, 437, 5, 30, 4, 26, 4],
+      "name": "Black / African American",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(102,194,165,1)",
+        "line": {
+          "color": "rgba(102,194,165,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "error_y": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "error_x": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["DI-2", "Mediation", "None", "Pending Investigation", "Suspension"],
+      "y": [1, 1, 13, 4, 3],
+      "name": "Hispanic",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(252,141,98,1)",
+        "line": {
+          "color": "rgba(252,141,98,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(252,141,98,1)"
+      },
+      "error_y": {
+        "color": "rgba(252,141,98,1)"
+      },
+      "error_x": {
+        "color": "rgba(252,141,98,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Demoted", "DI-2", "Dismissed", "Illegitimate outcome", "Letter of Reprimand", "None", "Oral Reprimand", "Pending Investigation", "Resigned before disposition", "Suspension", "Unknown action taken"],
+      "y": [3, 41, 5, 68, 193, 422, 18, 55, 22, 151, 19],
+      "name": "Unknown race",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(141,160,203,1)",
+        "line": {
+          "color": "rgba(141,160,203,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "error_y": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "error_x": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["DI-2", "Illegitimate outcome", "Letter of Reprimand", "Mediation", "None", "Oral Reprimand", "Pending Investigation", "Resigned before disposition", "Suspension", "Unknown action taken"],
+      "y": [3, 4, 15, 11, 154, 4, 16, 6, 18, 4],
+      "name": "White",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(231,138,195,1)",
+        "line": {
+          "color": "rgba(231,138,195,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "error_y": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "error_x": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["DI-2", "None", "Pending Investigation"],
+      "y": [31, 13, 2],
+      "name": [null, null, null],
+      "type": "bar",
+      "marker": {
+        "color": "transparent",
+        "line": {
+          "color": "transparent"
+        }
+      },
+      "textfont": {
+        "color": "transparent"
+      },
+      "error_y": {
+        "color": "transparent"
+      },
+      "error_x": {
+        "color": "transparent"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

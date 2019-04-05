@@ -6,6 +6,8 @@ import DisciplineByActionTakenPlot from './discipline-by-action-taken-plot'
 import DisciplineByAllegationPlot from './discipline-by-allegation-plot'
 import DisciplineByPublicSexPlot from './discipline-by-public-sex-plot'
 import DisciplineByOfficerSexPlot from './discipline-by-officer-sex-plot'
+import DisciplineByPublicRacePlot from './discipline-by-public-race-plot'
+import DisciplineByOfficerRacePlot from './discipline-by-officer-race-plot'
 
 class ComplaintsDisciplineSection extends React.Component {
 	constructor() {
@@ -62,7 +64,29 @@ class ComplaintsDisciplineSection extends React.Component {
 		)
 	}
 
+	renderByRace() {
+		return (
+			<div className="my-3">
+				<Row>
+					<Col>
+						<h4>Discipline by race</h4>
 
+						<ul>
+							<li>TODO</li>
+						</ul>
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<DisciplineByPublicRacePlot />
+					</Col>
+					<Col>
+						<DisciplineByOfficerRacePlot />
+					</Col>
+				</Row>
+			</div>
+		)
+	}
 
 	render() {
 		return (
@@ -73,6 +97,7 @@ class ComplaintsDisciplineSection extends React.Component {
 
 				{this.renderActionsTaken()}
 				{this.renderBySex()}
+				{this.renderByRace()}
 			</div>
 		)
 	}

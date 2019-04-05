@@ -4,6 +4,8 @@ import { Link } from "gatsby"
 
 import DisciplineByActionTakenPlot from './discipline-by-action-taken-plot'
 import DisciplineByAllegationPlot from './discipline-by-allegation-plot'
+import DisciplineByPublicSexPlot from './discipline-by-public-sex-plot'
+import DisciplineByOfficerSexPlot from './discipline-by-officer-sex-plot'
 
 class ComplaintsDisciplineSection extends React.Component {
 	constructor() {
@@ -35,6 +37,31 @@ class ComplaintsDisciplineSection extends React.Component {
 		)
 	}
 
+	renderBySex() {
+		return (
+			<div className="my-3">
+				<Row>
+					<Col>
+						<h4>Discipline by sex</h4>
+
+						<ul>
+							<li>There were roughly 20 types of disciplinary infractions alleged of NOPD officers in 2018. The top three were “neglect of duty,” “instructions from an authoritative source,” and “professionalism.” This remains in keeping with trends from 2017.</li>
+							<li>In 2018, the most common forms of discipline were “letter of reprimand” and “suspension.” However, in 2017 the most common forms of discipline were “suspension” and “DI-2.” </li>
+						</ul>
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<DisciplineByPublicSexPlot />
+					</Col>
+					<Col>
+						<DisciplineByOfficerSexPlot />
+					</Col>
+				</Row>
+			</div>
+		)
+	}
+
 
 
 	render() {
@@ -45,6 +72,7 @@ class ComplaintsDisciplineSection extends React.Component {
 				</Row>
 
 				{this.renderActionsTaken()}
+				{this.renderBySex()}
 			</div>
 		)
 	}

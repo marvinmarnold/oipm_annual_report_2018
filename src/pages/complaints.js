@@ -8,6 +8,7 @@ import ComplaintsIntroductionSection from '../components/complaints/complaints-i
 import ComplaintsTimeSection from '../components/complaints/time/complaints-time-section'
 import ComplaintsOutcomeSection from '../components/complaints/outcome/complaints-outcome-section'
 import ComplaintsSourceSection from '../components/complaints/source/complaints-source-section'
+import ComplaintsFourthSection from '../components/complaints/fourth/complaints-fourth-section'
 
 const ComplaintsPage = () => (
   <Layout>
@@ -30,6 +31,9 @@ const ComplaintsPage = () => (
 						<NavItem>
 	            <NavLink href="#complaints-source-section" className="text-white">Who complains</NavLink>
 	          </NavItem>
+						<NavItem>
+	            <NavLink href="#complaints-fourth-section" className="text-white">4th amendment violations</NavLink>
+	          </NavItem>
 	        </Nav>
 				</Col>
 
@@ -44,6 +48,7 @@ const ComplaintsPage = () => (
 					<ComplaintsTimeSection />
 					<ComplaintsOutcomeSection />
 					<ComplaintsSourceSection />
+					<ComplaintsFourthSection />
 				</Col>
 			</Row>
 

@@ -84,6 +84,7 @@ if (RECLEAN_DATA) {
   actions.taken.all <- read.csv(ACTIONS.TAKEN.CSV.SANITIZED, stringsAsFactors = FALSE)
 }
 
+actions.taken.for.year <- actions.taken.all %>% filter(Action.taken.year == CURRENT.YEAR)
 uof.for.year <- uof.all %>% filter(year.of.record == CURRENT.YEAR)
 allegations.for.year <- allegations.all %>% filter(year.of.record == CURRENT.YEAR)
 

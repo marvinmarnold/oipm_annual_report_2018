@@ -41,6 +41,9 @@ class ComplaintsSourceSection extends React.Component {
 				<Row>
 					<Col>
 						<h4>Anonymous complaints</h4>
+						<ul>
+							<li>Of the three anonymous complaints in 2018, two remain pending; the third was found to have “no formal investigation merited.” These findings are similar to those from 2017, where only 1 of 10 anonymous complaints was sustained.</li>
+						</ul>
 					</Col>
 					<Col>
 						<ComplaintsBySourceDispositionPlot />

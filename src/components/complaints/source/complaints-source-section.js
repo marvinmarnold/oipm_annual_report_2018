@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 
 import AllegationsBySourcePlot from './allegations-by-source-plot'
 import ComplaintsBySourceDispositionPlot from './complaints-by-source-disposition-plot'
+import ComplaintsByAnonymousPlot from './complaints-by-anonymous-plot'
 
 class ComplaintsSourceSection extends React.Component {
 	constructor() {
@@ -13,12 +14,6 @@ class ComplaintsSourceSection extends React.Component {
 	renderBySource() {
 		return (
 			<div className="my-3">
-				<Row>
-					<Col>
-
-
-					</Col>
-				</Row>
 				<Row>
 					<Col>
 						<ul>
@@ -39,6 +34,22 @@ class ComplaintsSourceSection extends React.Component {
 		)
 	}
 
+	renderByAnonymous() {
+		return (
+			<div className="my-3">
+
+				<Row>
+					<Col>
+						<h4>Anonymous complaints</h4>
+					</Col>
+					<Col>
+						<ComplaintsBySourceDispositionPlot />
+					</Col>
+				</Row>
+			</div>
+		)
+	}
+
 	render() {
 		return (
 			<div>
@@ -47,6 +58,7 @@ class ComplaintsSourceSection extends React.Component {
 				</Row>
 
 				{this.renderBySource()}
+				{this.renderByAnonymous()}
 			</div>
 		)
 	}

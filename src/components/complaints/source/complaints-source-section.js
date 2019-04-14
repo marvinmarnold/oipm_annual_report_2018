@@ -17,9 +17,11 @@ class ComplaintsSourceSection extends React.Component {
 				<Row>
 					<Col>
 						<ul>
-							<li>The public initiates roughly 1.5 times the number of complaints than does rank, however rank complaints are sustained more frequently.</li>
+							<li>The public initiates roughly 1.5 times the number of complaints than does rank, however rank complaints are sustained more frequently. This is consistent with data from comparable cities <a href="#ref-4-public-relative">[4]</a>. </li>
 							<li>Citizen and rank complaint numbers both decrease slightly from 2017 to 2018. </li>
 						</ul>
+
+						<p id="ref-4-public-relative">[4] - Boulder Police Department, <a href="https://www-static.bouldercolorado.gov/docs/Professional_standards_report_Final3-26-1-201903261155.pdf">Professional Standards Report, p. 6</a>, accessed April 9, 2019.</p>
 					</Col>
 					<Col>
 						<h4>Allegations by source</h4>

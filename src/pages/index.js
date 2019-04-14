@@ -37,7 +37,7 @@ class IndexPage extends React.Component {
 							<p>The report is organized into these sections:</p>
 							<Nav vertical>
 			          <NavLink href={this.withPrefix("/force")}>Use of Force</NavLink>
-								<NavLink href={this.withPrefix("/complaints-misconduct")}>Complaints &amp; Misconduct</NavLink>
+								<NavLink href={this.withPrefix("/complaints")}>Complaints &amp; Misconduct</NavLink>
 			        </Nav>
 
 							<p>Marvin's todo list</p>

@@ -93,7 +93,7 @@ allegations.for.year <- allegations.all %>% filter(year.of.record == CURRENT.YEA
 source("lib/post-processing/complaint-dispositions.R")
 
 # Mediation data doesn't need to be sanitized
-mediation.survey.all <- read.csv(MEDIATION.CSV.DIRTY)
+mediation.survey.all <- read.csv(MEDIATION.CSV.DIRTY, sep = CSV_SEP, stringsAsFactors = FALSE)
 
 ########################################################################################################
 ########################################## PERFORM ANALYSIS ############################################

@@ -77,7 +77,7 @@ class ForceTimeSection extends React.Component {
 							<li>While both UOF and FTN peaked in August of 2017, only the spike in UOF in August remained consistent in 2018. April, May, June, and August were months when the UOF was substantially higher than the median of 82. The average of UOF/FTN was approximately 2.5 in 2018, compared with roughly 2.7 in 2017. The increase in UOF during these months is, perhaps, due to “festival season” <a href="#ref-10-festival">[10]</a>. Otherwise, there is no immediate rationale for the fluctuation. </li>
 						</ul>
 
-						<p id="ref-10-festival">[10] - Government of the District of Colombia, Police Complaint Board, Office of Police Complaints, <a href="https://policecomplaints.dc.gov/node/1391936">Report on Use of Force by the Washington, D.C Metropolitan Police Department 2018</a>, page 29</p></p>
+						<p id="ref-10-festival">[10] - Government of the District of Colombia, Police Complaint Board, Office of Police Complaints, <a href="https://policecomplaints.dc.gov/node/1391936">Report on Use of Force by the Washington, D.C Metropolitan Police Department 2018</a>, page 29</p>
 
 					</Col>
 					<Col className="col-8">

@@ -27,7 +27,7 @@ class OfficerDemographicsSection extends React.Component {
 					<Col className="col-5">
 						<ul>
 							<li>Use of force varies greatly by age group. Officers ages 26-35 account for more UOF that all other groups combined. Within the 26-30 and 31-35 groups, officers with less than 5 years experience are most likely to perpetrate UOF.</li>
-							<li>The oldest (51<) and youngest (25>) NOPD officers are least likely to use UOF. However, trends within the oldest group differed greatly from those in the aforementioned groups. In the 51+ category, most UOF is performed by officers with 16+ years of experience.</li>
+							<li>The oldest (51&lt;) and youngest (25&gt;) NOPD officers are least likely to use UOF. However, trends within the oldest group differed greatly from those in the aforementioned groups. In the 51+ category, most UOF is performed by officers with 16+ years of experience.</li>
 						</ul>
 					</Col>
 					<Col className="col-7">

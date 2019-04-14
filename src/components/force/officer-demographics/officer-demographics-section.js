@@ -26,7 +26,8 @@ class OfficerDemographicsSection extends React.Component {
 				<Row>
 					<Col className="col-5">
 						<ul>
-							<li>TODO</li>
+							<li>Use of force varies greatly by age group. Officers ages 26-35 account for more UOF that all other groups combined. Within the 26-30 and 31-35 groups, officers with less than 5 years experience are most likely to perpetrate UOF.</li>
+							<li>The oldest (51<) and youngest (25>) NOPD officers are least likely to use UOF. However, trends within the oldest group differed greatly from those in the aforementioned groups. In the 51+ category, most UOF is performed by officers with 16+ years of experience.</li>
 						</ul>
 					</Col>
 					<Col className="col-7">
@@ -50,10 +51,12 @@ class OfficerDemographicsSection extends React.Component {
 					<Col>
 						<ul>
 							<li>Male officers were 10 times more likely to use force.</li>
-							<li>Of male officers, white males were far more likely to use force, followed by Black males.</li>
+							<li>Of male officers, white males were far more likely to use force, followed by Black males. On trend with other departments, white male officers are more likely to engage in UOF, particularly regarding Black male subjects <a href="#ref-17-white">[17]</a>.</li>
 							<li>Black female officers used slightly more force than white female officers.</li>
 							<li>In 2018, white male officers account for 15 more UOF than all other officers combined, though they make up less than 50% of NOPD. These statistics are nearly identical to 2017’s data.</li>
 						</ul>
+
+						<p id="ref-17-white">[16] - Chicago Police Department, <a href="https://home.chicagopolice.org/wp-content/uploads/2019/03/Chicago-Police-Department-Annual-Report-2017.pdf">Annual, p. 104</a>, accessed April 9, 2019.</p>
 					</Col>
 					<Col>
 						<UofByOfficerSexRacePlot />

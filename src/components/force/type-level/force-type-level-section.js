@@ -94,7 +94,10 @@ class ForceTypeLevelSection extends React.Component {
 						<ul>
 							<li>Level 4 UOF is least common, with only 9 instances total.</li>
 							<li>Head strikes while handcuffed are the most frequent UOF, followed by L-4 taser.</li>
+							<li>There are inconsistencies in departments across the US as to which methods of UOF are utilized. Yet, physical force and takedown methods appear to be used most consistently and most frequently <a href="#ref-11-lvls">[11]</a>.</li>
 						</ul>
+
+						<p id="ref-11-lvls">[11] - Chicago Police Department, Chicago Police Department <a href="https://home.chicagopolice.org/wp-content/uploads/2019/03/Chicago-Police-Department-Annual-Report-2017.pdf">Annual Report 2017, p. 100-102</a>, accessed April 9, 2019.</p>
 					</Col>
 				</Row>
 				<Row>

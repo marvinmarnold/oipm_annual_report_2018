@@ -54,6 +54,11 @@ MEDIATION.CSV.DIRTY <- "raw/data/mediation.csv"
 ######### Maps
 LOUISIANA.JSON <- "data/louisiana.json"
 
+######### OPSO
+JFI12M.TXT.DIRTY <- "raw/data/opso/JFI15M_UTF8.TXT"
+JFI12M.CSV.SANITIZED <- "data/bookings-sanitized.csv"
+
+
 ########################################################################################################
 ######################################## LOAD DEPENDENCIES #############################################
 # Load libraries

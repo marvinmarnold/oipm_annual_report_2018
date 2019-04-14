@@ -76,7 +76,8 @@ class ForceOutcomeSection extends React.Component {
 					<Col className="col-5">
 						<ul>
 							<li>Non-officers were injured by UOF 18.7% of the time.</li>
-							<li>Individual injures were down 3.6% from 2017. </li>
+							<li>Individual injures were down 3.6% from 2017.</li>
+							<li>The percentage of individual injuries related to UOF appears lower than in some other municipalities, for instance DCPD with 55%. This may indicate that when force is used by NOPD, officers use techniques that do not harm civilians or that the department may be underreporting injuries.</li>
 						</ul>
 					</Col>
 					<Col className="col-7">
@@ -100,6 +101,9 @@ class ForceOutcomeSection extends React.Component {
 					<Col className="col-5">
 						<ul>
 							<li>NOPD added new categories. May want to verify the cases of "No force used"</li>
+							<li>Since NOPD categories have changed, determining factors in UOF remains unclear.</li>
+							<li>NOPD indicated that force is overwhelmingly justified. Given the number of complaints against NOPD officers, this data remains questionable.</li>
+							<li>Further, NOPD claims that force is “not justified” just 1.5% of the time.  </li>
 						</ul>
 					</Col>
 					<Col className="col-7">

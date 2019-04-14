@@ -23,11 +23,14 @@ class PublicDemographicsSection extends React.Component {
 						<h4>Type of force by individual sex and gender</h4>
 
 						<ul>
-							<li>Both Black women and Black men experience the highest levels of most types of UOF.</li>
+							<li>Both Black women and Black men experience the highest levels of most types of UOF. The Journal of Ethics recently reported that Black women are perceived to experience pain at a lesser rate than White women. Is it then possible that Black women are experiencing more UOF than White women because officers believe that Black women will not experience as much pain?</li>
 							<li>While only Black females were subjected to baton/pr-24 (strikes), defense tech/take-down, L2-taser, and take-down (w/ injury), only white females had canine (no bite) UOF.</li>
 							<li>While white males made up all L4-taser UOF, while Black males experienced nearly all other UOF at the highest rates.</li>
 							<li>Therefore, UOF by type and race is alarmingly similar to 2017, however firearm exhibition has decreased significantly overall.</li>
+							<li>This is consistent with findings in other police departments—that Black men disproportionately experience UOF <a href="#ref-16-uof-black">[16]</a>. Moreover, 2017 studies from the American Psychological Association showed that Black men are perceived as more threatening than White men of similar size. The disparities in policing in gender and race could be due to the implicit bias of officers, ensuring that Black men are most negatively impacted.</li>
 						</ul>
+
+							<p id="ref-16-uof-black">[16] - Chicago Police Department, <a href="https://home.chicagopolice.org/wp-content/uploads/2019/03/Chicago-Police-Department-Annual-Report-2017.pdf">Annual, p. 104</a>, accessed April 9, 2019.</p>
 					</Col>
 				</Row>
 				<Row>
@@ -80,7 +83,9 @@ class PublicDemographicsSection extends React.Component {
 				<Row>
 					<Col>
 						<h4>Disparities in the policing of black people</h4>
+						<p>Stops & searches, as well as UOF, disproportionately negatively impact Black people. Other departments analyzed, such as the Metropolitan Police Department (Washington DC) and Chicago Police Department, suggest that increased community policing and increased and improved officer training could begin to remedy disparities in the policing of Black people <a href="#ref-18-black">[18]</a>. Further, implicit bias and anti-oppression trainings are two concrete steps toward addressing the over-policing of Black people in New Orleans. </p>
 
+					<p id="ref-18-black">[4] - Boulder Police Department, <a href="https://www-static.bouldercolorado.gov/docs/Professional_standards_report_Final3-26-1-201903261155.pdf">Professional Standards Report, p. 2</a>, accessed April 9, 2019.</p>
 					</Col>
 				</Row>
 				<Row>

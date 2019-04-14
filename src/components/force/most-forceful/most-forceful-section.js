@@ -41,6 +41,7 @@ class MostForcefulSection extends React.Component {
 							<li>The top 10 officers are responsible for 11.31 of all FTN in 2018, up slightly from 10.38% in 2017.</li>
 							<li>The top 10 officers are responsible for 14.17% of UOF in 2018, a negligible increase from 13.34% in 2017.</li>
 							<li>The top 400 officers with FTNs are responsible for 100% of force in 2018. In 2017, 500 officers were responsible for total force.</li>
+							<li>The data raises the question: if very few officers are responsible for a disproportionate UOF, why hasn’t the NOPD reprimanded, re-trained, or released those officers from duty?</li>
 						</ul>
 					</Col>
 					<Col>

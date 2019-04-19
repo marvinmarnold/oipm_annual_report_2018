@@ -1,0 +1,174 @@
+{
+  "visdat": {
+    "3fb27c799952": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "3fb27c799952",
+  "attrs": {
+    "3fb27c799952": {
+      "x": {},
+      "y": {},
+      "name": "Washington, D.C.",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "bar"
+    },
+    "3fb27c799952.1": {
+      "x": {},
+      "y": {},
+      "name": "Austin, TX",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "bar",
+      "inherit": true
+    },
+    "3fb27c799952.2": {
+      "x": {},
+      "y": {},
+      "name": "Indianapolis, IN",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "bar",
+      "inherit": true
+    },
+    "3fb27c799952.3": {
+      "x": {},
+      "y": {},
+      "name": "New Orleans, LA",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "bar",
+      "inherit": true
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 40,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "yaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": "Amount of force"
+    },
+    "barmode": "group",
+    "xaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": false,
+      "type": "category",
+      "categoryorder": "array",
+      "categoryarray": ["Force per 10,000 officers", "Force per 1,000 arrests", "Force per 100 residents"]
+    },
+    "hovermode": "closest",
+    "showlegend": true
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "x": ["Force per 10,000 officers", "Force per 100 residents", "Force per 1,000 arrests"],
+      "y": [32.3, 18, 39],
+      "name": "Washington, D.C.",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(31,119,180,1)",
+        "line": {
+          "color": "rgba(31,119,180,1)"
+        }
+      },
+      "error_y": {
+        "color": "rgba(31,119,180,1)"
+      },
+      "error_x": {
+        "color": "rgba(31,119,180,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Force per 10,000 officers", "Force per 100 residents", "Force per 1,000 arrests"],
+      "y": [182.9, 35, 79],
+      "name": "Austin, TX",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(255,127,14,1)",
+        "line": {
+          "color": "rgba(255,127,14,1)"
+        }
+      },
+      "error_y": {
+        "color": "rgba(255,127,14,1)"
+      },
+      "error_x": {
+        "color": "rgba(255,127,14,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Force per 10,000 officers", "Force per 100 residents", "Force per 1,000 arrests"],
+      "y": [89.5, 16, 33],
+      "name": "Indianapolis, IN",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(44,160,44,1)",
+        "line": {
+          "color": "rgba(44,160,44,1)"
+        }
+      },
+      "error_y": {
+        "color": "rgba(44,160,44,1)"
+      },
+      "error_x": {
+        "color": "rgba(44,160,44,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Force per 10,000 officers", "Force per 100 residents", "Force per 1,000 arrests"],
+      "y": [83.7, 32, 65],
+      "name": "New Orleans, LA",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(214,39,40,1)",
+        "line": {
+          "color": "rgba(214,39,40,1)"
+        }
+      },
+      "error_y": {
+        "color": "rgba(214,39,40,1)"
+      },
+      "error_x": {
+        "color": "rgba(214,39,40,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

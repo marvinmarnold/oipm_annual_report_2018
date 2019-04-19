@@ -1,5 +1,5 @@
 ########################################################################################################
-################################## 2017 ANNUAL REPORT MAIN SCRIPT ######################################
+################################## 2018 ANNUAL REPORT MAIN SCRIPT ######################################
 
 # Reset environment
 rm(list = ls())
@@ -86,7 +86,7 @@ if (RECLEAN_DATA) {
   stops.for.year <- read.csv(STOPS.CSV.SANITIZED, stringsAsFactors = FALSE)
   allegations.all <- read.csv(ALLEGATIONS.CSV.SANITIZED, stringsAsFactors = FALSE, sep = CSV_SEP)
   
-  actions.taken.all <- read.csv(ACTIONS.TAKEN.CSV.SANITIZED, stringsAsFactors = FALSE)
+  actions.taken.all <- read.csv(ACTIONS.TAKEN.CSV.SANITIZED, stringsAsFactors = FALSE, sep = CSV_SEP)
 }
 
 actions.taken.for.year <- actions.taken.all %>% filter(Action.taken.year == CURRENT.YEAR)
@@ -107,3 +107,4 @@ if (REGEN_ANALYSIS) {
   print("Going to run all analysis")
   load.subdirectory("analysis")
 }
+

@@ -26,7 +26,7 @@ class ForceTimeSection extends React.Component {
 					<Col className="col-4">
 						<ul>
 							<li>There were 1108 UOF in 2018, down significantly from 1574 in 2017. The number of FTN in 2018 was 438, resulting in a decrease of 166 since 2017. The trend of UOF incidents in other police departments surveyed was an increase in 2018 <a href="#ref-8-force-increase">[8]</a>.</li>
-							<li>Notably, even with the increase of UOF in other cities, the overall numbers for UOF per capita in New Orleans was substantially higher than other cities. For example, Indianapolis Police Department has 896 UOF and a population of 863,000, and DC PD had 323 UOF with 694,000 residents <a href="#ref-9-force-indiana">[8]</a>.</li>
+							<li>Notably, even with the increase of UOF in other cities, the overall numbers for UOF per capita in New Orleans was substantially higher than other cities. For example, Indianapolis Police Department has 896 UOF and a population of 863,000, and DC PD had 323 UOF with 694,000 residents <a href="#ref-9-force-indiana">[9]</a>.</li>
 							<li>Data and NOPD data for FTN and UOF are not consistent for 2018. Both sets of data were consonant in 2017, however there were slight discrepancies between the sets in the 2016 analysis. Retroactive data shown in the chart for years prior to 2016 is supplied using.</li>
 							<li>Data showed that UOF and FTN remained fairly consistent from 2013 to 2014. However, force spiked between 2014 and 2015. From 2015 to 2016, UOF increased while FTN decreased. In 2017, both FTN and UOF increased. Notably, both UOF and FTN experienced sharp declines in 2018.</li>
 						</ul>

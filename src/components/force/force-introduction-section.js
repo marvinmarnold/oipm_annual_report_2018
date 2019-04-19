@@ -1,6 +1,8 @@
 import React from "react"
 import { Row, Col } from 'reactstrap'
 
+import ForceByCityPlot from './force-by-city-plot'
+
 const ForceIntroductionSection = () => (
 	<div>
 		<Row>
@@ -16,6 +18,16 @@ const ForceIntroductionSection = () => (
 				<ul>
 					<li>Difference between FTN &amp; UOF. Using "Amount of force" to describe UOF and "Force incidents" for FTN.</li>
 				</ul>
+			</Col>
+		</Row>
+		<Row>
+			<Col>
+				<p>
+					New Orleans uses the second most amount of force compared to other cities in 2 out of 3 categories. Least relative force when looked at from a per-officer basis.
+				</p>
+			</Col>
+			<Col>
+				<ForceByCityPlot />
 			</Col>
 		</Row>
 	</div>

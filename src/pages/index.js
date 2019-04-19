@@ -43,7 +43,6 @@ class IndexPage extends React.Component {
 							<p>Marvin's todo list</p>
 							<ul>
 								<li>Add 2015 data</li>
-								<li>Responsive plots</li>
 								<li>Officers w/ most force divisions and departments</li>
 								<li>Officers by zip map</li>
 								<li>https://policecomplaints.dc.gov/sites/default/files/dc/sites/office%20of%20police%20complaints/publication/attachments/UOF%20Report%202018_Final_1.pdf comparison</li>

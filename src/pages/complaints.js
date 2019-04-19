@@ -48,8 +48,8 @@ const ComplaintsPage = () => (
 						</Col>
 					</Row>
 
-					<ComplaintsTimeSection />
 					<ComplaintsIntroductionSection />
+					<ComplaintsTimeSection />
 					<ComplaintsOutcomeSection />
 					<ComplaintsSourceSection />
 					<ComplaintsFourthSection />

@@ -2,6 +2,7 @@ import React from "react"
 import { Row, Col } from 'reactstrap'
 
 import AllegationsMostCommonPlot from './allegations-most-common-plot'
+import ComplaintsByCityPlot from './complaints-by-city-plot'
 
 const ComplaintsIntroductionSection = () => (
 	<div>
@@ -12,6 +13,15 @@ const ComplaintsIntroductionSection = () => (
 			</Col>
 
 
+		</Row>
+		<Row>
+			<Col>
+				<h4>Complaints in other cities</h4>
+				<p>New Orleans gets more complaints from the public when compared to other cities.</p>
+			</Col>
+			<Col>
+				<ComplaintsByCityPlot />
+			</Col>
 		</Row>
 		<Row>
 			<Col>

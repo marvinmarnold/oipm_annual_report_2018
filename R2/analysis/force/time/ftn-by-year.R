@@ -51,7 +51,7 @@ p.ftn.by.year <- plot_ly(count.ftn.by.year, x = ~year,
                       range = years),
          
          yaxis = list(title = "Number times force used", 
-                      range = c(0, 2500), 
+                      range = c(0, 1000), 
                       tick0 = 0,
                       showgrid = T),
          hovermode = 'compare', 

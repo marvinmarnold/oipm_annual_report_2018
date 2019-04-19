@@ -2,7 +2,7 @@ import React from "react"
 import { Container, Row, Col, Nav, NavItem, NavLink } from 'reactstrap';
 
 // Components
-import Layout from "../components/layout/layout"
+import Page from "../components/layout/page"
 import SEO from "../components/layout/seo"
 import ComplaintsIntroductionSection from '../components/complaints/complaints-introduction-section'
 import ComplaintsTimeSection from '../components/complaints/time/complaints-time-section'
@@ -12,53 +12,48 @@ import ComplaintsFourthSection from '../components/complaints/fourth/complaints-
 import ComplaintsDisciplineSection from '../components/complaints/discipline/complaints-discipline-section'
 
 const ComplaintsPage = () => (
-  <Layout>
-    <SEO title="Complaints - 2018 OIPM Annual Report" />
+	<Page
+		title={"Use of Force - 2018 OIPM Annual Report"}
+		nav={
+			<Nav className="mt-4" vertical>
+				<NavItem>
+					<NavLink href="#complaints-introduction-section" className="text-white">Introduction &amp; terms</NavLink>
+				</NavItem>
+				<NavItem>
+					<NavLink href="#complaints-time-section" className="text-white">Complaints over time</NavLink>
+				</NavItem>
+				<NavItem>
+					<NavLink href="#complaints-outcome-section" className="text-white">Outcome of complaints</NavLink>
+				</NavItem>
+				<NavItem>
+					<NavLink href="#complaints-source-section" className="text-white">Who complains</NavLink>
+				</NavItem>
+				<NavItem>
+					<NavLink href="#complaints-fourth-section" className="text-white">4th amendment violations</NavLink>
+				</NavItem>
+				<NavItem>
+					<NavLink href="#complaints-discipline-section" className="text-white">Discipline</NavLink>
+				</NavItem>
+			</Nav>
+		}
+		body={
+			<div>
+				<Row>
+					<Col>
+						<h1 className="my-5 text-center">Complaints &amp; Misconduct</h1>
+					</Col>
+				</Row>
 
-		<Container fluid>
-			<Row>
-				<Col className="bg-secondary" xs="12" lg="2" md="3">
-					<h4 className="mt-5">Jump to...</h4>
-					<Nav className="mt-4" vertical>
-						<NavItem>
-	            <NavLink href="#complaints-introduction-section" className="text-white">Introduction &amp; terms</NavLink>
-	          </NavItem>
-						<NavItem>
-	            <NavLink href="#complaints-time-section" className="text-white">Complaints over time</NavLink>
-	          </NavItem>
-						<NavItem>
-	            <NavLink href="#complaints-outcome-section" className="text-white">Outcome of complaints</NavLink>
-	          </NavItem>
-						<NavItem>
-	            <NavLink href="#complaints-source-section" className="text-white">Who complains</NavLink>
-	          </NavItem>
-						<NavItem>
-	            <NavLink href="#complaints-fourth-section" className="text-white">4th amendment violations</NavLink>
-	          </NavItem>
-						<NavItem>
-	            <NavLink href="#complaints-discipline-section" className="text-white">Discipline</NavLink>
-	          </NavItem>
-	        </Nav>
-				</Col>
+				<ComplaintsIntroductionSection />
+				<ComplaintsTimeSection />
+				<ComplaintsOutcomeSection />
+				<ComplaintsSourceSection />
+				<ComplaintsFourthSection />
+				<ComplaintsDisciplineSection />
 
-				<Col xs="12" lg="10" md="9">
-					<Row>
-						<Col>
-							<h1 className="my-5 text-center">Complaints &amp; Misconduct</h1>
-						</Col>
-					</Row>
-
-					<ComplaintsIntroductionSection />
-					<ComplaintsTimeSection />
-					<ComplaintsOutcomeSection />
-					<ComplaintsSourceSection />
-					<ComplaintsFourthSection />
-					<ComplaintsDisciplineSection />
-				</Col>
-			</Row>
-
-		</Container>
-  </Layout>
+			</div>
+		}
+	/>
 )
 
 export default ComplaintsPage

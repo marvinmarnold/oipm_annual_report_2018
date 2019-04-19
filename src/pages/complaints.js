@@ -17,7 +17,7 @@ const ComplaintsPage = () => (
 
 		<Container fluid>
 			<Row>
-				<Col className="col-2 bg-secondary">
+				<Col className="bg-secondary" xs="12" lg="2" md="3">
 					<h4 className="mt-5">Jump to...</h4>
 					<Nav className="mt-4" vertical>
 						<NavItem>
@@ -41,7 +41,7 @@ const ComplaintsPage = () => (
 	        </Nav>
 				</Col>
 
-				<Col className="col-10">
+				<Col xs="12" lg="10" md="9">
 					<Row>
 						<Col>
 							<h1 className="my-5 text-center">Complaints &amp; Misconduct</h1>

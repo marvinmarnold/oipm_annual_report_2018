@@ -13,6 +13,11 @@ p.top.alleg <- plot_ly(count.by.alleg,  type = 'pie', name = title,
                        values = ~alleg.count,
                        textposition = 'inside',
                        textinfo = 'label+value+percent',
-                       insidetextfont = list(color = '#FFFFFF'))
+                       insidetextfont = list(color = '#FFFFFF')) %>%
+  
+  layout(
+    #legend = list(x = 0, y = -.75)
+    hovermode = "compare", showlegend = FALSE
+  )
 p.top.alleg
 gen.plotly.json(p.top.alleg, "allegations-most-common")

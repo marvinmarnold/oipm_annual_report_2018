@@ -17,11 +17,14 @@ p.allegations.by.finding <- plot_ly(allegation.count.by.finding) %>%
   layout(barmode = 'stack',
          margin = list(b = 150),
          hovermode = 'compare',
+        # legend = list(x = 0, y = -.75),
+         
          xaxis = list(title = "Allegation Finding", 
                       dtick = 1,
                       showgrid = F), 
          
          yaxis = list(title = "Number of allegations", showgrid = T))
+  
 
 p.allegations.by.finding
 gen.plotly.json(p.allegations.by.finding, "allegations-by-finding")

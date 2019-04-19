@@ -1,22 +1,22 @@
 {
   "visdat": {
-    "1666cbce167": ["function () ", "plotlyVisDat"]
+    "3fb25ac43230": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "1666cbce167",
+  "cur_data": "3fb25ac43230",
   "attrs": {
-    "1666cbce167": {
+    "3fb25ac43230": {
       "x": {},
       "y": {},
-      "name": "Top X officers contribution to FTN",
+      "name": "Force incidents",
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
       "type": "bar"
     },
-    "1666cbce167.1": {
+    "3fb25ac43230.1": {
       "x": {},
       "y": {},
-      "name": "Top X officers contribution to UOF",
+      "name": "Amount of force (UOF)",
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -45,6 +45,10 @@
       "title": "Percent of force",
       "dtick": 10
     },
+    "legend": {
+      "x": 0,
+      "y": -0.3
+    },
     "barmode": "group",
     "hovermode": "closest",
     "showlegend": true
@@ -58,7 +62,7 @@
     {
       "x": ["5", "10", "20", "100", "200", "300", "400"],
       "y": [6.81233933161954, 11.3110539845758, 18.2519280205656, 50.5141388174807, 75.0642673521851, 87.9177377892031, 100],
-      "name": "Top X officers contribution to FTN",
+      "name": "Force incidents",
       "type": "bar",
       "marker": {
         "color": "rgba(31,119,180,1)",
@@ -79,7 +83,7 @@
     {
       "x": ["5", "10", "20", "100", "200", "300", "400"],
       "y": [8.39350180505415, 14.1696750902527, 22.9241877256318, 59.7472924187726, 80.4151624548737, 91.5162454873646, 100],
-      "name": "Top X officers contribution to UOF",
+      "name": "Amount of force (UOF)",
       "type": "bar",
       "marker": {
         "color": "rgba(255,127,14,1)",

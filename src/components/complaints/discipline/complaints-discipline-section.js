@@ -26,11 +26,11 @@ class ComplaintsDisciplineSection extends React.Component {
 							<li>In 2018, the most common forms of discipline were “letter of reprimand” and “suspension.” However, in 2017 the most common forms of discipline were “suspension” and “DI-2.” </li>
 						</ul>
 					</Col>
-				</Row>
-				<Row>
 					<Col>
 						<DisciplineByActionTakenPlot />
 					</Col>
+				</Row>
+				<Row>
 					<Col>
 						<DisciplineByAllegationPlot />
 					</Col>

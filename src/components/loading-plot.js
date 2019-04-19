@@ -22,8 +22,8 @@ class LoadingPlot extends React.Component {
 
 		let responsiveLayout = layout
 		// let responsiveLayout = {}
-		// responsiveLayout.height = null
-		// responsiveLayout.width = null
+		// responsiveLayout.height = "100%"
+		// responsiveLayout.width = "100%"
 		// delete responsiveLayout.margin
 
 		responsiveLayout.legend = {
@@ -52,6 +52,8 @@ class LoadingPlot extends React.Component {
 				    config={this.genResponsiveConfig(this.props.config)}
 				    onInitialized={(figure) => this.setState(figure)}
 				    onUpdate={(figure) => this.setState(figure)}
+						useResizeHandler={true}
+						style={{width:"100%"}}
 				/>
 			)
   	}

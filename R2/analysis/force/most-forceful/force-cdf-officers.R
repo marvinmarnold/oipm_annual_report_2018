@@ -74,9 +74,9 @@ force.count.per.bucket <- data.frame(
 p.force.per.bucket <- plot_ly(force.count.per.bucket, 
                               x = ~rank.buckets, 
                               y = ~ftn.pct.per.bucket, type = 'bar', 
-                              name = "Top X officers contribution to FTN") %>%
+                              name = "Force incidents") %>%
   
-  add_trace(y = ~uof.pct.per.bucket, name = "Top X officers contribution to UOF") %>%
+  add_trace(y = ~uof.pct.per.bucket, name = "Amount of force (UOF)") %>%
   
   layout(
     xaxis = list(
@@ -85,6 +85,7 @@ p.force.per.bucket <- plot_ly(force.count.per.bucket,
       title = "Total number of officers"
     ),
     yaxis = list(title = 'Percent of force', dtick = 10), 
+    legend = list(x = 0, y = -.3),
     barmode = 'group')
 
 p.force.per.bucket

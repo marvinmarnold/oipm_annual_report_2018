@@ -1,4 +1,4 @@
-force.types <- c("Force per 10,000 officers", "Force per 100 residents", "Force per 1,000 arrests")
+force.types <- c("Per 10k officers", "Per 100 residents", "Per 1k arrests")
 dc.force <- c(32.3, 18, 39)
 austin.force <- c(182.9, 35, 79)
 indianapolis.force <- c(89.5, 16, 33)
@@ -12,7 +12,7 @@ p.force.by.city <- plot_ly(force.data, x = ~force.types, y = ~dc.force, type = '
   add_trace(y = ~no.force, name = 'New Orleans, LA') %>%
   
   layout(
-    yaxis = list(title = 'Amount of force'), barmode = 'group',
+    yaxis = list(title = 'Amount of force (UOF)'), barmode = 'group',
     xaxis = list(title = FALSE)
     )
 

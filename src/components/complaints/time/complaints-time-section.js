@@ -15,7 +15,7 @@ class ComplaintsTimeSection extends React.Component {
 			<div className="my-3">
 				<Row>
 					<Col>
-						<h4>Number of active NOPD officers</h4>
+						<h4>Annual trends</h4>
 
 						<ul>
 							<li>Complaints and allegations both appeared to have a slight decrease in 2018 compared with 2017. This appears to be on trend with other United States police departments of similar size, which are experiencing stagnation in complaints or decreases <a href="#ref-1-universal-decrease">[1]</a>. Given that complaint decreases are taking place in metropolitan police departments across the U.S., this may indicate a universal reform in policing over the past few years due to social pressure from politicians such as Barack Obama and catalysts such as the Movement for Black Lives.</li>

@@ -17,7 +17,11 @@ const ComplaintsIntroductionSection = () => (
 		<Row>
 			<Col>
 				<h4>Complaints in other cities</h4>
-				<p>New Orleans gets more complaints from the public when compared to other cities.</p>
+				<ul>
+					<li>Only public complaints considered.</li>
+					<li>New Orleans gets more complaints when compared to other similar sized cities (Indianapolis and DC).</li>
+					<li>New Orleans rivals Chicago in two out of the three comparisons but Chicago has much higher complaint per arrest rates.</li>
+				</ul>
 			</Col>
 			<Col>
 				<ComplaintsByCityPlot />

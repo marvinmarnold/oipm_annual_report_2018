@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "3fb27c799952": ["function () ", "plotlyVisDat"]
+    "3fb2244df2ad": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "3fb27c799952",
+  "cur_data": "3fb2244df2ad",
   "attrs": {
-    "3fb27c799952": {
+    "3fb2244df2ad": {
       "x": {},
       "y": {},
       "name": "Washington, D.C.",
@@ -13,7 +13,7 @@
       "spans": [1, 20],
       "type": "bar"
     },
-    "3fb27c799952.1": {
+    "3fb2244df2ad.1": {
       "x": {},
       "y": {},
       "name": "Austin, TX",
@@ -23,7 +23,7 @@
       "type": "bar",
       "inherit": true
     },
-    "3fb27c799952.2": {
+    "3fb2244df2ad.2": {
       "x": {},
       "y": {},
       "name": "Indianapolis, IN",
@@ -33,7 +33,7 @@
       "type": "bar",
       "inherit": true
     },
-    "3fb27c799952.3": {
+    "3fb2244df2ad.3": {
       "x": {},
       "y": {},
       "name": "New Orleans, LA",
@@ -54,7 +54,7 @@
     "yaxis": {
       "domain": [0, 1],
       "automargin": true,
-      "title": "Amount of force"
+      "title": "Amount of force (UOF)"
     },
     "barmode": "group",
     "xaxis": {
@@ -63,7 +63,7 @@
       "title": false,
       "type": "category",
       "categoryorder": "array",
-      "categoryarray": ["Force per 10,000 officers", "Force per 1,000 arrests", "Force per 100 residents"]
+      "categoryarray": ["Per 100 residents", "Per 10k officers", "Per 1k arrests"]
     },
     "hovermode": "closest",
     "showlegend": true
@@ -75,7 +75,7 @@
   },
   "data": [
     {
-      "x": ["Force per 10,000 officers", "Force per 100 residents", "Force per 1,000 arrests"],
+      "x": ["Per 10k officers", "Per 100 residents", "Per 1k arrests"],
       "y": [32.3, 18, 39],
       "name": "Washington, D.C.",
       "type": "bar",
@@ -96,7 +96,7 @@
       "frame": null
     },
     {
-      "x": ["Force per 10,000 officers", "Force per 100 residents", "Force per 1,000 arrests"],
+      "x": ["Per 10k officers", "Per 100 residents", "Per 1k arrests"],
       "y": [182.9, 35, 79],
       "name": "Austin, TX",
       "type": "bar",
@@ -117,7 +117,7 @@
       "frame": null
     },
     {
-      "x": ["Force per 10,000 officers", "Force per 100 residents", "Force per 1,000 arrests"],
+      "x": ["Per 10k officers", "Per 100 residents", "Per 1k arrests"],
       "y": [89.5, 16, 33],
       "name": "Indianapolis, IN",
       "type": "bar",
@@ -138,7 +138,7 @@
       "frame": null
     },
     {
-      "x": ["Force per 10,000 officers", "Force per 100 residents", "Force per 1,000 arrests"],
+      "x": ["Per 10k officers", "Per 100 residents", "Per 1k arrests"],
       "y": [83.7, 32, 65],
       "name": "New Orleans, LA",
       "type": "bar",

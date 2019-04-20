@@ -42,6 +42,7 @@ class IndexPage extends React.Component {
 
 							<p>Marvin's todo list</p>
 							<ul>
+								<li>Highlight select results on homepage</li>
 								<li>Add 2015 data</li>
 								<li>Officers w/ most force divisions and departments</li>
 								<li>Officers by zip map</li>

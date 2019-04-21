@@ -37,6 +37,9 @@ OFFICERS.CSV.SANITIZED <- "data/officers-sanitized.csv"
 UOF.CSV.DIRTY <- "raw/data/uof-from-nopd.csv"
 UOF.CSV.SANITIZED <- "data/uof-sanitized.csv"
 
+UOF.2015.CSV.DIRTY <- "raw/data/uof-2015-from-nopd.csv"
+UOF.2015.CSV.SANITIZED <- "data/uof-2015-sanitized.csv"
+
 ######### Allegations
 ALLEGATIONS.CSV.DIRTY <- "raw/data/allegations-from-nopd.csv"
 ALLEGATIONS.CSV.SANITIZED <- "data/allegations-sanitized.csv"
@@ -83,6 +86,7 @@ if (RECLEAN_DATA) {
   adp.for.year <- read.csv(ADP.CSV.SANITIZED, stringsAsFactors = FALSE)
   officers.all <- read.csv(OFFICERS.CSV.SANITIZED, stringsAsFactors = FALSE, sep = CSV_SEP)
   uof.all <- read.csv(UOF.CSV.SANITIZED, stringsAsFactors = FALSE, sep = CSV_SEP)
+  uof.reported.2015 <- read.csv(UOF.2015.CSV.SANITIZED, stringsAsFactors = FALSE, sep = CSV_SEP)
   stops.for.year <- read.csv(STOPS.CSV.SANITIZED, stringsAsFactors = FALSE)
   allegations.all <- read.csv(ALLEGATIONS.CSV.SANITIZED, stringsAsFactors = FALSE, sep = CSV_SEP)
   

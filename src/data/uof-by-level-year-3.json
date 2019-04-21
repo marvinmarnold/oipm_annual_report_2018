@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "1665c83009a": ["function () ", "plotlyVisDat"]
+    "3fb27a8d7de8": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "1665c83009a",
+  "cur_data": "3fb27a8d7de8",
   "attrs": {
-    "1665c83009a": {
+    "3fb27a8d7de8": {
       "x": {},
       "y": {},
       "name": {},
@@ -22,12 +22,13 @@
       "t": 25,
       "r": 10
     },
+    "title": "Level L3 force",
     "xaxis": {
       "domain": [0, 1],
       "automargin": true,
       "categoryorder": "array",
       "categoryarray": ["L1", "L2", "L3", "L4"],
-      "title": "Level L3 force",
+      "title": false,
       "showgrid": false,
       "dtick": 1,
       "tick0": 2016
@@ -39,7 +40,7 @@
     },
     "legend": {
       "x": 0,
-      "y": -0.5
+      "y": -0.55
     },
     "barmode": "stack",
     "hovermode": "compare",
@@ -100,8 +101,8 @@
       "frame": null
     },
     {
-      "x": [2016, 2017, 2018],
-      "y": [3, 6, 10],
+      "x": [2015, 2016, 2017, 2018],
+      "y": [2, 3, 6, 10],
       "name": "Head Strike (No Wep)",
       "type": "bar",
       "marker": {

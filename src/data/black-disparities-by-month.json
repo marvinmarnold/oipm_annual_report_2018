@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "16643a77328": ["function () ", "plotlyVisDat"]
+    "3fb21dcde372": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "16643a77328",
+  "cur_data": "3fb21dcde372",
   "attrs": {
-    "16643a77328": {
+    "3fb21dcde372": {
       "x": {},
       "y": {},
       "mode": "lines+markers",
@@ -13,13 +13,13 @@
         "width": 2,
         "dash": "solid"
       },
-      "name": "Force",
+      "name": "Use of Force",
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
       "type": "scatter"
     },
-    "16643a77328.1": {
+    "3fb21dcde372.1": {
       "x": {},
       "y": {},
       "mode": "lines+markers",
@@ -35,7 +35,7 @@
       "type": "scatter",
       "inherit": true
     },
-    "16643a77328.2": {
+    "3fb21dcde372.2": {
       "x": 0,
       "y": 61,
       "mode": "lines",
@@ -49,7 +49,7 @@
       "sizes": [10, 100],
       "spans": [1, 20],
       "type": "scatter",
-      "xend": 13,
+      "xend": 12,
       "yend": 61,
       "inherit": true
     }
@@ -61,7 +61,11 @@
       "t": 25,
       "r": 10
     },
-    "title": "Force, Bookings, & Stops of black people by month in 2018",
+    "title": false,
+    "legend": {
+      "x": 0,
+      "y": -0.3
+    },
     "xaxis": {
       "domain": [0, 1],
       "automargin": true,
@@ -91,7 +95,7 @@
         "width": 2,
         "dash": "solid"
       },
-      "name": "Force",
+      "name": "Use of Force",
       "type": "scatter",
       "marker": {
         "color": "rgba(31,119,180,1)",
@@ -137,7 +141,7 @@
       "frame": null
     },
     {
-      "x": [0, 13],
+      "x": [0, 12],
       "y": [61, 61],
       "mode": "lines",
       "line": {

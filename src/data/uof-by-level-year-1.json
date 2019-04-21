@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "16617bb1ce2": ["function () ", "plotlyVisDat"]
+    "3fb247218d61": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "16617bb1ce2",
+  "cur_data": "3fb247218d61",
   "attrs": {
-    "16617bb1ce2": {
+    "3fb247218d61": {
       "x": {},
       "y": {},
       "name": {},
@@ -22,12 +22,13 @@
       "t": 25,
       "r": 10
     },
+    "title": "Level L1 force",
     "xaxis": {
       "domain": [0, 1],
       "automargin": true,
       "categoryorder": "array",
       "categoryarray": ["L1", "L2", "L3", "L4"],
-      "title": "Level L1 force",
+      "title": false,
       "showgrid": false,
       "dtick": 1,
       "tick0": 2016
@@ -39,7 +40,7 @@
     },
     "legend": {
       "x": 0,
-      "y": -0.5
+      "y": -0.55
     },
     "barmode": "stack",
     "hovermode": "compare",
@@ -76,8 +77,8 @@
       "frame": null
     },
     {
-      "x": [2016],
-      "y": [29],
+      "x": [2015, 2016],
+      "y": [35, 29],
       "name": "Canine (No Bite)",
       "type": "bar",
       "marker": {
@@ -100,8 +101,8 @@
       "frame": null
     },
     {
-      "x": [2016, 2017, 2018],
-      "y": [781, 749, 509],
+      "x": [2015, 2016, 2017, 2018],
+      "y": [777, 781, 749, 509],
       "name": "Firearm Exhibited",
       "type": "bar",
       "marker": {
@@ -124,8 +125,8 @@
       "frame": null
     },
     {
-      "x": [2016, 2017, 2018],
-      "y": [374, 288, 268],
+      "x": [2015, 2016, 2017, 2018],
+      "y": [518, 374, 288, 268],
       "name": "Hands / Escort tech",
       "type": "bar",
       "marker": {
@@ -148,8 +149,8 @@
       "frame": null
     },
     {
-      "x": [2016, 2017, 2018],
-      "y": [17, 6, 7],
+      "x": [2015, 2016, 2017, 2018],
+      "y": [2, 17, 6, 7],
       "name": "L1-Other",
       "type": "bar",
       "marker": {
@@ -214,6 +215,30 @@
       },
       "error_x": {
         "color": "rgba(229,196,148,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [2015],
+      "y": [124],
+      "name": "Taser Exhibited ",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(179,179,179,1)",
+        "line": {
+          "color": "rgba(179,179,179,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(179,179,179,1)"
+      },
+      "error_y": {
+        "color": "rgba(179,179,179,1)"
+      },
+      "error_x": {
+        "color": "rgba(179,179,179,1)"
       },
       "xaxis": "x",
       "yaxis": "y",

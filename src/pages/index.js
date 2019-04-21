@@ -127,8 +127,8 @@ class IndexPage extends React.Component {
 
 				<Row className="mt-3">
 
-					<Col><BlackDisparitiesByMonthPlot /></Col>
-					<Col><BlackDisparitiesByDistrictPlot /></Col>
+					<Col md="6"><BlackDisparitiesByMonthPlot /></Col>
+					<Col md="6"><BlackDisparitiesByDistrictPlot /></Col>
 				</Row>
 				<Row className="mt-5">
 					<Col>

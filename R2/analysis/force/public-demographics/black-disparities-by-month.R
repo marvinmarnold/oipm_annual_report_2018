@@ -45,6 +45,7 @@ black.stops.by.month <- count.stops.by.month %>% filter(SubjectRace == black)
 # Put it all together
 black.by.month <- data.frame(
   month = black.uof.by.month$Month.occurred,
+  #month = months.abbr,
   uof = black.uof.by.month$pct,
   #bookings = black.bookings.by.month$pct,
   stops = black.stops.by.month$pct
@@ -52,7 +53,7 @@ black.by.month <- data.frame(
 
 p.black.by.month <- plot_ly(black.by.month, 
                             x = ~month, 
-                            y = ~uof, name = 'Force', type = 'scatter', 
+                            y = ~uof, name = 'Use of Force', type = 'scatter', 
                             mode = 'lines+markers', 
                             line = list(color = 'rgb(22, 96, 167)', width = 2, dash = 'solid')) %>%
   
@@ -66,15 +67,15 @@ p.black.by.month <- plot_ly(black.by.month,
   
   # Add horizontal line showing black pop in new orleans
   add_segments(name = "Black population of NO",
-               x = 0, xend = 13, 
+               x = 0, xend = 12, 
                y = 61, yend = 61, 
                line = list(color = 'rgb(229, 221, 59)', dash = 'solid')) %>%
   
-  layout(title = title, xaxis = list(
-    title = "Month",
-    dtick = 1
-  ),
-  yaxis = list(title = 'Percent against black people'))
+  layout(title = FALSE, 
+         legend = list(x = 0, y = -.3),
+         xaxis = list(title = "Month", dtick = 1),
+         yaxis = list(title = 'Percent against black people')
+  )
 
 p.black.by.month
 gen.plotly.json(p.black.by.month, "black-disparities-by-month")

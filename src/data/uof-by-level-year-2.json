@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "16619d1e36b": ["function () ", "plotlyVisDat"]
+    "3fb23a54ca0": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "16619d1e36b",
+  "cur_data": "3fb23a54ca0",
   "attrs": {
-    "16619d1e36b": {
+    "3fb23a54ca0": {
       "x": {},
       "y": {},
       "name": {},
@@ -22,12 +22,13 @@
       "t": 25,
       "r": 10
     },
+    "title": "Level L2 force",
     "xaxis": {
       "domain": [0, 1],
       "automargin": true,
       "categoryorder": "array",
       "categoryarray": ["L1", "L2", "L3", "L4"],
-      "title": "Level L2 force",
+      "title": false,
       "showgrid": false,
       "dtick": 1,
       "tick0": 2016
@@ -39,7 +40,7 @@
     },
     "legend": {
       "x": 0,
-      "y": -0.5
+      "y": -0.55
     },
     "barmode": "stack",
     "hovermode": "compare",
@@ -52,8 +53,8 @@
   },
   "data": [
     {
-      "x": [2016, 2017],
-      "y": [3, 2],
+      "x": [2015, 2016, 2017],
+      "y": [4, 3, 2],
       "name": "Baton Miss",
       "type": "bar",
       "marker": {
@@ -100,8 +101,8 @@
       "frame": null
     },
     {
-      "x": [2016, 2017, 2018],
-      "y": [176, 296, 82],
+      "x": [2015, 2016, 2017, 2018],
+      "y": [192, 176, 296, 82],
       "name": "Defense Tech / Take-down",
       "type": "bar",
       "marker": {
@@ -124,8 +125,8 @@
       "frame": null
     },
     {
-      "x": [2016, 2017],
-      "y": [8, 1],
+      "x": [2015, 2016, 2017],
+      "y": [2, 8, 1],
       "name": "L2-Other",
       "type": "bar",
       "marker": {
@@ -190,6 +191,30 @@
       },
       "error_x": {
         "color": "rgba(255,217,47,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [2015],
+      "y": [95],
+      "name": "Taser No-Hit",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(229,196,148,1)",
+        "line": {
+          "color": "rgba(229,196,148,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(229,196,148,1)"
+      },
+      "error_y": {
+        "color": "rgba(229,196,148,1)"
+      },
+      "error_x": {
+        "color": "rgba(229,196,148,1)"
       },
       "xaxis": "x",
       "yaxis": "y",

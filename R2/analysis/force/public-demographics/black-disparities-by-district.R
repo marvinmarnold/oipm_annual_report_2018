@@ -45,7 +45,9 @@ count.stops.by.district <- count.stops.by.district %>% mutate(
 )
 
 # Get data for black people
-black.uof.by.district <- count.uof.by.district %>% filter(Citizen.race == black)
+black.uof.by.district <- count.uof.by.district %>% filter(Citizen.race == black) %>% mutate(
+  district = substring(District.or.division, 1, 3)
+)
 #black.bookings.by.district <- count.bookings.by.district %>% filter(Race == black)
 black.stops.by.district <- count.stops.by.district %>% filter(SubjectRace == black)
 pct.black.by.district <- districts.by.race %>% filter(race == black)
@@ -53,7 +55,7 @@ pct.black.by.district <- districts.by.race %>% filter(race == black)
 # Put it all together
 black.by.district <- data.frame(
   population = pct.black.by.district$pct.race.in.district,
-  district = black.uof.by.district$District.or.division,
+  district = black.uof.by.district$district,
   uof = black.uof.by.district$pct,
   #bookings = black.bookings.by.district$pct,
   stops = black.stops.by.district$pct
@@ -78,7 +80,7 @@ p.black.by.district <- plot_ly(black.by.district,
       categoryarray = districts,
       title = "District"
     ),
-    legend = list(x = 0, y = -.50),
+    legend = list(x = 0, y = -.3),
     hovermode = 'compare',
     yaxis = list(title = 'Percent black', dtick = 10), 
     barmode = 'group')

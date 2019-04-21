@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "1667c320820": ["function () ", "plotlyVisDat"]
+    "3fb2e902ccc": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "1667c320820",
+  "cur_data": "3fb2e902ccc",
   "attrs": {
-    "1667c320820": {
+    "3fb2e902ccc": {
       "x": {},
       "y": {},
       "name": {},
@@ -22,12 +22,13 @@
       "t": 25,
       "r": 10
     },
+    "title": "Level L4 force",
     "xaxis": {
       "domain": [0, 1],
       "automargin": true,
       "categoryorder": "array",
       "categoryarray": ["L1", "L2", "L3", "L4"],
-      "title": "Level L4 force",
+      "title": false,
       "showgrid": false,
       "dtick": 1,
       "tick0": 2016
@@ -39,7 +40,7 @@
     },
     "legend": {
       "x": 0,
-      "y": -0.5
+      "y": -0.55
     },
     "barmode": "stack",
     "hovermode": "compare",
@@ -52,8 +53,8 @@
   },
   "data": [
     {
-      "x": [2016],
-      "y": [9],
+      "x": [2015, 2016],
+      "y": [8, 9],
       "name": "Canine (Bite)",
       "type": "bar",
       "marker": {
@@ -76,8 +77,8 @@
       "frame": null
     },
     {
-      "x": [2016, 2017],
-      "y": [6, 7],
+      "x": [2015, 2016, 2017],
+      "y": [17, 6, 7],
       "name": "Firearm Discharged",
       "type": "bar",
       "marker": {
@@ -100,8 +101,8 @@
       "frame": null
     },
     {
-      "x": [2016, 2017, 2018],
-      "y": [2, 1, 6],
+      "x": [2015, 2016, 2017, 2018],
+      "y": [2, 2, 1, 6],
       "name": "Head strike while Hancuffed",
       "type": "bar",
       "marker": {
@@ -214,6 +215,30 @@
       },
       "error_x": {
         "color": "rgba(229,196,148,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [2015],
+      "y": [3],
+      "name": "Taser Hit",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(179,179,179,1)",
+        "line": {
+          "color": "rgba(179,179,179,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(179,179,179,1)"
+      },
+      "error_y": {
+        "color": "rgba(179,179,179,1)"
+      },
+      "error_x": {
+        "color": "rgba(179,179,179,1)"
       },
       "xaxis": "x",
       "yaxis": "y",

@@ -60,6 +60,7 @@ class IndexPage extends React.Component {
 													<a href="#report-intro"><DropdownItem>Overview</DropdownItem></a>
 													<a href={this.withPrefix("/force")}><DropdownItem>Use of Force</DropdownItem></a>
 													<a href={this.withPrefix("/complaints")}><DropdownItem>Complaints &amp; Misconduct</DropdownItem></a>
+													<a href={this.withPrefix("/mediation")}><DropdownItem>Mediation</DropdownItem></a>
 													<a href={this.withPrefix("/officers")}><DropdownItem>Officer Demographics</DropdownItem></a>
 												</DropdownMenu>
 											</ButtonDropdown>
@@ -146,6 +147,10 @@ class IndexPage extends React.Component {
 		)
 	}
 
+	renderNoTrends() {
+
+	}
+
 
 	render() {
 		return (
@@ -153,6 +158,8 @@ class IndexPage extends React.Component {
 
 					{this.renderTitle()}
 					{this.renderIntroduction()}
+					{this.renderCityComparison()}
+					{this.renderNoTrends()}
 					{this.renderForceBlack()}
 		  </Layout>
 		)

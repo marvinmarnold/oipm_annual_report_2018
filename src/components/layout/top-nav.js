@@ -54,6 +54,9 @@ export default class TopNav extends React.Component {
                 <NavLink href={this.withPrefix("/complaints")}>Complaints &amp; Misconduct</NavLink>
               </NavItem>
 							<NavItem>
+                <NavLink href={this.withPrefix("/mediation")}>Mediation</NavLink>
+              </NavItem>
+							<NavItem>
                 <NavLink href={this.withPrefix("/officers")}>Officer Demographics</NavLink>
               </NavItem>
               <NavItem>

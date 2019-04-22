@@ -5,7 +5,9 @@ import { Container, Row, Col, Nav, NavItem, NavLink } from 'reactstrap';
 import Page from "../components/layout/page"
 import SEO from "../components/layout/seo"
 
-const OfficersPage = () => (
+import MediationDemographicsSection from '../components/mediation/demographics/mediation-demographics-section'
+
+const MediationPage = () => (
 	<Page
 		title={"Mediation - 2018 OIPM Annual Report"}
 		nav={
@@ -26,9 +28,11 @@ const OfficersPage = () => (
 					</Col>
 				</Row>
 
+				<MediationDemographicsSection />
+
 			</div>
 		}
 		/>
 )
 
-export default OfficersPage
+export default MediationPage

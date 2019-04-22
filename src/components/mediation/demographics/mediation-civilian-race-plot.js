@@ -2,9 +2,9 @@ import React from "react"
 
 import LoadingPlot from "../../loading-plot"
 
-import rPlotlyExport from "../../../data/mediation-by-officer-race.json";
+import rPlotlyExport from "../../../data/mediation-by-civilian-race.json";
 
-class MediationOfficerRacePlot extends React.Component {
+class MediationCivilianRacePlot extends React.Component {
   constructor() {
     super()
     this.state = {
@@ -34,4 +34,4 @@ class MediationOfficerRacePlot extends React.Component {
   }
 }
 
-export default MediationOfficerRacePlot
+export default MediationCivilianRacePlot

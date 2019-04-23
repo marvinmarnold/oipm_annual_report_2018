@@ -53,6 +53,7 @@ STOPS.CSV.SANITIZED <- "data/stops-sanitized.csv"
 
 ######### Mediation
 MEDIATION.CSV.DIRTY <- "raw/data/mediation.csv"
+MEDIATION.JSON.SANITIZED <- paste0(PLOTLY.OUTPUT.PATH, "mediation-survey-sanitized.json")
 
 ######### Maps
 LOUISIANA.JSON <- "data/louisiana.json"
@@ -60,7 +61,6 @@ LOUISIANA.JSON <- "data/louisiana.json"
 ######### OPSO
 JFI12M.TXT.DIRTY <- "raw/data/opso/JFI15M_UTF8.TXT"
 JFI12M.CSV.SANITIZED <- "data/bookings-sanitized.csv"
-
 
 ########################################################################################################
 ######################################## LOAD DEPENDENCIES #############################################
@@ -89,7 +89,6 @@ if (RECLEAN_DATA) {
   uof.reported.2015 <- read.csv(UOF.2015.CSV.SANITIZED, stringsAsFactors = FALSE, sep = CSV_SEP)
   stops.for.year <- read.csv(STOPS.CSV.SANITIZED, stringsAsFactors = FALSE)
   allegations.all <- read.csv(ALLEGATIONS.CSV.SANITIZED, stringsAsFactors = FALSE, sep = CSV_SEP)
-  
   actions.taken.all <- read.csv(ACTIONS.TAKEN.CSV.SANITIZED, stringsAsFactors = FALSE, sep = CSV_SEP)
 }
 
@@ -100,9 +99,6 @@ allegations.for.year <- allegations.all %>% filter(year.of.record == CURRENT.YEA
 # Complaint dispositions are not straightforward to calculate
 # The findings of all related allegations must be combined in an ordered way
 source("lib/post-processing/complaint-dispositions.R")
-
-# Mediation data doesn't need to be sanitized
-mediation.survey.all <- read.csv(MEDIATION.CSV.DIRTY, sep = CSV_SEP, stringsAsFactors = FALSE)
 
 ########################################################################################################
 ########################################## PERFORM ANALYSIS ############################################

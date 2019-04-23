@@ -38,7 +38,7 @@ class OfficersDemographicsSection extends React.Component {
 			<div className="my-3">
 				<Row>
 					<Col>
-						<h4>Officers by race and sex</h4>
+						<h4>Officer demographics</h4>
 
 					</Col>
 				</Row>

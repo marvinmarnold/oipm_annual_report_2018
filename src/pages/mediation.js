@@ -6,6 +6,7 @@ import Page from "../components/layout/page"
 import SEO from "../components/layout/seo"
 
 import MediationDemographicsSection from '../components/mediation/demographics/mediation-demographics-section'
+import MediationSurveySection from '../components/mediation/mediation-survey-section'
 
 const MediationPage = () => (
 	<Page
@@ -29,7 +30,7 @@ const MediationPage = () => (
 				</Row>
 
 				<MediationDemographicsSection />
-
+				<MediationSurveySection />
 			</div>
 		}
 		/>

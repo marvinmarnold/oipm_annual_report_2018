@@ -56,9 +56,6 @@ class MediationSurveySection extends React.Component {
 
 		var data = [agreeTrace, noOpinionTrace, disagreeTrace];
 
-		console.log("made data")
-		console.log(data)
-
 		var layout = {
 		  title: typeFilter + ' survey results',
 		  barmode: 'stack',
@@ -74,12 +71,98 @@ class MediationSurveySection extends React.Component {
 									style={{width: "100%"}} />
 	}
 
+	renderQuestion(question) {
+		console.log(question)
+
+		return <h1 key={Math.random()}>{question.Text}</h1>
+		// return (
+		// 	<Row key={Math.random()}>
+		// 		<Col><h1>{question.Text}</h1></Col>
+		// 	</Row>
+		// )
+	}
+
+	genSurveys(typeFilter) {
+		const filteredSurvey = _.filter(survey, question => question.Type === typeFilter)
+
+		return survey.map(question => {
+			var trace1 = {
+				x: [question.Agree],
+				y: [''],
+				name: 'Agree',
+				orientation: 'h',
+				marker: {
+					color: 'rgba(32,86,127,0.6)',
+					width: 1
+				},
+				type: 'bar'
+			};
+
+			var trace2 = {
+				x: [question["No.opinion"]],
+				y: [''],
+				name: 'No opinion',
+				orientation: 'h',
+				type: 'bar',
+				marker: {
+					color: 'rgba(255,153,51,0.6)',
+					width: 1
+				}
+			};
+
+			var trace3 = {
+				x: [question.Disagree],
+				y: [''],
+				name: 'Disagree',
+				orientation: 'h',
+				type: 'bar',
+				marker: {
+					color: 'rgba(246,64,65,0.6)',
+					width: 1
+				}
+			};
+
+			var data = [trace1, trace2, trace3];
+			const config = {responsive: true}
+
+			var layout = {
+				title: false,
+				barmode: 'stack',
+				showlegend: false,
+				yaxis: {title: false},
+				margin: {t: 0}
+			};
+
+			const numAgree = question.Agree
+			const pctAgree = question["Percent.Agree"]
+			const numTotal = numAgree + question["No.opinion"] + question.Disagree
+			return (
+					<Row key={Math.random()}>
+						<Col md="3"><Plot 	data={data}
+													layout={layout}
+													config={config}
+													useResizeHandler={true}
+													style={{height: 150, width: "100%"}} /></Col>
+						<Col md="9"><h4><strong>{numAgree} of {numTotal} ({pctAgree})&nbsp;</strong><span className="text-muted">{question.Text}</span></h4></Col>
+					</Row>
+			)
+		})
+	}
 	render() {
+
 		return (
 			<div>
 				<Row>
 					<Col><h2 id="mediation-survey-section">Survey Results</h2></Col>
 				</Row>
+				<h1>Community Responses</h1>
+				{this.genSurveys("Community")}
+
+				<h1>Officer Responses</h1>
+				{this.genSurveys("Officer")}
+
+				<h1>Mediator Responses</h1>
+				{this.genSurveys("Mediator")}
 				<Row>
 					<Col>
 						{this.renderSurvey("Community")}

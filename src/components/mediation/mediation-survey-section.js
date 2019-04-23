@@ -61,7 +61,7 @@ class MediationSurveySection extends React.Component {
 				barmode: 'stack',
 				showlegend: false,
 				yaxis: {title: false},
-				margin: {t: 0}
+				margin: {t: 0, l: 0, r: 0}
 			};
 
 			const numAgree = question.Agree

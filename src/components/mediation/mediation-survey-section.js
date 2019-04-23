@@ -16,7 +16,7 @@ class MediationSurveySection extends React.Component {
 	genSurveys(typeFilter) {
 		const filteredSurvey = _.filter(survey, question => question.Type === typeFilter)
 
-		return survey.map(question => {
+		return filteredSurvey.map(question => {
 			var trace1 = {
 				x: [question.Agree],
 				y: [''],

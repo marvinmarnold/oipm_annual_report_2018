@@ -1,4 +1,4 @@
-complaint.types <- c("Per 100 officers", "Force per 10k residents", "Per 1k arrests")
+complaint.types <- c("Per 100 officers", "Per 10k residents", "Per 1k arrests")
 dc.complaints <- c(20.3, 11.2, 24.6)
 in.complaints <- c(11.2, 2.1, 4.4)
 no.complaints <- c(32.1, 12.4, 24.9)

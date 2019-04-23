@@ -50,7 +50,7 @@ class ComplaintsSourceSection extends React.Component {
 						</ul>
 					</Col>
 					<Col>
-						<ComplaintsBySourceDispositionPlot />
+						<ComplaintsByAnonymousPlot />
 					</Col>
 				</Row>
 			</div>

@@ -59,7 +59,7 @@ class MediationSurveySection extends React.Component {
 			var layout = {
 				title: false,
 				barmode: 'stack',
-				showlegend: false,
+				// showlegend: false,
 				yaxis: {title: false},
 				margin: {t: 0, l: 10, r: 10}
 			};

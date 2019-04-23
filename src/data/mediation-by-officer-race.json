@@ -1,14 +1,14 @@
 {
   "visdat": {
-    "3fb238edc636": ["function () ", "plotlyVisDat"]
+    "550db633d65": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "3fb238edc636",
+  "cur_data": "550db633d65",
   "attrs": {
-    "3fb238edc636": {
+    "550db633d65": {
       "labels": {},
       "values": {},
       "textposition": "inside",
-      "textinfo": "label+value+percent",
+      "textinfo": "label+percent",
       "insidetextfont": {
         "color": "#FFFFFF"
       },
@@ -36,10 +36,10 @@
   },
   "data": [
     {
-      "labels": ["Black", "White", "Hispanic"],
+      "labels": ["Black (23 of 34)", "White (9 of 34)", "Hispanic (2 of 34)"],
       "values": [23, 9, 2],
       "textposition": ["inside", "inside", "inside"],
-      "textinfo": "label+value+percent",
+      "textinfo": "label+percent",
       "insidetextfont": {
         "color": "#FFFFFF"
       },

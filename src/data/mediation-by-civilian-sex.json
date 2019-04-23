@@ -1,14 +1,14 @@
 {
   "visdat": {
-    "3fb23396df29": ["function () ", "plotlyVisDat"]
+    "550d5db7172f": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "3fb23396df29",
+  "cur_data": "550d5db7172f",
   "attrs": {
-    "3fb23396df29": {
+    "550d5db7172f": {
       "labels": {},
       "values": {},
       "textposition": "inside",
-      "textinfo": "label+value+percent",
+      "textinfo": "label+percent",
       "insidetextfont": {
         "color": "#FFFFFF"
       },
@@ -36,10 +36,10 @@
   },
   "data": [
     {
-      "labels": ["Male", "Female"],
+      "labels": ["Male (9 of 27)", "Female (18 of 27)"],
       "values": [9, 18],
       "textposition": ["inside", "inside"],
-      "textinfo": "label+value+percent",
+      "textinfo": "label+percent",
       "insidetextfont": {
         "color": "#FFFFFF"
       },

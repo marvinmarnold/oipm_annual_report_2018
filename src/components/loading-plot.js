@@ -18,7 +18,12 @@ class LoadingPlot extends React.Component {
 	}
 
 	genResponsiveLayout(layout) {
-		if (this.props.layoutOverride) return this.props.layoutOverride
+		const font = 'Times New Roman, monospace'
+		if (this.props.layoutOverride) {
+			let fontLayout = this.props.layoutOverride
+			fontLayout.font = {family: font}
+			return fontLayout
+		}
 
 		let responsiveLayout = layout
 		// let responsiveLayout = {}
@@ -30,6 +35,8 @@ class LoadingPlot extends React.Component {
 			x: 0,
 			y: this.props.yoffset || -0.35
 		}
+
+		responsiveLayout.font.family = font
 		return responsiveLayout
 	}
 

@@ -54,10 +54,10 @@ export default class TopNav extends React.Component {
 								</DropdownToggle>
 								<DropdownMenu right>
 									<DropdownItem>
-										<a href={this.withPrefix("/force-highlights")}>Highlights</a>
+										<a href={this.withPrefix("/force-highlights")}>Annual Report Narrative</a>
 									</DropdownItem>
 									<DropdownItem>
-										<a href={this.withPrefix("/force")}>Full Analysis</a>
+										<a href={this.withPrefix("/force")}>Raw Data Analysis</a>
 									</DropdownItem>
 								</DropdownMenu>
 							</UncontrolledDropdown>
@@ -68,10 +68,10 @@ export default class TopNav extends React.Component {
 								</DropdownToggle>
 								<DropdownMenu right>
 									<DropdownItem>
-										<a href={this.withPrefix("/complaints-highlights")}>Highlights</a>
+										<a href={this.withPrefix("/complaints-highlights")}>Annual Report Narrative</a>
 									</DropdownItem>
 									<DropdownItem>
-										<a href={this.withPrefix("/complaints")}>Full Analysis</a>
+										<a href={this.withPrefix("/complaints")}>Raw Data Analysis</a>
 									</DropdownItem>
 								</DropdownMenu>
 							</UncontrolledDropdown>

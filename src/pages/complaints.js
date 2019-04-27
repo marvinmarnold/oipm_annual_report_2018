@@ -40,7 +40,8 @@ const ComplaintsPage = () => (
 			<div>
 				<Row>
 					<Col>
-						<h1 className="my-5 text-center">Complaints &amp; Misconduct</h1>
+						<h1 className="mt-5 text-center">Complaints &amp; Misconduct</h1>
+						<h2 className="mb-5 text-center">Raw Data Analysis</h2>
 					</Col>
 				</Row>
 

@@ -48,7 +48,8 @@ const ForcePage = () => (
 			<div>
 				<Row>
 					<Col>
-						<h1 className="my-5 text-center">Use of Force Analysis</h1>
+						<h1 className="mt-5 text-center">Use of Force</h1>
+						<h2 className="mb-5 text-center">Raw Data Analysis</h2>
 					</Col>
 				</Row>
 

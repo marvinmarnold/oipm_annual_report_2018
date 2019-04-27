@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "3fb23a54ca0": ["function () ", "plotlyVisDat"]
+    "60c323330696": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "3fb23a54ca0",
+  "cur_data": "60c323330696",
   "attrs": {
-    "3fb23a54ca0": {
+    "60c323330696": {
       "x": {},
       "y": {},
       "name": {},
@@ -40,7 +40,7 @@
     },
     "legend": {
       "x": 0,
-      "y": -0.55
+      "y": -0.45
     },
     "barmode": "stack",
     "hovermode": "compare",

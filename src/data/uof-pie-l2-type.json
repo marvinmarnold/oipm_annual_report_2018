@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "1665de4304a": ["function () ", "plotlyVisDat"]
+    "60c352bbeb77": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "1665de4304a",
+  "cur_data": "60c352bbeb77",
   "attrs": {
-    "1665de4304a": {
+    "60c352bbeb77": {
       "labels": {},
       "values": {},
       "textposition": "inside",

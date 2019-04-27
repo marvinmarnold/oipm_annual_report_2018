@@ -30,7 +30,7 @@ officer.sex.counts <- c(28, 6)
 civil.sexes <- c("Male (9 of 27)", "Female (18 of 27)")
 civil.sex.counts <- c(9, 18)
 
-dat <- data.frame(sexes, officer.sex.counts, civil.sex.counts)
+dat <- data.frame(officer.sexes, civil.sexes, officer.sex.counts, civil.sex.counts)
 
 p.mediation.officer.sex <- plot_ly(dat,  type = 'pie', name = "Officers by sex",
                                    labels = ~officer.sexes, 

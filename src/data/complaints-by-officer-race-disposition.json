@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "1665eb441e3": ["function () ", "plotlyVisDat"]
+    "60c37bb5be10": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "1665eb441e3",
+  "cur_data": "60c37bb5be10",
   "attrs": {
-    "1665eb441e3": {
+    "60c37bb5be10": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -27,7 +27,7 @@
       "domain": [0, 1],
       "automargin": true,
       "categoryorder": "array",
-      "categoryarray": ["Sustained", "DI-2", "NFIM", "Unfounded", "Exonerated", "Illegitimate outcome", "Pending", "Not Sustained", "Mediation"],
+      "categoryarray": ["Sustained", "DI-2", "NFIM", "Unfounded", "Exonerated", "Inconsistent data", "Pending", "Not Sustained", "Mediation"],
       "title": "Complaint disposition",
       "showgrid": true,
       "type": "category"
@@ -72,7 +72,7 @@
       "frame": null
     },
     {
-      "x": ["DI-2", "Exonerated", "Illegitimate outcome", "Mediation", "NFIM", "Not Sustained", "Pending", "Sustained", "Unfounded"],
+      "x": ["DI-2", "Exonerated", "Inconsistent data", "Mediation", "NFIM", "Not Sustained", "Pending", "Sustained", "Unfounded"],
       "y": [22, 40, 7, 23, 18, 52, 81, 121, 97],
       "type": "bar",
       "name": "Black / African American",
@@ -144,7 +144,7 @@
       "frame": null
     },
     {
-      "x": ["Exonerated", "Illegitimate outcome", "NFIM", "Not Sustained", "Pending", "Sustained", "Unfounded"],
+      "x": ["Exonerated", "Inconsistent data", "NFIM", "Not Sustained", "Pending", "Sustained", "Unfounded"],
       "y": [2, 2, 48, 2, 9, 5, 7],
       "type": "bar",
       "name": "Unknown race",
@@ -168,7 +168,7 @@
       "frame": null
     },
     {
-      "x": ["DI-2", "Exonerated", "Illegitimate outcome", "Mediation", "NFIM", "Not Sustained", "Pending", "Sustained", "Unfounded"],
+      "x": ["DI-2", "Exonerated", "Inconsistent data", "Mediation", "NFIM", "Not Sustained", "Pending", "Sustained", "Unfounded"],
       "y": [10, 33, 3, 9, 11, 31, 39, 90, 92],
       "type": "bar",
       "name": "White",

@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "1667eb3f7f9": ["function () ", "plotlyVisDat"]
+    "60c37238c688": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "1667eb3f7f9",
+  "cur_data": "60c37238c688",
   "attrs": {
-    "1667eb3f7f9": {
+    "60c37238c688": {
       "x": {},
       "y": {},
       "name": {},
@@ -25,7 +25,7 @@
     "xaxis": {
       "domain": [0, 1],
       "automargin": true,
-      "title": "4th amendment complaints",
+      "title": false,
       "showgrid": false,
       "type": "category",
       "categoryorder": "array",

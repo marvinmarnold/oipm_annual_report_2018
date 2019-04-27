@@ -15,7 +15,7 @@ import PublicDemographicsSection from '../components/force/public-demographics/p
 
 const ForcePage = () => (
 	<Page
-		title={"Use of Force - 2018 OIPM Annual Report"}
+		title={"Use of Force Raw Analysis - 2018 OIPM Annual Report"}
 		nav={
 			<Nav className="mt-4" vertical>
 				<NavItem>

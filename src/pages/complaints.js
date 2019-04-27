@@ -13,7 +13,7 @@ import ComplaintsDisciplineSection from '../components/complaints/discipline/com
 
 const ComplaintsPage = () => (
 	<Page
-		title={"Complaints - 2018 OIPM Annual Report"}
+		title={"Complaints Raw Analysis - 2018 OIPM Annual Report"}
 		nav={
 			<Nav className="mt-4" vertical>
 				<NavItem>

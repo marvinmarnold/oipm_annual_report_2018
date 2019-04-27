@@ -28,7 +28,7 @@ class DisciplineByOfficerRacePlot extends React.Component {
 					layout={this.state.layout}
 					layoutOverride={this.state.layout}
 					config={this.state.config}
-					yoffset={-1}
+					yoffset={-2}
 			/>
     )
   }

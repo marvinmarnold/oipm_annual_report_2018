@@ -15,11 +15,11 @@ class ComplaintsSourceSection extends React.Component {
 		return (
 			<div className="my-3">
 				<Row>
-					<Col>
+					<Col lg="6">
 						<h4>Allegations by source</h4>
 						<AllegationsBySourcePlot />
 					</Col>
-					<Col>
+					<Col lg="6">
 						<h4>Disposition by source</h4>
 						<ComplaintsBySourceDispositionPlot />
 					</Col>
@@ -43,13 +43,13 @@ class ComplaintsSourceSection extends React.Component {
 			<div className="my-3">
 
 				<Row>
-					<Col>
+					<Col lg="6">
 						<h4>Anonymous complaints</h4>
 						<ul>
 							<li>Of the three anonymous complaints in 2018, two remain pending; the third was found to have “no formal investigation merited.” These findings are similar to those from 2017, where only 1 of 10 anonymous complaints was sustained.</li>
 						</ul>
 					</Col>
-					<Col>
+					<Col lg="6">
 						<ComplaintsByAnonymousPlot />
 					</Col>
 				</Row>

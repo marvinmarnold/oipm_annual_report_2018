@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "1667f679aaa": ["function () ", "plotlyVisDat"]
+    "60c31580afea": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "1667f679aaa",
+  "cur_data": "60c31580afea",
   "attrs": {
-    "1667f679aaa": {
+    "60c31580afea": {
       "x": {},
       "y": {},
       "name": {},
@@ -25,7 +25,7 @@
     "xaxis": {
       "domain": [0, 1],
       "automargin": true,
-      "title": "Type of allegation",
+      "title": false,
       "showgrid": false,
       "type": "category",
       "categoryorder": "array",
@@ -38,7 +38,7 @@
     },
     "barmode": "stack",
     "hovermode": "compare",
-    "title": "Discipline by Complainant's Sex",
+    "title": false,
     "showlegend": true
   },
   "source": "A",
@@ -97,8 +97,8 @@
     },
     {
       "x": ["Demoted", "DI-2", "Dismissed", "Illegitimate outcome", "Letter of Reprimand", "None", "Oral Reprimand", "Pending Investigation", "Resigned before disposition", "Suspension", "Unknown action taken"],
-      "y": [3, 41, 5, 64, 187, 338, 18, 46, 22, 146, 18],
-      "name": "Unknown sex",
+      "y": [3, 72, 5, 64, 187, 351, 18, 48, 22, 146, 18],
+      "name": "Unknown gender",
       "type": "bar",
       "marker": {
         "color": "rgba(141,160,203,1)",
@@ -114,30 +114,6 @@
       },
       "error_x": {
         "color": "rgba(141,160,203,1)"
-      },
-      "xaxis": "x",
-      "yaxis": "y",
-      "frame": null
-    },
-    {
-      "x": ["DI-2", "None", "Pending Investigation"],
-      "y": [31, 13, 2],
-      "name": [null, null, null],
-      "type": "bar",
-      "marker": {
-        "color": "transparent",
-        "line": {
-          "color": "transparent"
-        }
-      },
-      "textfont": {
-        "color": "transparent"
-      },
-      "error_y": {
-        "color": "transparent"
-      },
-      "error_x": {
-        "color": "transparent"
       },
       "xaxis": "x",
       "yaxis": "y",

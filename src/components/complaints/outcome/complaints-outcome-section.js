@@ -28,13 +28,6 @@ class ComplaintsTimeSection extends React.Component {
 						<AllegationsByFindingPlot />
 					</Col>
 				</Row>
-				<Row>
-					<Col>
-						<ul>
-							<li>TODO</li>
-						</ul>
-					</Col>
-				</Row>
 			</div>
 		)
 	}
@@ -45,10 +38,6 @@ class ComplaintsTimeSection extends React.Component {
 				<Row>
 					<Col>
 						<h4>Complaint dispositions</h4>
-						<p>
-							TODO: Explain how a complaint has many allegations. Each of which gets an independent finding.
-							All of those findings are combined to give a single disposition.
-						</p>
 						<Col>
 						<ul>
 							<li>The dispositions of the complaints filed in 2018 are illustrated in the figure “Individual Allegations by Outcome.” This figure illustrates that the most common allegation of “Neglect of Duty” is also the allegation most frequently marked “sustained”. This is consistent with 2017 findings.</li>
@@ -63,19 +52,19 @@ class ComplaintsTimeSection extends React.Component {
 				</Row>
 
 				<Row>
-					<Col>
+					<Col xl="4" lg="6">
 						<h4>All complaints by outcome</h4>
 						<ComplaintsByDispositionPlot />
 					</Col>
-					<Col>
+					<Col xl="4" lg="6">
 						<h4>Rank complaints by outcome</h4>
 						<ComplaintsByRankDispositionPlot />
 					</Col>
-					<Col>
+					<Col xl="4" lg="6">
 						<h4>Public complaints by outcome</h4>
 						<ComplaintsByPublicDispositionPlot />
 					</Col>
-					<Col>
+					<Col xl="4" lg="6">
 						<h4>Most sustained allegations</h4>
 						<AllegationsSustainedMostCommonPlot />
 					</Col>

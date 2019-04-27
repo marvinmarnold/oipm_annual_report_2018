@@ -25,10 +25,10 @@ class ComplaintsTimeSection extends React.Component {
 					</Col>
 				</Row>
 				<Row>
-					<Col>
+					<Col lg="6">
 						<ComplaintsByYearTypePlot />
 					</Col>
-					<Col>
+					<Col lg="6">
 						<AllegationsByYearTypePlot />
 					</Col>
 				</Row>

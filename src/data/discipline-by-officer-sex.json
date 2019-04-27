@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "1666c45a0b0": ["function () ", "plotlyVisDat"]
+    "60c323dacfda": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "1666c45a0b0",
+  "cur_data": "60c323dacfda",
   "attrs": {
-    "1666c45a0b0": {
+    "60c323dacfda": {
       "x": {},
       "y": {},
       "name": {},
@@ -25,7 +25,7 @@
     "xaxis": {
       "domain": [0, 1],
       "automargin": true,
-      "title": "Type of allegation",
+      "title": false,
       "showgrid": false,
       "type": "category",
       "categoryorder": "array",
@@ -38,7 +38,6 @@
     },
     "barmode": "stack",
     "hovermode": "compare",
-    "title": "Discipline by Officer's Sex",
     "showlegend": true
   },
   "source": "A",
@@ -97,8 +96,8 @@
     },
     {
       "x": ["DI-2", "Illegitimate outcome", "None", "Pending Investigation"],
-      "y": [1, 2, 82, 2],
-      "name": "Unknown sex",
+      "y": [32, 2, 95, 4],
+      "name": "Unknown gender",
       "type": "bar",
       "marker": {
         "color": "rgba(141,160,203,1)",
@@ -114,30 +113,6 @@
       },
       "error_x": {
         "color": "rgba(141,160,203,1)"
-      },
-      "xaxis": "x",
-      "yaxis": "y",
-      "frame": null
-    },
-    {
-      "x": ["DI-2", "None", "Pending Investigation"],
-      "y": [31, 13, 2],
-      "name": [null, null, null],
-      "type": "bar",
-      "marker": {
-        "color": "transparent",
-        "line": {
-          "color": "transparent"
-        }
-      },
-      "textfont": {
-        "color": "transparent"
-      },
-      "error_y": {
-        "color": "transparent"
-      },
-      "error_x": {
-        "color": "transparent"
       },
       "xaxis": "x",
       "yaxis": "y",

@@ -26,12 +26,12 @@ class ComplaintsTimeSection extends React.Component {
 					</Col>
 				</Row>
 				<Row>
-					<Col>
+					<Col lg="6">
 					<ul>
 						<AllegationsFourthByDescriptionPlot />
 					</ul>
 					</Col>
-					<Col>
+					<Col lg="6">
 						<AllegationsFourthByDescriptionFindingPlot />
 					</Col>
 				</Row>

@@ -7,15 +7,7 @@ import ComplaintsByCityPlot from './complaints-by-city-plot'
 const ComplaintsIntroductionSection = () => (
 	<div>
 		<Row>
-			<Col>
-				<h2 id="complaints-introduction-section">Introduction &amp; terms</h2>
-				<p>TODO</p>
-			</Col>
-
-
-		</Row>
-		<Row>
-			<Col>
+			<Col lg="6">
 				<h4>Complaints in other cities</h4>
 				<ul>
 					<li>Only public complaints considered.</li>
@@ -23,12 +15,12 @@ const ComplaintsIntroductionSection = () => (
 					<li>New Orleans rivals Chicago in two out of the three comparisons but Chicago has much higher complaint per arrest rates.</li>
 				</ul>
 			</Col>
-			<Col>
+			<Col lg="6">
 				<ComplaintsByCityPlot />
 			</Col>
 		</Row>
 		<Row>
-			<Col>
+			<Col lg="6">
 				<h4>Most common allegations</h4>
 				<ul>
 					<li>The three most common complaint allegations in 2018, representing roughly 80% of all allegations, were: “neglect of duty,” “professionalism,” and “adherence to law.” Similar to findings analyzed of other departments, complaints overwhelming stem from the ways the officers interact with community members <a href="#ref-2-officers-interact">[2]</a>.</li>
@@ -37,7 +29,7 @@ const ComplaintsIntroductionSection = () => (
 
 				<p id="ref-2-officers-interact">[2] - Chicago Police Department, Chicago Police Department <a href="https://home.chicagopolice.org/wp-content/uploads/2019/03/Chicago-Police-Department-Annual-Report-2017.pdf">Annual Report 2017, p. 28-30</a>, accessed April 9, 2019.</p>
 			</Col>
-			<Col>
+			<Col lg="6">
 				<AllegationsMostCommonPlot />
 			</Col>
 		</Row>

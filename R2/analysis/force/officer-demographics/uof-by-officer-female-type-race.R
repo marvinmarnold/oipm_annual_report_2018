@@ -19,7 +19,7 @@ p.female.uof.by.type <- plot_ly(uof.count.by.type,
                                 type = 'bar',  name = ~Officer.race, 
                                 color = ~Officer.race) %>%
   
-  layout(xaxis = list(showgrid = F), 
+  layout(xaxis = list(showgrid = F, title = F), 
          yaxis = list(title = 'Number UOF'), 
          barmode = 'stack',
          hovermode = 'compare',

@@ -32,11 +32,11 @@ class MediationDemographicsSection extends React.Component {
 
 				<Row>
 					<Col>
-						<h4>Officer sex</h4>
+						<h4>Officer gender</h4>
 						<MediationOfficerSexPlot />
 					</Col>
 					<Col>
-						<h4>Civilian sex</h4>
+						<h4>Civilian gender</h4>
 						<MediationCivilianSexPlot />
 					</Col>
 				</Row>

@@ -12,7 +12,7 @@ p.uof.by.officer.sex.race <- plot_ly(count.by.sex.race,
                                      name = ~Officer.race, 
                                      color = ~Officer.race) %>%
   
-  layout(xaxis = list(showgrid = F, title = "Sex"), 
+  layout(xaxis = list(showgrid = F, title = F), 
          yaxis = list(title = 'Amount of force (UOF)'), 
          barmode = 'stack',
          legend = list(x = 0, y = -.50),

@@ -43,7 +43,7 @@ class OfficerDemographicsSection extends React.Component {
 			<div className="my-3">
 				<Row>
 					<Col>
-						<h4>Force (UOF) by officer sex and race</h4>
+						<h4>Force (UOF) by officer gender and race</h4>
 
 					</Col>
 				</Row>
@@ -64,9 +64,11 @@ class OfficerDemographicsSection extends React.Component {
 				</Row>
 				<Row>
 					<Col>
+						<h6>Female officers</h6>
 						<UofByOfficerFemaleRacePlot />
 					</Col>
 					<Col>
+						<h6>Male officers</h6>
 						<UofByOfficerMaleRacePlot />
 					</Col>
 				</Row>
@@ -79,7 +81,7 @@ class OfficerDemographicsSection extends React.Component {
 			<div>
 				<Row>
 					<Col>
-						<h4>Type of force by officer sex and gender</h4>
+						<h4>Type of force by officer race and gender</h4>
 
 						<ul>
 							<li>Both female and male officers were most likely to have their firearm exhibited or hands/escort tech. Usage appears proportional to female officer race, but not male.</li>
@@ -89,10 +91,12 @@ class OfficerDemographicsSection extends React.Component {
 				</Row>
 				<Row>
 					<Col>
-						<UofByOfficerFemaleTypeRacePlot />
+						<h6>Female officers</h6>
+						<UofByOfficerMaleTypeRacePlot />
 					</Col>
 					<Col>
-						<UofByOfficerMaleTypeRacePlot />
+						<h6>Male officers</h6>
+						<UofByOfficerFemaleTypeRacePlot />
 					</Col>
 				</Row>
 			</div>

@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "1661eeb5f1b": ["function () ", "plotlyVisDat"]
+    "60c358218d3d": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "1661eeb5f1b",
+  "cur_data": "60c358218d3d",
   "attrs": {
-    "1661eeb5f1b": {
+    "60c358218d3d": {
       "x": {},
       "y": {},
       "name": {},
@@ -26,7 +26,7 @@
       "domain": [0, 1],
       "automargin": true,
       "showgrid": false,
-      "title": "Force.type",
+      "title": false,
       "type": "category",
       "categoryorder": "array",
       "categoryarray": ["Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "L1-Other", "L2-Taser", "L4-Taser", "NonTrad Impact Weapon", "Takedown (no injury)", "Taser Exhibited"]

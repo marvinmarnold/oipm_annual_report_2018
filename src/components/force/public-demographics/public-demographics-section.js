@@ -20,7 +20,7 @@ class PublicDemographicsSection extends React.Component {
 			<div>
 				<Row>
 					<Col>
-						<h4>Type of force by individual sex and gender</h4>
+						<h4>Type of force by individual race and gender</h4>
 
 						<ul>
 							<li>Both Black women and Black men experience the highest levels of most types of UOF. The Journal of Ethics recently reported that Black women are perceived to experience pain at a lesser rate than White women. Is it then possible that Black women are experiencing more UOF than White women because officers believe that Black women will not experience as much pain?</li>
@@ -50,7 +50,7 @@ class PublicDemographicsSection extends React.Component {
 			<div className="my-3">
 				<Row>
 					<Col>
-						<h4>Force (UOF) by sex and race of community member</h4>
+						<h4>Force (UOF) by gender and race of community member</h4>
 
 					</Col>
 				</Row>

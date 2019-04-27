@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "16673e2f704": ["function () ", "plotlyVisDat"]
+    "60c33647216": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "16673e2f704",
+  "cur_data": "60c33647216",
   "attrs": {
-    "16673e2f704": {
+    "60c33647216": {
       "x": {},
       "y": {},
       "name": {},
@@ -26,10 +26,10 @@
       "domain": [0, 1],
       "automargin": true,
       "showgrid": false,
-      "title": "Sex",
+      "title": false,
       "type": "category",
       "categoryorder": "array",
-      "categoryarray": ["F", "M", "Unknown sex"]
+      "categoryarray": ["F", "M", "Unknown gender"]
     },
     "yaxis": {
       "domain": [0, 1],
@@ -123,7 +123,7 @@
       "frame": null
     },
     {
-      "x": ["M", "Unknown sex"],
+      "x": ["M", "Unknown gender"],
       "y": [9, 1],
       "name": "Unknown race",
       "type": "bar",

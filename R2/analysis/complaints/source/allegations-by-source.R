@@ -8,7 +8,7 @@ alleg.by.source <- allegations.for.year %>% mutate(
   Source = case_when(
     grepl("Web", Source) ~ "Website",
     grepl("NOPD", Source) ~ "NOPD employee",
-    grepl("Citizen", Source) ~ "Community memeber",
+    grepl("Citizen", Source) ~ "Community member",
     grepl("IPM", Source) ~ "OIPM",
     TRUE ~ "Other"
   )
@@ -16,7 +16,7 @@ alleg.by.source <- allegations.for.year %>% mutate(
 count.by.source <- summarise(alleg.by.source, count = n())
 
 p.alleg.by.source <- plot_ly(count.by.source,  type = 'pie', name = title,
-                             labels = ~Source, 
+                             labels = ~Source,
                              values = ~count,
                              textposition = 'inside',
                              textinfo = 'label+value+percent',

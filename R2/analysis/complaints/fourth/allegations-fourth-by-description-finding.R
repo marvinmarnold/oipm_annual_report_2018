@@ -68,7 +68,7 @@ p.fourth.viol.outcomes <- plot_ly(count.fourth.violations,
                                   color = ~Allegation.finding
 ) %>% 
   
-  layout(xaxis = list(title = "4th amendment complaints", 
+  layout(xaxis = list(title = F, 
                       showgrid = F), 
          yaxis = list(title = 'Number of complaints'), 
          barmode = 'stack',

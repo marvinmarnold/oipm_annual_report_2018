@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c36ed5a5bd": ["function () ", "plotlyVisDat"]
+    "60c32597794": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c36ed5a5bd",
+  "cur_data": "60c32597794",
   "attrs": {
-    "60c36ed5a5bd": {
+    "60c32597794": {
       "x": {},
       "y": {},
       "name": {},
@@ -40,7 +40,7 @@
     "hovermode": "compare",
     "legend": {
       "x": 0,
-      "y": -1.5
+      "y": -0.5
     },
     "title": false,
     "showlegend": true

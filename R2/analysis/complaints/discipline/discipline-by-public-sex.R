@@ -32,3 +32,6 @@ p.discipline.by.sex <- plot_ly(discipline.count.by.sex,
 
 p.discipline.by.sex
 gen.plotly.json(p.discipline.by.sex, "discipline-by-public-sex")
+
+allegations.all %>% filter(year.of.record == CURRENT.YEAR) %>% filter(Citizen.sex == 'F') %>% nrow
+allegations.all %>% filter(year.of.record == CURRENT.YEAR)  %>% select(Citizen.sex) %>% distinct()

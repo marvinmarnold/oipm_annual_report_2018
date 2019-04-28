@@ -17,7 +17,7 @@ p.actions.taken <- plot_ly(count.by.action,  type = 'pie',
                            textinfo = 'label+value+percent',
                            insidetextfont = list(color = '#FFFFFF')) %>%
   
-  layout(hovermode = "compare", title = "Types of action taken", showlegend = FALSE)
+  layout(hovermode = "compare", title = F, showlegend = FALSE)
 
 p.actions.taken
 gen.plotly.json(p.actions.taken, "discipline-by-action-taken")

@@ -30,6 +30,13 @@ import AllegationsFourthByDescriptionFindingPlot from '../components/complaints/
 // Anonymous
 import ComplaintsByAnonymousPlot from '../components/complaints/source/complaints-by-anonymous-plot'
 
+// Discipline
+import DisciplineByActionTakenPlot from '../components/complaints/discipline/discipline-by-action-taken-plot'
+import DisciplineByAllegationPlot from '../components/complaints/discipline/discipline-by-allegation-plot'
+import DisciplineByPublicSexPlot from '../components/complaints/discipline/discipline-by-public-sex-plot'
+import DisciplineByOfficerSexPlot from '../components/complaints/discipline/discipline-by-officer-sex-plot'
+import DisciplineByPublicRacePlot from '../components/complaints/discipline/discipline-by-public-race-plot'
+import DisciplineByOfficerRacePlot from '../components/complaints/discipline/discipline-by-officer-race-plot'
 
 class ComplaintsHighlightsPage extends React.Component {
   constructor() {
@@ -228,6 +235,69 @@ class ComplaintsHighlightsPage extends React.Component {
 		)
 	}
 
+	renderDiscipline() {
+		return (
+			<div id="complaints-anonymous">
+				<Row>
+					<Col>
+						<h4>Discipline</h4>
+						<p>There were roughly 20 types of disciplinary infractions alleged of NOPD officers in 2018. The top three were “neglect of duty,” “instructions from an authoritative source,” and “professionalism.” This remains in keeping with trends from 2017.  In 2018, the most common forms of discipline were “letter of reprimand” and “suspension.”  However, in 2017 the most common forms of discipline were “suspension” and “D1-2.”</p>
+					</Col>
+				</Row>
+				<Row>
+					<Col md="6">
+						<h6>Disciplinary Action Taken</h6>
+						<DisciplineByActionTakenPlot />
+					</Col>
+					<Col md="6">
+						<h6>Action Taken by Complaint</h6>
+						<DisciplineByAllegationPlot />
+					</Col>
+				</Row>
+				<Row>
+					<Col md="6">
+						<h6>Discipline by Complainant Gender</h6>
+						<p>Males, females, and people of unknown gender were each the source for about one third of all complaints. Their disciplinary outcomes are similiar except for DI-2, letter of reprimand, and suspension which are disproportionately from complainants of unknown gender.</p>
+					</Col>
+					<Col md="6">
+						<DisciplineByPublicSexPlot />
+					</Col>
+				</Row>
+				<Row>
+					<Col md="6">
+						<h6>Discipline by Officer Gender</h6>
+						<p>Males make up 76% of the police department and are proportionally represented in most types of discipline. This  means that women are also proportionally represented, as there is a negliglible number of complaints concerning an officer with an unknown gender.</p>
+						<p>Male employees appear to be overrepresented in “mediation” and “oral reprimand” discipline outcomes.  At this time, it is difficult to determine if these employees are appearing for first offenses, since many offenses are initially resolved with letters of reprimand or short suspensions according to the Disciplinary Matrix.</p>
+					</Col>
+					<Col md="6">
+						<DisciplineByOfficerSexPlot />
+					</Col>
+				</Row>
+				<Row>
+					<Col md="6">
+						<h6>Discipline by Complainant Race</h6>
+						<p>50.1% of complainants are “Black”. This number is low relative to the black population of New Orleans and the higher rates of involvement black people experience with law enforcement. hispanic and asian complainants are least represented  There are 19 hispanic complainants (1.9% of all complaints) but hispanic people are 5% of the population. 2.9% of people in New Orleans are asian but there were no complaints from an asian person. One reason for this pattern is that people of unknown race account for 59% of all complaints.</p>
+						<p>That said, disciplinary actions appear to be applied proportionally, regardless of the race of the complainant. Further analysis is needed to determine if any more nuanced race base trends exist in subcategories of the data.
+						</p>
+					</Col>
+					<Col md="6">
+						<DisciplineByPublicRacePlot />
+					</Col>
+				</Row>
+				<Row>
+					<Col md="6">
+						<h6>Discipline by Officer Race</h6>
+						<p>According to NOPD Data, regardless of race, officers or employees are most likely to receive no disciplinary action.</p>
+						<p>Like other police departments analyzed, employee race generally corresponds with department demographics. However, all officers receiving a demotion as a form of discipline were African American / Black officers. Black officers or employees are also disproportionately likely to be dismissed. At this time, it is difficult to determine the cause of this pattern within the NOPD data.  OIPM would also like to continue to examine this trend with the NOPD in the coming year.</p>
+					</Col>
+					<Col md="6">
+						<DisciplineByOfficerRacePlot />
+					</Col>
+				</Row>
+			</div>
+		)
+	}
+
 	render() {
 		return (
 			<Page
@@ -247,6 +317,7 @@ class ComplaintsHighlightsPage extends React.Component {
 						{this.renderComplaintsOutcomes()}
 						{this.renderFourth()}
 						{this.renderAnonymous()}
+						{this.renderDiscipline()}
 						<ComplaintsHighlightsBib />
 					</div>
 				}

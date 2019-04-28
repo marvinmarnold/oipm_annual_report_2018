@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c371c912ce": ["function () ", "plotlyVisDat"]
+    "60c36451704b": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c371c912ce",
+  "cur_data": "60c36451704b",
   "attrs": {
-    "60c371c912ce": {
+    "60c36451704b": {
       "x": {},
       "y": {},
       "name": {},
@@ -25,7 +25,7 @@
     "xaxis": {
       "domain": [0, 1],
       "automargin": true,
-      "title": "Type of allegation",
+      "title": false,
       "showgrid": false,
       "type": "category",
       "categoryorder": "array",

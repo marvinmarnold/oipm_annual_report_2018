@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c31931066b": ["function () ", "plotlyVisDat"]
+    "60c3617e3457": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c31931066b",
+  "cur_data": "60c3617e3457",
   "attrs": {
-    "60c31931066b": {
+    "60c3617e3457": {
       "labels": {},
       "values": {},
       "textposition": "inside",
@@ -26,7 +26,7 @@
       "r": 10
     },
     "hovermode": "compare",
-    "title": "Types of action taken",
+    "title": false,
     "showlegend": false
   },
   "source": "A",

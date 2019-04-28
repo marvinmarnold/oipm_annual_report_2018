@@ -3,7 +3,7 @@ check.vars(c("allegations.for.year", "actions.taken.for.year"))
 ########################################################################################################
 ########################################################################################################
 title <- "Discipline by Complainant's Race"
-
+actions.taken.for.year
 complainant.info <- allegations.all %>% select(Citizen.race, Allegation.primary.key) %>% distinct()
 detailed.actions.for.year <- merge(actions.taken.for.year, complainant.info, by = "Allegation.primary.key", all.x = TRUE)
 detailed.actions.for.year <- detailed.actions.for.year %>% mutate(
@@ -27,9 +27,13 @@ p.discipline.by.race <- plot_ly(discipline.count.by.race,
          yaxis = list(title = 'Number allegations'), 
          barmode = 'stack',
          hovermode = 'compare', 
-         legend = list(x = 0, y = -1.5),
+         legend = list(x = 0, y = -0.5),
          margin = list(r = 100, b = 100),
          title = F)
 
 p.discipline.by.race
 gen.plotly.json(p.discipline.by.race, "discipline-by-public-race")
+
+allegations.all %>% filter(year.of.record == CURRENT.YEAR) %>% filter(Citizen.race == "Black / African American") %>% nrow
+allegations.all %>% filter(year.of.record == CURRENT.YEAR) %>% filter(Citizen.race == "White") %>% nrow
+

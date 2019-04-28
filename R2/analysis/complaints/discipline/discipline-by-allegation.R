@@ -12,7 +12,7 @@ p.discipline.by.allegation <- plot_ly(discipline.count.by.allegation,
                                       type = 'bar',  name = ~Allegation.simple, 
                                       color = ~Allegation.simple) %>%
   
-  layout(xaxis = list(title = "Type of allegation", 
+  layout(xaxis = list(title = F, 
                       showgrid = F), 
          yaxis = list(title = 'Number allegations'), 
          barmode = 'stack',

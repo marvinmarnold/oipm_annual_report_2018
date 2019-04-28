@@ -27,6 +27,9 @@ import ComplaintsByOfficerRaceDispositionPlot from '../components/complaints/out
 import AllegationsFourthByDescriptionPlot from '../components/complaints/fourth/allegations-fourth-by-description-plot'
 import AllegationsFourthByDescriptionFindingPlot from '../components/complaints/fourth/allegations-fourth-by-description-finding-plot'
 
+// Anonymous
+import ComplaintsByAnonymousPlot from '../components/complaints/source/complaints-by-anonymous-plot'
+
 
 class ComplaintsHighlightsPage extends React.Component {
   constructor() {
@@ -67,7 +70,7 @@ class ComplaintsHighlightsPage extends React.Component {
 			<div id="complaints-by-year">
 				<Row>
 					<Col>
-						<h4>Complaints &amp; Allegations by Year </h4>
+						<h4>Complaints &amp; Allegations by Year</h4>
 						<p>Complaints and allegations both appeared to have a slight decrease in 2018 compared with 2017. This appears to be on trend with other United States police departments of similar size, which are experiencing stagnation in complaints or decreases <a href="#ref-1-boulder">[1]</a>. Given that complaint decreases are taking place in metropolitan police departments across the U.S., this may indicate a universal reform in policing over the past few years.</p>
 					</Col>
 				</Row>
@@ -82,7 +85,6 @@ class ComplaintsHighlightsPage extends React.Component {
 					</Col>
 				</Row>
 			</div>
-
 		)
 	}
 
@@ -207,6 +209,25 @@ class ComplaintsHighlightsPage extends React.Component {
 		)
 	}
 
+	renderAnonymous() {
+		return (
+			<div id="complaints-anonymous">
+				<Row>
+					<Col>
+						<h4>Anonymous Complaints</h4>
+						<p>Of the three anonymous complaints in 2018, two remain pending; the third was found to have “no formal investigation merited.” These findings are similar to those from 2017, where only 1 of 10 anonymous complaints was sustained.</p>
+						<p>Similar to 4th Amendment complaints, there is no clear way to use NOPD’s data to identify anonymous complaints. The results may not reflect the actual number of anonymous complaints.</p>
+					</Col>
+				</Row>
+				<Row>
+					<Col lg={{size: 6, offset: 3}} md={{size: 8, offset: 2}} sm={{size: 10, offset: 1}}>
+						<ComplaintsByAnonymousPlot />
+					</Col>
+				</Row>
+			</div>
+		)
+	}
+
 	render() {
 		return (
 			<Page
@@ -225,6 +246,7 @@ class ComplaintsHighlightsPage extends React.Component {
 						{this.renderAllegationsOutcomes()}
 						{this.renderComplaintsOutcomes()}
 						{this.renderFourth()}
+						{this.renderAnonymous()}
 						<ComplaintsHighlightsBib />
 					</div>
 				}

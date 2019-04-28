@@ -23,6 +23,11 @@ import ComplaintsByRankDispositionPlot from '../components/complaints/outcome/co
 import ComplaintsBySourceDispositionPlot from '../components/complaints/source/complaints-by-source-disposition-plot'
 import ComplaintsByOfficerRaceDispositionPlot from '../components/complaints/outcome/complaints-by-officer-race-disposition-plot'
 
+// Fourth
+import AllegationsFourthByDescriptionPlot from '../components/complaints/fourth/allegations-fourth-by-description-plot'
+import AllegationsFourthByDescriptionFindingPlot from '../components/complaints/fourth/allegations-fourth-by-description-finding-plot'
+
+
 class ComplaintsHighlightsPage extends React.Component {
   constructor() {
     super()
@@ -42,7 +47,7 @@ class ComplaintsHighlightsPage extends React.Component {
 					<NavLink href="#complaints-outcomes" className="text-white">Complaint analysis</NavLink>
 				</NavItem>
 				<NavItem>
-					<NavLink href="#complaints-4th" className="text-white">4th amendment complaints</NavLink>
+					<NavLink href="#complaints-fourth" className="text-white">4th amendment complaints</NavLink>
 				</NavItem>
 				<NavItem>
 					<NavLink href="#complaints-anonymous" className="text-white">Anonymous complaints</NavLink>
@@ -174,6 +179,34 @@ class ComplaintsHighlightsPage extends React.Component {
 		)
 	}
 
+	renderFourth() {
+		return (
+			<div id="complaints-fourth">
+				<Row>
+					<Col>
+						<h4>4th Amendment Complaints</h4>
+						<p>Search and seizure and handcuffing and restraint were the two high risk allegations that composed Fourth Amendment complaints or allegations. According to NOPD data, illegal search and seizure was more prevalent this year at 60% of Fourth Amendment allegations. There were 10 total Fourth Amendment sustained complaints or allegations in 2018. This is an improvement from 2017, where there were 45 total sustained complaints or allegations. While New Orleans is improving, and doing better than some other major police departments, like Chicago who experienced an increase, ideally there should be no Fourth Amendment allegations at this phase of the Consent Decree monitoring.</p>
+
+						<p>Furthermore, NOPD’s data does not make is easy to identify possible 4th Amendment related complaints. OIPM is not confident that this apparent decrease reflects a true change in 4th Amendment complaints.</p>
+
+						<p>The outcomes of Fourth Amendment allegations were relatively similar for both search and seizure and handcuffing and restraint. In both instances, the number of sustained complaints matches that of those exonerated. This is a slight deviation from 2017, when exonerations were nearly twice as likely as sustentions. These findings may indicate a greater accountability mechanism in the department.</p>
+					</Col>
+				</Row>
+				<Row>
+					<Col md="6">
+						<h6>Types of 4th Amendment Complaints</h6>
+						<AllegationsFourthByDescriptionPlot />
+					</Col>
+					<Col md="6">
+						<h6>Outcome of 4th Amendment Complaints</h6>
+						<AllegationsFourthByDescriptionFindingPlot />
+					</Col>
+				</Row>
+			</div>
+
+		)
+	}
+
 	render() {
 		return (
 			<Page
@@ -191,6 +224,7 @@ class ComplaintsHighlightsPage extends React.Component {
 						{this.renderOverTime()}
 						{this.renderAllegationsOutcomes()}
 						{this.renderComplaintsOutcomes()}
+						{this.renderFourth()}
 						<ComplaintsHighlightsBib />
 					</div>
 				}

@@ -6,15 +6,22 @@ import Page from "../components/layout/page"
 import SEO from "../components/layout/seo"
 import ComplaintsHighlightsBib from '../components/complaints/complaints-highlights-bib'
 
+// Time
 import ComplaintsByYearTypePlot from '../components/complaints/time/complaints-by-year-type-plot'
 import AllegationsByYearTypePlot from '../components/complaints/time/allegations-by-year-type-plot'
+
+// Allegations
 import AllegationsMostCommonPlot from '../components/complaints/allegations-most-common-plot'
 import AllegationsByFindingPlot from '../components/complaints/outcome/allegations-by-finding-plot'
 import AllegationsSustainedMostCommonPlot from '../components/complaints/outcome/allegations-sustained-most-common-plot'
+import AllegationsBySourcePlot from '../components/complaints/source/allegations-by-source-plot'
+
+// Complaints
 import ComplaintsByDispositionPlot from '../components/complaints/outcome/complaints-by-disposition-plot'
 import ComplaintsByPublicDispositionPlot from '../components/complaints/outcome/complaints-by-public-disposition-plot'
 import ComplaintsByRankDispositionPlot from '../components/complaints/outcome/complaints-by-rank-disposition-plot'
-
+import ComplaintsBySourceDispositionPlot from '../components/complaints/source/complaints-by-source-disposition-plot'
+import ComplaintsByOfficerRaceDispositionPlot from '../components/complaints/outcome/complaints-by-officer-race-disposition-plot'
 
 class ComplaintsHighlightsPage extends React.Component {
   constructor() {
@@ -29,10 +36,10 @@ class ComplaintsHighlightsPage extends React.Component {
 					<NavLink href="#complaints-by-year" className="text-white">Complaints and allegations by year</NavLink>
 				</NavItem>
 				<NavItem>
-					<NavLink href="#allegations-outcomes" className="text-white">Allegation outcomes</NavLink>
+					<NavLink href="#allegations-outcomes" className="text-white">Allegation analysis</NavLink>
 				</NavItem>
 				<NavItem>
-					<NavLink href="#complaints-outcomes" className="text-white">Complaint outcomes</NavLink>
+					<NavLink href="#complaints-outcomes" className="text-white">Complaint analysis</NavLink>
 				</NavItem>
 				<NavItem>
 					<NavLink href="#complaints-4th" className="text-white">4th amendment complaints</NavLink>
@@ -79,7 +86,7 @@ class ComplaintsHighlightsPage extends React.Component {
 			<div id="allegations-outcomes">
 				<Row>
 					<Col>
-						<h4>Allegation Outcomes</h4>
+						<h4>Allegation Analysis</h4>
 					</Col>
 				</Row>
 				<Row>
@@ -108,6 +115,9 @@ class ComplaintsHighlightsPage extends React.Component {
 						<p>In 2018, the most common sustained allegation is “neglect of duty” at 52%, mostly unchanged since 2017.</p>
 
 						<AllegationsSustainedMostCommonPlot />
+
+						<p>This classification of each allegation is complimentary to and consistent with the Public vs Rank Initiated classification that each allegation also receives. 55.5% of allegations come from community members while 62% of allegations are Public Initiated.</p>
+						<AllegationsBySourcePlot />
 					</Col>
 				</Row>
 
@@ -120,7 +130,7 @@ class ComplaintsHighlightsPage extends React.Component {
 			<div id="complaints-outcomes">
 				<Row>
 					<Col>
-						<h4>Complaint Outcomes</h4>
+						<h4>Complaint Analysis</h4>
 					</Col>
 				</Row>
 				<Row>
@@ -129,21 +139,34 @@ class ComplaintsHighlightsPage extends React.Component {
 
 						<p>While 14.6% of citizen complaints are sustained (15.6% in 2017), 53.7% of rank complaints are sustained (50.7% in 2017), more than three times the percentage of citizen complaints.</p>
 
-						<p>In police departments across the US, citizen complaints often represent the majority of complaints but are the least often sustained <a href="#ref-3-sustained">[3]</a>.  There are different conclusions that can be drawn from this trend.  Rank initiated complaints may orientate from a civilian interaction or an interaction within the NOPD between officers or employees.  At this time, the data does not differentiate whether the rank initiated a complaint for a civilian interaction or an interaction within the NOPD.</p>
+						<p>In New Orleans, the public initiates roughly 1.5 times the number of complaints than does rank. In police departments across the US, citizen complaints often represent the majority of complaints but are the least often sustained <a href="#ref-3-sustained">[3]</a>. There are different conclusions that can be drawn from this trend.  Rank initiated complaints may orientate from a civilian interaction or an interaction within the NOPD between officers or employees.  At this time, the data does not differentiate whether the rank initiated a complaint for a civilian interaction or an interaction within the NOPD.</p>
 					</Col>
 				</Row>
 				<Row>
-					<Col sm="6" md="4">
+					<Col sm="6" lg="4" xl="3">
 						<h6>All Complaints by Outcome</h6>
 						<ComplaintsByDispositionPlot />
 					</Col>
-					<Col sm="6" md="4">
+					<Col sm="6" lg="4" xl="3">
 						<h6>Rank Complaints by Outcome</h6>
 						<ComplaintsByRankDispositionPlot />
 					</Col>
-					<Col sm="6" md="4">
+					<Col sm="6" lg="4" xl="3">
 						<h6>Public Complaints by Outcome</h6>
 						<ComplaintsByPublicDispositionPlot />
+					</Col>
+					<Col sm="6" lg="4" xl="3">
+						<h6>Public and Rank Complaints by Outcome</h6>
+						<ComplaintsBySourceDispositionPlot />
+					</Col>
+				</Row>
+
+				<Row>
+					<Col>
+						<h6>Complaint Outcomes by Officer Race</h6>
+						<p>According to NOPD data, sustained complaints appear to be consistent with officer race demographics. However, officers classified as African American / Black have a higher rate of participation in mediation.  The, OIPM cannot draw a definitive conclusion from this data but the OIPM questions whether social dynamics are at play between the heavily African American communities that may have a higher police presence and the African American officers responsible for policing that community.  In other words, do African American / Black officers have a greater inclination to reconcile with residents, as they are more likely to come from the same or similar neighborhoods as their complainants?  The OIPM would like to answer that question in future reports.
+						</p>
+						<ComplaintsByOfficerRaceDispositionPlot />
 					</Col>
 				</Row>
 

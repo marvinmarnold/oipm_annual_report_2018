@@ -18,8 +18,8 @@ class ForceJustificationSection extends React.Component {
 					<Col>
 						<h4>Reason for force</h4>
 						<ul>
-							<li>For the second year in a row, resisting arrest in the most common reason for force at 32.3%, followed by refusing verbal commands at 18.2%.</li>
-							<li>The other category decreased notably from 18.9% in 2017 to 6.5% in 2018. </li>
+							<li>For the second year in a row, resisting arrest in the most common reason for force at 50%, followed by refusing verbal commands at 18.2%.</li>
+							<li>The other category decreased notably from 18.9% in 2017 to 6.5% in 2018.</li>
 							<li>In other Washington D.C., for example, subjects assaulted officers or were impaired by drugs or alcohol in 37% of instances <a href="#ref-12-dc-force">[12]</a>. Upon reviewing UOF statistics information from other police departments, it remains unclear as to whether “refusing verbal commands” is a justifiable reason for UOF <a href="#ref-13-co-justified">[13]</a>.</li>
 							<li>Some other departments also take into consideration whether a subject is exhibiting possible signs of mental illness into account in deciding if UOF is appropriate or justified <a href="#ref-14-mental">[14]</a>.</li>
 						</ul>
@@ -45,9 +45,9 @@ class ForceJustificationSection extends React.Component {
 					<Col>
 						<h4>Reason firearm exhibited</h4>
 						<ul>
-							<li>Ironically, weapon exhibited was not the most common reason for exhibiting a firearm; it only represented 12.6% of total reasons.</li>
+							<li>Weapon exhibited was not the most common reason for exhibiting a firearm; it only represented 14.9% of total reasons.</li>
 							<li>The top three reasons for exhibiting firearms are flight from an officer, tactical deployments, and resisting lawful arrest.</li>
-							<li>Other represented 10.4% of reason for exhibiting a firearm, down from 30% in 2017.</li>
+							<li>Other represented 10.4% of reason for exhibiting a firearm, down from 30% in 2017 and over 50% in 2016.</li>
 						</ul>
 					</Col>
 					<Col>

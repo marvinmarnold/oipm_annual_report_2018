@@ -48,19 +48,9 @@ export default class TopNav extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
 
-							<UncontrolledDropdown nav inNavbar>
-								<DropdownToggle nav caret>
-									Use of Force
-								</DropdownToggle>
-								<DropdownMenu right>
-									<DropdownItem>
-										<a href={this.withPrefix("/force-highlights")}>Annual Report Narrative</a>
-									</DropdownItem>
-									<DropdownItem>
-										<a href={this.withPrefix("/force")}>Raw Data Analysis</a>
-									</DropdownItem>
-								</DropdownMenu>
-							</UncontrolledDropdown>
+							<NavItem>
+								<NavLink href={this.withPrefix("/force")}>Use of Force</NavLink>
+							</NavItem>
 
 							<UncontrolledDropdown nav inNavbar>
 								<DropdownToggle nav caret>

@@ -5,6 +5,7 @@ import { Link } from "gatsby"
 import OfficersByYearPlot from './officers-by-year-plot'
 import OfficersByRacePlot from './officers-by-race-plot'
 import OfficersBySexPlot from './officers-by-sex-plot'
+import OfficersByGenderRacePlot from './officers-by-gender-race-plot'
 
 class OfficersDemographicsSection extends React.Component {
 	constructor() {
@@ -18,15 +19,16 @@ class OfficersDemographicsSection extends React.Component {
 				<Row>
 					<Col>
 						<h4>Number of active NOPD officers</h4>
+							<p>The number of officers has increased slowly over the past years.</p>
 
 					</Col>
 				</Row>
 				<Row>
-					<Col>
-						<p>TODO</p>
-					</Col>
-					<Col>
+					<Col md="6">
 						<OfficersByYearPlot />
+					</Col>
+					<Col md="6">
+						<OfficersByGenderRacePlot />
 					</Col>
 				</Row>
 			</div>
@@ -60,7 +62,10 @@ class OfficersDemographicsSection extends React.Component {
 		return (
 			<div>
 				<Row>
-						<Col><h2 id="officers-demographics-section">Demographics of active NOPD officers</h2></Col>
+					<Col>
+						<h2 id="officers-demographics-section">Demographics of active NOPD officers</h2>
+						<p>Note: NOPD has constrained OIPM's access to officer ZIP codes and we are currently unable to reproduce our 2017 map of officer ZIPs.</p>
+					</Col>
 				</Row>
 
 				{this.renderByYear()}

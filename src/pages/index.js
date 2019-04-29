@@ -168,23 +168,6 @@ class IndexPage extends React.Component {
 		)
 	}
 
-	renderTodo() {
-		return (
-			<Row className="mt-5">
-				<Col>
-					<p>Marvin's todo list</p>
-					<ul>
-						<li>Add 2015 data</li>
-						<li>Officers w/ most force divisions and departments</li>
-						<li>Officers by zip map</li>
-						<li>Add arrests to disproportionate force comparison</li>
-						<li>Extends disproportionate force comparision to 2015</li>
-					</ul>
-				</Col>
-			</Row>
-		)
-	}
-
 	renderNavigationButtonsPop() {
 		return (
 			<div className="my-5">
@@ -231,7 +214,6 @@ class IndexPage extends React.Component {
 					{this.renderNoTrends()}
 					{this.renderForceBlack()}
 					{this.renderNext()}
-					{this.renderTodo()}
 		  </Layout>
 		)
 	}

@@ -25,6 +25,14 @@ const ForceIntroductionSection = () => (
 				<p>
 					New Orleans uses the second most amount of force compared to other cities in 2 out of 3 categories. Least relative force when looked at from a per-officer basis.
 				</p>
+				<p>New Orleans is the smallest city on the list.</p>
+				<strong>City populations</strong>
+				<ul>
+					<li>Austin: 950,715</li>
+					<li>D.C.: 702,455</li>
+					<li>Indianapolis: 863,002</li>
+					<li>New Orleans: 393,292</li>
+				</ul>
 			</Col>
 			<Col>
 				<ForceByCityPlot />

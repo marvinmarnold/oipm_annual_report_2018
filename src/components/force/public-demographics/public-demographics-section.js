@@ -57,7 +57,8 @@ class PublicDemographicsSection extends React.Component {
 				<Row>
 					<Col>
 						<ul>
-							<li>Black men were approximately 17 times more likely to have UOF used against them. Black females were also more likely than any other race/gender combination, except for Black males, to have force used against them.</li>
+							<li>Black men were approximately 6 times more likely to have UOF used against them than all other males.</li>
+							 <li>Black females were 4 times more likely to have force useg against them than all other women.</li>
 							<li>For the second year in a row, white females were more likely to experience UOF than white males.</li>
 						</ul>
 					</Col>

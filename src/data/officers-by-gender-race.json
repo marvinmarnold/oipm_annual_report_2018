@@ -1,18 +1,19 @@
 {
   "visdat": {
-    "60c34dac1dfa": ["function () ", "plotlyVisDat"]
+    "60c34d2092e7": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c34dac1dfa",
+  "cur_data": "60c34d2092e7",
   "attrs": {
-    "60c34dac1dfa": {
-      "x": {},
-      "y": {},
-      "name": {},
-      "color": {},
+    "60c34d2092e7": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
-      "type": "bar"
+      "x": {},
+      "y": {},
+      "type": "bar",
+      "name": {},
+      "color": {},
+      "inherit": true
     }
   },
   "layout": {
@@ -22,22 +23,23 @@
       "t": 25,
       "r": 10
     },
+    "barmode": "stack",
+    "hovermode": "compare",
     "xaxis": {
       "domain": [0, 1],
       "automargin": true,
+      "title": "Gender",
       "showgrid": false,
-      "title": false,
       "type": "category",
       "categoryorder": "array",
-      "categoryarray": ["Baton (non-strike)", "Baton/PR-24 (Strike)", "Canine (No Bite)", "Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "Head strike while Hancuffed", "L1-Other", "L2-Taser", "L4-Taser", "Other", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"]
+      "categoryarray": ["Female", "Male", "Not Specified"]
     },
     "yaxis": {
       "domain": [0, 1],
       "automargin": true,
-      "title": "Number UOF"
+      "title": "Number of officers",
+      "showgrid": true
     },
-    "barmode": "stack",
-    "hovermode": "compare",
     "showlegend": true
   },
   "source": "A",
@@ -47,10 +49,10 @@
   },
   "data": [
     {
-      "x": ["Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "Takedown (no injury)"],
-      "y": [1, 7, 4, 1, 2],
-      "name": "Asian / Pacific Islander",
+      "x": ["Male"],
+      "y": [14],
       "type": "bar",
+      "name": "Asian / Pacific Islander",
       "marker": {
         "color": "rgba(102,194,165,1)",
         "line": {
@@ -71,10 +73,10 @@
       "frame": null
     },
     {
-      "x": ["Baton (non-strike)", "Canine (No Bite)", "Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "Head strike while Hancuffed", "L2-Taser", "Other", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"],
-      "y": [1, 3, 31, 163, 80, 4, 6, 15, 2, 39, 12, 6],
-      "name": "Black / African American",
+      "x": ["Female", "Male"],
+      "y": [202, 481],
       "type": "bar",
+      "name": "Black / African American",
       "marker": {
         "color": "rgba(252,141,98,1)",
         "line": {
@@ -95,10 +97,10 @@
       "frame": null
     },
     {
-      "x": ["Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "L2-Taser", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"],
-      "y": [6, 19, 17, 1, 8, 11, 2, 2],
-      "name": "Hispanic",
+      "x": ["Female", "Male"],
+      "y": [8, 47],
       "type": "bar",
+      "name": "Hispanic / Latinx",
       "marker": {
         "color": "rgba(141,160,203,1)",
         "line": {
@@ -119,10 +121,10 @@
       "frame": null
     },
     {
-      "x": ["Firearm Exhibited", "Hands / Escort tech", "Takedown (no injury)"],
-      "y": [6, 2, 1],
-      "name": "Unknown race",
+      "x": ["Male"],
+      "y": [3],
       "type": "bar",
+      "name": "Native / Indigenous",
       "marker": {
         "color": "rgba(231,138,195,1)",
         "line": {
@@ -143,10 +145,10 @@
       "frame": null
     },
     {
-      "x": ["Baton (non-strike)", "Baton/PR-24 (Strike)", "Canine (No Bite)", "Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "L1-Other", "L2-Taser", "L4-Taser", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"],
-      "y": [1, 2, 13, 38, 274, 118, 3, 6, 27, 1, 40, 14, 9],
-      "name": "White",
+      "x": ["Male", "Not Specified"],
+      "y": [9, 36],
       "type": "bar",
+      "name": "Unknown race",
       "marker": {
         "color": "rgba(166,216,84,1)",
         "line": {
@@ -161,6 +163,30 @@
       },
       "error_x": {
         "color": "rgba(166,216,84,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Female", "Male"],
+      "y": [74, 450],
+      "type": "bar",
+      "name": "White",
+      "marker": {
+        "color": "rgba(255,217,47,1)",
+        "line": {
+          "color": "rgba(255,217,47,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(255,217,47,1)"
+      },
+      "error_y": {
+        "color": "rgba(255,217,47,1)"
+      },
+      "error_x": {
+        "color": "rgba(255,217,47,1)"
       },
       "xaxis": "x",
       "yaxis": "y",

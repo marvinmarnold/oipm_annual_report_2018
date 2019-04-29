@@ -74,7 +74,7 @@ class ForceTypeLevelSection extends React.Component {
 						<strong>Level 1</strong>
 						<ul>
 							<li>The highest percentage of level 1 UOF is firearm exhibited. </li>
-							<li>Hands/escort tech is the second most common low level UOF, followed by takedown (no injury), representing more than 90% of all level 1 force. </li>
+							<li>Hands/escort tech is the second most common low level UOF, followed by takedown (no injury). Together, the top three types represent more than 90% of all level 1 force. </li>
 							<li>Exhibiting firearms is the overwhelming reason for using force.</li>
 							<li>Level 1 force is more common that all other levels of force. </li>
 						</ul>

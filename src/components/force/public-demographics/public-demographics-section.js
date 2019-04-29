@@ -96,6 +96,7 @@ class PublicDemographicsSection extends React.Component {
 					</Col>
 					<Col>
 						<h6>Race disparities by district</h6>
+						<p>Note: Currently missing OPSO data required to show arrests.</p>
 						<BlackDisparitiesByDistrictPlot />
 					</Col>
 				</Row>

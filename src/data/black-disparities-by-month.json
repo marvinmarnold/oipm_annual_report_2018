@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c31a651919": ["function () ", "plotlyVisDat"]
+    "60c37e97bb67": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c31a651919",
+  "cur_data": "60c37e97bb67",
   "attrs": {
-    "60c31a651919": {
+    "60c37e97bb67": {
       "x": {},
       "y": {},
       "mode": "lines+markers",
@@ -19,7 +19,23 @@
       "spans": [1, 20],
       "type": "scatter"
     },
-    "60c31a651919.1": {
+    "60c37e97bb67.1": {
+      "x": {},
+      "y": {},
+      "mode": "lines+markers",
+      "line": {
+        "color": "rgb(205, 12, 24)",
+        "width": 2,
+        "dash": "solid"
+      },
+      "name": "Bookings / Arrests",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "scatter",
+      "inherit": true
+    },
+    "60c37e97bb67.2": {
       "x": {},
       "y": {},
       "mode": "lines+markers",
@@ -35,7 +51,7 @@
       "type": "scatter",
       "inherit": true
     },
-    "60c31a651919.2": {
+    "60c37e97bb67.3": {
       "x": 0,
       "y": 61,
       "mode": "lines",
@@ -115,14 +131,14 @@
     },
     {
       "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "y": [74.3680485338726, 72.6884019241048, 71.7450027012426, 73.1863029599536, 72.0779220779221, 72.962420693021, 73.7789203084833, 75.0770811921891, 75.4997437211686, 73.6815156169995, 72.8959276018099, 73.25],
+      "y": [76.6061452513967, 74.5308310991957, 76.7395626242545, 79.6065573770492, 81.199460916442, 78.0436312456017, 80.1526717557252, 79.9202127659574, 78.4400294334069, 75.9892689470154, 75.8206565252202, 78.0856423173803],
       "mode": "lines+markers",
       "line": {
-        "color": "rgb(0, 255, 24)",
+        "color": "rgb(205, 12, 24)",
         "width": 2,
         "dash": "solid"
       },
-      "name": "Stops & Searches",
+      "name": "Bookings / Arrests",
       "type": "scatter",
       "marker": {
         "color": "rgba(255,127,14,1)",
@@ -141,15 +157,15 @@
       "frame": null
     },
     {
-      "x": [0, 12],
-      "y": [61, 61],
-      "mode": "lines",
+      "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "y": [74.3680485338726, 72.6884019241048, 71.7450027012426, 73.1863029599536, 72.0779220779221, 72.962420693021, 73.7789203084833, 75.0770811921891, 75.4997437211686, 73.6815156169995, 72.8959276018099, 73.25],
+      "mode": "lines+markers",
       "line": {
-        "color": "rgb(229, 221, 59)",
+        "color": "rgb(0, 255, 24)",
         "width": 2,
         "dash": "solid"
       },
-      "name": "Black population of NO",
+      "name": "Stops & Searches",
       "type": "scatter",
       "marker": {
         "color": "rgba(44,160,44,1)",
@@ -162,6 +178,33 @@
       },
       "error_x": {
         "color": "rgba(44,160,44,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [0, 12],
+      "y": [61, 61],
+      "mode": "lines",
+      "line": {
+        "color": "rgb(229, 221, 59)",
+        "width": 2,
+        "dash": "solid"
+      },
+      "name": "Black population of NO",
+      "type": "scatter",
+      "marker": {
+        "color": "rgba(214,39,40,1)",
+        "line": {
+          "color": "rgba(214,39,40,1)"
+        }
+      },
+      "error_y": {
+        "color": "rgba(214,39,40,1)"
+      },
+      "error_x": {
+        "color": "rgba(214,39,40,1)"
       },
       "xaxis": "x",
       "yaxis": "y",

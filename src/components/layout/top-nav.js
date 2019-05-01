@@ -44,8 +44,8 @@ export default class TopNav extends React.Component {
 			<div>
         <Navbar color="dark" light expand="md" dark>
           <NavbarBrand href={this.withPrefix("/")}><NavImage /></NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
+          <NavbarToggler onClick={this.toggleNavbar.bind(this)} />
+          <Collapse isOpen={this.state.collapsed} navbar>
             <Nav className="ml-auto" navbar>
 
 							<NavItem>

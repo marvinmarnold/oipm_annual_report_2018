@@ -67,7 +67,7 @@ class IndexPage extends React.Component {
 	renderNavigationButtons() {
 		return (
 			<div className="my-5">
-				<ButtonDropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+				<ButtonDropdown className="my-2" isOpen={this.state.dropdownOpen} toggle={this.toggle}>
 					<DropdownToggle caret size="lg" className="mx-2">
 						Jump to section
 					</DropdownToggle>
@@ -80,7 +80,7 @@ class IndexPage extends React.Component {
 					</DropdownMenu>
 				</ButtonDropdown>
 
-				<Button size="lg" disabled>Download full report (coming soon)</Button>
+				<Button className="my-2" size="lg" disabled>Download full report (coming soon)</Button>
 			</div>
 		)
 	}
@@ -151,11 +151,11 @@ class IndexPage extends React.Component {
 
 				<Row className="mt-3">
 
-					<Col>
+					<Col md="6">
 						<h5>Force by month</h5>
 						<BlackDisparitiesByMonthPlot />
 					</Col>
-					<Col>
+					<Col md="6">
 						<h5>Force by district</h5>
 						<BlackDisparitiesByDistrictPlot />
 					</Col>
@@ -167,7 +167,7 @@ class IndexPage extends React.Component {
 	renderNavigationButtonsPop() {
 		return (
 			<div className="my-5">
-				<ButtonDropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+				<ButtonDropdown className="my-2" isOpen={this.state.dropdownOpen} toggle={this.toggle}>
 					<DropdownToggle caret size="lg" className="mx-2" color="primary">
 						Jump to section
 					</DropdownToggle>
@@ -180,7 +180,7 @@ class IndexPage extends React.Component {
 					</DropdownMenu>
 				</ButtonDropdown>
 
-				<Button size="lg" color="link" disabled>Download full report (coming soon)</Button>
+				<Button className="my-2" size="lg" color="link" disabled>Download full report (coming soon)</Button>
 			</div>
 		)
 	}

@@ -1,18 +1,18 @@
 "Force.type";"Force.level";"year.of.record"
 "1";"Firearm Exhibited";"L1";2015
-"2";"Taser No-Hit";"L2";2015
+"2";"L2-Taser";"L2";2015
 "3";"Firearm Exhibited";"L1";2015
 "4";"Firearm Exhibited";"L1";2015
 "5";"Firearm Exhibited";"L1";2015
 "6";"Firearm Exhibited";"L1";2015
-"7";"Taser No-Hit";"L2";2015
+"7";"L2-Taser";"L2";2015
 "8";"Canine (No Bite)";"L1";2015
 "9";"Firearm Exhibited";"L1";2015
 "10";"Firearm Exhibited";"L1";2015
 "11";"Defense Tech / Take-down";"L2";2015
 "12";"Hands / Escort tech";"L1";2015
 "13";"Hands / Escort tech";"L1";2015
-"14";"Taser No-Hit";"L2";2015
+"14";"L2-Taser";"L2";2015
 "15";"Hands / Escort tech";"L1";2015
 "16";"Canine (No Bite)";"L1";2015
 "17";"Firearm Exhibited";"L1";2015
@@ -24,7 +24,7 @@
 "23";"Firearm Exhibited";"L1";2015
 "24";"Firearm Exhibited";"L1";2015
 "25";"Firearm Discharged";"L4";2015
-"26";"Taser No-Hit";"L2";2015
+"26";"L2-Taser";"L2";2015
 "27";"Firearm Exhibited";"L1";2015
 "28";"Hands / Escort tech";"L1";2015
 "29";"Hands / Escort tech";"L1";2015
@@ -53,7 +53,7 @@
 "52";"Firearm Exhibited";"L1";2015
 "53";"Hands / Escort tech";"L1";2015
 "54";"Hands / Escort tech";"L1";2015
-"55";"Taser No-Hit";"L2";2015
+"55";"L2-Taser";"L2";2015
 "56";"Taser Exhibited ";"L1";2015
 "57";"Firearm Exhibited";"L1";2015
 "58";"Canine (No Bite)";"L1";2015
@@ -79,8 +79,8 @@
 "78";"Firearm Exhibited";"L1";2015
 "79";"Firearm Exhibited";"L1";2015
 "80";"Firearm Exhibited";"L1";2015
-"81";"Firearm Exhibited";"L1";2015
-"82";"Taser No-Hit";"L2";2015
+"81";"Firearm Exhibited";"N/A";2015
+"82";"L2-Taser";"L2";2015
 "83";"Hands / Escort tech";"L1";2015
 "84";"Hands / Escort tech";"L1";2015
 "85";"Hands / Escort tech";"L1";2015
@@ -88,8 +88,8 @@
 "87";"Taser Exhibited ";"L1";2015
 "88";"Hands / Escort tech";"L1";2015
 "89";"Hands / Escort tech";"L1";2015
-"90";"Taser No-Hit";"L2";2015
-"91";"Taser No-Hit";"L2";2015
+"90";"L2-Taser";"L2";2015
+"91";"L2-Taser";"L2";2015
 "92";"Firearm Exhibited";"L1";2015
 "93";"Firearm Exhibited";"L1";2015
 "94";"Canine (No Bite)";"L1";2015
@@ -99,7 +99,7 @@
 "98";"Hands / Escort tech";"L1";2015
 "99";"Hands / Escort tech";"L1";2015
 "100";"Hands / Escort tech";"L1";2015
-"101";"Taser No-Hit";"L2";2015
+"101";"L2-Taser";"L2";2015
 "102";"Firearm Exhibited";"L1";2015
 "103";"Taser Exhibited ";"L1";2015
 "104";"Firearm Exhibited";"L1";2015
@@ -130,19 +130,19 @@
 "129";"Hands / Escort tech";"L1";2015
 "130";"Hands / Escort tech";"L1";2015
 "131";"Defense Tech / Take-down";"L2";2015
-"132";"Taser No-Hit";"L2";2015
+"132";"L2-Taser";"L2";2015
 "133";"Firearm Exhibited";"L1";2015
 "134";"Defense Tech / Take-down";"L2";2015
 "135";"Defense Tech / Take-down";"L2";2015
 "136";"Defense Tech / Take-down";"L2";2015
-"137";"Taser No-Hit";"L2";2015
+"137";"L2-Taser";"L2";2015
 "138";"Firearm Exhibited";"L1";2015
 "139";"Hands / Escort tech";"L1";2015
 "140";"Hands / Escort tech";"L1";2015
 "141";"Firearm Exhibited";"L1";2015
 "142";"Hands / Escort tech";"L1";2015
 "143";"Firearm Exhibited";"L1";2015
-"144";"Taser No-Hit";"L2";2015
+"144";"L2-Taser";"L2";2015
 "145";"Defense Tech / Take-down";"L2";2015
 "146";"Firearm Exhibited";"L1";2015
 "147";"Firearm Exhibited";"L1";2015
@@ -151,12 +151,12 @@
 "150";"Hands / Escort tech";"L1";2015
 "151";"Hands / Escort tech";"L1";2015
 "152";"Hands / Escort tech";"L1";2015
-"153";"Taser No-Hit";"L2";2015
+"153";"L2-Taser";"L2";2015
 "154";"Defense Tech / Take-down";"L2";2015
 "155";"Canine (No Bite)";"L1";2015
 "156";"";"";2015
-"157";"Taser No-Hit";"L2";2015
-"158";"Taser No-Hit";"L2";2015
+"157";"L2-Taser";"L2";2015
+"158";"L2-Taser";"L2";2015
 "159";"Firearm Exhibited";"L1";2015
 "160";"Firearm Exhibited";"L1";2015
 "161";"Hands / Escort tech";"L1";2015
@@ -176,20 +176,20 @@
 "175";"Taser Exhibited ";"L1";2015
 "176";"Firearm Exhibited";"L1";2015
 "177";"Firearm Exhibited";"L1";2015
-"178";"Taser No-Hit";"L2";2015
-"179";"Taser No-Hit";"L2";2015
+"178";"L2-Taser";"L2";2015
+"179";"L2-Taser";"L2";2015
 "180";"Firearm Exhibited";"L1";2015
 "181";"Hands / Escort tech";"L1";2015
 "182";"Hands / Escort tech";"L1";2015
 "183";"Hands / Escort tech";"L1";2015
-"184";"Taser Hit";"L4";2015
+"184";"L4-Taser";"L4";2015
 "185";"Hands / Escort tech";"L1";2015
 "186";"Hands / Escort tech";"L1";2015
 "187";"Hands / Escort tech";"L1";2015
 "188";"Hands / Escort tech";"L1";2015
 "189";"Defense Tech / Take-down";"L2";2015
-"190";"Not reported";"Not reported";2015
-"191";"Taser No-Hit";"L2";2015
+"190";"Not reported";"NULL";2015
+"191";"L2-Taser";"L2";2015
 "192";"Hands / Escort tech";"L1";2015
 "193";"Defense Tech / Take-down";"L2";2015
 "194";"Taser Exhibited ";"L1";2015
@@ -197,14 +197,14 @@
 "196";"Hands / Escort tech";"L1";2015
 "197";"Hands / Escort tech";"L1";2015
 "198";"Hands / Escort tech";"L1";2015
-"199";"Taser Hit";"L4";2015
+"199";"L4-Taser";"L4";2015
 "200";"Hands / Escort tech";"L1";2015
 "201";"Hands / Escort tech";"L1";2015
-"202";"Taser No-Hit";"L2";2015
+"202";"L2-Taser";"L2";2015
 "203";"Hands / Escort tech";"L1";2015
 "204";"Hands / Escort tech";"L1";2015
 "205";"Taser Exhibited ";"L1";2015
-"206";"Taser No-Hit";"L2";2015
+"206";"L2-Taser";"L2";2015
 "207";"Hands / Escort tech";"L1";2015
 "208";"Defense Tech / Take-down";"L2";2015
 "209";"";"";2015
@@ -237,7 +237,7 @@
 "236";"Defense Tech / Take-down";"L2";2015
 "237";"Hands / Escort tech";"L1";2015
 "238";"Hands / Escort tech";"L1";2015
-"239";"Taser No-Hit";"L2";2015
+"239";"L2-Taser";"L2";2015
 "240";"Taser Exhibited ";"L1";2015
 "241";"Taser Exhibited ";"L1";2015
 "242";"Defense Tech / Take-down";"L2";2015
@@ -248,7 +248,7 @@
 "247";"Taser Exhibited ";"L1";2015
 "248";"Defense Tech / Take-down";"L2";2015
 "249";"Defense Tech / Take-down";"L2";2015
-"250";"Taser No-Hit";"L2";2015
+"250";"L2-Taser";"L2";2015
 "251";"Defense Tech / Take-down";"L2";2015
 "252";"Defense Tech / Take-down";"L2";2015
 "253";"Hands / Escort tech";"L1";2015
@@ -257,24 +257,24 @@
 "256";"Hands / Escort tech";"L1";2015
 "257";"Defense Tech / Take-down";"L2";2015
 "258";"Hands / Escort tech";"L1";2015
-"259";"Not reported";"Not reported";2015
+"259";"Not reported";"NULL";2015
 "260";"Defense Tech / Take-down";"L2";2015
 "261";"Taser Exhibited ";"L1";2015
-"262";"Taser No-Hit";"L2";2015
-"263";"Taser No-Hit";"L2";2015
+"262";"L2-Taser";"L2";2015
+"263";"L2-Taser";"L2";2015
 "264";"Taser Exhibited ";"L1";2015
 "265";"Defense Tech / Take-down";"L2";2015
-"266";"Taser No-Hit";"L2";2015
+"266";"L2-Taser";"L2";2015
 "267";"Canine (Bite)";"L4";2015
-"268";"Taser No-Hit";"L2";2015
-"269";"Taser No-Hit";"L2";2015
-"270";"Taser No-Hit";"L2";2015
+"268";"L2-Taser";"L2";2015
+"269";"L2-Taser";"L2";2015
+"270";"L2-Taser";"L2";2015
 "271";"Hands / Escort tech";"L1";2015
 "272";"Hands / Escort tech";"L1";2015
 "273";"Hands / Escort tech";"L1";2015
 "274";"Hands / Escort tech";"L1";2015
 "275";"Canine (No Bite)";"L1";2015
-"276";"Taser No-Hit";"L2";2015
+"276";"L2-Taser";"L2";2015
 "277";"Taser Exhibited ";"L1";2015
 "278";"Hands / Escort tech";"L1";2015
 "279";"Hands / Escort tech";"L1";2015
@@ -299,12 +299,12 @@
 "298";"Defense Tech / Take-down";"L2";2015
 "299";"Defense Tech / Take-down";"L2";2015
 "300";"Hands / Escort tech";"L1";2015
-"301";"Taser No-Hit";"L2";2015
+"301";"L2-Taser";"L2";2015
 "302";"Firearm Exhibited";"L1";2015
 "303";"Taser Exhibited ";"L1";2015
 "304";"Canine (No Bite)";"L1";2015
 "305";"Firearm Exhibited";"L1";2015
-"306";"Taser No-Hit";"L2";2015
+"306";"L2-Taser";"L2";2015
 "307";"Hands / Escort tech";"L1";2015
 "308";"Hands / Escort tech";"L1";2015
 "309";"Hands / Escort tech";"L1";2015
@@ -313,12 +313,12 @@
 "312";"Taser Exhibited ";"L1";2015
 "313";"Defense Tech / Take-down";"L2";2015
 "314";"Defense Tech / Take-down";"L2";2015
-"315";"Taser No-Hit";"L2";2015
+"315";"L2-Taser";"L2";2015
 "316";"Defense Tech / Take-down";"L2";2015
 "317";"Defense Tech / Take-down";"L2";2015
-"318";"Taser No-Hit";"L2";2015
+"318";"L2-Taser";"L2";2015
 "319";"Taser Exhibited ";"L1";2015
-"320";"Taser No-Hit";"L2";2015
+"320";"L2-Taser";"L2";2015
 "321";"Hands / Escort tech";"L1";2015
 "322";"Hands / Escort tech";"L1";2015
 "323";"Hands / Escort tech";"L1";2015
@@ -359,7 +359,7 @@
 "358";"Defense Tech / Take-down";"L2";2015
 "359";"Hands / Escort tech";"L1";2015
 "360";"Defense Tech / Take-down";"L2";2015
-"361";"Taser No-Hit";"L2";2015
+"361";"L2-Taser";"L2";2015
 "362";"Taser Exhibited ";"L1";2015
 "363";"Canine (No Bite)";"L1";2015
 "364";"Canine (No Bite)";"L1";2015
@@ -371,8 +371,8 @@
 "370";"Taser Exhibited ";"L1";2015
 "371";"Taser Exhibited ";"L1";2015
 "372";"Defense Tech / Take-down";"L2";2015
-"373";"Taser No-Hit";"L2";2015
-"374";"Taser No-Hit";"L2";2015
+"373";"L2-Taser";"L2";2015
+"374";"L2-Taser";"L2";2015
 "375";"Firearm Exhibited";"L1";2015
 "376";"Firearm Exhibited";"L1";2015
 "377";"Firearm Exhibited";"L1";2015
@@ -433,7 +433,7 @@
 "432";"Hands / Escort tech";"L1";2015
 "433";"Hands / Escort tech";"L1";2015
 "434";"Firearm Discharged";"L4";2015
-"435";"Taser No-Hit";"L2";2015
+"435";"L2-Taser";"L2";2015
 "436";"Firearm Exhibited";"L1";2015
 "437";"Firearm Exhibited";"L1";2015
 "438";"Firearm Exhibited";"L1";2015
@@ -445,7 +445,7 @@
 "444";"Firearm Exhibited";"L1";2015
 "445";"Firearm Exhibited";"L1";2015
 "446";"Defense Tech / Take-down";"L2";2015
-"447";"Taser No-Hit";"L2";2015
+"447";"L2-Taser";"L2";2015
 "448";"Taser Exhibited ";"L1";2015
 "449";"Hands / Escort tech";"L1";2015
 "450";"Firearm Exhibited";"L1";2015
@@ -543,7 +543,7 @@
 "542";"Firearm Exhibited";"L1";2015
 "543";"Firearm Exhibited";"L1";2015
 "544";"Defense Tech / Take-down";"L2";2015
-"545";"Taser No-Hit";"L2";2015
+"545";"L2-Taser";"L2";2015
 "546";"Firearm Exhibited";"L1";2015
 "547";"Firearm Exhibited";"L1";2015
 "548";"Hands / Escort tech";"L1";2015
@@ -631,12 +631,12 @@
 "630";"Firearm Exhibited";"L1";2015
 "631";"Hands / Escort tech";"L1";2015
 "632";"Defense Tech / Take-down";"L2";2015
-"633";"Taser No-Hit";"L2";2015
+"633";"L2-Taser";"L2";2015
 "634";"Hands / Escort tech";"L1";2015
 "635";"Taser Exhibited ";"L1";2015
-"636";"Taser No-Hit";"L2";2015
+"636";"L2-Taser";"L2";2015
 "637";"Hands / Escort tech";"L1";2015
-"638";"Taser No-Hit";"L2";2015
+"638";"L2-Taser";"L2";2015
 "639";"Hands / Escort tech";"L1";2015
 "640";"Firearm Exhibited";"L1";2015
 "641";"Firearm Exhibited";"L1";2015
@@ -745,8 +745,8 @@
 "744";"Hands / Escort tech";"L1";2015
 "745";"Baton Miss";"L2";2015
 "746";"Hands / Escort tech";"L1";2015
-"747";"Taser No-Hit";"L2";2015
-"748";"Taser No-Hit";"L2";2015
+"747";"L2-Taser";"L2";2015
+"748";"L2-Taser";"L2";2015
 "749";"Hands / Escort tech";"L1";2015
 "750";"Hands / Escort tech";"L1";2015
 "751";"Defense Tech / Take-down";"L2";2015
@@ -809,11 +809,11 @@
 "808";"Firearm Exhibited";"L1";2015
 "809";"Taser Exhibited ";"L1";2015
 "810";"Firearm Exhibited";"L1";2015
-"811";"Taser No-Hit";"L2";2015
+"811";"L2-Taser";"L2";2015
 "812";"Firearm Exhibited";"L1";2015
-"813";"Taser No-Hit";"L2";2015
+"813";"L2-Taser";"L2";2015
 "814";"Firearm Exhibited";"L1";2015
-"815";"Taser No-Hit";"L2";2015
+"815";"L2-Taser";"L2";2015
 "816";"Firearm Exhibited";"L1";2015
 "817";"Firearm Exhibited";"L1";2015
 "818";"Hands / Escort tech";"L1";2015
@@ -893,12 +893,12 @@
 "892";"Firearm Discharged";"L4";2015
 "893";"Firearm Discharged";"L4";2015
 "894";"Firearm Exhibited";"L1";2015
-"895";"Taser No-Hit";"L2";2015
+"895";"L2-Taser";"L2";2015
 "896";"Hands / Escort tech";"L1";2015
 "897";"Firearm Exhibited";"L1";2015
 "898";"Firearm Exhibited";"L1";2015
 "899";"Hands / Escort tech";"L1";2015
-"900";"Taser No-Hit";"L2";2015
+"900";"L2-Taser";"L2";2015
 "901";"Hands / Escort tech";"L1";2015
 "902";"Hands / Escort tech";"L1";2015
 "903";"Defense Tech / Take-down";"L2";2015
@@ -938,11 +938,11 @@
 "937";"Firearm Exhibited";"L1";2015
 "938";"Head Strike (No Wep)";"L3";2015
 "939";"Head Strike (No Wep)";"L3";2015
-"940";"Taser No-Hit";"L2";2015
-"941";"Taser No-Hit";"L2";2015
-"942";"Taser No-Hit";"L2";2015
-"943";"Taser No-Hit";"L2";2015
-"944";"Taser No-Hit";"L2";2015
+"940";"L2-Taser";"L2";2015
+"941";"L2-Taser";"L2";2015
+"942";"L2-Taser";"L2";2015
+"943";"L2-Taser";"L2";2015
+"944";"L2-Taser";"L2";2015
 "945";"Taser Exhibited ";"L1";2015
 "946";"Hands / Escort tech";"L1";2015
 "947";"Firearm Exhibited";"L1";2015
@@ -960,14 +960,14 @@
 "959";"Hands / Escort tech";"L1";2015
 "960";"Hands / Escort tech";"L1";2015
 "961";"Hands / Escort tech";"L1";2015
-"962";"Taser No-Hit";"L2";2015
-"963";"Taser No-Hit";"L2";2015
+"962";"L2-Taser";"L2";2015
+"963";"L2-Taser";"L2";2015
 "964";"Defense Tech / Take-down";"L2";2015
 "965";"Defense Tech / Take-down";"L2";2015
 "966";"Firearm Exhibited";"L1";2015
 "967";"Firearm Exhibited";"L1";2015
-"968";"Taser No-Hit";"L2";2015
-"969";"Taser No-Hit";"L2";2015
+"968";"L2-Taser";"L2";2015
+"969";"L2-Taser";"L2";2015
 "970";"Firearm Exhibited";"L1";2015
 "971";"Firearm Exhibited";"L1";2015
 "972";"Taser Exhibited ";"L1";2015
@@ -994,7 +994,7 @@
 "993";"Firearm Exhibited";"L1";2015
 "994";"Firearm Exhibited";"L1";2015
 "995";"Firearm Exhibited";"L1";2015
-"996";"Not reported";"Not reported";2015
+"996";"Not reported";"NULL";2015
 "997";"Firearm Exhibited";"L1";2015
 "998";"Firearm Exhibited";"L1";2015
 "999";"Firearm Exhibited";"L1";2015
@@ -1024,7 +1024,7 @@
 "1023";"Defense Tech / Take-down";"L2";2015
 "1024";"Hands / Escort tech";"L1";2015
 "1025";"Defense Tech / Take-down";"L2";2015
-"1026";"Taser No-Hit";"L2";2015
+"1026";"L2-Taser";"L2";2015
 "1027";"Firearm Exhibited";"L1";2015
 "1028";"Firearm Exhibited";"L1";2015
 "1029";"Hands / Escort tech";"L1";2015
@@ -1036,7 +1036,7 @@
 "1035";"Hands / Escort tech";"L1";2015
 "1036";"Hands / Escort tech";"L1";2015
 "1037";"Hands / Escort tech";"L1";2015
-"1038";"Not reported";"Not reported";2015
+"1038";"Not reported";"NULL";2015
 "1039";"Defense Tech / Take-down";"L2";2015
 "1040";"Defense Tech / Take-down";"L2";2015
 "1041";"Hands / Escort tech";"L1";2015
@@ -1054,7 +1054,7 @@
 "1053";"Firearm Exhibited";"L1";2015
 "1054";"Hands / Escort tech";"L1";2015
 "1055";"Hands / Escort tech";"L1";2015
-"1056";"Not reported";"Not reported";2015
+"1056";"Not reported";"NULL";2015
 "1057";"Hands / Escort tech";"L1";2015
 "1058";"Hands / Escort tech";"L1";2015
 "1059";"Firearm Exhibited";"L1";2015
@@ -1117,8 +1117,8 @@
 "1116";"Hands / Escort tech";"L1";2015
 "1117";"Taser Exhibited ";"L1";2015
 "1118";"Taser Exhibited ";"L1";2015
-"1119";"Taser No-Hit";"L2";2015
-"1120";"Taser No-Hit";"L2";2015
+"1119";"L2-Taser";"L2";2015
+"1120";"L2-Taser";"L2";2015
 "1121";"Hands / Escort tech";"L1";2015
 "1122";"Hands / Escort tech";"L1";2015
 "1123";"Hands / Escort tech";"L1";2015
@@ -1132,13 +1132,13 @@
 "1131";"Hands / Escort tech";"L1";2015
 "1132";"Hands / Escort tech";"L1";2015
 "1133";"Hands / Escort tech";"L1";2015
-"1134";"Not reported";"Not reported";2015
+"1134";"Not reported";"NULL";2015
 "1135";"Taser Exhibited ";"L1";2015
 "1136";"Firearm Exhibited";"L1";2015
 "1137";"Hands / Escort tech";"L1";2015
 "1138";"Hands / Escort tech";"L1";2015
 "1139";"Defense Tech / Take-down";"L2";2015
-"1140";"Taser No-Hit";"L2";2015
+"1140";"L2-Taser";"L2";2015
 "1141";"Hands / Escort tech";"L1";2015
 "1142";"Hands / Escort tech";"L1";2015
 "1143";"Firearm Exhibited";"L1";2015
@@ -1158,7 +1158,7 @@
 "1157";"Hands / Escort tech";"L1";2015
 "1158";"Firearm Exhibited";"L1";2015
 "1159";"Hands / Escort tech";"L1";2015
-"1160";"Taser No-Hit";"L2";2015
+"1160";"L2-Taser";"L2";2015
 "1161";"Hands / Escort tech";"L1";2015
 "1162";"Hands / Escort tech";"L1";2015
 "1163";"Hands / Escort tech";"L1";2015
@@ -1173,8 +1173,8 @@
 "1172";"Defense Tech / Take-down";"L2";2015
 "1173";"Hands / Escort tech";"L1";2015
 "1174";"Hands / Escort tech";"L1";2015
-"1175";"Taser No-Hit";"L2";2015
-"1176";"Taser No-Hit";"L2";2015
+"1175";"L2-Taser";"L2";2015
+"1176";"L2-Taser";"L2";2015
 "1177";"Firearm Exhibited";"L1";2015
 "1178";"Firearm Exhibited";"L1";2015
 "1179";"Firearm Exhibited";"L1";2015
@@ -1189,7 +1189,7 @@
 "1188";"Firearm Exhibited";"L1";2015
 "1189";"Firearm Exhibited";"L1";2015
 "1190";"Firearm Exhibited";"L1";2015
-"1191";"Not reported";"Not reported";2015
+"1191";"Not reported";"NULL";2015
 "1192";"Taser Exhibited ";"L1";2015
 "1193";"Defense Tech / Take-down";"L2";2015
 "1194";"Defense Tech / Take-down";"L2";2015
@@ -1233,7 +1233,7 @@
 "1232";"Firearm Exhibited";"L1";2015
 "1233";"Firearm Exhibited";"L1";2015
 "1234";"Firearm Exhibited";"L1";2015
-"1235";"Taser No-Hit";"L2";2015
+"1235";"L2-Taser";"L2";2015
 "1236";"Hands / Escort tech";"L1";2015
 "1237";"Hands / Escort tech";"L1";2015
 "1238";"Hands / Escort tech";"L1";2015
@@ -1243,7 +1243,7 @@
 "1242";"Firearm Exhibited";"L1";2015
 "1243";"Canine (No Bite)";"L1";2015
 "1244";"Hands / Escort tech";"L1";2015
-"1245";"Taser No-Hit";"L2";2015
+"1245";"L2-Taser";"L2";2015
 "1246";"Hands / Escort tech";"L1";2015
 "1247";"Firearm Exhibited";"L1";2015
 "1248";"Firearm Exhibited";"L1";2015
@@ -1269,7 +1269,7 @@
 "1268";"Firearm Exhibited";"L1";2015
 "1269";"Firearm Exhibited";"L1";2015
 "1270";"Firearm Exhibited";"L1";2015
-"1271";"Head strike while Hancuffed";"L4";2015
+"1271";"Force on handcuffed individual";"L4";2015
 "1272";"Hands / Escort tech";"L1";2015
 "1273";"Hands / Escort tech";"L1";2015
 "1274";"Hands / Escort tech";"L1";2015
@@ -1281,7 +1281,7 @@
 "1280";"Firearm Exhibited";"L1";2015
 "1281";"Firearm Exhibited";"L1";2015
 "1282";"Firearm Exhibited";"L1";2015
-"1283";"Taser No-Hit";"L2";2015
+"1283";"L2-Taser";"L2";2015
 "1284";"Hands / Escort tech";"L1";2015
 "1285";"Hands / Escort tech";"L1";2015
 "1286";"Hands / Escort tech";"L1";2015
@@ -1314,8 +1314,8 @@
 "1313";"Firearm Exhibited";"L1";2015
 "1314";"Firearm Exhibited";"L1";2015
 "1315";"Firearm Exhibited";"L1";2015
-"1316";"Taser No-Hit";"L2";2015
-"1317";"Not reported";"Not reported";2015
+"1316";"L2-Taser";"L2";2015
+"1317";"Not reported";"NULL";2015
 "1318";"Defense Tech / Take-down";"L2";2015
 "1319";"Hands / Escort tech";"L1";2015
 "1320";"Hands / Escort tech";"L1";2015
@@ -1349,7 +1349,7 @@
 "1348";"Hands / Escort tech";"L1";2015
 "1349";"Hands / Escort tech";"L1";2015
 "1350";"Hands / Escort tech";"L1";2015
-"1351";"Taser No-Hit";"L2";2015
+"1351";"L2-Taser";"L2";2015
 "1352";"Firearm Exhibited";"L1";2015
 "1353";"Firearm Exhibited";"L1";2015
 "1354";"Firearm Exhibited";"L1";2015
@@ -1365,7 +1365,7 @@
 "1364";"Hands / Escort tech";"L1";2015
 "1365";"Firearm Discharged";"L4";2015
 "1366";"Firearm Exhibited";"L1";2015
-"1367";"Taser No-Hit";"L2";2015
+"1367";"L2-Taser";"L2";2015
 "1368";"Hands / Escort tech";"L1";2015
 "1369";"Hands / Escort tech";"L1";2015
 "1370";"Firearm Exhibited";"L1";2015
@@ -1432,7 +1432,7 @@
 "1431";"Hands / Escort tech";"L1";2015
 "1432";"Hands / Escort tech";"L1";2015
 "1433";"Hands / Escort tech";"L1";2015
-"1434";"Taser No-Hit";"L2";2015
+"1434";"L2-Taser";"L2";2015
 "1435";"Hands / Escort tech";"L1";2015
 "1436";"Hands / Escort tech";"L1";2015
 "1437";"Defense Tech / Take-down";"L2";2015
@@ -1458,11 +1458,11 @@
 "1457";"Hands / Escort tech";"L1";2015
 "1458";"Taser Exhibited ";"L1";2015
 "1459";"Hands / Escort tech";"L1";2015
-"1460";"Not reported";"Not reported";2015
+"1460";"Not reported";"NULL";2015
 "1461";"Taser Exhibited ";"L1";2015
 "1462";"Defense Tech / Take-down";"L2";2015
 "1463";"Defense Tech / Take-down";"L2";2015
-"1464";"Taser No-Hit";"L2";2015
+"1464";"L2-Taser";"L2";2015
 "1465";"Hands / Escort tech";"L1";2015
 "1466";"Hands / Escort tech";"L1";2015
 "1467";"Hands / Escort tech";"L1";2015
@@ -1566,7 +1566,7 @@
 "1565";"Firearm Exhibited";"L1";2015
 "1566";"Taser Exhibited ";"L1";2015
 "1567";"Taser Exhibited ";"L1";2015
-"1568";"Taser No-Hit";"L2";2015
+"1568";"L2-Taser";"L2";2015
 "1569";"Hands / Escort tech";"L1";2015
 "1570";"Firearm Exhibited";"L1";2015
 "1571";"Firearm Exhibited";"L1";2015
@@ -1579,7 +1579,7 @@
 "1578";"Hands / Escort tech";"L1";2015
 "1579";"Hands / Escort tech";"L1";2015
 "1580";"Taser Exhibited ";"L1";2015
-"1581";"Taser No-Hit";"L2";2015
+"1581";"L2-Taser";"L2";2015
 "1582";"Hands / Escort tech";"L1";2015
 "1583";"Hands / Escort tech";"L1";2015
 "1584";"Hands / Escort tech";"L1";2015
@@ -1598,8 +1598,8 @@
 "1597";"Firearm Exhibited";"L1";2015
 "1598";"Defense Tech / Take-down";"L2";2015
 "1599";"Firearm Exhibited";"L1";2015
-"1600";"Taser No-Hit";"L2";2015
-"1601";"Taser No-Hit";"L2";2015
+"1600";"L2-Taser";"L2";2015
+"1601";"L2-Taser";"L2";2015
 "1602";"Firearm Exhibited";"L1";2015
 "1603";"Firearm Exhibited";"L1";2015
 "1604";"Firearm Exhibited";"L1";2015
@@ -1613,11 +1613,11 @@
 "1612";"Firearm Exhibited";"L1";2015
 "1613";"Firearm Exhibited";"L1";2015
 "1614";"Firearm Exhibited";"L1";2015
-"1615";"Taser No-Hit";"L2";2015
-"1616";"Taser No-Hit";"L2";2015
-"1617";"Taser No-Hit";"L2";2015
-"1618";"Taser No-Hit";"L2";2015
-"1619";"Taser No-Hit";"L2";2015
+"1615";"L2-Taser";"L2";2015
+"1616";"L2-Taser";"L2";2015
+"1617";"L2-Taser";"L2";2015
+"1618";"L2-Taser";"L2";2015
+"1619";"L2-Taser";"L2";2015
 "1620";"Defense Tech / Take-down";"L2";2015
 "1621";"Firearm Exhibited";"L1";2015
 "1622";"Firearm Exhibited";"L1";2015
@@ -1658,8 +1658,8 @@
 "1657";"Firearm Exhibited";"L1";2015
 "1658";"Firearm Exhibited";"L1";2015
 "1659";"Firearm Exhibited";"L1";2015
-"1660";"Taser No-Hit";"L2";2015
-"1661";"Taser No-Hit";"L2";2015
+"1660";"L2-Taser";"L2";2015
+"1661";"L2-Taser";"L2";2015
 "1662";"Taser Exhibited ";"L1";2015
 "1663";"Defense Tech / Take-down";"L2";2015
 "1664";"Taser Exhibited ";"L1";2015
@@ -1671,7 +1671,7 @@
 "1670";"Firearm Exhibited";"L1";2015
 "1671";"Firearm Exhibited";"L1";2015
 "1672";"Taser Exhibited ";"L1";2015
-"1673";"Head strike while Hancuffed";"L4";2015
+"1673";"Force on handcuffed individual";"L4";2015
 "1674";"Firearm Exhibited";"L1";2015
 "1675";"Firearm Exhibited";"L1";2015
 "1676";"Firearm Exhibited";"L1";2015
@@ -1684,7 +1684,7 @@
 "1683";"Firearm Exhibited";"L1";2015
 "1684";"Firearm Exhibited";"L1";2015
 "1685";"Firearm Exhibited";"L1";2015
-"1686";"Not reported";"Not reported";2015
+"1686";"Not reported";"NULL";2015
 "1687";"Hands / Escort tech";"L1";2015
 "1688";"Defense Tech / Take-down";"L2";2015
 "1689";"Taser Exhibited ";"L1";2015
@@ -1692,8 +1692,8 @@
 "1691";"Firearm Discharged";"L4";2015
 "1692";"Hands / Escort tech";"L1";2015
 "1693";"L1-Other";"L1";2015
-"1694";"Taser No-Hit";"L2";2015
-"1695";"Taser No-Hit";"L2";2015
+"1694";"L2-Taser";"L2";2015
+"1695";"L2-Taser";"L2";2015
 "1696";"Firearm Exhibited";"L1";2015
 "1697";"Firearm Exhibited";"L1";2015
 "1698";"Firearm Exhibited";"L1";2015
@@ -1724,7 +1724,7 @@
 "1723";"Firearm Exhibited";"L1";2015
 "1724";"Firearm Exhibited";"L1";2015
 "1725";"L2-Other";"L2";2015
-"1726";"Taser No-Hit";"L2";2015
+"1726";"L2-Taser";"L2";2015
 "1727";"Defense Tech / Take-down";"L2";2015
 "1728";"Hands / Escort tech";"L1";2015
 "1729";"Firearm Exhibited";"L1";2015
@@ -1733,7 +1733,7 @@
 "1732";"L1-Other";"L1";2015
 "1733";"Hands / Escort tech";"L1";2015
 "1734";"Hands / Escort tech";"L1";2015
-"1735";"Taser No-Hit";"L2";2015
+"1735";"L2-Taser";"L2";2015
 "1736";"Firearm Exhibited";"L1";2015
 "1737";"Firearm Exhibited";"L1";2015
 "1738";"Taser Exhibited ";"L1";2015
@@ -1755,10 +1755,10 @@
 "1754";"Firearm Exhibited";"L1";2015
 "1755";"Firearm Exhibited";"L1";2015
 "1756";"Hands / Escort tech";"L1";2015
-"1757";"Taser Hit";"L4";2015
+"1757";"L4-Taser";"L4";2015
 "1758";"Hands / Escort tech";"L1";2015
 "1759";"Hands / Escort tech";"L1";2015
-"1760";"Taser No-Hit";"L2";2015
+"1760";"L2-Taser";"L2";2015
 "1761";"Canine (No Bite)";"L1";2015
 "1762";"Firearm Exhibited";"L1";2015
 "1763";"Firearm Exhibited";"L1";2015
@@ -1767,14 +1767,14 @@
 "1766";"Defense Tech / Take-down";"L2";2015
 "1767";"Taser Exhibited ";"L1";2015
 "1768";"Firearm Exhibited";"L1";2015
-"1769";"Taser No-Hit";"L2";2015
+"1769";"L2-Taser";"L2";2015
 "1770";"Firearm Exhibited";"L1";2015
 "1771";"Taser Exhibited ";"L1";2015
-"1772";"Taser No-Hit";"L2";2015
+"1772";"L2-Taser";"L2";2015
 "1773";"Hands / Escort tech";"L1";2015
 "1774";"Firearm Exhibited";"L1";2015
 "1775";"Hands / Escort tech";"L1";2015
-"1776";"Taser No-Hit";"L2";2015
+"1776";"L2-Taser";"L2";2015
 "1777";"Hands / Escort tech";"L1";2015
 "1778";"Defense Tech / Take-down";"L2";2015
 "1779";"Hands / Escort tech";"L1";2015
@@ -1783,8 +1783,8 @@
 "1782";"Taser Exhibited ";"L1";2015
 "1783";"Hands / Escort tech";"L1";2015
 "1784";"Hands / Escort tech";"L1";2015
-"1785";"Taser No-Hit";"L2";2015
-"1786";"Taser No-Hit";"L2";2015
+"1785";"L2-Taser";"L2";2015
+"1786";"L2-Taser";"L2";2015
 "1787";"Defense Tech / Take-down";"L2";2015
 "1788";"Hands / Escort tech";"L1";2015
 "1789";"Hands / Escort tech";"L1";2015

@@ -14,7 +14,7 @@ p.force.by.city <- plot_ly(force.data, x = ~force.types, y = ~dc.force, type = '
   layout(
     yaxis = list(title = 'Amount of force (UOF)'), barmode = 'group',
     xaxis = list(title = FALSE)
-    )
+  )
 
 p.force.by.city
 gen.plotly.json(p.force.by.city, "uof-by-city")

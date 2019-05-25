@@ -1,13 +1,15 @@
 {
   "visdat": {
-    "60c32839d4a8": ["function () ", "plotlyVisDat"]
+    "44fc67a3c5ed": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c32839d4a8",
+  "cur_data": "44fc67a3c5ed",
   "attrs": {
-    "60c32839d4a8": {
+    "44fc67a3c5ed": {
       "x": {},
       "y": {},
-      "mode": "lines+markers",
+      "mode": "lines+markers+text",
+      "text": {},
+      "textposition": "top center",
       "line": {
         "color": "rgb(22, 96, 167)",
         "width": 3,
@@ -19,16 +21,18 @@
       "spans": [1, 20],
       "type": "scatter"
     },
-    "60c32839d4a8.1": {
+    "44fc67a3c5ed.1": {
       "x": [2013, 2014, 2015, 2016],
       "y": [725, 706, 1071, 1592],
-      "mode": "lines+markers",
+      "mode": "lines+markers+text",
+      "text": {},
+      "textposition": "bottom right",
       "line": {
         "color": "rgb(205, 12, 24)",
         "width": 2,
         "dash": "dot"
       },
-      "name": "Historic reports",
+      "name": "Paper reports",
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -60,7 +64,7 @@
     "yaxis": {
       "domain": [0, 1],
       "automargin": true,
-      "title": "Number times force used",
+      "title": "Number times force used (UOF)",
       "range": [0, 2500],
       "tick0": 0,
       "showgrid": true
@@ -77,7 +81,9 @@
     {
       "x": [2016, 2017, 2018],
       "y": [1592, 1574, 1108],
-      "mode": "lines+markers",
+      "mode": "lines+markers+text",
+      "text": [1592, 1574, 1108],
+      "textposition": ["top center", "top center", "top center"],
       "line": {
         "color": "rgb(22, 96, 167)",
         "width": 3,
@@ -104,13 +110,15 @@
     {
       "x": [2013, 2014, 2015, 2016],
       "y": [725, 706, 1071, 1592],
-      "mode": "lines+markers",
+      "mode": "lines+markers+text",
+      "text": [725, 706, 1071, 1592],
+      "textposition": ["bottom right", "bottom right", "bottom right", "bottom right"],
       "line": {
         "color": "rgb(205, 12, 24)",
         "width": 2,
         "dash": "dot"
       },
-      "name": "Historic reports",
+      "name": "Paper reports",
       "type": "scatter",
       "marker": {
         "color": "rgba(255,127,14,1)",

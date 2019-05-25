@@ -1,18 +1,19 @@
 {
   "visdat": {
-    "60c331e48632": ["function () ", "plotlyVisDat"]
+    "44fc5cdf6d13": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c331e48632",
+  "cur_data": "44fc5cdf6d13",
   "attrs": {
-    "60c331e48632": {
-      "x": {},
-      "y": {},
-      "name": {},
-      "color": {},
+    "44fc5cdf6d13": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
-      "type": "bar"
+      "x": {},
+      "y": {},
+      "type": "bar",
+      "name": {},
+      "color": {},
+      "inherit": true
     }
   },
   "layout": {
@@ -55,8 +56,8 @@
     {
       "x": [2018],
       "y": [2],
-      "name": "Baton/PR-24 (Strike)",
       "type": "bar",
+      "name": "Baton/PR-24 (Strike)",
       "marker": {
         "color": "rgba(102,194,165,1)",
         "line": {
@@ -79,8 +80,8 @@
     {
       "x": [2017],
       "y": [1],
-      "name": "Canine (Contact)",
       "type": "bar",
+      "name": "Canine (Contact)",
       "marker": {
         "color": "rgba(252,141,98,1)",
         "line": {
@@ -103,8 +104,8 @@
     {
       "x": [2015, 2016, 2017, 2018],
       "y": [2, 3, 6, 10],
-      "name": "Head Strike (No Wep)",
       "type": "bar",
+      "name": "Head Strike (No Wep)",
       "marker": {
         "color": "rgba(141,160,203,1)",
         "line": {
@@ -127,8 +128,8 @@
     {
       "x": [2018],
       "y": [2],
-      "name": "Other",
       "type": "bar",
+      "name": "Other",
       "marker": {
         "color": "rgba(231,138,195,1)",
         "line": {

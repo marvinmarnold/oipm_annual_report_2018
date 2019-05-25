@@ -1,18 +1,19 @@
 {
   "visdat": {
-    "60c3cd46de3": ["function () ", "plotlyVisDat"]
+    "44fc75737ed7": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c3cd46de3",
+  "cur_data": "44fc75737ed7",
   "attrs": {
-    "60c3cd46de3": {
-      "x": {},
-      "y": {},
-      "name": {},
-      "color": {},
+    "44fc75737ed7": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
-      "type": "bar"
+      "x": {},
+      "y": {},
+      "type": "bar",
+      "name": {},
+      "color": {},
+      "inherit": true
     }
   },
   "layout": {
@@ -55,8 +56,8 @@
     {
       "x": [2015, 2016],
       "y": [8, 9],
-      "name": "Canine (Bite)",
       "type": "bar",
+      "name": "Canine (Bite)",
       "marker": {
         "color": "rgba(102,194,165,1)",
         "line": {
@@ -78,9 +79,9 @@
     },
     {
       "x": [2015, 2016, 2017],
-      "y": [17, 6, 7],
-      "name": "Firearm Discharged",
+      "y": [17, 7, 7],
       "type": "bar",
+      "name": "Firearm Discharged",
       "marker": {
         "color": "rgba(252,141,98,1)",
         "line": {
@@ -103,8 +104,8 @@
     {
       "x": [2015, 2016, 2017, 2018],
       "y": [2, 2, 1, 6],
-      "name": "Head strike while Hancuffed",
       "type": "bar",
+      "name": "Force on handcuffed individual",
       "marker": {
         "color": "rgba(141,160,203,1)",
         "line": {
@@ -125,10 +126,10 @@
       "frame": null
     },
     {
-      "x": [2016, 2017, 2018],
-      "y": [3, 8, 2],
-      "name": "L4-Taser",
+      "x": [2015, 2016, 2017, 2018],
+      "y": [3, 3, 8, 2],
       "type": "bar",
+      "name": "L4-Taser",
       "marker": {
         "color": "rgba(231,138,195,1)",
         "line": {
@@ -151,8 +152,8 @@
     {
       "x": [2018],
       "y": [1],
-      "name": "NonTrad Impact Weapon",
       "type": "bar",
+      "name": "NonTrad Impact Weapon",
       "marker": {
         "color": "rgba(166,216,84,1)",
         "line": {
@@ -175,8 +176,8 @@
     {
       "x": [2016],
       "y": [1],
-      "name": "Other",
       "type": "bar",
+      "name": "Other",
       "marker": {
         "color": "rgba(255,217,47,1)",
         "line": {
@@ -191,54 +192,6 @@
       },
       "error_x": {
         "color": "rgba(255,217,47,1)"
-      },
-      "xaxis": "x",
-      "yaxis": "y",
-      "frame": null
-    },
-    {
-      "x": [2016],
-      "y": [1],
-      "name": "Rifle (Discharged)",
-      "type": "bar",
-      "marker": {
-        "color": "rgba(229,196,148,1)",
-        "line": {
-          "color": "rgba(229,196,148,1)"
-        }
-      },
-      "textfont": {
-        "color": "rgba(229,196,148,1)"
-      },
-      "error_y": {
-        "color": "rgba(229,196,148,1)"
-      },
-      "error_x": {
-        "color": "rgba(229,196,148,1)"
-      },
-      "xaxis": "x",
-      "yaxis": "y",
-      "frame": null
-    },
-    {
-      "x": [2015],
-      "y": [3],
-      "name": "Taser Hit",
-      "type": "bar",
-      "marker": {
-        "color": "rgba(179,179,179,1)",
-        "line": {
-          "color": "rgba(179,179,179,1)"
-        }
-      },
-      "textfont": {
-        "color": "rgba(179,179,179,1)"
-      },
-      "error_y": {
-        "color": "rgba(179,179,179,1)"
-      },
-      "error_x": {
-        "color": "rgba(179,179,179,1)"
       },
       "xaxis": "x",
       "yaxis": "y",

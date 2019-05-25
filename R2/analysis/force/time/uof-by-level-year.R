@@ -18,13 +18,14 @@ p.lvl.by.year <- lapply(lvls, function (lvl) {
   # make a simple summary of uof count by type
   uof.count.by.type <- summarise(uof.for.lvl, count = n())
   
-  p.uof.by.type <- plot_ly(uof.count.by.type, 
+  p.uof.by.type <- plot_ly(uof.count.by.type)  %>%
+                           add_trace(
                            x = ~year.of.record, y = ~count, 
                            type = 'bar',  name = ~Force.type, 
                            color = ~Force.type) %>%
     
     layout(title = paste("Level", lvl, "force"),
-      xaxis = list(categoryorder = "array",
+           xaxis = list(categoryorder = "array",
                         categoryarray = lvls,
                         title = F, 
                         showgrid = F, 

@@ -1,18 +1,19 @@
 {
   "visdat": {
-    "60c323330696": ["function () ", "plotlyVisDat"]
+    "44fc255e3ba3": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c323330696",
+  "cur_data": "44fc255e3ba3",
   "attrs": {
-    "60c323330696": {
-      "x": {},
-      "y": {},
-      "name": {},
-      "color": {},
+    "44fc255e3ba3": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
-      "type": "bar"
+      "x": {},
+      "y": {},
+      "type": "bar",
+      "name": {},
+      "color": {},
+      "inherit": true
     }
   },
   "layout": {
@@ -55,8 +56,8 @@
     {
       "x": [2015, 2016, 2017],
       "y": [4, 3, 2],
-      "name": "Baton Miss",
       "type": "bar",
+      "name": "Baton Miss",
       "marker": {
         "color": "rgba(102,194,165,1)",
         "line": {
@@ -79,8 +80,8 @@
     {
       "x": [2016, 2017, 2018],
       "y": [9, 21, 16],
-      "name": "Canine (No Bite)",
       "type": "bar",
+      "name": "Canine (No Bite)",
       "marker": {
         "color": "rgba(252,141,98,1)",
         "line": {
@@ -103,8 +104,8 @@
     {
       "x": [2015, 2016, 2017, 2018],
       "y": [192, 176, 296, 82],
-      "name": "Defense Tech / Take-down",
       "type": "bar",
+      "name": "Defense Tech / Take-down",
       "marker": {
         "color": "rgba(141,160,203,1)",
         "line": {
@@ -127,8 +128,8 @@
     {
       "x": [2015, 2016, 2017],
       "y": [2, 8, 1],
-      "name": "L2-Other",
       "type": "bar",
+      "name": "L2-Other",
       "marker": {
         "color": "rgba(231,138,195,1)",
         "line": {
@@ -149,10 +150,10 @@
       "frame": null
     },
     {
-      "x": [2016, 2017, 2018],
-      "y": [52, 62, 56],
-      "name": "L2-Taser",
+      "x": [2015, 2016, 2017, 2018],
+      "y": [95, 52, 62, 56],
       "type": "bar",
+      "name": "L2-Taser",
       "marker": {
         "color": "rgba(166,216,84,1)",
         "line": {
@@ -175,8 +176,8 @@
     {
       "x": [2018],
       "y": [28],
-      "name": "Takedown (w/injury)",
       "type": "bar",
+      "name": "Takedown (w/injury)",
       "marker": {
         "color": "rgba(255,217,47,1)",
         "line": {
@@ -191,30 +192,6 @@
       },
       "error_x": {
         "color": "rgba(255,217,47,1)"
-      },
-      "xaxis": "x",
-      "yaxis": "y",
-      "frame": null
-    },
-    {
-      "x": [2015],
-      "y": [95],
-      "name": "Taser No-Hit",
-      "type": "bar",
-      "marker": {
-        "color": "rgba(229,196,148,1)",
-        "line": {
-          "color": "rgba(229,196,148,1)"
-        }
-      },
-      "textfont": {
-        "color": "rgba(229,196,148,1)"
-      },
-      "error_y": {
-        "color": "rgba(229,196,148,1)"
-      },
-      "error_x": {
-        "color": "rgba(229,196,148,1)"
       },
       "xaxis": "x",
       "yaxis": "y",

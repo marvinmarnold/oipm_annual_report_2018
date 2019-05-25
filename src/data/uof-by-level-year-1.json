@@ -1,18 +1,19 @@
 {
   "visdat": {
-    "60c3612e440c": ["function () ", "plotlyVisDat"]
+    "44fc75c257ff": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c3612e440c",
+  "cur_data": "44fc75c257ff",
   "attrs": {
-    "60c3612e440c": {
-      "x": {},
-      "y": {},
-      "name": {},
-      "color": {},
+    "44fc75c257ff": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
-      "type": "bar"
+      "x": {},
+      "y": {},
+      "type": "bar",
+      "name": {},
+      "color": {},
+      "inherit": true
     }
   },
   "layout": {
@@ -55,8 +56,8 @@
     {
       "x": [2018],
       "y": [2],
-      "name": "Baton (non-strike)",
       "type": "bar",
+      "name": "Baton (non-strike)",
       "marker": {
         "color": "rgba(102,194,165,1)",
         "line": {
@@ -79,8 +80,8 @@
     {
       "x": [2015, 2016],
       "y": [35, 29],
-      "name": "Canine (No Bite)",
       "type": "bar",
+      "name": "Canine (No Bite)",
       "marker": {
         "color": "rgba(252,141,98,1)",
         "line": {
@@ -102,9 +103,9 @@
     },
     {
       "x": [2015, 2016, 2017, 2018],
-      "y": [777, 781, 749, 509],
-      "name": "Firearm Exhibited",
+      "y": [776, 781, 749, 509],
       "type": "bar",
+      "name": "Firearm Exhibited",
       "marker": {
         "color": "rgba(141,160,203,1)",
         "line": {
@@ -127,8 +128,8 @@
     {
       "x": [2015, 2016, 2017, 2018],
       "y": [518, 374, 288, 268],
-      "name": "Hands / Escort tech",
       "type": "bar",
+      "name": "Hands / Escort tech",
       "marker": {
         "color": "rgba(231,138,195,1)",
         "line": {
@@ -151,8 +152,8 @@
     {
       "x": [2015, 2016, 2017, 2018],
       "y": [2, 17, 6, 7],
-      "name": "L1-Other",
       "type": "bar",
+      "name": "L1-Other",
       "marker": {
         "color": "rgba(166,216,84,1)",
         "line": {
@@ -175,8 +176,8 @@
     {
       "x": [2018],
       "y": [97],
-      "name": "Takedown (no injury)",
       "type": "bar",
+      "name": "Takedown (no injury)",
       "marker": {
         "color": "rgba(255,217,47,1)",
         "line": {
@@ -199,8 +200,8 @@
     {
       "x": [2016, 2017, 2018],
       "y": [118, 126, 20],
-      "name": "Taser Exhibited",
       "type": "bar",
+      "name": "Taser Exhibited",
       "marker": {
         "color": "rgba(229,196,148,1)",
         "line": {
@@ -223,8 +224,8 @@
     {
       "x": [2015],
       "y": [124],
-      "name": "Taser Exhibited ",
       "type": "bar",
+      "name": "Taser Exhibited ",
       "marker": {
         "color": "rgba(179,179,179,1)",
         "line": {

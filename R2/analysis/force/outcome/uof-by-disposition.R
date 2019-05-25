@@ -3,6 +3,7 @@ title <- "UOF by diposition"
 
 ########################################################################################################
 ########################################################################################################
+uof.for.year %>% select(Disposition) %>% distinct
 
 uof.normalized.dispositions <- uof.for.year %>% mutate(
   Disposition = case_when(

@@ -1,4 +1,4 @@
-force.types <- c("Per 10k officers", "Per 100 residents", "Per 1k arrests")
+force.types <- c("Per 100 officers", "Per 10k residents", "Per 1k arrests")
 dc.force <- c(32.3, 18, 39)
 austin.force <- c(182.9, 35, 79)
 indianapolis.force <- c(89.5, 16, 33)

@@ -26,18 +26,26 @@ nopd.ftn.2015 <- 724
 # Add the computed value so that the line graph won't have a gap
 nopd.ftn.2016 <- count.ftn.by.year$num[1]
 nopd.ftn <- c(nopd.ftn.2011, nopd.ftn.2012, nopd.ftn.2013, nopd.ftn.2014, nopd.ftn.2015, nopd.ftn.2016)
-
+t <- list(
+  family = "sans serif",
+  size = 14,
+  color = toRGB("grey50"))
 p.ftn.by.year <- plot_ly(count.ftn.by.year, x = ~year, 
                          # Start with FTN according to NOPD
                          y = ~num, name = 'Digital records', 
                          type = 'scatter', 
-                         mode = 'lines+markers', 
+                         mode = 'lines+markers+text', 
+                         text = ~num,
+                         textposition = "top right",
                          line = list(color = 'rgb(22, 96, 167)', width = 3, dash = 'solid')) %>%
   
   # ftn according to data.nola.gov
-  add_trace(x=nopd.ftn.years, y = nopd.ftn, name = 'Historic reports', 
+  add_trace(x=nopd.ftn.years, y = nopd.ftn, name = 'Paper reports', 
             line = list(color = 'rgb(205, 12, 24)', width = 2, dash = 'dot'), 
-            mode = 'lines+markers') %>%
+            text = ~nopd.ftn,
+            mode = 'lines+markers+text',
+            textposition = "bottom center") %>%
+  
   
   layout(xaxis = list(title = "Year", 
                       autosize = FALSE,
@@ -50,11 +58,10 @@ p.ftn.by.year <- plot_ly(count.ftn.by.year, x = ~year,
                       showgrid = F,
                       range = years),
          
-         yaxis = list(title = "Number times force used", 
+         yaxis = list(title = "Number times force used (FTN)", 
                       range = c(0, 1000), 
                       tick0 = 0,
                       showgrid = T),
-         hovermode = 'compare', 
          margin = list( b = 200))
 
 p.ftn.by.year

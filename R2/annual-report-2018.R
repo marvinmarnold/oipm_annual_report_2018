@@ -60,7 +60,9 @@ LOUISIANA.JSON <- "data/louisiana.json"
 
 ######### OPSO
 JFI12M.TXT.DIRTY <- "raw/data/opso/JFI15M_UTF8.TXT"
+JFI12MC.TXT.DIRTY <- "raw/data/opso/JFI15MC_UTF8.TXT"
 JFI12M.CSV.SANITIZED <- "data/bookings-sanitized.csv"
+JFI12MC.CSV.SANITIZED <- "data/charges-sanitized.csv"
 
 ########################################################################################################
 ######################################## LOAD DEPENDENCIES #############################################

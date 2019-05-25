@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c3985b6ec": ["function () ", "plotlyVisDat"]
+    "44fc2665e030": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c3985b6ec",
+  "cur_data": "44fc2665e030",
   "attrs": {
-    "60c3985b6ec": {
+    "44fc2665e030": {
       "x": {},
       "y": {},
       "name": "Washington, D.C.",
@@ -13,7 +13,7 @@
       "spans": [1, 20],
       "type": "bar"
     },
-    "60c3985b6ec.1": {
+    "44fc2665e030.1": {
       "x": {},
       "y": {},
       "name": "Austin, TX",
@@ -23,7 +23,7 @@
       "type": "bar",
       "inherit": true
     },
-    "60c3985b6ec.2": {
+    "44fc2665e030.2": {
       "x": {},
       "y": {},
       "name": "Indianapolis, IN",
@@ -33,7 +33,7 @@
       "type": "bar",
       "inherit": true
     },
-    "60c3985b6ec.3": {
+    "44fc2665e030.3": {
       "x": {},
       "y": {},
       "name": "New Orleans, LA",
@@ -63,7 +63,7 @@
       "title": false,
       "type": "category",
       "categoryorder": "array",
-      "categoryarray": ["Per 100 residents", "Per 10k officers", "Per 1k arrests"]
+      "categoryarray": ["Per 100 officers", "Per 10k residents", "Per 1k arrests"]
     },
     "hovermode": "closest",
     "showlegend": true
@@ -75,7 +75,7 @@
   },
   "data": [
     {
-      "x": ["Per 10k officers", "Per 100 residents", "Per 1k arrests"],
+      "x": ["Per 100 officers", "Per 10k residents", "Per 1k arrests"],
       "y": [32.3, 18, 39],
       "name": "Washington, D.C.",
       "type": "bar",
@@ -96,7 +96,7 @@
       "frame": null
     },
     {
-      "x": ["Per 10k officers", "Per 100 residents", "Per 1k arrests"],
+      "x": ["Per 100 officers", "Per 10k residents", "Per 1k arrests"],
       "y": [182.9, 35, 79],
       "name": "Austin, TX",
       "type": "bar",
@@ -117,7 +117,7 @@
       "frame": null
     },
     {
-      "x": ["Per 10k officers", "Per 100 residents", "Per 1k arrests"],
+      "x": ["Per 100 officers", "Per 10k residents", "Per 1k arrests"],
       "y": [89.5, 16, 33],
       "name": "Indianapolis, IN",
       "type": "bar",
@@ -138,7 +138,7 @@
       "frame": null
     },
     {
-      "x": ["Per 10k officers", "Per 100 residents", "Per 1k arrests"],
+      "x": ["Per 100 officers", "Per 10k residents", "Per 1k arrests"],
       "y": [83.7, 32, 65],
       "name": "New Orleans, LA",
       "type": "bar",

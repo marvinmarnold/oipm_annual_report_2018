@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c321a35fe1": ["function () ", "plotlyVisDat"]
+    "44fc46388d76": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c321a35fe1",
+  "cur_data": "44fc46388d76",
   "attrs": {
-    "60c321a35fe1": {
+    "44fc46388d76": {
       "labels": {},
       "values": {},
       "textposition": "inside",
@@ -37,7 +37,7 @@
   },
   "data": [
     {
-      "labels": ["Head strike while Hancuffed", "L4-Taser", "NonTrad Impact Weapon"],
+      "labels": ["Force on handcuffed individual", "L4-Taser", "NonTrad Impact Weapon"],
       "values": [6, 2, 1],
       "textposition": ["inside", "inside", "inside"],
       "textinfo": "label+value+percent",

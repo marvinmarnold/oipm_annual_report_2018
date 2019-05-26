@@ -20,7 +20,7 @@ p.uof.by.district.type <- plot_ly(count.by.district.type) %>%
   layout(barmode = 'stack',
          margin = list(b = 150),
          hovermode = 'compare',
-         xaxis = list(title = "District", 
+         xaxis = list(title = F, 
                       showgrid = F), 
          
          yaxis = list(title = "Amount of force (UOF)", showgrid = T))

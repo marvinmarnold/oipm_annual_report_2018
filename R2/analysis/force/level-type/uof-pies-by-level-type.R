@@ -26,7 +26,7 @@ p.uof.pies.each.type <- lapply(lvls, function (lvl) {
     layout(hovermode = "compare", title = lvl.title, showlegend = FALSE)
 })
 
-p.uof.pies.each.type[[1]]
+p.uof.pies.each.type[[4]]
 gen.plotly.json(p.uof.pies.each.type[[1]], "uof-pie-l1-type")
 gen.plotly.json(p.uof.pies.each.type[[2]], "uof-pie-l2-type")
 gen.plotly.json(p.uof.pies.each.type[[3]], "uof-pie-l3-type")

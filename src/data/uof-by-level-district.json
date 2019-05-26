@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c34395f5aa": ["function () ", "plotlyVisDat"]
+    "44fc58c707ee": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c34395f5aa",
+  "cur_data": "44fc58c707ee",
   "attrs": {
-    "60c34395f5aa": {
+    "44fc58c707ee": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -28,7 +28,7 @@
     "xaxis": {
       "domain": [0, 1],
       "automargin": true,
-      "title": "District",
+      "title": false,
       "showgrid": false,
       "type": "category",
       "categoryorder": "array",

@@ -12,7 +12,7 @@ p.top.sustained.alleg <- plot_ly(sustained.count.by.alleg,  type = 'pie', name =
                                  textinfo = 'label+value+percent',
                                  insidetextfont = list(color = '#FFFFFF')) %>%
   
-  layout(hovermode = "compare", showlegend = FALSE)
+  layout(hovermode = "compare", showlegend = TRUE)
 
 p.top.sustained.alleg
 gen.plotly.json(p.top.sustained.alleg, "allegations-sustained-most-common")

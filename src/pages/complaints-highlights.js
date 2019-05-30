@@ -157,19 +157,21 @@ class ComplaintsHighlightsPage extends React.Component {
 					</Col>
 				</Row>
 				<Row>
-					<Col sm="6" lg="4" xl="3">
+					<Col sm="12" md="6">
 						<h6>All Complaints by Outcome</h6>
 						<ComplaintsByDispositionPlot />
 					</Col>
-					<Col sm="6" lg="4" xl="3">
+					<Col sm="12" md="6">
 						<h6>Rank Complaints by Outcome</h6>
 						<ComplaintsByRankDispositionPlot />
 					</Col>
-					<Col sm="6" lg="4" xl="3">
+				</Row>
+				<Row>
+					<Col sm="12" md="6">
 						<h6>Public Complaints by Outcome</h6>
 						<ComplaintsByPublicDispositionPlot />
 					</Col>
-					<Col sm="6" lg="4" xl="3">
+					<Col sm="12" md="6">
 						<h6>Public and Rank Complaints by Outcome</h6>
 						<ComplaintsBySourceDispositionPlot />
 					</Col>

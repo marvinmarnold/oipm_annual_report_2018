@@ -52,19 +52,21 @@ class ComplaintsTimeSection extends React.Component {
 				</Row>
 
 				<Row>
-					<Col xl="4" lg="6">
+					<Col md="6">
 						<h4>All complaints by outcome</h4>
 						<ComplaintsByDispositionPlot />
 					</Col>
-					<Col xl="4" lg="6">
+					<Col md="6">
 						<h4>Rank complaints by outcome</h4>
 						<ComplaintsByRankDispositionPlot />
 					</Col>
-					<Col xl="4" lg="6">
+				</Row>
+				<Row>
+					<Col md="6">
 						<h4>Public complaints by outcome</h4>
 						<ComplaintsByPublicDispositionPlot />
 					</Col>
-					<Col xl="4" lg="6">
+					<Col md="6">
 						<h4>Most sustained allegations</h4>
 						<AllegationsSustainedMostCommonPlot />
 					</Col>

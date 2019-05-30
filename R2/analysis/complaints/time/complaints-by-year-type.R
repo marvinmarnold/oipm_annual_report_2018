@@ -13,7 +13,7 @@ ys <- c(845, 585, 448, 729, 425, 679)
 vals <- c(260, 585, 448, 281, 425, 254)
 
 annotations <- list(x = xs, y = ys, text = vals, xanchor = 'center',
-                    yanchor = 'center',
+                    yanchor = 'top',
                     showarrow = FALSE)
 
 complaints.by.year <- allegations.all %>% 

@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "27e8656be7a9": ["function () ", "plotlyVisDat"]
+    "27e874604376": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "27e8656be7a9",
+  "cur_data": "27e874604376",
   "attrs": {
-    "27e8656be7a9": {
+    "27e874604376": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -44,7 +44,7 @@
         "y": 845,
         "text": 260,
         "xanchor": "center",
-        "yanchor": "center",
+        "yanchor": "top",
         "showarrow": false
       },
       {
@@ -52,7 +52,7 @@
         "y": 585,
         "text": 585,
         "xanchor": "center",
-        "yanchor": "center",
+        "yanchor": "top",
         "showarrow": false
       },
       {
@@ -60,7 +60,7 @@
         "y": 448,
         "text": 448,
         "xanchor": "center",
-        "yanchor": "center",
+        "yanchor": "top",
         "showarrow": false
       },
       {
@@ -68,7 +68,7 @@
         "y": 729,
         "text": 281,
         "xanchor": "center",
-        "yanchor": "center",
+        "yanchor": "top",
         "showarrow": false
       },
       {
@@ -76,7 +76,7 @@
         "y": 425,
         "text": 425,
         "xanchor": "center",
-        "yanchor": "center",
+        "yanchor": "top",
         "showarrow": false
       },
       {
@@ -84,7 +84,7 @@
         "y": 679,
         "text": 254,
         "xanchor": "center",
-        "yanchor": "center",
+        "yanchor": "top",
         "showarrow": false
       }
     ],

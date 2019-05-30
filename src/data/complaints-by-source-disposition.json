@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "27e82d7ea8f": ["function () ", "plotlyVisDat"]
+    "27e852bdf321": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "27e82d7ea8f",
+  "cur_data": "27e852bdf321",
   "attrs": {
-    "27e82d7ea8f": {
+    "27e852bdf321": {
       "x": {},
       "y": {},
       "name": {},
@@ -38,6 +38,56 @@
     },
     "barmode": "stack",
     "hovermode": "compare",
+    "annotations": [
+      {
+        "x": "Public Initiated",
+        "y": 26,
+        "text": 26,
+        "xanchor": "center",
+        "yanchor": "top",
+        "showarrow": false
+      },
+      {
+        "x": "Public Initiated",
+        "y": 355,
+        "text": 329,
+        "xanchor": "center",
+        "yanchor": "top",
+        "showarrow": false
+      },
+      {
+        "x": "Public Initiated",
+        "y": 425,
+        "text": 70,
+        "xanchor": "center",
+        "yanchor": "top",
+        "showarrow": false
+      },
+      {
+        "x": "Rank Initiated",
+        "y": 1,
+        "text": 1,
+        "xanchor": "center",
+        "yanchor": "top",
+        "showarrow": false
+      },
+      {
+        "x": "Rank Initiated",
+        "y": 100,
+        "text": 99,
+        "xanchor": "center",
+        "yanchor": "top",
+        "showarrow": false
+      },
+      {
+        "x": "Rank Initiated",
+        "y": 254,
+        "text": 154,
+        "xanchor": "center",
+        "yanchor": "top",
+        "showarrow": false
+      }
+    ],
     "showlegend": true
   },
   "source": "A",
@@ -48,8 +98,8 @@
   "data": [
     {
       "x": ["Public Initiated", "Rank Initiated"],
-      "y": [3, 27],
-      "name": "DI-2",
+      "y": [26, 1],
+      "name": "Mediation",
       "type": "bar",
       "marker": {
         "color": "rgba(102,194,165,1)",
@@ -72,8 +122,8 @@
     },
     {
       "x": ["Public Initiated", "Rank Initiated"],
-      "y": [352, 73],
-      "name": "Not sustained",
+      "y": [329, 99],
+      "name": "Other",
       "type": "bar",
       "marker": {
         "color": "rgba(252,141,98,1)",

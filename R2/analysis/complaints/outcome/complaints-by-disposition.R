@@ -28,7 +28,7 @@ p.complaint.by.outcome <- plot_ly(count.dispositions.for.year,  type = 'pie',
                                   textinfo = 'label+value+percent',
                                   insidetextfont = list(color = '#FFFFFF')) %>%
   
-  layout(hovermode = "compare", showlegend = FALSE)
+  layout(hovermode = "compare", showlegend = T)
 
 p.complaint.by.outcome
 gen.plotly.json(p.complaint.by.outcome, "complaints-by-disposition")

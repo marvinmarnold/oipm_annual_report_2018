@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "27e87797ea34": ["function () ", "plotlyVisDat"]
+    "27e85b8029f3": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "27e87797ea34",
+  "cur_data": "27e85b8029f3",
   "attrs": {
-    "27e87797ea34": {
+    "27e85b8029f3": {
       "labels": {},
       "values": {},
       "marker": {
@@ -29,7 +29,7 @@
       "r": 10
     },
     "hovermode": "compare",
-    "showlegend": false
+    "showlegend": true
   },
   "source": "A",
   "config": {

@@ -35,9 +35,11 @@ class PublicDemographicsSection extends React.Component {
 				</Row>
 				<Row>
 					<Col>
+						<h6>Force against female individuals</h6>
 						<UofByPublicFemaleTypeRacePlot />
 					</Col>
 					<Col>
+						<h6>Force against male individuals</h6>
 						<UofByPublicMaleTypeRacePlot />
 					</Col>
 				</Row>

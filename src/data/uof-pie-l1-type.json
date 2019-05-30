@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "27e81667f19f": ["function () ", "plotlyVisDat"]
+    "27e84da9d6a": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "27e81667f19f",
+  "cur_data": "27e84da9d6a",
   "attrs": {
-    "27e81667f19f": {
+    "27e84da9d6a": {
       "labels": {},
       "values": {},
       "textposition": "inside",
@@ -12,7 +12,7 @@
       "insidetextfont": {
         "color": "#FFFFFF"
       },
-      "name": "L1 total =  914",
+      "name": "Level L1 Total =  914",
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -27,7 +27,7 @@
       "r": 10
     },
     "hovermode": "compare",
-    "title": "L1 total =  914",
+    "title": "Level L1 Total =  914",
     "showlegend": false
   },
   "source": "A",
@@ -44,7 +44,7 @@
       "insidetextfont": {
         "color": "#FFFFFF"
       },
-      "name": "L1 total =  914",
+      "name": "Level L1 Total =  914",
       "type": "pie",
       "marker": {
         "color": "rgba(31,119,180,1)",

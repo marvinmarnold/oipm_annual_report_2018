@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "27e8424ca19f": ["function () ", "plotlyVisDat"]
+    "27e85ff0dbd0": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "27e8424ca19f",
+  "cur_data": "27e85ff0dbd0",
   "attrs": {
-    "27e8424ca19f": {
+    "27e85ff0dbd0": {
       "labels": {},
       "values": {},
       "textposition": "inside",
@@ -12,7 +12,7 @@
       "insidetextfont": {
         "color": "#FFFFFF"
       },
-      "name": "L3 total =  15",
+      "name": "Level L3 Total =  15",
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -27,7 +27,7 @@
       "r": 10
     },
     "hovermode": "compare",
-    "title": "L3 total =  15",
+    "title": "Level L3 Total =  15",
     "showlegend": false
   },
   "source": "A",
@@ -37,14 +37,14 @@
   },
   "data": [
     {
-      "labels": ["Baton/PR-24 (Strike)", "Head Strike (No Wep)", "Other"],
+      "labels": ["Baton/PR-24 (Strike)", "Head Strike (No Weapon)", "Other"],
       "values": [2, 11, 2],
       "textposition": ["inside", "inside", "inside"],
       "textinfo": "label+value+percent",
       "insidetextfont": {
         "color": "#FFFFFF"
       },
-      "name": "L3 total =  15",
+      "name": "Level L3 Total =  15",
       "type": "pie",
       "marker": {
         "color": "rgba(31,119,180,1)",

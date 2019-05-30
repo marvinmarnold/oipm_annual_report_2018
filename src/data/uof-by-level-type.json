@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "27e858bed578": ["function () ", "plotlyVisDat"]
+    "27e81525f719": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "27e858bed578",
+  "cur_data": "27e81525f719",
   "attrs": {
-    "27e858bed578": {
+    "27e81525f719": {
       "x": {},
       "y": {},
       "name": {},
@@ -217,7 +217,7 @@
     {
       "x": ["L3"],
       "y": [11],
-      "name": "Head Strike (No Wep)",
+      "name": "Head Strike (No Weapon)",
       "type": "bar",
       "marker": {
         "color": "rgba(219,162,168,1)",

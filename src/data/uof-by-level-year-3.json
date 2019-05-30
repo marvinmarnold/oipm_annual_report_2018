@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "27e8774b4f91": ["function () ", "plotlyVisDat"]
+    "27e842d0269b": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "27e8774b4f91",
+  "cur_data": "27e842d0269b",
   "attrs": {
-    "27e8774b4f91": {
+    "27e842d0269b": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -23,7 +23,7 @@
       "t": 25,
       "r": 10
     },
-    "title": "Level L3 force",
+    "title": "Level L3 Force",
     "xaxis": {
       "domain": [0, 1],
       "automargin": true,

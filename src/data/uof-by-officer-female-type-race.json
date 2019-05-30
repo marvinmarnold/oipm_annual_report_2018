@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "27e876d582f6": ["function () ", "plotlyVisDat"]
+    "27e8239800ff": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "27e876d582f6",
+  "cur_data": "27e8239800ff",
   "attrs": {
-    "27e876d582f6": {
+    "27e8239800ff": {
       "x": {},
       "y": {},
       "name": {},
@@ -29,7 +29,7 @@
       "title": false,
       "type": "category",
       "categoryorder": "array",
-      "categoryarray": ["Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "L1-Other", "L2-Taser", "L4-Taser", "NonTrad Impact Weapon", "Takedown (no injury)", "Taser Exhibited"]
+      "categoryarray": ["Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Weapon)", "L1-Other", "L2-Taser", "L4-Taser", "NonTrad Impact Weapon", "Takedown (no injury)", "Taser Exhibited"]
     },
     "yaxis": {
       "domain": [0, 1],
@@ -47,7 +47,7 @@
   },
   "data": [
     {
-      "x": ["Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "L1-Other", "L2-Taser", "L4-Taser", "Takedown (no injury)", "Taser Exhibited"],
+      "x": ["Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Weapon)", "L1-Other", "L2-Taser", "L4-Taser", "Takedown (no injury)", "Taser Exhibited"],
       "y": [5, 24, 26, 1, 1, 1, 1, 1, 1],
       "name": "Black / African American",
       "type": "bar",

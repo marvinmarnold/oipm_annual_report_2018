@@ -14,6 +14,7 @@ normalized.dispositions <- disposition.for.year %>% mutate(
     Disposition == "UOF Complaint of Injury/No Reportable Force Used" ~ "No force used",
     Disposition == "UOF No Reportable Force Used by Officer" ~ "No force used",
     Disposition == "NULL" ~ "Invalid data",
+    Disposition == "" ~ "Invalid data",
     TRUE ~ Disposition
   )
 )
@@ -26,7 +27,6 @@ p.uof.by.disposition <- plot_ly(disposition.counts,
                                 y = ~count, 
                                 text = ~count,
                                 textposition = 'outside',
-                                type = "bar") %>%
-  layout(margin = list(b = 150))
+                                type = "bar") 
 p.uof.by.disposition
 gen.plotly.json(p.uof.by.disposition, "uof-by-disposition")

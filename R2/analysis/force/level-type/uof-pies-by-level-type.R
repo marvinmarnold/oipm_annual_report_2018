@@ -13,7 +13,7 @@ p.uof.pies.each.type <- lapply(lvls, function (lvl) {
   # Filter UOF by year
   uof.for.lvl <- uof.count.by.type %>% filter(Force.level == lvl)
   total.for.lvl <- sum(uof.for.lvl$count)
-  lvl.title <-paste(lvl, "total = ", total.for.lvl)
+  lvl.title <-paste("Level", lvl, "Total = ", total.for.lvl)
   
   # Construct pie chart
   plot_ly(uof.for.lvl,  type = 'pie', name = lvl.title,
@@ -26,7 +26,7 @@ p.uof.pies.each.type <- lapply(lvls, function (lvl) {
     layout(hovermode = "compare", title = lvl.title, showlegend = FALSE)
 })
 
-p.uof.pies.each.type[[4]]
+p.uof.pies.each.type[[3]]
 gen.plotly.json(p.uof.pies.each.type[[1]], "uof-pie-l1-type")
 gen.plotly.json(p.uof.pies.each.type[[2]], "uof-pie-l2-type")
 gen.plotly.json(p.uof.pies.each.type[[3]], "uof-pie-l3-type")

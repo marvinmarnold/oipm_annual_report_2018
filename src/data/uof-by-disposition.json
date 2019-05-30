@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "27e823f6c5c9": ["function () ", "plotlyVisDat"]
+    "27e82991d70c": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "27e823f6c5c9",
+  "cur_data": "27e82991d70c",
   "attrs": {
-    "27e823f6c5c9": {
+    "27e82991d70c": {
       "x": {},
       "y": {},
       "text": {},
@@ -17,7 +17,7 @@
   },
   "layout": {
     "margin": {
-      "b": 150,
+      "b": 40,
       "l": 60,
       "t": 25,
       "r": 10
@@ -28,7 +28,7 @@
       "title": "Disposition",
       "type": "category",
       "categoryorder": "array",
-      "categoryarray": ["", "Authorized", "No force used", "UOF Not Justified"]
+      "categoryarray": ["Authorized", "Invalid data", "No force used", "UOF Not Justified"]
     },
     "yaxis": {
       "domain": [0, 1],
@@ -45,9 +45,9 @@
   },
   "data": [
     {
-      "x": ["", "Authorized", "No force used", "UOF Not Justified"],
-      "y": [2, 430, 3, 6],
-      "text": [2, 430, 3, 6],
+      "x": ["Authorized", "Invalid data", "No force used", "UOF Not Justified"],
+      "y": [430, 2, 3, 6],
+      "text": [430, 2, 3, 6],
       "textposition": ["outside", "outside", "outside", "outside"],
       "type": "bar",
       "marker": {

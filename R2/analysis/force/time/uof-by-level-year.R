@@ -7,7 +7,9 @@ all.uof.with.lvl.type <- uof.all %>%
   filter(year.of.record >= IAPRO.FIRST.YEAR, year.of.record <= CURRENT.YEAR) %>%
   select(Force.type, Force.level, year.of.record)
 uof.2015.with.lvl.type <- uof.reported.2015 %>% select(Force.type, Force.level, year.of.record)
-all.uof.with.lvl.type <- rbind(all.uof.with.lvl.type, uof.2015.with.lvl.type)
+all.uof.with.lvl.type <- rbind(all.uof.with.lvl.type, uof.2015.with.lvl.type) %>% mutate(
+  Force.type = trim(Force.type)
+)
 
 lvls <- c("L1", "L2", "L3", "L4")
 p.lvl.by.year <- lapply(lvls, function (lvl) {
@@ -24,7 +26,7 @@ p.lvl.by.year <- lapply(lvls, function (lvl) {
                            type = 'bar',  name = ~Force.type, 
                            color = ~Force.type) %>%
     
-    layout(title = paste("Level", lvl, "force"),
+    layout(title = paste("Level", lvl, "Force"),
            xaxis = list(categoryorder = "array",
                         categoryarray = lvls,
                         title = F, 
@@ -36,7 +38,7 @@ p.lvl.by.year <- lapply(lvls, function (lvl) {
            barmode = 'stack',
            hovermode = 'compare')
 })
-p.lvl.by.year[[4]]
+p.lvl.by.year[[1]]
 
 gen.plotly.json(p.lvl.by.year[[1]], "uof-by-level-year-1")
 gen.plotly.json(p.lvl.by.year[[2]], "uof-by-level-year-2")

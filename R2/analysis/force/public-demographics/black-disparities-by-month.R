@@ -52,7 +52,7 @@ black.by.month <- data.frame(
 )
 
 p.black.by.month <- plot_ly(black.by.month, 
-                            x = ~month, 
+                            x = 1:12, 
                             y = ~uof, name = 'Use of Force', type = 'scatter', 
                             mode = 'lines+markers', 
                             line = list(color = 'rgb(22, 96, 167)', width = 2, dash = 'solid')) %>%
@@ -72,9 +72,10 @@ p.black.by.month <- plot_ly(black.by.month,
                line = list(color = 'rgb(229, 221, 59)', dash = 'solid')) %>%
   
   layout(title = FALSE, 
+         margin = list(b = -1.5),
          legend = list(x = 0, y = -.3),
          xaxis = list(title = "Month", dtick = 1),
-         yaxis = list(title = 'Percent against black people')
+         yaxis = list(title = 'Percent against black people', range = c(0, 100))
   )
 
 p.black.by.month

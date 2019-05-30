@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "44fc67a3c5ed": ["function () ", "plotlyVisDat"]
+    "27e86745b644": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "44fc67a3c5ed",
+  "cur_data": "27e86745b644",
   "attrs": {
-    "44fc67a3c5ed": {
+    "27e86745b644": {
       "x": {},
       "y": {},
       "mode": "lines+markers+text",
@@ -21,7 +21,7 @@
       "spans": [1, 20],
       "type": "scatter"
     },
-    "44fc67a3c5ed.1": {
+    "27e86745b644.1": {
       "x": [2013, 2014, 2015, 2016],
       "y": [725, 706, 1071, 1592],
       "mode": "lines+markers+text",
@@ -80,9 +80,9 @@
   "data": [
     {
       "x": [2016, 2017, 2018],
-      "y": [1592, 1574, 1108],
+      "y": [1592, 1574, 1123],
       "mode": "lines+markers+text",
-      "text": [1592, 1574, 1108],
+      "text": [1592, 1574, 1123],
       "textposition": ["top center", "top center", "top center"],
       "line": {
         "color": "rgb(22, 96, 167)",

@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c3511287b3": ["function () ", "plotlyVisDat"]
+    "27e84cba779f": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c3511287b3",
+  "cur_data": "27e84cba779f",
   "attrs": {
-    "60c3511287b3": {
+    "27e84cba779f": {
       "x": {},
       "y": {},
       "name": {},
@@ -52,7 +52,7 @@
   "data": [
     {
       "x": ["M"],
-      "y": [15],
+      "y": [16],
       "name": "Asian / Pacific Islander",
       "type": "bar",
       "marker": {
@@ -76,7 +76,7 @@
     },
     {
       "x": ["F", "M"],
-      "y": [60, 362],
+      "y": [61, 365],
       "name": "Black / African American",
       "type": "bar",
       "marker": {
@@ -148,7 +148,7 @@
     },
     {
       "x": ["F", "M"],
-      "y": [43, 546],
+      "y": [43, 556],
       "name": "White",
       "type": "bar",
       "marker": {

@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c3749cc0b": ["function () ", "plotlyVisDat"]
+    "27e84119bb10": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c3749cc0b",
+  "cur_data": "27e84119bb10",
   "attrs": {
-    "60c3749cc0b": {
+    "27e84119bb10": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -38,6 +38,56 @@
       "title": "Number of allegations",
       "showgrid": true
     },
+    "annotations": [
+      {
+        "x": 2016,
+        "y": 1321,
+        "text": 1321,
+        "xanchor": "center",
+        "yanchor": "center",
+        "showarrow": false
+      },
+      {
+        "x": 2016,
+        "y": 1935,
+        "text": 614,
+        "xanchor": "center",
+        "yanchor": "center",
+        "showarrow": false
+      },
+      {
+        "x": 2017,
+        "y": 933,
+        "text": 933,
+        "xanchor": "center",
+        "yanchor": "center",
+        "showarrow": false
+      },
+      {
+        "x": 2017,
+        "y": 1546,
+        "text": 613,
+        "xanchor": "center",
+        "yanchor": "center",
+        "showarrow": false
+      },
+      {
+        "x": 2018,
+        "y": 822,
+        "text": 822,
+        "xanchor": "center",
+        "yanchor": "center",
+        "showarrow": false
+      },
+      {
+        "x": 2018,
+        "y": 1328,
+        "text": 506,
+        "xanchor": "center",
+        "yanchor": "center",
+        "showarrow": false
+      }
+    ],
     "showlegend": true
   },
   "source": "A",
@@ -48,7 +98,7 @@
   "data": [
     {
       "x": [2016, 2017, 2018],
-      "y": [1322, 938, 814],
+      "y": [1321, 933, 822],
       "type": "bar",
       "name": "Public Initiated",
       "marker": {
@@ -72,7 +122,7 @@
     },
     {
       "x": [2016, 2017, 2018],
-      "y": [626, 613, 500],
+      "y": [614, 613, 506],
       "type": "bar",
       "name": "Rank Initiated",
       "marker": {

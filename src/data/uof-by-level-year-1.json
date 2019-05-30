@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "44fc75c257ff": ["function () ", "plotlyVisDat"]
+    "27e82cb2d84a": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "44fc75c257ff",
+  "cur_data": "27e82cb2d84a",
   "attrs": {
-    "44fc75c257ff": {
+    "27e82cb2d84a": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -103,7 +103,7 @@
     },
     {
       "x": [2015, 2016, 2017, 2018],
-      "y": [776, 781, 749, 509],
+      "y": [776, 781, 749, 517],
       "type": "bar",
       "name": "Firearm Exhibited",
       "marker": {
@@ -175,7 +175,7 @@
     },
     {
       "x": [2018],
-      "y": [97],
+      "y": [100],
       "type": "bar",
       "name": "Takedown (no injury)",
       "marker": {

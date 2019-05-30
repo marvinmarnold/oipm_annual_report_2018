@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "44fc5cdf6d13": ["function () ", "plotlyVisDat"]
+    "27e87f1661dc": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "44fc5cdf6d13",
+  "cur_data": "27e87f1661dc",
   "attrs": {
-    "44fc5cdf6d13": {
+    "27e87f1661dc": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -103,7 +103,7 @@
     },
     {
       "x": [2015, 2016, 2017, 2018],
-      "y": [2, 3, 6, 10],
+      "y": [2, 3, 6, 11],
       "type": "bar",
       "name": "Head Strike (No Wep)",
       "marker": {

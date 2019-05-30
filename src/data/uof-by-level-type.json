@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "44fc746177ac": ["function () ", "plotlyVisDat"]
+    "27e83ce007a1": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "44fc746177ac",
+  "cur_data": "27e83ce007a1",
   "attrs": {
-    "44fc746177ac": {
+    "27e83ce007a1": {
       "x": {},
       "y": {},
       "name": {},
@@ -120,7 +120,7 @@
     },
     {
       "x": ["L2"],
-      "y": [82],
+      "y": [83],
       "name": "Defense Tech / Take-down",
       "type": "bar",
       "marker": {
@@ -144,7 +144,7 @@
     },
     {
       "x": ["L1"],
-      "y": [509],
+      "y": [517],
       "name": "Firearm Exhibited",
       "type": "bar",
       "marker": {
@@ -167,9 +167,9 @@
       "frame": null
     },
     {
-      "x": ["L1"],
-      "y": [268],
-      "name": "Hands / Escort tech",
+      "x": ["L4"],
+      "y": [6],
+      "name": "Force on handcuffed individual",
       "type": "bar",
       "marker": {
         "color": "rgba(175,154,200,1)",
@@ -191,9 +191,9 @@
       "frame": null
     },
     {
-      "x": ["L3"],
-      "y": [10],
-      "name": "Head Strike (No Wep)",
+      "x": ["L1"],
+      "y": [268],
+      "name": "Hands / Escort tech",
       "type": "bar",
       "marker": {
         "color": "rgba(215,144,197,1)",
@@ -215,9 +215,9 @@
       "frame": null
     },
     {
-      "x": ["L4"],
-      "y": [6],
-      "name": "Head strike while Hancuffed",
+      "x": ["L3"],
+      "y": [11],
+      "name": "Head Strike (No Wep)",
       "type": "bar",
       "marker": {
         "color": "rgba(219,162,168,1)",
@@ -360,7 +360,7 @@
     },
     {
       "x": ["L1"],
-      "y": [97],
+      "y": [100],
       "name": "Takedown (no injury)",
       "type": "bar",
       "marker": {
@@ -384,7 +384,7 @@
     },
     {
       "x": ["L2"],
-      "y": [28],
+      "y": [30],
       "name": "Takedown (w/injury)",
       "type": "bar",
       "marker": {

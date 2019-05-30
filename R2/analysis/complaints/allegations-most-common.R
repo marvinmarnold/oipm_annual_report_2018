@@ -17,7 +17,8 @@ p.top.alleg <- plot_ly(count.by.alleg,  type = 'pie', name = title,
   
   layout(
     #legend = list(x = 0, y = -.75)
-    hovermode = "compare", showlegend = FALSE
+    hovermode = "compare", showlegend = TRUE
+    
   )
 p.top.alleg
 gen.plotly.json(p.top.alleg, "allegations-most-common")

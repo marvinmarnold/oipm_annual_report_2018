@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "44fc58c707ee": ["function () ", "plotlyVisDat"]
+    "27e83b39a807": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "44fc58c707ee",
+  "cur_data": "27e83b39a807",
   "attrs": {
-    "44fc58c707ee": {
+    "27e83b39a807": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -50,7 +50,7 @@
   "data": [
     {
       "x": ["1st District", "2nd District", "3rd District", "4th District", "5th District", "6th District", "7th District", "8th District", "Other", "Special Operations", "Special or Criminal Investigations"],
-      "y": [65, 50, 157, 59, 109, 64, 131, 106, 4, 137, 21],
+      "y": [67, 50, 157, 59, 109, 65, 131, 106, 4, 145, 21],
       "type": "bar",
       "name": "L1",
       "marker": {
@@ -74,7 +74,7 @@
     },
     {
       "x": ["1st District", "2nd District", "3rd District", "4th District", "5th District", "6th District", "7th District", "8th District", "Other", "Special Operations"],
-      "y": [33, 18, 18, 16, 15, 15, 15, 41, 2, 9],
+      "y": [33, 18, 18, 16, 15, 14, 15, 41, 2, 13],
       "type": "bar",
       "name": "L2",
       "marker": {
@@ -98,7 +98,7 @@
     },
     {
       "x": ["1st District", "3rd District", "4th District", "5th District", "6th District", "8th District", "Other", "Special or Criminal Investigations"],
-      "y": [1, 2, 1, 1, 1, 6, 1, 1],
+      "y": [1, 2, 1, 1, 1, 7, 1, 1],
       "type": "bar",
       "name": "L3",
       "marker": {

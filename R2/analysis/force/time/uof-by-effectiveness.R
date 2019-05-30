@@ -9,15 +9,22 @@ effective.by.type <- summarise(uof.by.type.effective, count = n())
 effective.by.type <- effective.by.type %>% 
   group_by(Force.type) %>%
   mutate(type.count = sum(count)) %>%
-  group_by(UOF.effective, add = TRUE) %>%
+  mutate(
+    effectiveness = case_when(
+      UOF.effective == "Yes" ~ "Effective",
+      UOF.effective == "No" ~ "Ineffective",
+      TRUE ~ "Limited effectiveness"
+    )
+  ) %>%
+  group_by(effectiveness, add = TRUE) %>%
   mutate(pct = round(100 * count / type.count, 2))
 effective.by.type
 
 p.uof.by.effectiveness <- plot_ly(effective.by.type, 
                                   x = ~Force.type, y = ~pct, 
                                   type = 'bar',  
-                                  name = ~UOF.effective, 
-                                  color = ~UOF.effective) %>%
+                                  name = ~effectiveness, 
+                                  color = ~effectiveness) %>%
   
   layout(xaxis = list(title = "Type of force", 
                       showgrid = F), 

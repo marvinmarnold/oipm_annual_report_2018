@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c375742d40": ["function () ", "plotlyVisDat"]
+    "27e832a4cd38": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c375742d40",
+  "cur_data": "27e832a4cd38",
   "attrs": {
-    "60c375742d40": {
+    "27e832a4cd38": {
       "x": {},
       "y": {},
       "name": {},
@@ -29,7 +29,7 @@
       "title": "Force.type",
       "type": "category",
       "categoryorder": "array",
-      "categoryarray": ["Baton (non-strike)", "Baton/PR-24 (Strike)", "Canine (No Bite)", "Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "Head strike while Hancuffed", "L1-Other", "L2-Taser", "L4-Taser", "NonTrad Impact Weapon", "Other", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"]
+      "categoryarray": ["Baton (non-strike)", "Baton/PR-24 (Strike)", "Canine (No Bite)", "Defense Tech / Take-down", "Firearm Exhibited", "Force on handcuffed individual", "Hands / Escort tech", "Head Strike (No Wep)", "L1-Other", "L2-Taser", "L4-Taser", "NonTrad Impact Weapon", "Other", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"]
     },
     "yaxis": {
       "domain": [0, 1],
@@ -47,8 +47,8 @@
   },
   "data": [
     {
-      "x": ["Baton (non-strike)", "Baton/PR-24 (Strike)", "Canine (No Bite)", "Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "Head strike while Hancuffed", "L1-Other", "L2-Taser", "NonTrad Impact Weapon", "Other", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"],
-      "y": [1, 1, 14, 55, 397, 164, 8, 6, 7, 47, 1, 2, 67, 21, 18],
+      "x": ["Baton (non-strike)", "Baton/PR-24 (Strike)", "Canine (No Bite)", "Defense Tech / Take-down", "Firearm Exhibited", "Force on handcuffed individual", "Hands / Escort tech", "Head Strike (No Wep)", "L1-Other", "L2-Taser", "NonTrad Impact Weapon", "Other", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"],
+      "y": [1, 1, 14, 56, 405, 6, 164, 8, 7, 47, 1, 2, 70, 23, 17],
       "name": "Black / African American",
       "type": "bar",
       "marker": {
@@ -120,7 +120,7 @@
     },
     {
       "x": ["Baton (non-strike)", "Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "L2-Taser", "L4-Taser", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"],
-      "y": [1, 17, 34, 29, 1, 6, 2, 10, 3, 2],
+      "y": [1, 17, 34, 29, 2, 6, 2, 10, 3, 2],
       "name": "White",
       "type": "bar",
       "marker": {

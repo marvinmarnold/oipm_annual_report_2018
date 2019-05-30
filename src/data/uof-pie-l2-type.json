@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "44fc1c4ee6e8": ["function () ", "plotlyVisDat"]
+    "27e87eb06220": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "44fc1c4ee6e8",
+  "cur_data": "27e87eb06220",
   "attrs": {
-    "44fc1c4ee6e8": {
+    "27e87eb06220": {
       "labels": {},
       "values": {},
       "textposition": "inside",
@@ -12,7 +12,7 @@
       "insidetextfont": {
         "color": "#FFFFFF"
       },
-      "name": "L2 total =  182",
+      "name": "L2 total =  185",
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -27,7 +27,7 @@
       "r": 10
     },
     "hovermode": "compare",
-    "title": "L2 total =  182",
+    "title": "L2 total =  185",
     "showlegend": false
   },
   "source": "A",
@@ -38,13 +38,13 @@
   "data": [
     {
       "labels": ["Canine (No Bite)", "Defense Tech / Take-down", "L2-Taser", "Takedown (w/injury)"],
-      "values": [16, 82, 56, 28],
+      "values": [16, 83, 56, 30],
       "textposition": ["inside", "inside", "inside", "inside"],
       "textinfo": "label+value+percent",
       "insidetextfont": {
         "color": "#FFFFFF"
       },
-      "name": "L2 total =  182",
+      "name": "L2 total =  185",
       "type": "pie",
       "marker": {
         "color": "rgba(31,119,180,1)",

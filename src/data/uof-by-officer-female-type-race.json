@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c328a64e85": ["function () ", "plotlyVisDat"]
+    "27e857d93e40": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c328a64e85",
+  "cur_data": "27e857d93e40",
   "attrs": {
-    "60c328a64e85": {
+    "27e857d93e40": {
       "x": {},
       "y": {},
       "name": {},
@@ -48,7 +48,7 @@
   "data": [
     {
       "x": ["Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "L1-Other", "L2-Taser", "L4-Taser", "Takedown (no injury)", "Taser Exhibited"],
-      "y": [5, 23, 26, 1, 1, 1, 1, 1, 1],
+      "y": [5, 24, 26, 1, 1, 1, 1, 1, 1],
       "name": "Black / African American",
       "type": "bar",
       "marker": {

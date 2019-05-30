@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c34f30a272": ["function () ", "plotlyVisDat"]
+    "27e8656be7a9": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c34f30a272",
+  "cur_data": "27e8656be7a9",
   "attrs": {
-    "60c34f30a272": {
+    "27e8656be7a9": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -38,6 +38,56 @@
       "title": "Number of complaints",
       "showgrid": true
     },
+    "annotations": [
+      {
+        "x": 2016,
+        "y": 845,
+        "text": 260,
+        "xanchor": "center",
+        "yanchor": "center",
+        "showarrow": false
+      },
+      {
+        "x": 2016,
+        "y": 585,
+        "text": 585,
+        "xanchor": "center",
+        "yanchor": "center",
+        "showarrow": false
+      },
+      {
+        "x": 2017,
+        "y": 448,
+        "text": 448,
+        "xanchor": "center",
+        "yanchor": "center",
+        "showarrow": false
+      },
+      {
+        "x": 2017,
+        "y": 729,
+        "text": 281,
+        "xanchor": "center",
+        "yanchor": "center",
+        "showarrow": false
+      },
+      {
+        "x": 2018,
+        "y": 425,
+        "text": 425,
+        "xanchor": "center",
+        "yanchor": "center",
+        "showarrow": false
+      },
+      {
+        "x": 2018,
+        "y": 679,
+        "text": 254,
+        "xanchor": "center",
+        "yanchor": "center",
+        "showarrow": false
+      }
+    ],
     "showlegend": true
   },
   "source": "A",
@@ -48,7 +98,7 @@
   "data": [
     {
       "x": [2016, 2017, 2018],
-      "y": [586, 451, 425],
+      "y": [585, 448, 425],
       "type": "bar",
       "name": "Public Initiated",
       "marker": {
@@ -72,7 +122,7 @@
     },
     {
       "x": [2016, 2017, 2018],
-      "y": [264, 283, 255],
+      "y": [260, 281, 254],
       "type": "bar",
       "name": "Rank Initiated",
       "marker": {

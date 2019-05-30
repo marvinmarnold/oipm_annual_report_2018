@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c3302fa73": ["function () ", "plotlyVisDat"]
+    "27e82b6d5610": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c3302fa73",
+  "cur_data": "27e82b6d5610",
   "attrs": {
-    "60c3302fa73": {
+    "27e82b6d5610": {
       "labels": {},
       "values": {},
       "textposition": "inside",
@@ -27,7 +27,7 @@
       "r": 10
     },
     "hovermode": "compare",
-    "showlegend": false
+    "showlegend": true
   },
   "source": "A",
   "config": {
@@ -37,7 +37,7 @@
   "data": [
     {
       "labels": ["Adherence to law", "Courtesy", "Instructions from authoritative source", "Neglect of duty", "Other", "Professionalism", "Unauthorized force", "Verbal intimidation"],
-      "values": [82, 18, 39, 685, 150, 312, 18, 10],
+      "values": [82, 18, 39, 698, 152, 311, 18, 10],
       "textposition": ["inside", "inside", "inside", "inside", "inside", "inside", "inside", "inside"],
       "textinfo": "label+value+percent",
       "insidetextfont": {

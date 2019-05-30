@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c372ebd5c0": ["function () ", "plotlyVisDat"]
+    "27e847470b57": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c372ebd5c0",
+  "cur_data": "27e847470b57",
   "attrs": {
-    "60c372ebd5c0": {
+    "27e847470b57": {
       "x": {},
       "y": {},
       "name": {},
@@ -52,7 +52,7 @@
   "data": [
     {
       "x": ["F", "M", "Unknown gender"],
-      "y": [121, 809, 5],
+      "y": [122, 822, 5],
       "name": "Black / African American",
       "type": "bar",
       "marker": {
@@ -124,7 +124,7 @@
     },
     {
       "x": ["F", "M"],
-      "y": [27, 105],
+      "y": [27, 106],
       "name": "White",
       "type": "bar",
       "marker": {

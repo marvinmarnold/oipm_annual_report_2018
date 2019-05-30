@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c32234229a": ["function () ", "plotlyVisDat"]
+    "27e84b54fa95": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c32234229a",
+  "cur_data": "27e84b54fa95",
   "attrs": {
-    "60c32234229a": {
+    "27e84b54fa95": {
       "labels": {},
       "values": {},
       "textposition": "inside",
@@ -36,7 +36,7 @@
   "data": [
     {
       "labels": ["Black / African American", "Hispanic", "Unknown race", "White"],
-      "values": [809, 20, 11, 105],
+      "values": [822, 20, 11, 106],
       "textposition": ["inside", "inside", "inside", "inside"],
       "textinfo": "label+value+percent",
       "insidetextfont": {

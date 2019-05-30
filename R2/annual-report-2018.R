@@ -34,14 +34,14 @@ OFFICERS.CSV.DIRTY <- "raw/data/officers-from-nopd.csv"
 OFFICERS.CSV.SANITIZED <- "data/officers-sanitized.csv"
 
 ######### Use of Force
-UOF.CSV.DIRTY <- "raw/data/uof-from-nopd.csv"
+UOF.CSV.DIRTY <- "raw/data/uof-from-nopd-2.csv"
 UOF.CSV.SANITIZED <- "data/uof-sanitized.csv"
 
 UOF.2015.CSV.DIRTY <- "raw/data/uof-2015-from-nopd.csv"
 UOF.2015.CSV.SANITIZED <- "data/uof-2015-sanitized.csv"
 
 ######### Allegations
-ALLEGATIONS.CSV.DIRTY <- "raw/data/allegations-from-nopd.csv"
+ALLEGATIONS.CSV.DIRTY <- "raw/data/allegations-from-nopd-2.csv"
 ALLEGATIONS.CSV.SANITIZED <- "data/allegations-sanitized.csv"
 
 ACTIONS.TAKEN.CSV.DIRTY <- "raw/data/discipline-from-nopd.csv"

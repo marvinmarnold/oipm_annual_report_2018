@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c3689213e4": ["function () ", "plotlyVisDat"]
+    "27e878b71cb6": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c3689213e4",
+  "cur_data": "27e878b71cb6",
   "attrs": {
-    "60c3689213e4": {
+    "27e878b71cb6": {
       "labels": {},
       "values": {},
       "textposition": "inside",
@@ -37,7 +37,7 @@
   "data": [
     {
       "labels": ["Adherence to law", "Courtesy", "Instructions from authoritative source", "Neglect of duty", "Other", "Professionalism", "Unauthorized force", "Verbal intimidation"],
-      "values": [19, 4, 21, 262, 44, 40, 3, 1],
+      "values": [20, 5, 25, 296, 52, 46, 3, 1],
       "textposition": ["inside", "inside", "inside", "inside", "inside", "inside", "inside", "inside"],
       "textinfo": "label+value+percent",
       "insidetextfont": {

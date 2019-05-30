@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c360b5dfb5": ["function () ", "plotlyVisDat"]
+    "27e8a196e5a": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c360b5dfb5",
+  "cur_data": "27e8a196e5a",
   "attrs": {
-    "60c360b5dfb5": {
+    "27e8a196e5a": {
       "x": {},
       "y": {},
       "name": "NOPD average",
@@ -13,7 +13,7 @@
       "spans": [1, 20],
       "type": "bar"
     },
-    "60c360b5dfb5.1": {
+    "27e8a196e5a.1": {
       "x": {},
       "y": {},
       "name": "Average for officers who used force at least once in 2018",
@@ -56,7 +56,7 @@
   "data": [
     {
       "x": ["FTN: Force incidents per officer", "UOF: Force amount per officer"],
-      "y": [0.330815709969789, 0.836858006042296],
+      "y": [0.333081570996979, 0.848187311178248],
       "name": "NOPD average",
       "type": "bar",
       "marker": {
@@ -77,7 +77,7 @@
     },
     {
       "x": ["FTN: Force incidents per officer", "UOF: Force amount per officer"],
-      "y": [1.11167512690355, 2.81218274111675],
+      "y": [1.10804020100503, 2.82160804020101],
       "name": "Average for officers who used force at least once in 2018",
       "type": "bar",
       "marker": {

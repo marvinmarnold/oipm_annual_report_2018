@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c370bc490c": ["function () ", "plotlyVisDat"]
+    "27e8438e8267": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c370bc490c",
+  "cur_data": "27e8438e8267",
   "attrs": {
-    "60c370bc490c": {
+    "27e8438e8267": {
       "x": {},
       "y": {},
       "name": {},
@@ -29,7 +29,7 @@
       "showgrid": false,
       "type": "category",
       "categoryorder": "array",
-      "categoryarray": ["Baton (non-strike)", "Baton/PR-24 (Strike)", "Canine (No Bite)", "Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "Head strike while Hancuffed", "L1-Other", "L2-Taser", "L4-Taser", "NonTrad Impact Weapon", "Other", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"]
+      "categoryarray": ["Baton (non-strike)", "Baton/PR-24 (Strike)", "Canine (No Bite)", "Defense Tech / Take-down", "Firearm Exhibited", "Force on handcuffed individual", "Hands / Escort tech", "Head Strike (No Wep)", "L1-Other", "L2-Taser", "L4-Taser", "NonTrad Impact Weapon", "Other", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"]
     },
     "yaxis": {
       "domain": [0, 1],
@@ -47,9 +47,9 @@
   },
   "data": [
     {
-      "x": ["L2-Taser", "Taser Exhibited"],
-      "y": [14.29, 5],
-      "name": "Limited",
+      "x": ["Baton (non-strike)", "Baton/PR-24 (Strike)", "Canine (No Bite)", "Defense Tech / Take-down", "Firearm Exhibited", "Force on handcuffed individual", "Hands / Escort tech", "Head Strike (No Wep)", "L1-Other", "L2-Taser", "L4-Taser", "NonTrad Impact Weapon", "Other", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"],
+      "y": [100, 50, 100, 96.39, 90.52, 66.67, 86.57, 54.55, 100, 53.57, 100, 100, 100, 100, 90, 80],
+      "name": "Effective",
       "type": "bar",
       "marker": {
         "color": "rgba(102,194,165,1)",
@@ -71,9 +71,9 @@
       "frame": null
     },
     {
-      "x": ["Baton/PR-24 (Strike)", "Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "Head strike while Hancuffed", "L2-Taser", "Takedown (w/injury)", "Taser Exhibited"],
-      "y": [50, 3.66, 8.84, 13.43, 40, 33.33, 32.14, 3.57, 15],
-      "name": "No",
+      "x": ["Baton/PR-24 (Strike)", "Defense Tech / Take-down", "Firearm Exhibited", "Force on handcuffed individual", "Hands / Escort tech", "Head Strike (No Wep)", "L2-Taser", "Takedown (w/injury)", "Taser Exhibited"],
+      "y": [50, 3.61, 9.48, 33.33, 13.43, 45.45, 32.14, 10, 15],
+      "name": "Ineffective",
       "type": "bar",
       "marker": {
         "color": "rgba(252,141,98,1)",
@@ -95,9 +95,9 @@
       "frame": null
     },
     {
-      "x": ["Baton (non-strike)", "Baton/PR-24 (Strike)", "Canine (No Bite)", "Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "Head strike while Hancuffed", "L1-Other", "L2-Taser", "L4-Taser", "NonTrad Impact Weapon", "Other", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"],
-      "y": [100, 50, 100, 96.34, 91.16, 86.57, 60, 66.67, 100, 53.57, 100, 100, 100, 100, 96.43, 80],
-      "name": "Yes",
+      "x": ["L2-Taser", "Taser Exhibited"],
+      "y": [14.29, 5],
+      "name": "Limited effectiveness",
       "type": "bar",
       "marker": {
         "color": "rgba(141,160,203,1)",

@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c33c2e1b19": ["function () ", "plotlyVisDat"]
+    "27e82d7ea8f": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c33c2e1b19",
+  "cur_data": "27e82d7ea8f",
   "attrs": {
-    "60c33c2e1b19": {
+    "27e82d7ea8f": {
       "x": {},
       "y": {},
       "name": {},
@@ -72,7 +72,7 @@
     },
     {
       "x": ["Public Initiated", "Rank Initiated"],
-      "y": [360, 91],
+      "y": [352, 73],
       "name": "Not sustained",
       "type": "bar",
       "marker": {
@@ -96,7 +96,7 @@
     },
     {
       "x": ["Public Initiated", "Rank Initiated"],
-      "y": [62, 137],
+      "y": [70, 154],
       "name": "Sustained",
       "type": "bar",
       "marker": {

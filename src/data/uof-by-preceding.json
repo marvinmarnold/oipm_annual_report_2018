@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c3734cc624": ["function () ", "plotlyVisDat"]
+    "27e845918ca5": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c3734cc624",
+  "cur_data": "27e845918ca5",
   "attrs": {
-    "60c3734cc624": {
+    "27e845918ca5": {
       "labels": {},
       "values": {},
       "textposition": "inside",
@@ -37,7 +37,7 @@
   "data": [
     {
       "labels": ["Arresting", "Call for Service", "Other", "Pedestrian Stop", "Serving a Warrant", "Traffic Stop"],
-      "values": [394, 452, 17, 71, 125, 49],
+      "values": [406, 454, 17, 72, 125, 49],
       "textposition": ["inside", "inside", "inside", "inside", "inside", "inside"],
       "textinfo": "label+value+percent",
       "insidetextfont": {

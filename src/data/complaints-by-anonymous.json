@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c3aa34db": ["function () ", "plotlyVisDat"]
+    "27e822e53ba8": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c3aa34db",
+  "cur_data": "27e822e53ba8",
   "attrs": {
-    "60c3aa34db": {
+    "27e822e53ba8": {
       "x": {},
       "y": {},
       "name": {},
@@ -72,7 +72,7 @@
     },
     {
       "x": ["Anon - Explicit"],
-      "y": [2],
+      "y": [1],
       "name": "Pending",
       "type": "bar",
       "marker": {
@@ -120,7 +120,7 @@
     },
     {
       "x": ["Anon - Explicit"],
-      "y": [1],
+      "y": [2],
       "name": "Unfounded",
       "type": "bar",
       "marker": {

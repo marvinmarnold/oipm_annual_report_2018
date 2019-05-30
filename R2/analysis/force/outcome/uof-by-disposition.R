@@ -3,9 +3,9 @@ title <- "UOF by diposition"
 
 ########################################################################################################
 ########################################################################################################
-uof.for.year %>% select(Disposition) %>% distinct
+disposition.for.year <- uof.for.year %>% distinct(FIT.Number, Disposition)
 
-uof.normalized.dispositions <- uof.for.year %>% mutate(
+normalized.dispositions <- disposition.for.year %>% mutate(
   Disposition = case_when(
     Disposition == "UOF Justified" ~ "Authorized",
     Disposition == "UOF Justified With Policy Violation" ~ "Authorized",
@@ -18,10 +18,15 @@ uof.normalized.dispositions <- uof.for.year %>% mutate(
   )
 )
 
-uof.by.disposition <- uof.normalized.dispositions %>% group_by(Disposition)
-disposition.counts <- summarise(uof.by.disposition, count = n())
+ftn.by.disposition <- normalized.dispositions %>% group_by(Disposition)
+disposition.counts <- summarise(ftn.by.disposition, count = n())
 
-p.uof.by.disposition <- plot_ly(disposition.counts, x = ~Disposition, y = ~count, type = "bar") %>%
+p.uof.by.disposition <- plot_ly(disposition.counts, 
+                                x = ~Disposition, 
+                                y = ~count, 
+                                text = ~count,
+                                textposition = 'outside',
+                                type = "bar") %>%
   layout(margin = list(b = 150))
 p.uof.by.disposition
 gen.plotly.json(p.uof.by.disposition, "uof-by-disposition")

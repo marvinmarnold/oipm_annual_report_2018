@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "44fc255e3ba3": ["function () ", "plotlyVisDat"]
+    "27e8e59d285": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "44fc255e3ba3",
+  "cur_data": "27e8e59d285",
   "attrs": {
-    "44fc255e3ba3": {
+    "27e8e59d285": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -103,7 +103,7 @@
     },
     {
       "x": [2015, 2016, 2017, 2018],
-      "y": [192, 176, 296, 82],
+      "y": [192, 176, 296, 83],
       "type": "bar",
       "name": "Defense Tech / Take-down",
       "marker": {
@@ -175,7 +175,7 @@
     },
     {
       "x": [2018],
-      "y": [28],
+      "y": [30],
       "type": "bar",
       "name": "Takedown (w/injury)",
       "marker": {

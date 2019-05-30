@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c33ae38b98": ["function () ", "plotlyVisDat"]
+    "27e873b10928": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c33ae38b98",
+  "cur_data": "27e873b10928",
   "attrs": {
-    "60c33ae38b98": {
+    "27e873b10928": {
       "labels": {},
       "values": {},
       "textposition": "inside",
@@ -36,7 +36,7 @@
   "data": [
     {
       "labels": ["No", "Yes"],
-      "values": [901, 207],
+      "values": [904, 219],
       "textposition": ["inside", "inside"],
       "textinfo": "label+value+percent",
       "insidetextfont": {

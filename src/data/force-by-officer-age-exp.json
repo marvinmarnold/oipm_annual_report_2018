@@ -1,21 +1,21 @@
 {
   "visdat": {
-    "60c34f52801d": ["function () ", "plotlyVisDat"]
+    "27e84bed5607": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c34f52801d",
+  "cur_data": "27e84bed5607",
   "attrs": {
-    "60c34f52801d": {
+    "27e84bed5607": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
-      "x": ["25 or younger", "25 or younger", "26 - 30", "26 - 30", "26 - 30", "31 - 35", "31 - 35", "31 - 35", "31 - 35", "36 - 40", "36 - 40", "36 - 40", "36 - 40", "41 - 45", "41 - 45", "41 - 45", "41 - 45", "46 - 50", "46 - 50", "46 - 50", "46 - 50", "51 or older", "51 or older", "51 or older", "51 or older", "51 or older"],
-      "y": [96, 1, 262, 26, 7, 214, 55, 25, 4, 54, 35, 51, 2, 22, 8, 38, 56, 3, 11, 7, 43, 5, 1, 16, 63, 3],
+      "x": ["25 or younger", "25 or younger", "26 - 30", "26 - 30", "26 - 30", "31 - 35", "31 - 35", "31 - 35", "31 - 35", "36 - 40", "36 - 40", "36 - 40", "36 - 40", "41 - 45", "41 - 45", "41 - 45", "41 - 45", "46 - 50", "46 - 50", "46 - 50", "46 - 50", "51 or older", "51 or older", "51 or older", "51 or older", "Unknown age"],
+      "y": [96, 1, 264, 26, 7, 215, 55, 25, 4, 54, 37, 56, 2, 23, 8, 38, 56, 3, 11, 7, 47, 5, 1, 16, 63, 3],
       "type": "bar",
       "name": ["00 - 5 yr exp", "06 - 10 yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "Unknown experience", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "Unknown experience"],
       "color": ["00 - 5 yr exp", "06 - 10 yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "Unknown experience", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "Unknown experience"],
       "inherit": true
     },
-    "60c34f52801d.1": {
+    "27e84bed5607.1": {
       "alpha_stroke": 1,
       "sizes": [10, 100],
       "spans": [1, 20],
@@ -74,7 +74,7 @@
   "data": [
     {
       "x": ["25 or younger", "26 - 30", "31 - 35", "36 - 40", "41 - 45", "46 - 50", "51 or older"],
-      "y": [96, 262, 214, 54, 22, 3, 5],
+      "y": [96, 264, 215, 54, 23, 3, 5],
       "type": "bar",
       "name": "00 - 5 yr exp",
       "marker": {
@@ -98,7 +98,7 @@
     },
     {
       "x": ["25 or younger", "26 - 30", "31 - 35", "36 - 40", "41 - 45", "46 - 50", "51 or older"],
-      "y": [1, 26, 55, 35, 8, 11, 1],
+      "y": [1, 26, 55, 37, 8, 11, 1],
       "type": "bar",
       "name": "06 - 10 yr exp",
       "marker": {
@@ -122,7 +122,7 @@
     },
     {
       "x": ["31 - 35", "36 - 40", "41 - 45", "46 - 50", "51 or older"],
-      "y": [25, 51, 38, 7, 16],
+      "y": [25, 56, 38, 7, 16],
       "type": "bar",
       "name": "11 - 15 yr exp",
       "marker": {
@@ -146,7 +146,7 @@
     },
     {
       "x": ["31 - 35", "36 - 40", "41 - 45", "46 - 50", "51 or older"],
-      "y": [4, 2, 56, 43, 63],
+      "y": [4, 2, 56, 47, 63],
       "type": "bar",
       "name": "16+ yr exp",
       "marker": {
@@ -169,7 +169,7 @@
       "frame": null
     },
     {
-      "x": ["26 - 30", "51 or older"],
+      "x": ["26 - 30", "Unknown age"],
       "y": [7, 3],
       "type": "bar",
       "name": "Unknown experience",

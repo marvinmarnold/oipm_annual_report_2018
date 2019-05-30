@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "60c37d438b30": ["function () ", "plotlyVisDat"]
+    "27e8346d7a36": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "60c37d438b30",
+  "cur_data": "27e8346d7a36",
   "attrs": {
-    "60c37d438b30": {
+    "27e8346d7a36": {
       "labels": {},
       "values": {},
       "textposition": "inside",
@@ -37,7 +37,7 @@
   "data": [
     {
       "labels": ["Battery on officer", "Battery on public", "Other", "Refusing commands", "Resisting / escape", "Tactical / clearing", "Weapon"],
-      "values": [64, 1, 72, 202, 554, 128, 87],
+      "values": [65, 1, 72, 202, 566, 128, 89],
       "textposition": ["inside", "inside", "inside", "inside", "inside", "inside", "inside"],
       "textinfo": "label+value+percent",
       "insidetextfont": {

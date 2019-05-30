@@ -19,7 +19,7 @@ SelectDisp <- function(disp) {
   } else if (any(disp == 'NFIM')) {
     return('NFIM')
   } else {
-    return('Illegitimate outcome')
+    return('Data Inconsistency')
   } 
 }
 

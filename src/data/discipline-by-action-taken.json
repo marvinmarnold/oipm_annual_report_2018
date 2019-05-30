@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "27e85ab70f90": ["function () ", "plotlyVisDat"]
+    "27e851007ea1": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "27e85ab70f90",
+  "cur_data": "27e851007ea1",
   "attrs": {
-    "27e85ab70f90": {
+    "27e851007ea1": {
       "labels": {},
       "values": {},
       "textposition": "inside",
@@ -27,7 +27,7 @@
     },
     "hovermode": "compare",
     "title": false,
-    "showlegend": false
+    "showlegend": true
   },
   "source": "A",
   "config": {
@@ -36,8 +36,8 @@
   },
   "data": [
     {
-      "labels": ["Demoted", "DI-2", "Dismissed", "Illegitimate outcome", "Letter of Reprimand", "Mediation", "Oral Reprimand", "Resigned before disposition", "Suspension", "Unknown action taken"],
-      "values": [3, 76, 7, 88, 274, 33, 27, 32, 198, 27],
+      "labels": ["Data Inconsistency", "Demoted", "DI-2", "Dismissed", "Letter of Reprimand", "Mediation", "Oral Reprimand", "Resigned before disposition", "Suspension", "Unknown action taken"],
+      "values": [88, 3, 76, 7, 274, 33, 27, 32, 198, 27],
       "textposition": ["inside", "inside", "inside", "inside", "inside", "inside", "inside", "inside", "inside", "inside"],
       "textinfo": "label+value+percent",
       "insidetextfont": {

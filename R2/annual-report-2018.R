@@ -18,7 +18,7 @@ PLOTLY.OUTPUT.PATH <- "../src/data/"
 
 # If source data is available, set to true.
 # If the only data available is coming from a public repository, this should probably be set to false.
-RECLEAN_DATA <- FALSE
+RECLEAN_DATA <- TRUE
 
 # Will force all the graphs to recompute
 REGEN_ANALYSIS <- FALSE

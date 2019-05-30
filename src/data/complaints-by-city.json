@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "27e81d1bd8ef": ["function () ", "plotlyVisDat"]
+    "27e8516b8a07": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "27e81d1bd8ef",
+  "cur_data": "27e8516b8a07",
   "attrs": {
-    "27e81d1bd8ef": {
+    "27e8516b8a07": {
       "x": {},
       "y": {},
       "name": "Washington, D.C.",
@@ -13,7 +13,7 @@
       "spans": [1, 20],
       "type": "bar"
     },
-    "27e81d1bd8ef.1": {
+    "27e8516b8a07.1": {
       "x": {},
       "y": {},
       "name": "Indianapolis, IN",
@@ -23,7 +23,7 @@
       "type": "bar",
       "inherit": true
     },
-    "27e81d1bd8ef.2": {
+    "27e8516b8a07.2": {
       "x": {},
       "y": {},
       "name": "Chicago, IL",
@@ -33,7 +33,7 @@
       "type": "bar",
       "inherit": true
     },
-    "27e81d1bd8ef.3": {
+    "27e8516b8a07.3": {
       "x": {},
       "y": {},
       "name": "New Orleans, LA",

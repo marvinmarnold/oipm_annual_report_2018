@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "27e872e73e6c": ["function () ", "plotlyVisDat"]
+    "27e8e9e16ed": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "27e872e73e6c",
+  "cur_data": "27e8e9e16ed",
   "attrs": {
-    "27e872e73e6c": {
+    "27e8e9e16ed": {
       "labels": {},
       "values": {},
       "marker": {
@@ -38,11 +38,11 @@
   },
   "data": [
     {
-      "labels": ["DI-2", "Exonerated", "Illegitimate outcome", "Mediation", "NFIM", "Not Sustained", "Pending", "Sustained", "Unfounded"],
-      "values": [27, 13, 4, 1, 2, 17, 18, 154, 18],
+      "labels": ["Data Inconsistency", "DI-2", "Exonerated", "Mediation", "NFIM", "Not Sustained", "Pending", "Sustained", "Unfounded"],
+      "values": [4, 27, 13, 1, 2, 17, 18, 154, 18],
       "marker": {
         "color": "rgba(31,119,180,1)",
-        "colors": ["red", "black", "yellow", "cyan", "orange", "green", "magenta", "pink", "blue"],
+        "colors": ["yellow", "red", "black", "cyan", "orange", "green", "magenta", "pink", "blue"],
         "line": {
           "color": "rgba(31,119,180,1)"
         }

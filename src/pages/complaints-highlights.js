@@ -32,6 +32,7 @@ import ComplaintsByAnonymousPlot from '../components/complaints/source/complaint
 
 // Discipline
 import DisciplineByActionTakenPlot from '../components/complaints/discipline/discipline-by-action-taken-plot'
+import DisciplineByActionTakenAllPlot from '../components/complaints/discipline/discipline-by-action-taken-all-plot'
 import DisciplineByAllegationPlot from '../components/complaints/discipline/discipline-by-allegation-plot'
 import DisciplineByPublicSexPlot from '../components/complaints/discipline/discipline-by-public-sex-plot'
 import DisciplineByOfficerSexPlot from '../components/complaints/discipline/discipline-by-officer-sex-plot'
@@ -251,6 +252,12 @@ class ComplaintsHighlightsPage extends React.Component {
 						<h6>Disciplinary Action Taken</h6>
 						<DisciplineByActionTakenPlot />
 					</Col>
+					<Col md="6">
+						<h6>Discipline Including Sustained, Exonerated, Duplicate, and Others With No Basis for Discipline</h6>
+						<DisciplineByActionTakenAllPlot />
+					</Col>
+				</Row>
+				<Row>
 					<Col md="6">
 						<h6>Action Taken by Complaint</h6>
 						<DisciplineByAllegationPlot />

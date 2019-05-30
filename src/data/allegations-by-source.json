@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "27e87018745a": ["function () ", "plotlyVisDat"]
+    "27e83717aab6": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "27e87018745a",
+  "cur_data": "27e83717aab6",
   "attrs": {
-    "27e87018745a": {
+    "27e83717aab6": {
       "labels": {},
       "values": {},
       "textposition": "inside",
@@ -37,7 +37,7 @@
   "data": [
     {
       "labels": ["Community member", "NOPD employee", "OIPM", "Other", "Website"],
-      "values": [726, 473, 45, 38, 46],
+      "values": [739, 497, 45, 1, 46],
       "textposition": ["inside", "inside", "inside", "inside", "inside"],
       "textinfo": "label+value+percent",
       "insidetextfont": {

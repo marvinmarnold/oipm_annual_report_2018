@@ -10,7 +10,7 @@ count.by.disposition.race <- summarise(misconduct.disposition.race, num.disposit
 dispositions <- unique(misconduct.disposition.race$Disposition.OIPM.by.officer)
 xform <- list(categoryorder = "array",
               categoryarray = dispositions,
-              title = "Complaint disposition", 
+              title = "Complaint outcomes", 
               showgrid = T)
 
 p.complaint.disposition.by.officer.race <- plot_ly(count.by.disposition.race) %>% 
@@ -19,7 +19,7 @@ p.complaint.disposition.by.officer.race <- plot_ly(count.by.disposition.race) %>
             name = ~Officer.Race, color = ~Officer.Race) %>%
   
   layout(xaxis = xform, 
-         yaxis = list(title = 'Num complaints resulting in disposition'), 
+         yaxis = list(title = 'Num complaints resulting in outcome'), 
          barmode = 'stack',
          margin = list(b = 100))
 

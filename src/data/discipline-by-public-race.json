@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "27e81022eda7": ["function () ", "plotlyVisDat"]
+    "27e81e0705a6": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "27e81022eda7",
+  "cur_data": "27e81e0705a6",
   "attrs": {
-    "27e81022eda7": {
+    "27e81e0705a6": {
       "x": {},
       "y": {},
       "name": {},
@@ -29,7 +29,7 @@
       "showgrid": false,
       "type": "category",
       "categoryorder": "array",
-      "categoryarray": ["Data Inconsistency", "Demoted", "DI-2", "Dismissed", "Letter of Reprimand", "Mediation", "None", "Oral Reprimand", "Pending Investigation", "Resigned before disposition", "Suspension", "Unknown action taken"]
+      "categoryarray": ["Data Inconsistency", "Demoted", "DI-2", "Dismissed", "Letter of Reprimand", "Mediation", "Oral Reprimand", "Resigned before disposition", "Suspension", "Unknown action taken"]
     },
     "yaxis": {
       "domain": [0, 1],
@@ -43,7 +43,7 @@
       "y": -0.5
     },
     "title": false,
-    "showlegend": false
+    "showlegend": true
   },
   "source": "A",
   "config": {
@@ -52,9 +52,33 @@
   },
   "data": [
     {
-      "x": ["Data Inconsistency", "Demoted", "DI-2", "Dismissed", "Letter of Reprimand", "Mediation", "None", "Oral Reprimand", "Pending Investigation", "Resigned before disposition", "Suspension", "Unknown action taken"],
-      "y": [88, 3, 76, 7, 274, 33, 1017, 27, 107, 32, 198, 27],
-      "name": "Unknown race",
+      "x": ["Data Inconsistency", "DI-2", "Dismissed", "Letter of Reprimand", "Mediation", "Oral Reprimand", "Resigned before disposition", "Suspension", "Unknown action taken"],
+      "y": [16, 2, 2, 68, 21, 5, 4, 26, 4],
+      "name": "Black / African American",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(102,194,165,1)",
+        "line": {
+          "color": "rgba(102,194,165,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "error_y": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "error_x": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Mediation", "Suspension"],
+      "y": [1, 3],
+      "name": "Hispanic",
       "type": "bar",
       "marker": {
         "color": "rgba(252,141,98,1)",
@@ -70,6 +94,54 @@
       },
       "error_x": {
         "color": "rgba(252,141,98,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Data Inconsistency", "Demoted", "DI-2", "Dismissed", "Letter of Reprimand", "Oral Reprimand", "Resigned before disposition", "Suspension", "Unknown action taken"],
+      "y": [68, 3, 72, 5, 193, 18, 22, 151, 23],
+      "name": "Unknown race",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(141,160,203,1)",
+        "line": {
+          "color": "rgba(141,160,203,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "error_y": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "error_x": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Data Inconsistency", "DI-2", "Letter of Reprimand", "Mediation", "Oral Reprimand", "Resigned before disposition", "Suspension"],
+      "y": [4, 2, 15, 11, 4, 6, 18],
+      "name": "White",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(231,138,195,1)",
+        "line": {
+          "color": "rgba(231,138,195,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "error_y": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "error_x": {
+        "color": "rgba(231,138,195,1)"
       },
       "xaxis": "x",
       "yaxis": "y",

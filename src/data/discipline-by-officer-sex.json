@@ -1,10 +1,10 @@
 {
   "visdat": {
-    "27e84cf9ba48": ["function () ", "plotlyVisDat"]
+    "27e8325ad795": ["function () ", "plotlyVisDat"]
   },
-  "cur_data": "27e84cf9ba48",
+  "cur_data": "27e8325ad795",
   "attrs": {
-    "27e84cf9ba48": {
+    "27e8325ad795": {
       "x": {},
       "y": {},
       "name": {},
@@ -29,7 +29,7 @@
       "showgrid": false,
       "type": "category",
       "categoryorder": "array",
-      "categoryarray": ["Data Inconsistency", "Demoted", "DI-2", "Dismissed", "Letter of Reprimand", "Mediation", "None", "Oral Reprimand", "Pending Investigation", "Resigned before disposition", "Suspension", "Unknown action taken"]
+      "categoryarray": ["Data Inconsistency", "Demoted", "DI-2", "Dismissed", "Letter of Reprimand", "Mediation", "Oral Reprimand", "Resigned before disposition", "Suspension", "Unknown action taken"]
     },
     "yaxis": {
       "domain": [0, 1],
@@ -38,7 +38,7 @@
     },
     "barmode": "stack",
     "hovermode": "compare",
-    "showlegend": false
+    "showlegend": true
   },
   "source": "A",
   "config": {
@@ -47,9 +47,33 @@
   },
   "data": [
     {
-      "x": ["Data Inconsistency", "Demoted", "DI-2", "Dismissed", "Letter of Reprimand", "Mediation", "None", "Oral Reprimand", "Pending Investigation", "Resigned before disposition", "Suspension", "Unknown action taken"],
-      "y": [88, 3, 76, 7, 274, 33, 1017, 27, 107, 32, 198, 27],
-      "name": "Unknown gender",
+      "x": ["Data Inconsistency", "DI-2", "Dismissed", "Letter of Reprimand", "Mediation", "Oral Reprimand", "Resigned before disposition", "Suspension", "Unknown action taken"],
+      "y": [14, 15, 2, 66, 7, 5, 9, 31, 3],
+      "name": "F",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(102,194,165,1)",
+        "line": {
+          "color": "rgba(102,194,165,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "error_y": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "error_x": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Data Inconsistency", "Demoted", "DI-2", "Dismissed", "Letter of Reprimand", "Mediation", "Oral Reprimand", "Resigned before disposition", "Suspension", "Unknown action taken"],
+      "y": [71, 3, 29, 5, 208, 26, 22, 23, 167, 20],
+      "name": "M",
       "type": "bar",
       "marker": {
         "color": "rgba(252,141,98,1)",
@@ -65,6 +89,30 @@
       },
       "error_x": {
         "color": "rgba(252,141,98,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Data Inconsistency", "DI-2", "Unknown action taken"],
+      "y": [3, 32, 4],
+      "name": "Unknown gender",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(141,160,203,1)",
+        "line": {
+          "color": "rgba(141,160,203,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "error_y": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "error_x": {
+        "color": "rgba(141,160,203,1)"
       },
       "xaxis": "x",
       "yaxis": "y",

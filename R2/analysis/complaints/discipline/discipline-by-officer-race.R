@@ -6,7 +6,7 @@ check.vars(c("allegations.for.year", "actions.taken.for.year"))
 title <- "Discipline by Officer's Race"
 
 complainant.info <- allegations.all %>% select(Officer.Race, Allegation.primary.key) %>% distinct()
-detailed.actions.for.year <- merge(actions.taken.for.year, complainant.info, by = "Allegation.primary.key", all.x = TRUE)
+detailed.actions.for.year <- merge(actions.taken.for.year %>% filter(Action.taken.OIPM != "None", Action.taken.OIPM != "Pending Investigation"), complainant.info, by = "Allegation.primary.key", all.x = TRUE)
 detailed.actions.for.year <- detailed.actions.for.year %>% mutate(
   # There are actions taken without any corresponding allegations
   Officer.Race = case_when(

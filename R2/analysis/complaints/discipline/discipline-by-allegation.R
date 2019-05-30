@@ -4,7 +4,8 @@ title <- "Discipline by allegation"
 ########################################################################################################
 ########################################################################################################
 
-discipline.by.allegation <- actions.taken.for.year %>% group_by(Action.taken.OIPM, Allegation.simple)
+discipline.by.allegation <- actions.taken.for.year %>% 
+  filter(Action.taken.OIPM != "None", Action.taken.OIPM != "Pending Investigation") %>% group_by(Action.taken.OIPM, Allegation.simple)
 discipline.count.by.allegation <- summarize(discipline.by.allegation, num.allegations = n())
 
 p.discipline.by.allegation <- plot_ly(discipline.count.by.allegation, 

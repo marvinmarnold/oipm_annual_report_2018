@@ -20,6 +20,9 @@ const ForcePage = () => (
 			<Nav className="mt-4" vertical>
 				<NavItem>
 					<NavLink href="#force-introduction-section" className="text-white">Introduction &amp; terms</NavLink>
+				</NavItem>	
+				<NavItem>
+					<NavLink href="#force-city-section" className="text-white">Comparison to Other Cities</NavLink>
 				</NavItem>
 				<NavItem>
 					<NavLink href="#force-time-section" className="text-white">Force over time</NavLink>

@@ -67,6 +67,7 @@ const ForceIntroductionSection = () => (
 		</Row>
 		<Row>
 			<Col>
+				<h5 className="text-center">FIGURE 1: NOPD FORCE (UOF) COMPARED TO OTHER CITIES</h5>
 				<p>
 					Every police department in USA has different policies about the use of force. Each
 					department also has different tools, such as body-worn cameras, which can be used to

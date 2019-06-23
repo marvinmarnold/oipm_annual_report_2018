@@ -80,7 +80,7 @@ class IndexPage extends React.Component {
 					</DropdownMenu>
 				</ButtonDropdown>
 
-				<Button className="my-2" size="lg" disabled>Download full report (coming soon)</Button>
+				<Button className="my-2" size="lg" color="success"><a href="https://nolaipm.gov/annual-reports/">Download full report</a></Button>
 			</div>
 		)
 	}
@@ -180,7 +180,7 @@ class IndexPage extends React.Component {
 					</DropdownMenu>
 				</ButtonDropdown>
 
-				<Button className="my-2" size="lg" color="link" disabled>Download full report (coming soon)</Button>
+				<Button className="my-2" size="lg" color="success"><a href="https://nolaipm.gov/annual-reports/">Download full report</a></Button>
 			</div>
 		)
 	}

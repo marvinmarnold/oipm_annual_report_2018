@@ -15,65 +15,66 @@ class PublicDemographicsSection extends React.Component {
 		super()
 	}
 
-	renderUofByTypeSexRace() {
-		return (
-			<div>
-				<Row>
-					<Col>
-						<h4>Type of force by individual race and gender</h4>
-
-						<ul>
-							<li>Both Black women and Black men experience the highest levels of most types of UOF. The Journal of Ethics recently reported that Black women are perceived to experience pain at a lesser rate than White women. Is it then possible that Black women are experiencing more UOF than White women because officers believe that Black women will not experience as much pain?</li>
-							<li>While only Black females were subjected to baton/pr-24 (strikes), defense tech/take-down, L2-taser, and take-down (w/ injury), only white females had canine (no bite) UOF.</li>
-							<li>While white males made up all L4-taser UOF, while Black males experienced nearly all other UOF at the highest rates.</li>
-							<li>Therefore, UOF by type and race is alarmingly similar to 2017, however firearm exhibition has decreased significantly overall.</li>
-							<li>This is consistent with findings in other police departments—that Black men disproportionately experience UOF <a href="#ref-16-uof-black">[16]</a>. Moreover, 2017 studies from the American Psychological Association showed that Black men are perceived as more threatening than White men of similar size. The disparities in policing in gender and race could be due to the implicit bias of officers, ensuring that Black men are most negatively impacted.</li>
-						</ul>
-
-							<p id="ref-16-uof-black">[16] - Chicago Police Department, <a href="https://home.chicagopolice.org/wp-content/uploads/2019/03/Chicago-Police-Department-Annual-Report-2017.pdf">Annual, p. 104</a>, accessed April 9, 2019.</p>
-					</Col>
-				</Row>
-				<Row>
-					<Col>
-						<h6>Force against female individuals</h6>
-						<UofByPublicFemaleTypeRacePlot />
-					</Col>
-					<Col>
-						<h6>Force against male individuals</h6>
-						<UofByPublicMaleTypeRacePlot />
-					</Col>
-				</Row>
-			</div>
-		)
-	}
-
 	renderUofBySexRace() {
 		return (
 			<div className="my-3">
 				<Row>
 					<Col>
-						<h4>Force (UOF) by gender and race of community member</h4>
+						<h4>Use of Force by Individual Gender and Race</h4>
+						<UofByPublicSexRacePlot />
 
 					</Col>
 				</Row>
-				<Row>
-					<Col>
-						<ul>
-							<li>Black men were approximately 6 times more likely to have UOF used against them than all other males.</li>
-							 <li>Black females were 4 times more likely to have force useg against them than all other women.</li>
-							<li>For the second year in a row, white females were more likely to experience UOF than white males.</li>
-						</ul>
-					</Col>
-					<Col>
-						<UofByPublicSexRacePlot />
-					</Col>
-				</Row>
+
 				<Row>
 					<Col>
 						<UofByPublicFemaleRacePlot />
 					</Col>
 					<Col>
 						<UofByPublicMaleRacePlot />
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<ul>
+							<li>Black men were approximately 6 times more likely to have UOF used against them than all other males.</li>
+							 <li>Black females had 4 times more force used against them than all other women
+combined.</li>
+						</ul>
+					</Col>
+				</Row>
+			</div>
+		)
+	}
+
+	renderUofByTypeSexRace() {
+		return (
+			<div>
+				<Row>
+					<Col>
+						<h6>Female Individual UOF by Type and Race</h6>
+						<UofByPublicFemaleTypeRacePlot />
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<h6>Male Individual UOF by Type and Race</h6>
+						<UofByPublicMaleTypeRacePlot />
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<h4>Use of Force by Individual Gender and Race</h4>
+
+						<ul>
+							<li>Baton/pr-24 (strikes), defense tech/take-down, L2-taser, and take-down (w/
+injury) were used exclusively on black females. Canine (no bite) was used
+exclusively on white women.</li>
+							<li>While white males made up all L4-taser UOF, black males experienced nearly all
+other UOF at the highest rates across all force levels.</li>
+							<li>Therefore, UOF by type and race is strikingly similar to 2017, however firearm
+exhibition has decreased significantly overall.</li>
+						</ul>
 					</Col>
 				</Row>
 			</div>
@@ -85,21 +86,59 @@ class PublicDemographicsSection extends React.Component {
 			<div className="my-3">
 				<Row>
 					<Col>
-						<h4>Disparities in the policing of black people</h4>
-						<p>Stops & searches, as well as UOF, disproportionately negatively impact Black people. Other departments analyzed, such as the Metropolitan Police Department (Washington DC) and Chicago Police Department, suggest that increased community policing and increased and improved officer training could begin to remedy disparities in the policing of Black people <a href="#ref-18-black">[18]</a>. Further, implicit bias and anti-oppression trainings are two concrete steps toward addressing the over-policing of Black people in New Orleans. </p>
+						<h4>Varying Details About Force Used on Individuals</h4>
 
-					<p id="ref-18-black">[4] - Boulder Police Department, <a href="https://www-static.bouldercolorado.gov/docs/Professional_standards_report_Final3-26-1-201903261155.pdf">Professional Standards Report, p. 2</a>, accessed April 9, 2019.</p>
+						<p>In the following sections, we highlight the amount of force used against black people in
+New Orleans. Much of our analysis shows that black people (excluding other people of
+color) in New Orleans experience, by a large margin, the majority of force used by the
+NOPD. Therefore, it is clearest to present findings in only two race-based categories:
+black people, and non-black people (Native American, White, Hispanic, Asian, and all
+other races) than it would be to give data for each individual race.</p>
+
+						<p>It should be noted that black people + non-black people is always equal to 100%. When
+reading a graph that shows what percentage of force is used against black people, the
+reader may calculate the amount of force used against non-black people by subtracting
+from 100%.</p>
 					</Col>
 				</Row>
 				<Row>
 					<Col>
-						<h6>Race disparities by month</h6>
+						<h6>RACE OF INDIVIDUAL BY MONTH</h6>
 						<BlackDisparitiesByMonthPlot />
+						<h5 className="text-center">FIGURE 27: UOF AGAINST BLACK PEOPLE</h5>
+
 					</Col>
+				</Row>
+				<Row>
 					<Col>
 						<h6>Race disparities by district</h6>
 						<p>Note: Currently missing OPSO data required to show arrests.</p>
 						<BlackDisparitiesByDistrictPlot />
+						<ul>
+							<li>Stops & searches, as well as UOF, disproportionately negatively impact Black
+people. Other departments analyzed, such as the Metropolitan Police Department
+(Washington DC) and Chicago Police Department, suggest that increased
+community policing and increased and improved officer training could begin to
+remedy disparities in the policing of Black people.</li>
+							<li>These results are consistent with 2017 where force is used disproportionately
+against Black people in nearly every month and district.</li>
+						</ul>
+
+						<strong><u>Recommendation</u></strong>
+						<p>OIPM recommends that NOPD train all police officers on implicit bias and anti-
+oppression. That would be two concrete steps toward addressing the over-policing of
+Black people in New Orleans.</p>
+
+						<strong><u>NOPD Response to the Recommendation</u></strong>
+						<p>NOPD officers receive a minimum of four hours of training annually on bias-free
+policing, which includes implicit bias. Principles of community-oriented policing are
+infused throughout courses in both the Academy and officers’ required annual Core In-
+Service training.</p>
+						<p>OIPM is pleased to report on the training that is already in place at NOPD. However,
+because the training does not appear to have the anti-oppression component that OIPM
+is recommending, OIPM will attend the current training to see if there are any further
+recommendations that can be made. OIPM will report out on its findings in its 2019
+Annual Report or sooner.</p>
 					</Col>
 				</Row>
 			</div>
@@ -110,12 +149,33 @@ class PublicDemographicsSection extends React.Component {
 		return (
 			<div>
 				<Row>
-						<Col><h2 id="force-public-demographics-section">Demographics of public</h2></Col>
+					<Col><h2 id="force-public-demographics-section">Section VIII: INDIVIDUALS SUBJECTED TO NOPD FORCE</h2></Col>
 				</Row>
 
 				{this.renderUofBySexRace()}
 				{this.renderUofByTypeSexRace()}
 				{this.renderBlackDisparities()}
+
+<Row>
+					<Col><h2 id="force-public-demographics-section">Section IX: Research Based Areas For Future Analysis</h2>
+
+					<p>For at least two years (2017 and 2018) OIPM has raised concerns about NOPD
+use of force policing patterns regarding African American civilians in New
+Orleans. Currently both African American women and African American men
+experience the highest levels of most types of UOF. In next year’s report, we
+hope to investigate and explore the reasons for these trends.</p>
+
+<strong><u>Recommendation</u></strong>
+						<p>OIPM recommends that NOPD’s Pubic Integrity Bureau and Professional Standards &
+Accountability Bureau work with OIPM to develop a methodology for researching this
+area. OIPM also suggests that both agencies work together to figure out potential
+outside partner agencies that have an expertise in this area to work with NOPD and
+OIPM to get maximum and dully understand the results from this process. OIPM
+recommends that a joint report between OIPM and NOPD be released by the end of
+2019 and/or by the time of the OIPM 2019 Annual Report that documents the findings
+of the research.</p>
+				</Col></Row>
+
 			</div>
 		)
 	}

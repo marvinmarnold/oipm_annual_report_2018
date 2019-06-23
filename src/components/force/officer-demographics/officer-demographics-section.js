@@ -19,21 +19,22 @@ class OfficerDemographicsSection extends React.Component {
 			<div className="my-3">
 				<Row>
 					<Col>
-						<h4>Force (UOF) by officer age and years of experience</h4>
-
-					</Col>
-				</Row>
-				<Row>
-					<Col className="col-5">
-						<ul>
-							<li>Use of force varies greatly by age group. Officers ages 26-35 account for more UOF that all other groups combined but are only 24% of officers. Within the 26-30 and 31-35 groups, officers with less than 5 years experience are most likely to perpetrate UOF.</li>
-							<li>The oldest (51&lt;) NOPD officers are least likely to use UOF. They account for over 30% of officers but are the second least forceful group.</li>
-							<li>Although the youngest officers have a low number of force incidents in absolute terms, they only comprise 4% of officers. Relative to the number of officers, the youngest officers do use a disproportionate amount of force.</li>
-							<li>Starting around age 30, many officers with more than 5 years of experience use force at non-negligible rates.</li>
+						<h4>Use of Force by Officer Age and Years of Experience</h4>
+				<UofByOfficerAgeExpPlot />
+						<h5 className="text-center">FIGURE 23: UOF BY OFFICER AGE &amp; YEARS OF EXPERINCE</h5>
+<ul>
+							<li>Use of force varies greatly by age group. Officers ages 26-35 account for more
+UOF than all other groups combined but are only about 24% of officers. Within
+the 26-30 and 31-35 groups, officers with less than 5 years of experience are most
+likely to use force.</li>
+							<li>The oldest (51 or older) NOPD officers are least likely to use UOF. They account
+for over 30% of officers but have the second fewest force incidents.</li>
+							<li>The youngest officers account for just under 9% of all UOF but they comprise 4%
+of officers. Relative to the number of officers, the youngest officers do use a
+disproportionate amount of force.</li>
+							<li>Starting around age 30, many officers with more than 5 years of experience use
+force at non-negligible rates.</li>
 						</ul>
-					</Col>
-					<Col className="col-7">
-						<UofByOfficerAgeExpPlot />
 					</Col>
 				</Row>
 			</div>
@@ -45,33 +46,47 @@ class OfficerDemographicsSection extends React.Component {
 			<div className="my-3">
 				<Row>
 					<Col>
-						<h4>Force (UOF) by officer gender and race</h4>
-
+						<h4>Type of Force by Officer Gender and Race</h4>
+<UofByOfficerSexRacePlot />
+						<h5 className="text-center">FIGURE 24: TYPE OF FORCE BY OFFICER GENDER AND RACE</h5>
+						<ul>
+							<li>There are approximately 3.5 times more male officers than females. But male
+officers account for about 9.5 times the amount of force as female officers.</li>
+							<li>In 2018, white male officers account for 15 more UOF than all other officers
+combined, though they make up less than 50% of NOPD. These statistics are
+nearly identical to 2017’s data.</li>
+						</ul>
+		
 					</Col>
 				</Row>
+
 				<Row>
 					<Col>
+						<h6>Use of Force by Female Officer Race</h6>
+						<UofByOfficerFemaleRacePlot />
+						<h5 className="text-center">FIGURE 25: UOF BY TYPE FOR FEMALE OFFICERS</h5>
 						<ul>
-							<li>There are 3.5X more male officers than females. But male officers account for 9.5X the amount of force as female officers.</li>
-							<li>There is about the same number of black male and white male officer. White males use 1.5X the force as black males. On trend with other departments, white male officers are more likely to engage in UOF, particularly regarding Black male subjects <a href="#ref-17-white">[17]</a>.</li>
-							<li>In 2018, white male officers account for 15 more UOF than all other officers combined, though they make up less than 50% of NOPD. These statistics are nearly identical to 2017’s data.</li>
-							<li>Black female officers used slightly more force than white female officers. But there are substantially more black female officers than white female officers so their use of force is proportional.</li>
+							<li>Black female officers used slightly more force than white female officers. Because
+there are more black female officers than white female officers, their use of force
+is proportional.</li>
+							<li>Female officers are responsible for approximately 10% of all use of force.</li>
 						</ul>
 
-						<p id="ref-17-white">[16] - Chicago Police Department, <a href="https://home.chicagopolice.org/wp-content/uploads/2019/03/Chicago-Police-Department-Annual-Report-2017.pdf">Annual, p. 104</a>, accessed April 9, 2019.</p>
 					</Col>
-					<Col>
-						<UofByOfficerSexRacePlot />
-					</Col>
+
 				</Row>
+
 				<Row>
+
 					<Col>
-						<h6>Female officers</h6>
-						<UofByOfficerFemaleRacePlot />
-					</Col>
-					<Col>
-						<h6>Male officers</h6>
+						<h6>Use of Force by Male Officer Race</h6>
 						<UofByOfficerMaleRacePlot />
+						<h5 className="text-center">FIGURE 26: UOF BY TYPE FOR MALE OFFICERS</h5>
+						<ul>
+							<li>Male officers are responsible for approximately 90% of force.</li>
+							<li>There are 450 white male officers and 481 black male officers.</li>
+							<li>White male officers use 1.5 times the force of black male officers.</li>
+						</ul>
 					</Col>
 				</Row>
 			</div>
@@ -111,12 +126,11 @@ class OfficerDemographicsSection extends React.Component {
 		return (
 			<div>
 				<Row>
-						<Col><h2 id="force-officer-demographics-section">Force by officer demographics</h2></Col>
+						<Col><h2 id="force-officer-demographics-section">SECTION VII: GROUPING OF NOPD OFFICERS</h2></Col>
 				</Row>
 
 				{this.renderUofByOfficerAgeExp()}
 				{this.renderUofBySexRace()}
-				{this.renderUofByTypeSexRace()}
 			</div>
 		)
 	}

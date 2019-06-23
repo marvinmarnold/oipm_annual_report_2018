@@ -51,9 +51,10 @@ class IndexPage extends React.Component {
 						<Container>
 								<Row className="text-center">
 									<Col className="mt-4">
+										<h1 className="my-5">2018 Annual Report</h1>
+									
 										<h2 className="my-3 text-white">New Orleans</h2>
 										<h2 className="my-3 text-white">Office of the Independent Police Monitor</h2>
-										<h1 className="my-5">2018 Annual Report</h1>
 
 										{this.renderNavigationButtons()}
 									</Col>

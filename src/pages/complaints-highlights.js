@@ -79,18 +79,26 @@ class ComplaintsHighlightsPage extends React.Component {
 				<Row>
 					<Col>
 						<h4>Complaints &amp; Allegations by Year</h4>
-						<p>Complaints and allegations both appeared to have a slight decrease in 2018 compared with 2017. This appears to be on trend with other United States police departments of similar size, which are experiencing stagnation in complaints or decreases <a href="#ref-1-boulder">[1]</a>. Given that complaint decreases are taking place in metropolitan police departments across the U.S., this may indicate a universal reform in policing over the past few years.</p>
+						<p>Complaints appear to have slight decrease in 2018 and 2017 compared with 2016. This appears to be on
+trend with other United States police departments of similar size, which are experiencing stagnation in
+complaints or decreases. Given that complaint decreases are taking place in metropolitan police departments
+across the U.S., this may indicate a universal reform in policing over the past few years.</p>
 					</Col>
 				</Row>
 				<Row>
-					<Col md="6">
-						<h6>Complaints by Year</h6>
+					<Col>
+						<h5 className="text-center">FIGURE 2: COMPLAINTS BY YEAR</h5>
+
 						<ComplaintsByYearTypePlot />
 					</Col>
-					<Col md="6">
-						<h6>Allegations by Year</h6>
+				</Row>
+				<Row>
+					<Col>
+						<h5 className="text-center">FIGURE 3: ALLEGATIONS BY YEAR</h5>
 						<AllegationsByYearTypePlot />
+
 					</Col>
+
 				</Row>
 			</div>
 		)
@@ -101,38 +109,52 @@ class ComplaintsHighlightsPage extends React.Component {
 			<div id="allegations-outcomes">
 				<Row>
 					<Col>
-						<h4>Allegation Analysis</h4>
 					</Col>
 				</Row>
 				<Row>
 					<Col>
-						<h6>Most common allegations</h6>
-						<p>
-							According to NOPD data, the two most common complaint allegations in 2018, representing roughly 75% of all allegations, were: “neglect of duty,” and “professionalism”. Similar to findings analyzed of other departments, complaints tend to originate from civilian interactions <a href="#ref-2-common">[2]</a>.
-						</p>
-						<p>
-							Complaint allegations have shifted slightly from 2017. While “neglect of duty” and “professionalism” remained the most common allegations, the third most common switched from “instructions from an authoritative source” in 2017 to “adherence to law” in 2018. While there was not a significant percentage change in “adherence to law” allegations between 2017 and 2018, “instructions from an authoritative source” allegations decreased by almost sixty (60) instances, or over 3%.
-						</p>
-					</Col>
-				</Row>
-				<Row>
-					<Col>
+						<h5 className="text-center">FIGURE 4: MOST COMMON ALLEGATIONS</h5>
 						<AllegationsMostCommonPlot />
+						<h4>Allegation Analysis</h4>
+						<p>Allegations are different from complaints. Within one complaint may be multiple allegations of misconduct.
+According to NOPD data, the two most common complaint allegations in 2018, representing roughly 75% of
+all allegations, were: “neglect of duty,” and “professionalism”. Similar to findings analyzed of other
+departments, complaints tend to originate from civilian interactions.</p>
+						<p>The dispositions of the complaints filed in 2018 are illustrated in the figure 4: “Most Common Allegations.”
+This figure illustrates that the most common allegation of “Neglect of Duty” is also the allegation most
+frequently marked “sustained”. This is consistent with 2017 findings.</p>
+						<p>Complaint allegations have shifted slightly from 2017. While “neglect of duty” and “professionalism”
+remained the most common allegations, the third most common switched from “instructions from an
+authoritative source” in 2017 to “adherence to law” in 2018. While there was not a significant percentage
+change in “adherence to law” allegations between 2017 and 2018, “instructions from an authoritative source”
+allegations decreased by almost sixty (60) allegations, or over 3%.</p>
+						<p>There was a disciplinary matrix change implemented in March of 2018, as a result, there was a policy shift to
+more accurately determine the appropriate charge between neglect of duty and instructions from an
+authoritative source. This resulted in a change in PIB practice resulting in more charges of neglect of duty in
+2018.</p>
 					</Col>
 				</Row>
+
 				<Row>
 					<Col>
-						<h6>NOPD Allegation Findings</h6>
-						<p>The dispositions of the complaints filed in 2018 are illustrated in the figure “Individual Allegations by Outcome.”  This figure illustrates that the most common allegation of “Neglect of Duty” is also the allegation most frequently marked “sustained”. This is consistent with 2017 findings.</p>
+						<h5 className="text-center">FIGURE 5: NOPD ALLEGATION FINDINGS</h5>
 						<AllegationsByFindingPlot />
-
-						<h6>Most Sustained Allegations</h6>
 						<p>In 2018, the most common sustained allegation is “neglect of duty” at 52%, mostly unchanged since 2017.</p>
 
+						<h5 className="text-center">FIGURE 6: MOST SUSTAINED ALLEGATIONS</h5>
 						<AllegationsSustainedMostCommonPlot />
+						<p>These totals are based on sustained allegations only.</p>
 
-						<p>This classification of each allegation is complimentary to and consistent with the Public vs Rank Initiated classification that each allegation also receives. 55.5% of allegations come from community members while 62% of allegations are Public Initiated.</p>
+						<h5 className="text-center">FIGURE 7: ALLEGATIONS BY SOURCE</h5>
 						<AllegationsBySourcePlot />
+						<p>This classification of each allegation is complimentary to and consistent with the Public vs Rank Initiated
+classification that each allegation also receives. In 2018, 62% of allegations are classified as the public
+initiated. Of the 62% of allegations made by the public, approximately 55.5% of those allegations were
+classified as initiated by a civilian, which means a member of the public was the source of the complaint and
+a member of the public submitted a complaint in person to a NOPD employee. Moving forward, the OIPM
+and the NOPD is going to examine this public initiated category (type) to better identify the source of the
+complaint. The goal is to better differentiate the data from website complaints, OIPM referrals, and civilian
+complaints to confidently determine in the data what is coming from a public source.</p>
 					</Col>
 				</Row>
 
@@ -145,48 +167,43 @@ class ComplaintsHighlightsPage extends React.Component {
 			<div id="complaints-outcomes">
 				<Row>
 					<Col>
-						<h4>Complaint Analysis</h4>
-					</Col>
-				</Row>
-				<Row>
-					<Col>
-						<p>The largest grouping was of “sustained” complaints at 29.3%. This is almost the identical rate from 2017.</p>
+						<h5 className="text-center">FIGURE 8: COMPLAINT DISPOSITION BY SOURCE</h5>
 
-						<p>While 14.6% of citizen complaints are sustained (15.6% in 2017), 53.7% of rank complaints are sustained (50.7% in 2017), more than three times the percentage of citizen complaints.</p>
-
-						<p>In New Orleans, the public initiates roughly 1.5 times the number of complaints than does rank. In police departments across the US, citizen complaints often represent the majority of complaints but are the least often sustained <a href="#ref-3-sustained">[3]</a>. There are different conclusions that can be drawn from this trend.  Rank initiated complaints may orientate from a civilian interaction or an interaction within the NOPD between officers or employees.  At this time, the data does not differentiate whether the rank initiated a complaint for a civilian interaction or an interaction within the NOPD.</p>
-					</Col>
-				</Row>
-				<Row>
-					<Col sm="12" md="6">
-						<h6>All Complaints by Outcome</h6>
-						<ComplaintsByDispositionPlot />
-					</Col>
-					<Col sm="12" md="6">
-						<h6>Rank Complaints by Outcome</h6>
-						<ComplaintsByRankDispositionPlot />
-					</Col>
-				</Row>
-				<Row>
-					<Col sm="12" md="6">
-						<h6>Public Complaints by Outcome</h6>
-						<ComplaintsByPublicDispositionPlot />
-					</Col>
-					<Col sm="12" md="6">
-						<h6>Public and Rank Complaints by Outcome</h6>
 						<ComplaintsBySourceDispositionPlot />
-					</Col>
-				</Row>
 
-				<Row>
-					<Col>
-						<h6>Complaint Outcomes by Officer Race</h6>
-						<p>According to NOPD data, sustained complaints appear to be consistent with officer race demographics. However, officers classified as African American / Black have a higher rate of participation in mediation.  The, OIPM cannot draw a definitive conclusion from this data but the OIPM questions whether social dynamics are at play between the heavily African American communities that may have a higher police presence and the African American officers responsible for policing that community.  In other words, do African American / Black officers have a greater inclination to reconcile with residents, as they are more likely to come from the same or similar neighborhoods as their complainants?  The OIPM would like to answer that question in future reports.
-						</p>
+						<h4>Complaint Analysis</h4>
+						<p>The largest grouping was of “sustained” complaints at 29.3%. This is almost the identical rate from 2017
+(29.2%).</p>
+						<p>While 14.6% of public complaints are sustained (15.6% in 2017), 53.7% of rank complaints are sustained
+(50.7% in 2017), this is more than three times the rate of public complaints. In New Orleans, the public initiates roughly 1.7 times the number of complaints than does rank. In police departments across the US,
+public complaints often represent the majority of complaints but are the least often sustained.</p>
+						<p>There are different conclusions that can be drawn from this trend. A rank-initiated complaint may and often
+does originate from misconduct observed by a supervisor during a public interaction. At this time, the data
+does not capture when a rank-initiated complaint originates from an observed act of misconduct during an
+interaction with a member of the public.</p>
+						<p>There is an argument that the number of sustained rank-initiated complaints is growing because there is an
+increase of supervisor-based accountability. This means that rank is required under the Federal Consent
+Decree to review officer action within the community, identify misconduct in those interactions, and then
+initiate discipline against officers. When rank-initiates a complaint, limited investigation is required because
+a supervisor observed the misconduct as it occurred or during his or her review the officer’s Body Worn
+Camera.</p>
+						<h5 className="text-center">FIGURE 9: ALL COMPLAINTS BY OUTCOME</h5>
+						<ComplaintsByDispositionPlot />
+
+						<h5 className="text-center">FIGURE 10: RANK COMPLAINTS BY OUTCOME</h5>
+						<ComplaintsByRankDispositionPlot />
+
+						<h5 className="text-center">FIGURE 11: PUBLIC COMPLAINTS BY OUTCOME</h5>
+						<ComplaintsByPublicDispositionPlot />
+
+						<h5 className="text-center">FIGURE 12: COMPLAINT OUTCOMES BY OFFICER RACE</h5>
 						<ComplaintsByOfficerRaceDispositionPlot />
+						<p>According to NOPD data (please refer to annual-report-2018.nola.ipm.gov), sustained complaints appear to
+be consistent with officer race demographics. Officers classified as African American / Black have a higher
+rate of participation in mediation. The OIPM cannot draw a definitive conclusion from this data but the
+OIPM and NOPD would like to explore this trend in future reports.</p>
 					</Col>
 				</Row>
-
 			</div>
 		)
 	}
@@ -196,22 +213,22 @@ class ComplaintsHighlightsPage extends React.Component {
 			<div id="complaints-fourth">
 				<Row>
 					<Col>
-						<h4>4th Amendment Complaints</h4>
-						<p>Search and seizure and handcuffing and restraint were the two high risk allegations that composed Fourth Amendment complaints or allegations. According to NOPD data, illegal search and seizure was more prevalent this year at 60% of Fourth Amendment allegations. There were 10 total Fourth Amendment sustained complaints or allegations in 2018. This is an improvement from 2017, where there were 45 total sustained complaints or allegations. While New Orleans is improving, and doing better than some other major police departments, like Chicago who experienced an increase, ideally there should be no Fourth Amendment allegations at this phase of the Consent Decree monitoring.</p>
-
-						<p>Furthermore, NOPD’s data does not make is easy to identify possible 4th Amendment related complaints. OIPM is not confident that this apparent decrease reflects a true change in 4th Amendment complaints.</p>
-
-						<p>The outcomes of Fourth Amendment allegations were relatively similar for both search and seizure and handcuffing and restraint. In both instances, the number of sustained complaints matches that of those exonerated. This is a slight deviation from 2017, when exonerations were nearly twice as likely as sustentions. These findings may indicate a greater accountability mechanism in the department.</p>
-					</Col>
-				</Row>
-				<Row>
-					<Col md="6">
-						<h6>Types of 4th Amendment Complaints</h6>
+						<h5 className="text-center">FIGURE 13: FOURTH AMENDMENT COMPLAINTS</h5>
 						<AllegationsFourthByDescriptionPlot />
-					</Col>
-					<Col md="6">
-						<h6>Outcome of 4th Amendment Complaints</h6>
+
+						<h5 className="text-center">FIGURE 14: FOURTH AMENDMENT ALLEGATIONS BY OUTCOME</h5>
 						<AllegationsFourthByDescriptionFindingPlot />
+
+						<p>Search and seizure and handcuffing and restraint were the two high risk allegations that composed Fourth
+Amendment allegations. According to NOPD data, illegal search and seizure was more prevalent than
+handcuffing and restraints in 2018 at 85.4% of allegations. There were 29 total Fourth Amendment sustained
+allegations in 2018.</p>
+						<p>Furthermore, NOPD’s data does not make is easy to identify possible 4 th Amendment related allegations.
+Moving forward, NOPD and OIPM will work on this issue together.</p>
+						<p>The outcomes of Fourth Amendment allegations were relatively similar for both search and seizure and
+handcuffing and restraint. In both instances, the number of sustained allegations matches that of those
+exonerated. This is a slight deviation from 2017, when exonerations were nearly twice as likely as sustained
+allegations. These findings may indicate a greater accountability mechanism in the department.</p>
 					</Col>
 				</Row>
 			</div>
@@ -224,14 +241,15 @@ class ComplaintsHighlightsPage extends React.Component {
 			<div id="complaints-anonymous">
 				<Row>
 					<Col>
-						<h4>Anonymous Complaints</h4>
-						<p>Of the three anonymous complaints in 2018, two remain pending; the third was found to have “no formal investigation merited.” These findings are similar to those from 2017, where only 1 of 10 anonymous complaints was sustained.</p>
-						<p>Similar to 4th Amendment complaints, there is no clear way to use NOPD’s data to identify anonymous complaints. The results may not reflect the actual number of anonymous complaints.</p>
-					</Col>
-				</Row>
-				<Row>
-					<Col lg={{size: 6, offset: 3}} md={{size: 8, offset: 2}} sm={{size: 10, offset: 1}}>
+						<h5 className="text-center">FIGURE 15: ANONYMOUS COMPLAINTS</h5>
 						<ComplaintsByAnonymousPlot />
+						<p>This chart of anonymous complaints captures when the complainant chooses not to give his or her name. Of
+the three anonymous complaints in 2018, two remain pending; the third was found to have No Formal
+Investigation Merited (NFIM). These findings are similar to those from 2017, where only 1 of 10
+anonymous complaints was sustained.</p>
+						<p>Similar to 4 th Amendment complaints, there is no clear way to use NOPD’s data to identify anonymous
+complaints from nameless complainants in the data. The results may not reflect the actual number of
+anonymous complaints.</p>
 					</Col>
 				</Row>
 			</div>
@@ -243,66 +261,71 @@ class ComplaintsHighlightsPage extends React.Component {
 			<div id="complaints-anonymous">
 				<Row>
 					<Col>
-						<h4>Discipline</h4>
-						<p>There were roughly 20 types of disciplinary infractions alleged of NOPD officers in 2018. The top three were “neglect of duty,” “instructions from an authoritative source,” and “professionalism.” This remains in keeping with trends from 2017.  In 2018, the most common forms of discipline were “letter of reprimand” and “suspension.”  However, in 2017 the most common forms of discipline were “suspension” and “D1-2.”</p>
+						<h4>Discipline Data</h4>
+						<p>In 2018, there were roughly 20 types of allegations alleged against NOPD employees. The top three were
+“neglect of duty,” “instructions from an authoritative source,” and “professionalism.” This remains in step
+with trends from 2017. In 2018, the most common outcomes were letter of reprimand and suspension. In
+2017 the most common outcomes were DI-2 and suspensions.</p>
 					</Col>
 				</Row>
 				<Row>
-					<Col md="6">
-						<h6>Disciplinary Action Taken</h6>
-						<DisciplineByActionTakenPlot />
-					</Col>
-					<Col md="6">
-						<h6>Discipline Including Sustained, Exonerated, Duplicate, and Others With No Basis for Discipline</h6>
+					<Col>
+						<h5 className="text-center">FIGURE 16: ACTION TAKEN</h5>
 						<DisciplineByActionTakenAllPlot />
-					</Col>
-				</Row>
-				<Row>
-					<Col md="6">
-						<h6>Action Taken by Complaint</h6>
+						<p>In chart above (Figure 16) are all the outcomes of allegations brought against NOPD employees. Some of
+these outcomes are disciplinary and others, like mediation and Resigned / Retired Under Investigation (RUI),
+are not disciplinary actions. “No basis for discipline” encompasses allegations that are found to be
+unfounded, exonerated, and not sustained. This means the NOPD conducted an investigation and determined
+these allegations were not eligible for disciplinary actions.</p>
+
+						<h5 className="text-center">FIGURE 17: OUTCOMES</h5>
 						<DisciplineByAllegationPlot />
-					</Col>
-				</Row>
-				<Row>
-					<Col md="6">
-						<h6>Discipline by Complainant Gender</h6>
-						<p>Males, females, and people of unknown gender were each the source for about one third of all complaints. Their disciplinary outcomes are similiar except for DI-2, letter of reprimand, and suspension which are disproportionately from complainants of unknown gender.</p>
-					</Col>
-					<Col md="6">
+						<p>This chart (Figure 17) captures the outcomes of disciplinary investigations. Some outcomes are disciplinary
+actions and some are not disciplinary actions, like mediation and Resigned / Retired Under Investigation
+(RUI). This chart differs from Figure 16 because Figure 16 includes all outcomes, even those that had no
+basis for disciplinary action.</p>
+
+						<h5 className="text-center">FIGURE 18: DISCIPLINE BY COMPLAINANT GENDER</h5>
 						<DisciplineByPublicSexPlot />
-					</Col>
-				</Row>
-				<Row>
-					<Col md="6">
-						<h6>Discipline by Officer Gender</h6>
-						<p>Males make up 76% of the police department and are proportionally represented in most types of discipline. This  means that women are also proportionally represented, as there is a negliglible number of complaints concerning an officer with an unknown gender.</p>
-						<p>Male employees appear to be overrepresented in “mediation” and “oral reprimand” discipline outcomes.  At this time, it is difficult to determine if these employees are appearing for first offenses, since many offenses are initially resolved with letters of reprimand or short suspensions according to the Disciplinary Matrix.</p>
-					</Col>
-					<Col md="6">
+						<p>Males, females, and people of unknown gender were proportionally represented as sources of complaints.
+Their disciplinary outcomes are similar except for DI-2, letter of reprimand, and suspension which are
+disproportionately from complainants of unknown gender. Most likely, this is because those outcomes are
+the result of rank-initiated complaints and if rank-initiated, the NOPD database does not capture the rank’s
+gender.</p>
+
+						<h5 className="text-center">FIGURE 19: OUTCOMES BY OFFICER GENDER</h5>
 						<DisciplineByOfficerSexPlot />
-					</Col>
-				</Row>
-				<Row>
-					<Col md="6">
-						<h6>Discipline by Complainant Race</h6>
-						<p>50.1% of complainants are “Black”. This number is low relative to the black population of New Orleans and the higher rates of involvement black people experience with law enforcement. hispanic and asian complainants are least represented  There are 19 hispanic complainants (1.9% of all complaints) but hispanic people are 5% of the population. 2.9% of people in New Orleans are asian but there were no complaints from an asian person. One reason for this pattern is that people of unknown race account for 59% of all complaints.</p>
-						<p>That said, disciplinary actions appear to be applied proportionally, regardless of the race of the complainant. Further analysis is needed to determine if any more nuanced race base trends exist in subcategories of the data.
-						</p>
-					</Col>
-					<Col md="6">
+						<p>Outcomes appear to be proportional to the gender breakdown of the NOPD. Males make up 76% of the
+police department and are proportionally represented in most types of discipline and similarly, female
+employees are also proportionally represented. There is a negligible number of complaints concerning an
+officer with an unknown gender.</p>
+						<p>According to the disciplinary matrix, many first offenses are initially resolved with letter reprimand or short
+suspensions.</p>
+
+						<h5 className="text-center">FIGURE 20: OUTCOME BY COMPLAINANT RACE</h5>
 						<DisciplineByPublicRacePlot />
-					</Col>
-				</Row>
-				<Row>
-					<Col md="6">
-						<h6>Discipline by Officer Race</h6>
-						<p>According to NOPD Data, regardless of race, officers or employees are most likely to receive no disciplinary action.</p>
-						<p>Like other police departments analyzed, employee race generally corresponds with department demographics. However, all officers receiving a demotion as a form of discipline were African American / Black officers. Black officers or employees are also disproportionately likely to be dismissed. At this time, it is difficult to determine the cause of this pattern within the NOPD data.  OIPM would also like to continue to examine this trend with the NOPD in the coming year.</p>
-					</Col>
-					<Col md="6">
+						<p>50.1% of complainants are categorized as Black / African American. This number is low relative to the
+Black / African American population of New Orleans and the higher rates of involvement Black / African
+American people experience with law enforcement. Hispanic and Asian complainants are least represented.
+There are 19 Hispanic complainants (1.9% of all complaints) categorizations but Hispanic people are 5% of
+the population. 2.9% of people in New Orleans are Asian but there were no complaints categorized as from
+an Asian complainant. One reason for this pattern is that people of unknown race account for 59% of all
+complaints.</p>
+						<p>That said, disciplinary actions appear to be applied proportionally, regardless of the race of the complainant.
+Further analysis is needed to determine if any more nuanced race base trends exist in subcategories of the
+data.</p>
+
+						<h5 className="text-center">FIGURE 21: DISCIPLINE BY OFFICER RACE</h5>
 						<DisciplineByOfficerRacePlot />
+						<p>Like other police departments analyzed, employee race generally corresponds with department
+demographics. However, all officers receiving a demotion as a form of discipline were Black / African
+American officers. Black / African American officers or employees are also disproportionately likely to be
+dismissed. At this time, it is difficult to determine the cause of this pattern or if there is a pattern within the
+NOPD data. OIPM would also like to continue to examine this trend with the NOPD in the coming year.</p>
 					</Col>
+
 				</Row>
+
 			</div>
 		)
 	}
@@ -316,8 +339,10 @@ class ComplaintsHighlightsPage extends React.Component {
 					<div>
 						<Row>
 							<Col>
-								<h1 className="mt-5 text-center">Complaints &amp; Misconduct</h1>
-								<h2 className="mb-5 text-center">Annual Report Narrative</h2>
+								<h1 className="mt-5 text-center">2018 Annual Report</h1>
+								<h2 className="mb-5 text-center">Complaints,
+Commendations &amp;
+Disciplinary Proceedings</h2>
 							</Col>
 						</Row>
 
@@ -327,7 +352,6 @@ class ComplaintsHighlightsPage extends React.Component {
 						{this.renderFourth()}
 						{this.renderAnonymous()}
 						{this.renderDiscipline()}
-						<ComplaintsHighlightsBib />
 					</div>
 				}
 			/>

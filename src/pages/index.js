@@ -80,7 +80,7 @@ class IndexPage extends React.Component {
 					</DropdownMenu>
 				</ButtonDropdown>
 
-				<Button className="my-2" size="lg" color="success"><a href="https://nolaipm.gov/annual-reports/">Download full report</a></Button>
+				<Button className="my-2" size="lg" color="success"><a href="https://nolaipm.gov/annual-reports/" className="text-white">Download full report</a></Button>
 			</div>
 		)
 	}
@@ -89,7 +89,7 @@ class IndexPage extends React.Component {
 		return (
 			<Container id="report-intro">
 				<Row className="mt-5 text-center">
-					<Col><h3>REPORT HIGHLIGHTS</h3></Col>
+					<Col><h3>NUMBERS AT A GLANCE</h3></Col>
 				</Row>
 			</Container>
 		)
@@ -166,7 +166,7 @@ class IndexPage extends React.Component {
 
 	renderNavigationButtonsPop() {
 		return (
-			<div className="my-5">
+			<div className="mb-5">
 				<ButtonDropdown className="my-2" isOpen={this.state.dropdownOpen} toggle={this.toggle}>
 					<DropdownToggle caret size="lg" className="mx-2" color="primary">
 						Jump to section
@@ -180,7 +180,7 @@ class IndexPage extends React.Component {
 					</DropdownMenu>
 				</ButtonDropdown>
 
-				<Button className="my-2" size="lg" color="success"><a href="https://nolaipm.gov/annual-reports/">Download full report</a></Button>
+				<Button className="my-2" size="lg" color="success"><a href="https://nolaipm.gov/annual-reports/" className="text-white">Download full report</a></Button>
 			</div>
 		)
 	}
@@ -191,7 +191,7 @@ class IndexPage extends React.Component {
 
 				<Row className="mt-5 text-center">
 					<Col>
-						<h2>LEARN MORE</h2>
+						<h2>CONTINUE READING</h2>
 						{this.renderNavigationButtonsPop()}
 				</Col>
 				</Row>

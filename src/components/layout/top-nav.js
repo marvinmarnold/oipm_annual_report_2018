@@ -52,19 +52,9 @@ export default class TopNav extends React.Component {
 								<NavLink href={this.withPrefix("/force")}>Use of Force</NavLink>
 							</NavItem>
 
-							<UncontrolledDropdown nav inNavbar>
-								<DropdownToggle nav caret>
-									Complaints &amp; Misconduct
-								</DropdownToggle>
-								<DropdownMenu right>
-									<DropdownItem>
-										<a href={this.withPrefix("/complaints-highlights")}>Annual Report Narrative</a>
-									</DropdownItem>
-									<DropdownItem>
-										<a href={this.withPrefix("/complaints")}>Raw Data Analysis</a>
-									</DropdownItem>
-								</DropdownMenu>
-							</UncontrolledDropdown>
+              <NavItem>
+                <NavLink href={this.withPrefix("/complaints-highlights")}>Complaints &amp; Misconduct</NavLink>
+              </NavItem>
 
 							<NavItem>
                 <NavLink href={this.withPrefix("/mediation")}>Mediation</NavLink>

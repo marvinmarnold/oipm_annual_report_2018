@@ -4,11 +4,11 @@ import { Container, Row, Col, Nav, NavItem, NavLink, Button } from 'reactstrap';
 // Components
 import Page from "../components/layout/page"
 import SEO from "../components/layout/seo"
-import ForceIntroductionSection from '../components/force/force-introduction-section'
+import PublicDemographicsSection from '../components/force/public-demographics/public-demographics-section'
 
 const ForcePage = () => (
 	<Page
-		title={"UOF Intro - 2018 OIPM Annual Report"}
+		title={"UOF by Individual Details - 2018 OIPM Annual Report"}
 		nav={
 			<Nav className="mt-4" vertical>
 				<NavItem>
@@ -49,13 +49,17 @@ const ForcePage = () => (
 					</Col>
 				</Row>
 
-				<ForceIntroductionSection />
+				<PublicDemographicsSection />
 
 				<Row className="text-center">
 					<Col className="py-5">
-						<Button size="lg" color="success"><a href="/force-time" className="text-white">Next: Force over time ></a></Button>
+						<Button size="lg" color="secondary" className="mx-3"><a href="/force-officer" className="text-white">&lt; Previous: Force by officer details</a></Button>
+						<Button size="lg" color="success"><a href="/force-future" className="text-white">Next: Future analysis ></a></Button>
+
 					</Col>
 				</Row>
+
+
 			</div>
 		}
 	/>

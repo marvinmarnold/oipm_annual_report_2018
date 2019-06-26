@@ -131,7 +131,7 @@ and make necessary adjustments.</p>
 		return (
 			<div>
 				<Row>
-						<Col><h2 id="force-justification-section">SECTION V: JUSTIFICATION FO FORCE</h2></Col>
+						<Col><h2 id="force-justification-section">SECTION V: JUSTIFICATION FOR FORCE</h2></Col>
 				</Row>
 
 				{this.renderUofByReason()}

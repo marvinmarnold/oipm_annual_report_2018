@@ -34,3 +34,6 @@ Rscript R2/annual-report-2018.R
 	```
 	import 'bootstrap/dist/css/bootstrap.min.css';
 	```
+
+
+https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/CreatingNewSubdomain.html

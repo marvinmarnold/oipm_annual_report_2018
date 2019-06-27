@@ -8,7 +8,7 @@ import ForceTimeSection from '../components/force/time/force-time-section'
 
 const ForcePage = () => (
 	<Page
-		title={"UOF Over Time - 2018 OIPM Annual Report"}
+		title={"UOF Over Time"}
 		nav={
 			<Nav className="mt-4" vertical>
 				<NavItem>

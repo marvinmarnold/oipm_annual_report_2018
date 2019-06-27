@@ -4,11 +4,9 @@ import { Container, Row, Col, Nav, NavItem, NavLink, Button } from 'reactstrap';
 // Components
 import Page from "../components/layout/page"
 import SEO from "../components/layout/seo"
-import ComplaintsHighlightsBib from '../components/complaints/complaints-highlights-bib'
 
-// Time
-import ComplaintsByYearTypePlot from '../components/complaints/time/complaints-by-year-type-plot'
-import AllegationsByYearTypePlot from '../components/complaints/time/allegations-by-year-type-plot'
+// Anonymous
+import ComplaintsByAnonymousPlot from '../components/complaints/source/complaints-by-anonymous-plot'
 
 class ComplaintsHighlightsPage extends React.Component {
   constructor() {
@@ -41,40 +39,30 @@ class ComplaintsHighlightsPage extends React.Component {
 		)
 	}
 
-	renderOverTime() {
+	renderAnonymous() {
 		return (
-			<div id="complaints-by-year">
+			<div id="complaints-anonymous">
 				<Row>
 					<Col>
-						<h4>Complaints &amp; Allegations by Year</h4>
-						<p>Complaints appear to have slight decrease in 2018 and 2017 compared with 2016. This appears to be on
-trend with other United States police departments of similar size, which are experiencing stagnation in
-complaints or decreases. Given that complaint decreases are taking place in metropolitan police departments
-across the U.S., this may indicate a universal reform in policing over the past few years.</p>
+						<h5 className="text-center">FIGURE 15: ANONYMOUS COMPLAINTS</h5>
+						<ComplaintsByAnonymousPlot />
+						<p>This chart of anonymous complaints captures when the complainant chooses not to give his or her name. Of
+the three anonymous complaints in 2018, two remain pending; the third was found to have No Formal
+Investigation Merited (NFIM). These findings are similar to those from 2017, where only 1 of 10
+anonymous complaints was sustained.</p>
+						<p>Similar to 4 th Amendment complaints, there is no clear way to use NOPD’s data to identify anonymous
+complaints from nameless complainants in the data. The results may not reflect the actual number of
+anonymous complaints.</p>
 					</Col>
-				</Row>
-				<Row>
-					<Col>
-						<h5 className="text-center">FIGURE 2: COMPLAINTS BY YEAR</h5>
-
-						<ComplaintsByYearTypePlot />
-					</Col>
-				</Row>
-				<Row>
-					<Col>
-						<h5 className="text-center">FIGURE 3: ALLEGATIONS BY YEAR</h5>
-						<AllegationsByYearTypePlot />
-
-					</Col>
-
 				</Row>
 			</div>
 		)
 	}
+
 	render() {
 		return (
 			<Page
-				title={"Complaints and allegations by year"}
+				title={"Anonymous complaints"}
 				nav={this.renderNav()}
 				body={
 					<div>
@@ -85,11 +73,12 @@ across the U.S., this may indicate a universal reform in policing over the past 
 							</Col>
 						</Row>
 
-						{this.renderOverTime()}
+						{this.renderAnonymous()}
 
 						<Row className="text-center">
 							<Col className="py-5">
-								<Button size="lg" color="success" className="my-2"><a href="/allegations-analysis" className="text-white">Next: Allegations analysis ></a></Button>
+								<Button size="lg" color="secondary" className="mx-3 my-2"><a href="/complaints-fourth" className="text-white">&lt; Previous: 4th amendment complaints</a></Button>
+								<Button size="lg" color="success" className="my-2"><a href="/complaints-discipline" className="text-white">Next: Discipline ></a></Button>
 							</Col>
 						</Row>
 					</div>

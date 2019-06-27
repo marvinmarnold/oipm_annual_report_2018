@@ -7,7 +7,7 @@ import SEO from "../components/layout/seo"
 
 const ForcePage = () => (
 	<Page
-		title={"UOF Future Analysis - 2018 OIPM Annual Report"}
+		title={"UOF Future Analysis"}
 		nav={
 			<Nav className="mt-4" vertical>
 				<NavItem>

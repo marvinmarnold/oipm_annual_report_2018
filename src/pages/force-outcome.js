@@ -8,7 +8,7 @@ import ForceOutcomeSection from '../components/force/outcome/force-outcome-secti
 
 const ForcePage = () => (
 	<Page
-		title={"UOF by Justification - 2018 OIPM Annual Report"}
+		title={"UOF by Justification"}
 		nav={
 			<Nav className="mt-4" vertical>
 				<NavItem>

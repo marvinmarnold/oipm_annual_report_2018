@@ -8,7 +8,7 @@ import MostForcefulSection from '../components/force/most-forceful/most-forceful
 
 const ForcePage = () => (
 	<Page
-		title={"UOF by Most Force - 2018 OIPM Annual Report"}
+		title={"UOF by Most Force"}
 		nav={
 			<Nav className="mt-4" vertical>
 				<NavItem>

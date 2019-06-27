@@ -8,7 +8,7 @@ import ForceTypeLevelSection from '../components/force/type-level/force-type-lev
 
 const ForcePage = () => (
 	<Page
-		title={"UOF by Level - 2018 OIPM Annual Report"}
+		title={"UOF by Level"}
 		nav={
 			<Nav className="mt-4" vertical>
 				<NavItem>

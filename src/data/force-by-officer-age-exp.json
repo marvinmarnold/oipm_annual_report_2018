@@ -1,0 +1,235 @@
+{
+  "visdat": {
+    "27e86cf70167": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "27e86cf70167",
+  "attrs": {
+    "27e86cf70167": {
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "x": ["25 or younger", "25 or younger", "26 - 30", "26 - 30", "26 - 30", "31 - 35", "31 - 35", "31 - 35", "31 - 35", "36 - 40", "36 - 40", "36 - 40", "36 - 40", "41 - 45", "41 - 45", "41 - 45", "41 - 45", "46 - 50", "46 - 50", "46 - 50", "46 - 50", "51 or older", "51 or older", "51 or older", "51 or older", "Unknown age"],
+      "y": [96, 1, 264, 26, 7, 215, 55, 25, 4, 54, 37, 56, 2, 23, 8, 38, 56, 3, 11, 7, 47, 5, 1, 16, 63, 3],
+      "type": "bar",
+      "name": ["00 - 5 yr exp", "06 - 10 yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "Unknown experience", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "Unknown experience"],
+      "color": ["00 - 5 yr exp", "06 - 10 yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "Unknown experience", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "00 - 5 yr exp", "06 - 10 yr exp", "11 - 15 yr exp", "16+ yr exp", "Unknown experience"],
+      "inherit": true
+    },
+    "27e86cf70167.1": {
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "x": ["25 or younger", "26 - 30", "31 - 35", "36 - 40", "41 - 45", "46 - 50", "51 or older"],
+      "y": [4.00302114803625, 11.7824773413897, 13.6706948640483, 14.5770392749245, 15.9365558912387, 9.89425981873112, 30.1359516616314],
+      "name": "% officers this age",
+      "yaxis": "y2",
+      "type": "scatter",
+      "mode": "lines+markers",
+      "line": {
+        "color": "rgb(0, 0, 0)",
+        "width": 2,
+        "dash": "solid"
+      },
+      "inherit": true
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 150,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "barmode": "stack",
+    "hovermode": "compare",
+    "xaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "categoryorder": "array",
+      "categoryarray": ["25 or younger", "26 - 30", "31 - 35", "36 - 40", "41 - 45", "46 - 50", "51 or older"],
+      "title": "Age range",
+      "showgrid": false,
+      "type": "category"
+    },
+    "yaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": "Amount of force (UOF)",
+      "showgrid": true
+    },
+    "yaxis2": {
+      "side": "right",
+      "overlaying": "y",
+      "title": "Percent active officers same age",
+      "range": [0, 50],
+      "showgrid": false
+    },
+    "showlegend": true
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "x": ["25 or younger", "26 - 30", "31 - 35", "36 - 40", "41 - 45", "46 - 50", "51 or older"],
+      "y": [96, 264, 215, 54, 23, 3, 5],
+      "type": "bar",
+      "name": "00 - 5 yr exp",
+      "marker": {
+        "color": "rgba(102,194,165,1)",
+        "line": {
+          "color": "rgba(102,194,165,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "error_y": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "error_x": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["25 or younger", "26 - 30", "31 - 35", "36 - 40", "41 - 45", "46 - 50", "51 or older"],
+      "y": [1, 26, 55, 37, 8, 11, 1],
+      "type": "bar",
+      "name": "06 - 10 yr exp",
+      "marker": {
+        "color": "rgba(252,141,98,1)",
+        "line": {
+          "color": "rgba(252,141,98,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(252,141,98,1)"
+      },
+      "error_y": {
+        "color": "rgba(252,141,98,1)"
+      },
+      "error_x": {
+        "color": "rgba(252,141,98,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["31 - 35", "36 - 40", "41 - 45", "46 - 50", "51 or older"],
+      "y": [25, 56, 38, 7, 16],
+      "type": "bar",
+      "name": "11 - 15 yr exp",
+      "marker": {
+        "color": "rgba(141,160,203,1)",
+        "line": {
+          "color": "rgba(141,160,203,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "error_y": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "error_x": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["31 - 35", "36 - 40", "41 - 45", "46 - 50", "51 or older"],
+      "y": [4, 2, 56, 47, 63],
+      "type": "bar",
+      "name": "16+ yr exp",
+      "marker": {
+        "color": "rgba(231,138,195,1)",
+        "line": {
+          "color": "rgba(231,138,195,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "error_y": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "error_x": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["26 - 30", "Unknown age"],
+      "y": [7, 3],
+      "type": "bar",
+      "name": "Unknown experience",
+      "marker": {
+        "color": "rgba(166,216,84,1)",
+        "line": {
+          "color": "rgba(166,216,84,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(166,216,84,1)"
+      },
+      "error_y": {
+        "color": "rgba(166,216,84,1)"
+      },
+      "error_x": {
+        "color": "rgba(166,216,84,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["25 or younger", "26 - 30", "31 - 35", "36 - 40", "41 - 45", "46 - 50", "51 or older"],
+      "y": [4.00302114803625, 11.7824773413897, 13.6706948640483, 14.5770392749245, 15.9365558912387, 9.89425981873112, 30.1359516616314],
+      "name": "% officers this age",
+      "yaxis": "y2",
+      "type": "scatter",
+      "mode": "lines+markers",
+      "line": {
+        "color": "rgb(0, 0, 0)",
+        "width": 2,
+        "dash": "solid"
+      },
+      "marker": {
+        "color": "rgba(140,86,75,1)",
+        "line": {
+          "color": "rgba(140,86,75,1)"
+        }
+      },
+      "error_y": {
+        "color": "rgba(140,86,75,1)"
+      },
+      "error_x": {
+        "color": "rgba(140,86,75,1)"
+      },
+      "xaxis": "x",
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

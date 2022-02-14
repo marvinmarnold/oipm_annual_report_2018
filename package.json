@@ -1,0 +1,57 @@
+{
+  "name": "oipm-2018-annual-report",
+  "private": true,
+  "description": "OIPM's 2018 Annual Report analysis",
+  "version": "0.1.0",
+  "author": "Marvin Arnold <marvin@geeky.rocks>",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "gatsby": "^2.2.5",
+    "gatsby-image": "^2.0.34",
+    "gatsby-plugin-manifest": "^2.0.24",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.0.10",
+    "gatsby-plugin-sharp": "^2.0.30",
+    "gatsby-source-filesystem": "^2.0.27",
+    "gatsby-transformer-sharp": "^2.1.17",
+    "plotly.js": "^1.45.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-helmet": "^5.2.0",
+    "react-plotly.js": "^2.3.0",
+    "react-spinners": "^0.5.3",
+    "reactstrap": "^7.1.0",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "prettier": "^1.16.4"
+  },
+  "keywords": [
+    "new orleans",
+    "police",
+    "annual report",
+    "2018",
+    "accountability",
+    "oversight",
+    "data analysis"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "deploy": "gatsby build && gh-pages -d public",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marvinmarnold/oipm_annual_report_2018"
+  },
+  "bugs": {
+    "url": "https://github.com/marvinmarnold/oipm_annual_report_2018/issues"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "visdat": {
+    "27e87aa3409c": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "27e87aa3409c",
+  "attrs": {
+    "27e87aa3409c": {
+      "labels": {},
+      "values": {},
+      "textposition": "inside",
+      "textinfo": "label+value+percent",
+      "insidetextfont": {
+        "color": "#FFFFFF"
+      },
+      "name": "Reason for exhibiting firearm",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "pie"
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 40,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "hovermode": "closest",
+    "showlegend": true
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "labels": ["Battery on officer", "Other", "Refusing commands", "Resisting / escape", "Tactical / clearing", "Weapon"],
+      "values": [4, 53, 72, 195, 115, 78],
+      "textposition": ["inside", "inside", "inside", "inside", "inside", "inside"],
+      "textinfo": "label+value+percent",
+      "insidetextfont": {
+        "color": "#FFFFFF"
+      },
+      "name": "Reason for exhibiting firearm",
+      "type": "pie",
+      "marker": {
+        "color": "rgba(31,119,180,1)",
+        "line": {
+          "color": "rgba(31,119,180,1)"
+        }
+      },
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

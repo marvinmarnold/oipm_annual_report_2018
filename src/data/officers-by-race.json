@@ -1,0 +1,71 @@
+{
+  "visdat": {
+    "27e84e8dee65": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "27e84e8dee65",
+  "attrs": {
+    "27e84e8dee65": {
+      "labels": {},
+      "values": {},
+      "textposition": "inside",
+      "textinfo": "label+value+percent",
+      "insidetextfont": {
+        "color": "#FFFFFF"
+      },
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "pie"
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 40,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "hovermode": "compare",
+    "showlegend": true,
+    "legend": {
+      "x": 0,
+      "y": -0.5
+    }
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "labels": ["Asian / Pacific Islander", "Black / African American", "Hispanic / Latinx", "Native / Indigenous", "Unknown race", "White"],
+      "values": [14, 683, 55, 3, 45, 524],
+      "textposition": ["inside", "inside", "inside", "inside", "inside", "inside"],
+      "textinfo": "label+value+percent",
+      "insidetextfont": {
+        "color": "#FFFFFF"
+      },
+      "type": "pie",
+      "marker": {
+        "color": "rgba(31,119,180,1)",
+        "line": {
+          "color": "rgba(31,119,180,1)"
+        }
+      },
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

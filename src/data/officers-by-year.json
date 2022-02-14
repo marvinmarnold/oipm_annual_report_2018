@@ -1,0 +1,78 @@
+{
+  "visdat": {
+    "27e81198bd5f": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "27e81198bd5f",
+  "attrs": {
+    "27e81198bd5f": {
+      "x": [2016, 2017, 2018],
+      "y": [1239, 1275, 1324],
+      "name": "Number active officers",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "bar"
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 40,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "xaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "dtick": 1,
+      "title": []
+    },
+    "yaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": []
+    },
+    "hovermode": "closest",
+    "showlegend": false
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "x": [2016, 2017, 2018],
+      "y": [1239, 1275, 1324],
+      "name": "Number active officers",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(31,119,180,1)",
+        "line": {
+          "color": "rgba(31,119,180,1)"
+        }
+      },
+      "error_y": {
+        "color": "rgba(31,119,180,1)"
+      },
+      "error_x": {
+        "color": "rgba(31,119,180,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

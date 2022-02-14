@@ -1,0 +1,69 @@
+{
+  "visdat": {
+    "27e8392da6e7": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "27e8392da6e7",
+  "attrs": {
+    "27e8392da6e7": {
+      "labels": {},
+      "values": {},
+      "textposition": "inside",
+      "textinfo": "label+percent",
+      "insidetextfont": {
+        "color": "#FFFFFF"
+      },
+      "name": "Officers by race",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "pie"
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 40,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "hovermode": "closest",
+    "showlegend": true
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "labels": ["Black (23 of 34)", "White (9 of 34)", "Hispanic (2 of 34)"],
+      "values": [23, 9, 2],
+      "textposition": ["inside", "inside", "inside"],
+      "textinfo": "label+percent",
+      "insidetextfont": {
+        "color": "#FFFFFF"
+      },
+      "name": "Officers by race",
+      "type": "pie",
+      "marker": {
+        "color": "rgba(31,119,180,1)",
+        "line": {
+          "color": "rgba(31,119,180,1)"
+        }
+      },
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

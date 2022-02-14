@@ -1,0 +1,148 @@
+{
+  "visdat": {
+    "27e81ef8b336": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "27e81ef8b336",
+  "attrs": {
+    "27e81ef8b336": {
+      "x": {},
+      "y": {},
+      "name": "% black pop. by district",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "bar"
+    },
+    "27e81ef8b336.1": {
+      "x": {},
+      "y": {},
+      "name": "% stops are of black ppl by district",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "bar",
+      "inherit": true
+    },
+    "27e81ef8b336.2": {
+      "x": {},
+      "y": {},
+      "name": "% force against black ppl by district",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "bar",
+      "inherit": true
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 150,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "xaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "categoryorder": "array",
+      "categoryarray": ["1st District", "2nd District", "3rd District", "4th District", "5th District", "6th District", "7th District", "8th District"],
+      "title": "District",
+      "type": "category"
+    },
+    "legend": {
+      "x": 0,
+      "y": -0.3
+    },
+    "hovermode": "compare",
+    "yaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": "Percent black",
+      "dtick": 10
+    },
+    "barmode": "group",
+    "showlegend": true
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "x": ["1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th"],
+      "y": [68.285525881965, 35.9352428393524, 49.9941861430873, 65.5205077199962, 82.2862651243186, 48.6669200695048, 84.0942310682631, 11.8075480026484],
+      "name": "% black pop. by district",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(31,119,180,1)",
+        "line": {
+          "color": "rgba(31,119,180,1)"
+        }
+      },
+      "error_y": {
+        "color": "rgba(31,119,180,1)"
+      },
+      "error_x": {
+        "color": "rgba(31,119,180,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th"],
+      "y": [70.3061224489796, 69.5640473627557, 78.3304745568897, 83.7071519255184, 75.1367781155015, 74.6669626998224, 88.3682469680265, 55.6852284094698],
+      "name": "% stops are of black ppl by district",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(255,127,14,1)",
+        "line": {
+          "color": "rgba(255,127,14,1)"
+        }
+      },
+      "error_y": {
+        "color": "rgba(255,127,14,1)"
+      },
+      "error_x": {
+        "color": "rgba(255,127,14,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th"],
+      "y": [88.1188118811881, 69.5652173913043, 96.6292134831461, 81.5789473684211, 84.1269841269841, 87.5, 91.4473684210526, 61.038961038961],
+      "name": "% force against black ppl by district",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(44,160,44,1)",
+        "line": {
+          "color": "rgba(44,160,44,1)"
+        }
+      },
+      "error_y": {
+        "color": "rgba(44,160,44,1)"
+      },
+      "error_x": {
+        "color": "rgba(44,160,44,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

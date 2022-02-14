@@ -1,0 +1,71 @@
+{
+  "visdat": {
+    "27e853eb0382": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "27e853eb0382",
+  "attrs": {
+    "27e853eb0382": {
+      "labels": {},
+      "values": {},
+      "marker": {
+        "colors": {}
+      },
+      "textposition": "middle center",
+      "textinfo": "label+value+percent",
+      "insidetextfont": {
+        "color": "#FFFFFF"
+      },
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "pie"
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 40,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "hovermode": "compare",
+    "showlegend": true
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "labels": ["Data Inconsistency", "DI-2", "Exonerated", "Mediation", "NFIM", "Not Sustained", "Pending", "Sustained", "Unfounded"],
+      "values": [10, 30, 43, 27, 72, 73, 40, 224, 160],
+      "marker": {
+        "color": "rgba(31,119,180,1)",
+        "colors": ["yellow", "red", "black", "cyan", "orange", "green", "magenta", "pink", "blue"],
+        "line": {
+          "color": "rgba(31,119,180,1)"
+        }
+      },
+      "textposition": ["middle center", "middle center", "middle center", "middle center", "middle center", "middle center", "middle center", "middle center", "middle center"],
+      "textinfo": "label+value+percent",
+      "insidetextfont": {
+        "color": "#FFFFFF"
+      },
+      "type": "pie",
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

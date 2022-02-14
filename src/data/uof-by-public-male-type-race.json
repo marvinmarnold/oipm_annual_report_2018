@@ -1,0 +1,158 @@
+{
+  "visdat": {
+    "27e8783b63a2": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "27e8783b63a2",
+  "attrs": {
+    "27e8783b63a2": {
+      "x": {},
+      "y": {},
+      "name": {},
+      "color": {},
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "bar"
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 150,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "xaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "showgrid": false,
+      "title": "Force.type",
+      "type": "category",
+      "categoryorder": "array",
+      "categoryarray": ["Baton (non-strike)", "Baton/PR-24 (Strike)", "Canine (No Bite)", "Defense Tech / Take-down", "Firearm Exhibited", "Force on handcuffed individual", "Hands / Escort tech", "Head Strike (No Wep)", "L1-Other", "L2-Taser", "L4-Taser", "NonTrad Impact Weapon", "Other", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"]
+    },
+    "yaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": "Number UOF"
+    },
+    "barmode": "stack",
+    "hovermode": "compare",
+    "showlegend": true
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "x": ["Baton (non-strike)", "Baton/PR-24 (Strike)", "Canine (No Bite)", "Defense Tech / Take-down", "Firearm Exhibited", "Force on handcuffed individual", "Hands / Escort tech", "Head Strike (No Wep)", "L1-Other", "L2-Taser", "NonTrad Impact Weapon", "Other", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"],
+      "y": [1, 1, 14, 56, 405, 6, 164, 8, 7, 47, 1, 2, 70, 23, 17],
+      "name": "Black / African American",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(102,194,165,1)",
+        "line": {
+          "color": "rgba(102,194,165,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "error_y": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "error_x": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)"],
+      "y": [1, 11, 7, 1],
+      "name": "Hispanic",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(252,141,98,1)",
+        "line": {
+          "color": "rgba(252,141,98,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(252,141,98,1)"
+      },
+      "error_y": {
+        "color": "rgba(252,141,98,1)"
+      },
+      "error_x": {
+        "color": "rgba(252,141,98,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "L2-Taser"],
+      "y": [2, 3, 4, 2],
+      "name": "Unknown race",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(141,160,203,1)",
+        "line": {
+          "color": "rgba(141,160,203,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "error_y": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "error_x": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Baton (non-strike)", "Defense Tech / Take-down", "Firearm Exhibited", "Hands / Escort tech", "Head Strike (No Wep)", "L2-Taser", "L4-Taser", "Takedown (no injury)", "Takedown (w/injury)", "Taser Exhibited"],
+      "y": [1, 17, 34, 29, 2, 6, 2, 10, 3, 2],
+      "name": "White",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(231,138,195,1)",
+        "line": {
+          "color": "rgba(231,138,195,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "error_y": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "error_x": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

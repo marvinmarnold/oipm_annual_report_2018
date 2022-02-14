@@ -1,0 +1,187 @@
+{
+  "visdat": {
+    "27e824fabb00": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "27e824fabb00",
+  "attrs": {
+    "27e824fabb00": {
+      "x": {},
+      "y": {},
+      "name": {},
+      "color": {},
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "bar"
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 100,
+      "l": 60,
+      "t": 25,
+      "r": 100
+    },
+    "xaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": false,
+      "showgrid": false,
+      "type": "category",
+      "categoryorder": "array",
+      "categoryarray": ["Data Inconsistency", "Demoted", "DI-2", "Dismissed", "Letter of Reprimand", "Mediation", "Oral Reprimand", "Resigned before disposition", "Suspension", "Unknown action taken"]
+    },
+    "yaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": "Number allegations"
+    },
+    "barmode": "stack",
+    "hovermode": "compare",
+    "legend": {
+      "x": 0,
+      "y": -1.5
+    },
+    "title": false,
+    "showlegend": true
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "x": ["DI-2", "Letter of Reprimand", "Oral Reprimand", "Suspension", "Unknown action taken"],
+      "y": [1, 1, 1, 9, 1],
+      "name": "Asian / Pacific Islander",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(102,194,165,1)",
+        "line": {
+          "color": "rgba(102,194,165,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "error_y": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "error_x": {
+        "color": "rgba(102,194,165,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Data Inconsistency", "Demoted", "DI-2", "Dismissed", "Letter of Reprimand", "Mediation", "Oral Reprimand", "Resigned before disposition", "Suspension", "Unknown action taken"],
+      "y": [42, 3, 25, 5, 173, 21, 14, 17, 126, 10],
+      "name": "Black / African American",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(252,141,98,1)",
+        "line": {
+          "color": "rgba(252,141,98,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(252,141,98,1)"
+      },
+      "error_y": {
+        "color": "rgba(252,141,98,1)"
+      },
+      "error_x": {
+        "color": "rgba(252,141,98,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Data Inconsistency", "DI-2", "Letter of Reprimand", "Mediation", "Oral Reprimand", "Resigned before disposition", "Suspension"],
+      "y": [6, 1, 14, 2, 1, 1, 7],
+      "name": "Hispanic",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(141,160,203,1)",
+        "line": {
+          "color": "rgba(141,160,203,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "error_y": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "error_x": {
+        "color": "rgba(141,160,203,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Data Inconsistency", "DI-2", "Letter of Reprimand", "Oral Reprimand", "Suspension", "Unknown action taken"],
+      "y": [3, 32, 1, 1, 1, 4],
+      "name": "Unknown race",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(231,138,195,1)",
+        "line": {
+          "color": "rgba(231,138,195,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "error_y": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "error_x": {
+        "color": "rgba(231,138,195,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["Data Inconsistency", "DI-2", "Dismissed", "Letter of Reprimand", "Mediation", "Oral Reprimand", "Resigned before disposition", "Suspension", "Unknown action taken"],
+      "y": [37, 17, 2, 85, 10, 10, 14, 55, 12],
+      "name": "White",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(166,216,84,1)",
+        "line": {
+          "color": "rgba(166,216,84,1)"
+        }
+      },
+      "textfont": {
+        "color": "rgba(166,216,84,1)"
+      },
+      "error_y": {
+        "color": "rgba(166,216,84,1)"
+      },
+      "error_x": {
+        "color": "rgba(166,216,84,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

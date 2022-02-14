@@ -1,0 +1,69 @@
+{
+  "visdat": {
+    "27e82a72f12e": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "27e82a72f12e",
+  "attrs": {
+    "27e82a72f12e": {
+      "labels": {},
+      "values": {},
+      "textposition": "inside",
+      "textinfo": "label+value+percent",
+      "insidetextfont": {
+        "color": "#FFFFFF"
+      },
+      "name": "Top allegations",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "pie"
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 40,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "hovermode": "compare",
+    "showlegend": true
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "labels": ["Adherence to law", "Courtesy", "Instructions from authoritative source", "Neglect of duty", "Other", "Professionalism", "Unauthorized force", "Verbal intimidation"],
+      "values": [82, 18, 39, 698, 152, 311, 18, 10],
+      "textposition": ["inside", "inside", "inside", "inside", "inside", "inside", "inside", "inside"],
+      "textinfo": "label+value+percent",
+      "insidetextfont": {
+        "color": "#FFFFFF"
+      },
+      "name": "Top allegations",
+      "type": "pie",
+      "marker": {
+        "color": "rgba(31,119,180,1)",
+        "line": {
+          "color": "rgba(31,119,180,1)"
+        }
+      },
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}

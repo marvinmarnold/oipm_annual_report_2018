@@ -1,0 +1,112 @@
+{
+  "visdat": {
+    "27e852519f17": ["function () ", "plotlyVisDat"]
+  },
+  "cur_data": "27e852519f17",
+  "attrs": {
+    "27e852519f17": {
+      "x": {},
+      "y": {},
+      "name": "NOPD average",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "bar"
+    },
+    "27e852519f17.1": {
+      "x": {},
+      "y": {},
+      "name": "Average for officers who used force at least once in 2018",
+      "alpha_stroke": 1,
+      "sizes": [10, 100],
+      "spans": [1, 20],
+      "type": "bar",
+      "inherit": true
+    }
+  },
+  "layout": {
+    "margin": {
+      "b": 40,
+      "l": 60,
+      "t": 25,
+      "r": 10
+    },
+    "xaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": false,
+      "type": "category",
+      "categoryorder": "array",
+      "categoryarray": ["FTN: Force incidents per officer", "UOF: Force amount per officer"]
+    },
+    "yaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "title": false
+    },
+    "barmode": "group",
+    "hovermode": "closest",
+    "showlegend": true
+  },
+  "source": "A",
+  "config": {
+    "modeBarButtonsToAdd": [],
+    "cloud": false
+  },
+  "data": [
+    {
+      "x": ["FTN: Force incidents per officer", "UOF: Force amount per officer"],
+      "y": [0.333081570996979, 0.848187311178248],
+      "name": "NOPD average",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(31,119,180,1)",
+        "line": {
+          "color": "rgba(31,119,180,1)"
+        }
+      },
+      "error_y": {
+        "color": "rgba(31,119,180,1)"
+      },
+      "error_x": {
+        "color": "rgba(31,119,180,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": ["FTN: Force incidents per officer", "UOF: Force amount per officer"],
+      "y": [1.10804020100503, 2.82160804020101],
+      "name": "Average for officers who used force at least once in 2018",
+      "type": "bar",
+      "marker": {
+        "color": "rgba(255,127,14,1)",
+        "line": {
+          "color": "rgba(255,127,14,1)"
+        }
+      },
+      "error_y": {
+        "color": "rgba(255,127,14,1)"
+      },
+      "error_x": {
+        "color": "rgba(255,127,14,1)"
+      },
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    }
+  ],
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.2,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "base_url": "https://plot.ly"
+}
